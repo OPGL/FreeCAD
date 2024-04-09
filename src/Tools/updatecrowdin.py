@@ -250,7 +250,7 @@ class CrowdinUpdater:
         return self._make_api_req(url=url, *args, **kwargs)
 
     def _make_api_req(self, url, extra_headers={}, method="GET", data=None):
-        headers = {"Authorization": "Bearer " + load_token(), **extra_headers}
+        headers = {"Authorization": "Bearer " + os.environ.get("CROWDIN_TOKEN", load_token()), **extra_headers}
 
         if type(data) is dict:
             headers["Content-Type"] = "application/json"
