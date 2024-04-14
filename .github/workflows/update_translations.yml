@@ -1,0 +1,94 @@
+# ***************************************************************************
+# *   Copyright (c) 2023 0penBrain                               *
+# *                                                                         *
+# *   This program is free software; you can redistribute it and/or modify  *
+# *   it under the terms of the GNU Lesser General Public License (LGPL)    *
+# *   as published by the Free Software Foundation; either version 2 of     *
+# *   the License, or (at your option) any later version.                   *
+# *   for detail see the LICENCE text file.                                 *
+# *                                                                         *
+# *   This program is distributed in the hope that it will be useful,       *
+# *   but WITHOUT ANY WARRANTY; without even the implied warranty of        *
+# *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *
+# *   GNU Library General Public License for more details.                  *
+# *                                                                         *
+# *   You should have received a copy of the GNU Library General Public     *
+# *   License along with this program; if not, write to the Free Software   *
+# *   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  *
+# *   USA                                                                   *
+# ***************************************************************************
+# This workflow aims at updating translations with crowdin
+
+name: Translation updater
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'
+  push:
+    paths:
+      - '*.ts'
+  workflow_dispatch:
+
+jobs:
+  # update-crowdin:
+  #   name: Update crowdin translations
+  #   runs-on: ubuntu-latest
+
+  #   steps:
+  #     - name: Check out code
+  #       uses: actions/checkout@v4
+  #     - name: Resolve dependencies
+  #       run: |
+  #         sudo add-apt-repository universe
+  #         sudo apt-get -y install qt6-tools-dev-tools qt6-base-dev qtchooser python3-pip python3 qt6-l10n-tools
+  #         qtchooser -install qt6 $(which qmake6)
+  #         sudo mv ~/.config/qtchooser/qt6.conf /usr/share/qtchooser/qt6.conf
+  #         sudo mkdir -p /usr/lib/$(uname -p)-linux-gnu/qt-default/qtchooser
+  #         sudo ln -n /usr/share/qtchooser/qt6.conf /usr/lib/$(uname -p)-linux-gnu/qt-default/qtchooser/default.conf
+  #         pip3 install pyside2
+  #     - name: Gather translations
+  #       run: ./updatecrowdin.py gather
+  #       working-directory: ./src/Tools
+  #       env:
+  #         CROWDIN_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
+  #     - name: Upload translations to crowdin
+  #       run: ./updatecrowdin.py upload
+  #       working-directory: ./src/Tools
+  #       env:
+  #         CROWDIN_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
+
+  update-local:
+    name: Update local translations
+    env: 
+      CI_COMMIT_MESSAGE: Update translations
+      CI_COMMIT_AUTHOR: Translations updater
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+      - name: Resolve dependencies
+        run: |
+          sudo add-apt-repository universe
+          sudo apt-get -y install qt6-tools-dev-tools qt6-base-dev qtchooser python3-pip python3 qt6-l10n-tools
+          qtchooser -install qt6 $(which qmake6)
+          sudo mv ~/.config/qtchooser/qt6.conf /usr/share/qtchooser/qt6.conf
+          sudo mkdir -p /usr/lib/$(uname -p)-linux-gnu/qt-default/qtchooser
+          sudo ln -n /usr/share/qtchooser/qt6.conf /usr/lib/$(uname -p)-linux-gnu/qt-default/qtchooser/default.conf
+          pip3 install pyside2
+      - name: Gather translations from crowdin
+        run: ./updatecrowdin.py download
+        working-directory: ./src/Tools
+        env:
+          CROWDIN_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
+      - name: Update local repository
+        run: ./updatecrowdin.py install
+        working-directory: ./src/Tools
+        env:
+          CROWDIN_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
+      - name: Push to git repository
+        run: |
+          git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
+          git config --global user.email "freecad@noreply.github.com"
+          git commit -a -m "${{ env.CI_COMMIT_MESSAGE }}"
+          git push
