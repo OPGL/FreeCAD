@@ -211,7 +211,7 @@
     <message>
       <location filename="../../../StartPage/TranslationTexts.py" line="64"/>
       <source>Create an assembly with the Assembly workbench</source>
-      <translation>Utwórz złożenie za pomocą środowiska pracy Złożenie</translation>
+      <translation>Utwórz zespół części za pomocą środowiska pracy Złożenie</translation>
     </message>
     <message>
       <location filename="../../../StartPage/TranslationTexts.py" line="119"/>

@@ -11,7 +11,7 @@
     <message>
       <location filename="../../../StartPage/TranslationTexts.py" line="44"/>
       <source>Welcome to FreeCAD</source>
-      <translation type="unfinished">Welcome to FreeCAD</translation>
+      <translation>Dobrodošli v FreeCADu</translation>
     </message>
     <message>
       <location filename="../../../StartPage/TranslationTexts.py" line="45"/>
@@ -36,67 +36,67 @@
     <message>
       <location filename="../../../StartPage/TranslationTexts.py" line="49"/>
       <source>Link to the FreeCAD blog</source>
-      <translation type="unfinished">Link to the FreeCAD blog</translation>
+      <translation>Povezava do FreeCADovega spletnika</translation>
     </message>
     <message>
       <location filename="../../../StartPage/TranslationTexts.py" line="50"/>
       <source>New file</source>
-      <translation type="unfinished">New file</translation>
+      <translation>Nova datoteka</translation>
     </message>
     <message>
       <location filename="../../../StartPage/TranslationTexts.py" line="51"/>
       <source>Empty File</source>
-      <translation type="unfinished">Empty File</translation>
+      <translation>Prazna datoteka</translation>
     </message>
     <message>
       <location filename="../../../StartPage/TranslationTexts.py" line="52"/>
       <source>Create an empty FreeCAD file</source>
-      <translation type="unfinished">Create an empty FreeCAD file</translation>
+      <translation>Ustvari prazno FreeCADovo datoteko</translation>
     </message>
     <message>
       <location filename="../../../StartPage/TranslationTexts.py" line="53"/>
       <source>Open File</source>
-      <translation type="unfinished">Open File</translation>
+      <translation>Odpri datoteko</translation>
     </message>
     <message>
       <location filename="../../../StartPage/TranslationTexts.py" line="54"/>
       <source>Open an existing CAD file or 3D model</source>
-      <translation type="unfinished">Open an existing CAD file or 3D model</translation>
+      <translation>Odpri obstoječo CAD datoteko ali 3D oblikovanec</translation>
     </message>
     <message>
       <location filename="../../../StartPage/TranslationTexts.py" line="58"/>
       <source>Create a part with the Part Design workbench</source>
-      <translation type="unfinished">Create a part with the Part Design workbench</translation>
+      <translation>Ustvari predmet z delovnim okoljem Snovalnik delov (Part design)</translation>
     </message>
     <message>
       <location filename="../../../StartPage/TranslationTexts.py" line="59"/>
       <source>Assembly</source>
-      <translation type="unfinished">Assembly</translation>
+      <translation>Sestavitev</translation>
     </message>
     <message>
       <location filename="../../../StartPage/TranslationTexts.py" line="65"/>
       <source>2D Draft</source>
-      <translation type="unfinished">2D Draft</translation>
+      <translation>2D Risba</translation>
     </message>
     <message>
       <location filename="../../../StartPage/TranslationTexts.py" line="66"/>
       <source>Create a 2D draft with the Draft workbench</source>
-      <translation type="unfinished">Create a 2D draft with the Draft workbench</translation>
+      <translation>Ustvari 2D risbo z delovnim okoljem Risar (Draft)</translation>
     </message>
     <message>
       <location filename="../../../StartPage/TranslationTexts.py" line="67"/>
       <source>BIM/Architecture</source>
-      <translation type="unfinished">BIM/Architecture</translation>
+      <translation>BIM/Arhitektura</translation>
     </message>
     <message>
       <location filename="../../../StartPage/TranslationTexts.py" line="68"/>
       <source>Create an architecture project</source>
-      <translation type="unfinished">Create an architecture project</translation>
+      <translation>Ustvari arhitekturni projekt</translation>
     </message>
     <message>
       <location filename="../../../StartPage/TranslationTexts.py" line="69"/>
       <source>Recent files</source>
-      <translation type="unfinished">Recent files</translation>
+      <translation>Nedavne datoteke</translation>
     </message>
     <message>
       <location filename="../../../StartPage/TranslationTexts.py" line="70"/>
@@ -176,7 +176,7 @@
     <message>
       <location filename="../../../StartPage/TranslationTexts.py" line="106"/>
       <source>The &lt;a href="https://forum.freecad.org"&gt;FreeCAD forum&lt;/a&gt; is a great place to get help from other FreeCAD users and developers. The forum has many sections for different types of issues and discussion subjects. If in doubt, post in the more general &lt;a href="https://forum.freecad.org/viewforum.php?f=3"&gt;Help on using FreeCAD&lt;/a&gt; section.</source>
-      <translation type="unfinished">The &lt;a href="https://forum.freecad.org"&gt;FreeCAD forum&lt;/a&gt; is a great place to get help from other FreeCAD users and developers. The forum has many sections for different types of issues and discussion subjects. If in doubt, post in the more general &lt;a href="https://forum.freecad.org/viewforum.php?f=3"&gt;Help on using FreeCAD&lt;/a&gt; section.</translation>
+      <translation>&lt;a href="https://forum.freecad.org"&gt;FreeCADova razpravljalnica&lt;/a&gt; je pravo mesto za iskanje pomoči med drugimi uporabniki FreeCADa in njegovimi razvijalci. V razpravljalnici so številni razdelki glede vrste težav oz. razprav. Če niste prepričani, lahko povprašate v splošnejšem razdelku &lt;a href="https://forum.freecad.org/viewforum.php?f=3"&gt;Pomoč pri uporabi FreeCADa.&lt;/a&gt;</translation>
     </message>
     <message>
       <location filename="../../../StartPage/TranslationTexts.py" line="110"/>
@@ -206,12 +206,12 @@
     <message>
       <location filename="../../../StartPage/TranslationTexts.py" line="55"/>
       <source>Parametric Part</source>
-      <translation type="unfinished">Parametric Part</translation>
+      <translation>Določilovni del</translation>
     </message>
     <message>
       <location filename="../../../StartPage/TranslationTexts.py" line="64"/>
       <source>Create an assembly with the Assembly workbench</source>
-      <translation type="unfinished">Create an assembly with the Assembly workbench</translation>
+      <translation>Ustvari sestav s Sestavljalnim delovnim okoljem</translation>
     </message>
     <message>
       <location filename="../../../StartPage/TranslationTexts.py" line="119"/>
@@ -301,7 +301,7 @@
     <message>
       <location filename="../../../StartPage/TranslationTexts.py" line="156"/>
       <source>File path</source>
-      <translation type="unfinished">File path</translation>
+      <translation>Pot datoteke</translation>
     </message>
     <message>
       <location filename="../../../StartPage/TranslationTexts.py" line="157"/>
@@ -403,12 +403,12 @@ Z ločevanjem poti z znaki ";;", lahko dodate več map</translation>
     <message>
       <location filename="../../DlgStartPreferences.ui" line="33"/>
       <source>Workbench to switch to after loading a file from the Start page, only used if Start is the start up workbench</source>
-      <translation type="unfinished">Workbench to switch to after loading a file from the Start page, only used if Start is the start up workbench</translation>
+      <translation>Delovno okolje, v katerega se preide ob odprtju datoteke z Začetne strani (Start page). Nastavitev velja le, če je Začetna stran res tudi prvo delovno okolje</translation>
     </message>
     <message>
       <location filename="../../DlgStartPreferences.ui" line="122"/>
       <source>The size of file thumbnail icons in recent files and examples sections</source>
-      <translation type="unfinished">The size of file thumbnail icons in recent files and examples sections</translation>
+      <translation>Velikost sličice v seznamu nedavnih datotek in v primeri prerezov</translation>
     </message>
     <message>
       <location filename="../../DlgStartPreferences.ui" line="196"/>

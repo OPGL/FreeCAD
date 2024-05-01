@@ -211,7 +211,7 @@
     <message>
       <location filename="../../../StartPage/TranslationTexts.py" line="64"/>
       <source>Create an assembly with the Assembly workbench</source>
-      <translation type="unfinished">Create an assembly with the Assembly workbench</translation>
+      <translation>Napravi sklop u Assembly radnom okruženju</translation>
     </message>
     <message>
       <location filename="../../../StartPage/TranslationTexts.py" line="119"/>
