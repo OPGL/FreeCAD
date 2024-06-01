@@ -90,7 +90,7 @@
       <location filename="../../Command.cpp" line="189"/>
       <location filename="../../Command.cpp" line="190"/>
       <source>Zoom in</source>
-      <translation>Uveličaj</translation>
+      <translation>Uvećavanje</translation>
     </message>
   </context>
   <context>
@@ -104,7 +104,7 @@
       <location filename="../../Command.cpp" line="218"/>
       <location filename="../../Command.cpp" line="219"/>
       <source>Zoom out</source>
-      <translation>Umanji</translation>
+      <translation>Smanji</translation>
     </message>
   </context>
   <context>

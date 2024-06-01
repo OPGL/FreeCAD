@@ -62,7 +62,7 @@
       <location filename="../../Command.cpp" line="247"/>
       <location filename="../../Command.cpp" line="248"/>
       <source>Set URL</source>
-      <translation>Définir un URL</translation>
+      <translation>Définir une URL</translation>
     </message>
   </context>
   <context>
