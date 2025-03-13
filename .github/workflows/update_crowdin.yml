@@ -1,0 +1,50 @@
+name: Update Crowdin Translations
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *' # Everyday at 0:00 AM
+
+jobs:
+  update-crowdin:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install dependencies (Qt, PySide6)
+        run: |
+          sudo apt update
+          sudo apt install -y qt6-base-dev qt6-base-dev-tools python3-pip
+          pip3 install --upgrade pip
+          pip3 install pyside6
+
+      - name: Run Crowdin update
+        run: |
+          CROWDIN_TOKEN=${{ secrets.CROWDIN_TOKEN }} ./src/Tools/updatecrowdin.py download
+          CROWDIN_TOKEN=${{ secrets.CROWDIN_TOKEN }} ./src/Tools/updatecrowdin.py install
+          rm freecad.zip
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add .
+          git commit -m "Update translations from Crowdin" || echo "No changes to commit"
+
+      - name: Push changes to a new branch
+        run: |
+          git branch update-crowdin-translations
+          git push origin update-crowdin-translations --force
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: update-crowdin-translations
+          title: "Update translations from Crowdin"
+          body: "Automatic Crowdin update."
+          labels: "translations, automated"
+
+
