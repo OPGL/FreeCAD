@@ -14,12 +14,15 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Install dependencies (Qt, PySide6)
+      - name: Install dependencies (Qt 6, PySide6)
         run: |
           sudo apt update
-          sudo apt install -y qt6-base-dev qt6-base-dev-tools python3-pip
+          sudo apt install -y qt6-base-dev qt6-tools-dev-tools python3-pip
           pip3 install --upgrade pip
           pip3 install pyside6
+
+      - name: Set up Qt 6 PATH
+        run: echo "/usr/lib/qt6/bin" >> $GITHUB_PATH
 
       - name: Run Crowdin update
         run: |
