@@ -23,8 +23,9 @@ jobs:
 
       - name: Run Crowdin update
         run: |
-          CROWDIN_TOKEN=${{ secrets.CROWDIN_TOKEN }} ./src/Tools/updatecrowdin.py download
-          CROWDIN_TOKEN=${{ secrets.CROWDIN_TOKEN }} ./src/Tools/updatecrowdin.py install
+          cd src/Tools
+          CROWDIN_TOKEN=${{ secrets.CROWDIN_TOKEN }} ./updatecrowdin.py download
+          CROWDIN_TOKEN=${{ secrets.CROWDIN_TOKEN }} ./updatecrowdin.py install
           rm freecad.zip
 
       - name: Commit changes
