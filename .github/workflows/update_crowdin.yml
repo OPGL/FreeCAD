@@ -2,8 +2,8 @@ name: Update Crowdin Translations
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 0 * * *' # Everyday at 0:00 AM
+    schedule:
+      - cron: '0 0 * * *' # Everyday at 0:00 AM
 
 jobs:
   update-crowdin:
@@ -17,19 +17,21 @@ jobs:
       - name: Install dependencies (Qt 6, PySide6)
         run: |
           sudo apt update
-          sudo apt install -y qt6-base-dev qt6-tools-dev-tools python3-pip
-          pip3 install --upgrade pip
+          sudo add-apt-repository universe
+          sudo apt-get -y install qt6-tools-dev-tools qt6-base-dev qtchooser python3-pip python3 qt6-l10n-tools
+          qtchooser -install qt6 $(which qmake6)
+          sudo mv ~/.config/qtchooser/qt6.conf /usr/share/qtchooser/qt6.conf
+          sudo mkdir -p /usr/lib/$(uname -p)-linux-gnu/qt-default/qtchooser
+          sudo ln -n /usr/share/qtchooser/qt6.conf /usr/lib/$(uname -p)-linux-gnu/qt-default/qtchooser/default.conf
           pip3 install pyside6
 
-      - name: Set up Qt 6 PATH
-        run: echo "/usr/lib/qt6/bin" >> $GITHUB_PATH
-
-      - name: Run Crowdin update
+      - name: Gather translations from crowdin
         run: |
-          cd src/Tools
-          CROWDIN_TOKEN=${{ secrets.CROWDIN_TOKEN }} ./updatecrowdin.py download
-          CROWDIN_TOKEN=${{ secrets.CROWDIN_TOKEN }} ./updatecrowdin.py install
-          rm freecad.zip
+          ./updatecrowdin.py download
+          ./updatecrowdin.py install
+        working-directory: ./src/Tools
+        env:
+          CROWDIN_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
 
       - name: Commit changes
         run: |
@@ -50,5 +52,4 @@ jobs:
           title: "Update translations from Crowdin"
           body: "Automatic Crowdin update."
           labels: "translations, automated"
-
 
