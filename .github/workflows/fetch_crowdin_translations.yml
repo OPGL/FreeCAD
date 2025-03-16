@@ -3,7 +3,7 @@ name: Update Crowdin Translations
 on:
   workflow_dispatch:
     schedule:
-      - cron: '0 0 * * *' # Everyday at 0:00 AM
+      - cron: '0 0 1 * *' # Everyday at 0:00 AM
 
 jobs:
   update-crowdin:
@@ -27,6 +27,8 @@ jobs:
 
       - name: Gather translations from crowdin
         run: |
+          ./updatecrowdin.py build
+          while ./update_crowdin.py build-status | grep -q "status: inProgress"; do sleep 10; done
           ./updatecrowdin.py download
           ./updatecrowdin.py install
         working-directory: ./src/Tools
