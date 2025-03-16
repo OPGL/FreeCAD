@@ -258,13 +258,9 @@ to count the objects, or property names like 'Length' or
 When used with native IFC objects, this can be used to
 retrieve any attribute or custom properties of the elements
 retrieved.</source>
-      <translation type="unfinished">The property to retrieve from each object.Can be 'Count'
-to count the objects, or property names like 'Length' or
-'Shape.Volume' to retrieve a certain property.
+      <translation>Harta untuk mendapatkan maklumat daripada setiap objek. Boleh berupa 'Count' untuk mengira objek, atau nama harta seperti 'Length' atau 'Shape.Volume' untuk mendapatkan harta tertentu.
 
-When used with native IFC objects, this can be used to
-retrieve any attribute or custom properties of the elements
-retrieved.</translation>
+Apabila digunakan dengan objek IFC asli, ini boleh digunakan untuk mendapatkan sebarang atribut atau harta khusus elemen yang diperolehi.</translation>
     </message>
     <message>
       <location filename="../ui/ArchSchedule.ui" line="93"/>
@@ -280,18 +276,11 @@ in FreeCAD or not.
 
 Use the name of the IFC project to get all the IFC entities
 of that project, no matter if they are expanded or not.</source>
-      <translation type="unfinished">An optional semicolon (;) separated list of object names
-(internal names, not labels), to be considered by this operation.
-If the list contains groups, children will be added.
+      <translation>Senarai nama objek yang dipisahkan oleh titik koma (;) yang hendak dipertimbangkan dalam operasi ini adalah pilihan. Jika senarai mengandungi kumpulan, anak-anak akan ditambahkan.
 
-Leave blank to use all objects from the document.
+Biarkan kosong untuk menggunakan semua objek dari dokumen.
 
-If the document is an IFC project, all IFC entities of the
-document will be used, no matter if they are expanded
-in FreeCAD or not.
-
-Use the name of the IFC project to get all the IFC entities
-of that project, no matter if they are expanded or not.</translation>
+Jika dokumen adalah projek IFC, semua entiti IFC dalam dokumen akan digunakan, tidak kira sama ada ia diperluaskan dalam FreeCAD atau tidak.</translation>
     </message>
     <message>
       <location filename="../ui/ArchSchedule.ui" line="112"/>
@@ -300,11 +289,11 @@ of that project, no matter if they are expanded or not.</translation>
 Examples of valid filters (everything is case-insensitive): Name:Wall - Will only consider objects with 'wall' in their name (internal name); !Name:Wall - Will only consider objects which DON'T have 'wall' in their name (internal name); Description:Win - Will only consider objects with 'win' in their description; !Label:Win - Will only consider objects which DO NOT have 'win' in their label; IfcType:Wall - Will only consider objects which Ifc Type is 'Wall'; !Tag:Wall - Will only consider objects which tag is NOT 'Wall'. If you leave this field empty, no filtering is applied
 
 When dealing with native IFC objects, you can use FreeCAD properties name, ex: 'Class:IfcWall' or any other IFC attribute (ex. 'IsTypedBy:#455'). If the 'Objects' column has been set to an IFC project or document, all the IFC entities of that project will be considered.</source>
-      <translation type="unfinished">An optional semicolon (;) separated list of property:value filters. Prepend ! to a property name to invert the effect of the filter (exclude objects that match the filter). Objects whose property contains the value will be matched.
+      <translation>Gunakan nama projek IFC untuk mendapatkan semua entiti IFC projek itu, tidak kira sama ada ia diperluaskan atau tidak. Senarai penapis harta:nilai yang dipisahkan oleh titik koma (;) adalah pilihan. Letakkan tanda ! di depan nama harta untuk membalikkan kesan penapis (tidak termasuk objek yang sepadan dengan penapis). Objek yang mempunyai nilai dalam hartanya akan dipadankan.
 
-Examples of valid filters (everything is case-insensitive): Name:Wall - Will only consider objects with 'wall' in their name (internal name); !Name:Wall - Will only consider objects which DON'T have 'wall' in their name (internal name); Description:Win - Will only consider objects with 'win' in their description; !Label:Win - Will only consider objects which DO NOT have 'win' in their label; IfcType:Wall - Will only consider objects which Ifc Type is 'Wall'; !Tag:Wall - Will only consider objects which tag is NOT 'Wall'. If you leave this field empty, no filtering is applied
+Contoh penapis yang sah (semua tidak sensitif huruf besar/kecil): Name:Wall - Hanya akan mempertimbangkan objek dengan 'wall' dalam nama mereka (nama dalaman); !Name:Wall - Hanya akan mempertimbangkan objek yang TIDAK mempunyai 'wall' dalam nama mereka (nama dalaman); Description:Win - Hanya akan mempertimbangkan objek dengan 'win' dalam deskripsi mereka; !Label:Win - Hanya akan mempertimbangkan objek yang TIDAK mempunyai 'win' dalam label mereka; IfcType:Wall - Hanya akan mempertimbangkan objek yang jenis Ifc mereka adalah 'Wall'; !Tag:Wall - Hanya akan mempertimbangkan objek yang tag mereka BUKAN 'Wall'. Jika anda meninggalkan medan ini kosong, tiada penapisan akan dikenakan.
 
-When dealing with native IFC objects, you can use FreeCAD properties name, ex: 'Class:IfcWall' or any other IFC attribute (ex. 'IsTypedBy:#455'). If the 'Objects' column has been set to an IFC project or document, all the IFC entities of that project will be considered.</translation>
+Apabila berurusan dengan objek IFC asli, anda boleh menggunakan nama harta FreeCAD, contohnya: 'Class:IfcWall' atau mana-mana atribut IFC lain (contoh: 'IsTypedBy:#455'). Jika lajur 'Objects' telah ditetapkan kepada projek atau dokumen IFC, semua entiti IFC projek itu akan dipertimbangkan.</translation>
     </message>
     <message>
       <location filename="../ui/ArchSchedule.ui" line="126"/>
@@ -653,10 +642,7 @@ Dialog../ui/dialogClassification.ui</translation>
 and that document won't be turned into an IFC document automatically.
 You can still turn a FreeCAD document into an IFC document manually, using
 Utils -&gt; Make IFC project</source>
-      <translation type="unfinished">If this is checked, you won't be asked again when creating a new FreeCAD document,
-and that document won't be turned into an IFC document automatically.
-You can still turn a FreeCAD document into an IFC document manually, using
-Utils -&gt; Make IFC project</translation>
+      <translation>ika ini dipilih, anda tidak akan ditanya lagi semasa membuat dokumen FreeCAD baru, dan dokumen tersebut tidak akan diubah secara automatik menjadi dokumen IFC. Anda masih boleh mengubah dokumen FreeCAD menjadi dokumen IFC secara manual dengan menggunakan Utils -&gt; Make IFC project.</translation>
     </message>
     <message>
       <location filename="../ui/dialogConvertDocument.ui" line="46"/>
@@ -738,12 +724,12 @@ Utils -&gt; Make IFC project</translation>
     <message>
       <location filename="../ui/dialogIfcQuantities.ui" line="49"/>
       <source>Apply</source>
-      <translation type="unfinished">Apply</translation>
+      <translation>Terapkan</translation>
     </message>
     <message>
       <location filename="../ui/dialogIfcQuantities.ui" line="69"/>
       <source>Refresh</source>
-      <translation type="unfinished">Refresh</translation>
+      <translation>Segarkan</translation>
     </message>
     <message>
       <location filename="../ui/dialogIfcQuantities.ui" line="80"/>
@@ -1060,7 +1046,7 @@ Dialog../ui/dialogImport.ui</translation>
     <message>
       <location filename="../ui/dialogAddPSet.ui" line="14"/>
       <source>Add standard IFC PSet</source>
-      <translation type="unfinished">Add standard IFC PSet</translation>
+      <translation>Tambah PSet IFC standard</translation>
     </message>
     <message>
       <location filename="../ui/dialogAddPSet.ui" line="43"/>
@@ -1413,52 +1399,52 @@ Dialog../ui/dialogImport.ui</translation>
     <message>
       <location filename="../ui/dialogConvertType.ui" line="14"/>
       <source>Convert to IFC type</source>
-      <translation type="unfinished">Convert to IFC type</translation>
+      <translation>Tukar kepada jenis IFC</translation>
     </message>
     <message>
       <location filename="../ui/dialogConvertType.ui" line="26"/>
       <source>This object will be converted to a %1 type. Types can be used to give common attributes and properties to several objects at once.</source>
-      <translation type="unfinished">This object will be converted to a %1 type. Types can be used to give common attributes and properties to several objects at once.</translation>
+      <translation>Objek ini akan ditukar kepada jenis %1. Jenis boleh digunakan untuk memberikan atribut dan harta biasa kepada beberapa objek sekaligus.</translation>
     </message>
     <message>
       <location filename="../ui/dialogConvertType.ui" line="36"/>
       <source>Keep original object. The object will adopt the new type</source>
-      <translation type="unfinished">Keep original object. The object will adopt the new type</translation>
+      <translation>Simpan objek asal. Objek akan menggunakan jenis baru</translation>
     </message>
     <message>
       <location filename="../ui/dialogAddProperty.ui" line="14"/>
       <source>Add IFC property</source>
-      <translation type="unfinished">Add IFC property</translation>
+      <translation>Tambah pencirian</translation>
     </message>
     <message>
       <location filename="../ui/dialogAddProperty.ui" line="44"/>
       <source>IfcLabel</source>
-      <translation type="unfinished">IfcLabel</translation>
+      <translation>IfcLabel</translation>
     </message>
     <message>
       <location filename="../ui/dialogAddProperty.ui" line="49"/>
       <source>IfcBoolean</source>
-      <translation type="unfinished">IfcBoolean</translation>
+      <translation>IfcBoolean</translation>
     </message>
     <message>
       <location filename="../ui/dialogAddProperty.ui" line="54"/>
       <source>IfcInteger</source>
-      <translation type="unfinished">IfcInteger</translation>
+      <translation>IfcInteger</translation>
     </message>
     <message>
       <location filename="../ui/dialogAddProperty.ui" line="59"/>
       <source>IfcReal</source>
-      <translation type="unfinished">IfcReal</translation>
+      <translation>IfcReal</translation>
     </message>
     <message>
       <location filename="../ui/dialogAddProperty.ui" line="64"/>
       <source>IfcLengthMeasure</source>
-      <translation type="unfinished">IfcLengthMeasure</translation>
+      <translation>IfcLengthMeasure</translation>
     </message>
     <message>
       <location filename="../ui/dialogAddProperty.ui" line="69"/>
       <source>IfcAreaMeasure</source>
-      <translation type="unfinished">IfcAreaMeasure</translation>
+      <translation>IfcAreaMeasure</translation>
     </message>
     <message>
       <location filename="../ui/dialogAddProperty.ui" line="80"/>
@@ -1468,7 +1454,7 @@ Dialog../ui/dialogImport.ui</translation>
     <message>
       <location filename="../ui/dialogAddProperty.ui" line="94"/>
       <source>PSet</source>
-      <translation type="unfinished">PSet</translation>
+      <translation>Pset</translation>
     </message>
   </context>
   <context>
@@ -1689,7 +1675,7 @@ Dialog../ui/dialogImport.ui</translation>
     <message>
       <location filename="../ui/dialogClasses.ui" line="25"/>
       <source>Class</source>
-      <translation type="unfinished">Class</translation>
+      <translation>Kelas</translation>
     </message>
     <message>
       <location filename="../ui/dialogClasses.ui" line="39"/>
@@ -1701,7 +1687,7 @@ Dialog../ui/dialogImport.ui</translation>
     <message>
       <location filename="../ui/dialogCustomProperties.ui" line="14"/>
       <source>Custom properties</source>
-      <translation type="unfinished">Custom properties</translation>
+      <translation>Sifat tersuai</translation>
     </message>
     <message>
       <location filename="../ui/dialogCustomProperties.ui" line="23"/>
@@ -1711,7 +1697,7 @@ Dialog../ui/dialogImport.ui</translation>
     <message>
       <location filename="../ui/dialogCustomProperties.ui" line="30"/>
       <source>Can only contain alphanumerical characters and no spaces. Use CamelCase typing to define spaces automatically</source>
-      <translation type="unfinished">Can only contain alphanumerical characters and no spaces. Use CamelCase typing to define spaces automatically</translation>
+      <translation>Hanya boleh mengandungi aksara abjad angka dan tiada ruang. Gunakan taip CamelCase untuk menentukan ruang secara automatik</translation>
     </message>
     <message>
       <location filename="../ui/dialogWindows.ui" line="189"/>
@@ -1722,22 +1708,22 @@ Dialog../ui/dialogImport.ui</translation>
     <message>
       <location filename="../ui/dialogCustomProperties.ui" line="44"/>
       <source>A description for this property, can be in any language.</source>
-      <translation type="unfinished">A description for this property, can be in any language.</translation>
+      <translation>Penerangan untuk harta ini, boleh dalam mana-mana bahasa.</translation>
     </message>
     <message>
       <location filename="../ui/dialogCustomProperties.ui" line="51"/>
       <source>The property will be hidden in the interface, and can only be modified via Python script</source>
-      <translation type="unfinished">The property will be hidden in the interface, and can only be modified via Python script</translation>
+      <translation>Harta ini akan disembunyikan dalam antara muka, dan hanya boleh diubah suai melalui skrip Python</translation>
     </message>
     <message>
       <location filename="../ui/dialogCustomProperties.ui" line="54"/>
       <source>Hidden</source>
-      <translation type="unfinished">Hidden</translation>
+      <translation>Tersembunyi</translation>
     </message>
     <message>
       <location filename="../ui/dialogCustomProperties.ui" line="61"/>
       <source>The property is visible but cannot be modified by the user</source>
-      <translation type="unfinished">The property is visible but cannot be modified by the user</translation>
+      <translation>Harta ini boleh dilihat tetapi tidak boleh diubah suai oleh pengguna</translation>
     </message>
     <message>
       <location filename="../ui/dialogCustomProperties.ui" line="64"/>
@@ -1752,27 +1738,27 @@ Dialog../ui/dialogImport.ui</translation>
     <message>
       <location filename="../ui/dialogLibrary.ui" line="14"/>
       <source>Library browser</source>
-      <translation type="unfinished">Library browser</translation>
+      <translation>Pelayar perpustakaan</translation>
     </message>
     <message>
       <location filename="../ui/dialogLibrary.ui" line="29"/>
       <source>Inserts the selected object in the current document</source>
-      <translation type="unfinished">Inserts the selected object in the current document</translation>
+      <translation>Sisipkan objek yang dipilih dalam dokumen semasa</translation>
     </message>
     <message>
       <location filename="../ui/dialogLibrary.ui" line="32"/>
       <source>Insert</source>
-      <translation type="unfinished">Insert</translation>
+      <translation>Masukkan</translation>
     </message>
     <message>
       <location filename="../ui/dialogLibrary.ui" line="39"/>
       <source>or</source>
-      <translation type="unfinished">or</translation>
+      <translation>atau</translation>
     </message>
     <message>
       <location filename="../ui/dialogLibrary.ui" line="49"/>
       <source>Links the selected object in the current document. Only works in Offline mode</source>
-      <translation type="unfinished">Links the selected object in the current document. Only works in Offline mode</translation>
+      <translation>Memautkan objek yang dipilih dalam dokumen semasa. Hanya berfungsi dalam mod Luar Talian</translation>
     </message>
     <message>
       <location filename="../ui/dialogLibrary.ui" line="52"/>
@@ -1782,107 +1768,107 @@ Dialog../ui/dialogImport.ui</translation>
     <message>
       <location filename="../ui/dialogLibrary.ui" line="63"/>
       <source>Search:</source>
-      <translation type="unfinished">Search:</translation>
+      <translation>Carian:</translation>
     </message>
     <message>
       <location filename="../ui/dialogLibrary.ui" line="79"/>
       <source>Search external websites</source>
-      <translation type="unfinished">Search external websites</translation>
+      <translation>Cari laman web luaran</translation>
     </message>
     <message>
       <location filename="../ui/dialogLibrary.ui" line="83"/>
       <source>...</source>
-      <translation type="unfinished">...</translation>
+      <translation>...</translation>
     </message>
     <message>
       <location filename="../ui/dialogLibrary.ui" line="153"/>
       <source>Options</source>
-      <translation type="unfinished">Options</translation>
+      <translation>Tetapan</translation>
     </message>
     <message>
       <location filename="../ui/dialogLibrary.ui" line="181"/>
       <source>Save thumbnails when saving a file</source>
-      <translation type="unfinished">Save thumbnails when saving a file</translation>
+      <translation>Simpan lakaran kecil semasa menyimpan fail</translation>
     </message>
     <message>
       <location filename="../ui/dialogLibrary.ui" line="193"/>
       <source>If this is checked, the library doesn't need to be installed. Contents will be fetched online.</source>
-      <translation type="unfinished">If this is checked, the library doesn't need to be installed. Contents will be fetched online.</translation>
+      <translation>Jika ini disemak, perpustakaan tidak perlu dipasang. Kandungan akan diambil dalam talian.</translation>
     </message>
     <message>
       <location filename="../ui/dialogLibrary.ui" line="196"/>
       <source>Online mode</source>
-      <translation type="unfinished">Online mode</translation>
+      <translation>Mod dalam talian</translation>
     </message>
     <message>
       <location filename="../ui/dialogLibrary.ui" line="206"/>
       <source>Open the search results inside FreeCAD's web browser instead of the system browser</source>
-      <translation type="unfinished">Open the search results inside FreeCAD's web browser instead of the system browser</translation>
+      <translation>Buka hasil carian dalam pelayar web FreeCAD dan bukannya pelayar sistem</translation>
     </message>
     <message>
       <location filename="../ui/dialogLibrary.ui" line="209"/>
       <source>Open search in FreeCAD web view</source>
-      <translation type="unfinished">Open search in FreeCAD web view</translation>
+      <translation>Buka carian dalam paparan web FreeCAD</translation>
     </message>
     <message>
       <location filename="../ui/dialogLibrary.ui" line="216"/>
       <source>Opens a 3D preview of the selected file.</source>
-      <translation type="unfinished">Opens a 3D preview of the selected file.</translation>
+      <translation>Membuka pratonton 3D bagi fail yang dipilih.</translation>
     </message>
     <message>
       <location filename="../ui/dialogLibrary.ui" line="219"/>
       <source>Preview model in 3D view</source>
-      <translation type="unfinished">Preview model in 3D view</translation>
+      <translation>Pratonton model dalam paparan 3D</translation>
     </message>
     <message>
       <location filename="../ui/dialogLibrary.ui" line="229"/>
       <source>Show available alternative file formats for library items (STEP, IFC, etc...)</source>
-      <translation type="unfinished">Show available alternative file formats for library items (STEP, IFC, etc...)</translation>
+      <translation>Tunjukkan format fail alternatif yang tersedia untuk item pustaka (STEP, IFC, dll...)</translation>
     </message>
     <message>
       <location filename="../ui/dialogLibrary.ui" line="232"/>
       <source>Display alternative formats</source>
-      <translation type="unfinished">Display alternative formats</translation>
+      <translation>Paparkan format alternatif</translation>
     </message>
     <message>
       <location filename="../ui/dialogLibrary.ui" line="239"/>
       <source>Note: STEP and BREP files can be placed at custom location. FCStd and IFC files will be placed where objects are defined in the file.</source>
-      <translation type="unfinished">Note: STEP and BREP files can be placed at custom location. FCStd and IFC files will be placed where objects are defined in the file.</translation>
+      <translation>Nota: Fail STEP dan BREP boleh diletakkan di lokasi tersuai. Fail FCStd dan IFC akan diletakkan di mana objek ditakrifkan dalam fail.</translation>
     </message>
     <message>
       <location filename="../ui/dialogLibrary.ui" line="252"/>
       <source>Save thumbnails</source>
-      <translation type="unfinished">Save thumbnails</translation>
+      <translation>Simpan lakaran kenit</translation>
     </message>
     <message>
       <location filename="../ui/dialogLibrary.ui" line="262"/>
       <source>Save as...</source>
-      <translation type="unfinished">Save as...</translation>
+      <translation>Simpan sebagai...</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="14"/>
       <source>IFC Preflight</source>
-      <translation type="unfinished">IFC Preflight</translation>
+      <translation>Prapenerbangan IFC</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="20"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The following test will check your model or the selected object(s) and their children for conformity to some IFC standards.&lt;/p&gt;&lt;p&gt;&lt;span style=" font-weight:600;"&gt;Important&lt;/span&gt;: None of the failed tests below will prevent exporting IFC files, nor do these tests guarantee that your IFC files meets some specific quality or standard requirement. They are there to help you assess what is and what is not in your exported file. It's for you to choose which item is of importance to you or not. Hovering the mouse over each description will give you more information to decide.&lt;/p&gt;&lt;p&gt;After a test is run, clicking the corresponding button will give you more information to help you to fix problems.&lt;/p&gt;&lt;p&gt;The &lt;a href="http://www.buildingsmart-tech.org/specifications"&gt;&lt;span style=" text-decoration: underline; color:#0000ff;"&gt;official IFC website&lt;/span&gt;&lt;/a&gt; contains a lot of useful information about IFC standards.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The following test will check your model or the selected object(s) and their children for conformity to some IFC standards.&lt;/p&gt;&lt;p&gt;&lt;span style=" font-weight:600;"&gt;Important&lt;/span&gt;: None of the failed tests below will prevent exporting IFC files, nor do these tests guarantee that your IFC files meets some specific quality or standard requirement. They are there to help you assess what is and what is not in your exported file. It's for you to choose which item is of importance to you or not. Hovering the mouse over each description will give you more information to decide.&lt;/p&gt;&lt;p&gt;After a test is run, clicking the corresponding button will give you more information to help you to fix problems.&lt;/p&gt;&lt;p&gt;The &lt;a href="http://www.buildingsmart-tech.org/specifications"&gt;&lt;span style=" text-decoration: underline; color:#0000ff;"&gt;official IFC website&lt;/span&gt;&lt;/a&gt; contains a lot of useful information about IFC standards.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ujian berikut akan menyemak model anda atau objek yang dipilih dan anak-anak mereka untuk pematuhan kepada beberapa piawaian IFC.&lt;/p&gt;&lt;p&gt;&lt;span style=" font -weight:600;"&gt;Penting&lt;/span&gt;: Tiada ujian yang gagal di bawah akan menghalang pengeksportan fail IFC, dan ujian ini juga tidak menjamin bahawa fail IFC anda memenuhi beberapa keperluan kualiti atau standard tertentu. Mereka ada untuk membantu anda menilai apa yang ada dan apa yang tidak dalam fail eksport anda. Anda terpulang untuk memilih item mana yang penting untuk anda atau tidak. Menuding tetikus pada setiap huraian akan memberi anda lebih banyak maklumat untuk membuat keputusan.&lt;/p&gt;&lt;p&gt;Selepas ujian dijalankan, mengklik butang yang sepadan akan memberi anda lebih banyak maklumat untuk membantu anda menyelesaikan masalah.&lt;/p&gt;&lt;p&gt; &lt;a href="http://www.buildingsmart-tech.org/specifications"&gt;&lt;span style=" text-decoration: underline; color:#0000ff;"&gt;laman web rasmi IFC&lt;/span&gt;&lt;/a&gt; mengandungi banyak maklumat berguna tentang Piawaian IFC.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="30"/>
       <source>Warning, this can take some time!</source>
-      <translation type="unfinished">Warning, this can take some time!</translation>
+      <translation>Amaran, ini boleh mengambil sedikit masa!</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="33"/>
       <source>Run all tests</source>
-      <translation type="unfinished">Run all tests</translation>
+      <translation>Jalankan semua ujian</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="40"/>
       <source>Work on</source>
-      <translation type="unfinished">Work on</translation>
+      <translation>Kerjakan</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="46"/>
@@ -1892,12 +1878,12 @@ Dialog../ui/dialogImport.ui</translation>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="53"/>
       <source>All visible objects</source>
-      <translation type="unfinished">All visible objects</translation>
+      <translation>Semua objek yang kelihatan</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="63"/>
       <source>Whole document</source>
-      <translation type="unfinished">Whole document</translation>
+      <translation>Keseluruhan dokumen</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="73"/>
@@ -1907,12 +1893,12 @@ Dialog../ui/dialogImport.ui</translation>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="79"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;IFC export in FreeCAD is performed by an open-source third-party library called IfcOpenShell. To be able to export to the newer IFC4 standard, IfcOpenShell must have been compiled with IFC4 support enabled.  This test will check if IFC4 support is available in your version of IfcOpenShell. If not, you will only be able to export IFC files in the older IFC2x3 standard. Note that some applications out there still have incomplete or inexistent IFC4 support, so in some cases IFC2x3 might still work better.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;IFC export in FreeCAD is performed by an open-source third-party library called IfcOpenShell. To be able to export to the newer IFC4 standard, IfcOpenShell must have been compiled with IFC4 support enabled.  This test will check if IFC4 support is available in your version of IfcOpenShell. If not, you will only be able to export IFC files in the older IFC2x3 standard. Note that some applications out there still have incomplete or inexistent IFC4 support, so in some cases IFC2x3 might still work better.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Eksport IFC dalam FreeCAD dilakukan oleh perpustakaan pihak ketiga sumber terbuka yang dipanggil IfcOpenShell. Untuk dapat mengeksport ke standard IFC4 yang lebih baharu, IfcOpenShell mestilah telah disusun dengan sokongan IFC4 didayakan. Ujian ini akan menyemak sama ada sokongan IFC4 tersedia dalam versi IfcOpenShell anda. Jika tidak, anda hanya boleh mengeksport fail IFC dalam standard IFC2x3 yang lebih lama. Harap maklum bahawa sesetengah aplikasi di luar sana masih mempunyai sokongan IFC4 yang tidak lengkap atau tidak wujud, jadi dalam sesetengah kes IFC2x3 mungkin masih berfungsi dengan lebih baik.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="82"/>
       <source>Is IFC4 support enabled?</source>
-      <translation type="unfinished">Is IFC4 support enabled?</translation>
+      <translation>Adakah sokongan IFC4 didayakan?</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="92"/>
@@ -1937,72 +1923,74 @@ Dialog../ui/dialogImport.ui</translation>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="102"/>
       <source>Project structure</source>
-      <translation type="unfinished">Project structure</translation>
+      <translation>Struktur projek</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="115"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;All IfcBuildingStorey (levels) elements are required to be inside an IfcBuilding element. This is a mandatory requirement of the IFC standard. When exporting your FreeCAD model to IFC, a default IfcBuilding will be created for all level objects (BuildingPart objects with their IFC role set as Building Storey)  found that are not inside a Building. However, it is best if you create that building yourself, so you have more control over its name and properties. This test is here to help you to find those levels without buildings.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;All IfcBuildingStorey (levels) elements are required to be inside an IfcBuilding element. This is a mandatory requirement of the IFC standard. When exporting your FreeCAD model to IFC, a default IfcBuilding will be created for all level objects (BuildingPart objects with their IFC role set as Building Storey)  found that are not inside a Building. However, it is best if you create that building yourself, so you have more control over its name and properties. This test is here to help you to find those levels without buildings.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Semua elemen IfcBuildingStorey (tahap) dikehendaki berada di dalam elemen IfcBuilding. Ini adalah keperluan mandatori piawaian IFC. Apabila mengeksport model FreeCAD anda ke IFC, IfcBuilding lalai akan dibuat untuk semua objek peringkat (objek BuildingPart dengan peranan IFC mereka ditetapkan sebagai Building Storey) didapati tidak berada di dalam Bangunan. Walau bagaimanapun, adalah lebih baik jika anda mencipta bangunan itu sendiri, jadi anda mempunyai lebih kawalan ke atas nama dan sifatnya. Ujian ini ada di sini untuk membantu anda mencari tahap tersebut tanpa bangunan.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="118"/>
       <source>Are all storeys part of a building?</source>
-      <translation type="unfinished">Are all storeys part of a building?</translation>
+      <translation>Adakah semua tingkat sebahagian daripada bangunan?</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="128"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;All elements derived from IfcProduct (that is, all the BIM elements that compose your model)  are required to be inside an IfcBuildingStorey (level) element. This is a mandatory requirement of the IFC standard. When exporting your FreeCAD model to IFC, a default IfcBuildingStorey will be created for all BIM objects found that are not inside one already. However, it is best if you make sure yourself that all elements are correctly located inside a level, so you have more control over it. This test is here to help you to find those BIM objects without a level.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;All elements derived from IfcProduct (that is, all the BIM elements that compose your model)  are required to be inside an IfcBuildingStorey (level) element. This is a mandatory requirement of the IFC standard. When exporting your FreeCAD model to IFC, a default IfcBuildingStorey will be created for all BIM objects found that are not inside one already. However, it is best if you make sure yourself that all elements are correctly located inside a level, so you have more control over it. This test is here to help you to find those BIM objects without a level.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Semua elemen yang diperoleh daripada IfcProduct (iaitu, semua elemen BIM yang menyusun model anda) dikehendaki berada di dalam elemen IfcBuildingStorey (tahap). Ini adalah keperluan mandatori piawaian IFC. Apabila mengeksport model FreeCAD anda ke IFC, IfcBuildingStorey lalai akan dibuat untuk semua objek BIM yang didapati tidak berada di dalam objek tersebut. Walau bagaimanapun, adalah lebih baik jika anda memastikan diri anda bahawa semua elemen terletak dengan betul di dalam tahap, supaya anda mempunyai lebih kawalan ke atasnya. Ujian ini di sini untuk membantu anda mencari objek BIM tersebut tanpa tahap.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="131"/>
       <source>Are all BIM objects part of a level?</source>
-      <translation type="unfinished">Are all BIM objects part of a level?</translation>
+      <translation>Adakah semua objek BIM sebahagian daripada aras?</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="148"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;All IfcBuilding elements are required to be inside an IfcSite element. This is a mandatory requirement of the IFC standard. When exporting your FreeCAD model to IFC, a default IfcSite will be created for all Building objects found that are not inside a Site. However, it is best if you create that site yourself, so you have more control over its name and properties. This test is here to help you to find those buildings without sites.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;All IfcBuilding elements are required to be inside an IfcSite element. This is a mandatory requirement of the IFC standard. When exporting your FreeCAD model to IFC, a default IfcSite will be created for all Building objects found that are not inside a Site. However, it is best if you create that site yourself, so you have more control over its name and properties. This test is here to help you to find those buildings without sites.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Semua elemen IfcBuilding diwajibkan berada dalam elemen IfcSite. Ini adalah keperluan mandatori dalam standard IFC. Apabila anda mengeksport model FreeCAD anda ke IFC, satu IfcSite lalai akan dicipta untuk semua objek Bangunan yang ditemui dan tidak berada dalam Tapak. Walau bagaimanapun, adalah lebih baik jika anda mencipta tapak tersebut sendiri, supaya anda mempunyai lebih kawalan ke atas nama dan sifatnya. Ujian ini ada untuk membantu anda mencari bangunan-bangunan yang tidak mempunyai tapak.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt; </translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="151"/>
       <source>Are all buildings part of a site?</source>
-      <translation type="unfinished">Are all buildings part of a site?</translation>
+      <translation>Adakah semua bangunan sebahagian daripada tapak?</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="168"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The IFC standard requires at least one site, one building and one level or building storey per project. This test will ensure that at least one object of each of these 3 types exists in the model.&lt;/p&gt;&lt;p&gt;Note that, as this is a mandatory requirement, FreeCAD will automatically add a default site, a default building and/or a default building storey if any of these is missing. So even if this test didn't pass, your exported IFC file will meet the requirements.&lt;/p&gt;&lt;p&gt;However, it is always better to create these objects yourself, as you get more control over naming and properties.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The IFC standard requires at least one site, one building and one level or building storey per project. This test will ensure that at least one object of each of these 3 types exists in the model.&lt;/p&gt;&lt;p&gt;Note that, as this is a mandatory requirement, FreeCAD will automatically add a default site, a default building and/or a default building storey if any of these is missing. So even if this test didn't pass, your exported IFC file will meet the requirements.&lt;/p&gt;&lt;p&gt;However, it is always better to create these objects yourself, as you get more control over naming and properties.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Standard IFC memerlukan sekurang-kurangnya satu tapak, satu bangunan, dan satu aras atau tingkat bangunan bagi setiap projek. Ujian ini akan memastikan sekurang-kurangnya satu objek daripada setiap tiga jenis ini wujud dalam model.&lt;/p&gt;&lt;p&gt;Perlu diingat bahawa, memandangkan ini adalah keperluan mandatori, FreeCAD akan secara automatik menambah tapak lalai, bangunan lalai, dan/atau tingkat bangunan lalai jika mana-mana daripadanya tidak ada. Oleh itu, walaupun ujian ini tidak lulus, fail IFC yang dieksport anda akan memenuhi keperluan tersebut.&lt;/p&gt;&lt;p&gt;Walau bagaimanapun, adalah lebih baik untuk mencipta objek-objek ini sendiri, kerana anda mendapat lebih kawalan ke atas penamaan dan sifat-sifatnya.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="171"/>
       <source>Is there at least one site, one building and one level in the model?</source>
-      <translation type="unfinished">Is there at least one site, one building and one level in the model?</translation>
+      <translation>Adakah sekurang-kurangnya satu tapak, satu bangunan, dan satu aras dalam model?</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="191"/>
       <source>Geometry</source>
-      <translation type="unfinished">Geometry</translation>
+      <translation>Geomatri</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="204"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Although it is not a requirement for IFC objects to have fully clean and solid geometry (and you will more than often find IFC files with bad geometry out there, oh boy if you find!), it is of course better if they do. You will reduce chances of problems with other applications, and after all, in real life, all objects have solid shapes.&lt;/p&gt;&lt;p&gt;FreeCAD has a lot of tools to check for geometry quality, and most parametric objects, including BIM objects, will usually warn you if their geometry becomes unclean or not solid at some point. This test makes sure everything is OK.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Although it is not a requirement for IFC objects to have fully clean and solid geometry (and you will more than often find IFC files with bad geometry out there, oh boy if you find!), it is of course better if they do. You will reduce chances of problems with other applications, and after all, in real life, all objects have solid shapes.&lt;/p&gt;&lt;p&gt;FreeCAD has a lot of tools to check for geometry quality, and most parametric objects, including BIM objects, will usually warn you if their geometry becomes unclean or not solid at some point. This test makes sure everything is OK.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>Walaupun ia bukan keperluan bagi objek IFC untuk mempunyai geometri yang bersih dan padat sepenuhnya (dan anda akan sering menemui fail IFC dengan geometri yang buruk di luar sana, oh jika anda menemui!), sudah tentu ia lebih baik jika objek tersebut mempunyai geometri yang baik. Ini akan mengurangkan peluang masalah dengan aplikasi lain, dan selepas semua, dalam kehidupan sebenar, semua objek mempunyai bentuk yang padat.
+
+FreeCAD mempunyai banyak alat untuk memeriksa kualiti geometri, dan kebanyakan objek parametrik, termasuk objek BIM, biasanya akan memberi amaran kepada anda jika geometri mereka menjadi tidak bersih atau tidak padat pada suatu ketika. Ujian ini memastikan semuanya berada dalam keadaan baik.</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="207"/>
       <source>Are all BIM objects solid and valid?</source>
-      <translation type="unfinished">Are all BIM objects solid and valid?</translation>
+      <translation>Adakah semua objek BIM pepejal dan sah?</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="217"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The IFC format provides a defined type for most of the objects that compose a building, for example walls, columns, doors, or sinks. But it also supports undefined objects, which are given the generic BuildingElementProxy type. This test will check that all objects have a defined type.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;Note that failing this test is not necessarily bad, as you might specifically want some object to not have any defined type. In some cases, this might even give better results, as some applications like Revit might add possibly unwanted additional constraints or transformations to some known types such as structural elements (beams or columns). Exporting them as BuildingElementProxies will prevent that.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The IFC format provides a defined type for most of the objects that compose a building, for example walls, columns, doors, or sinks. But it also supports undefined objects, which are given the generic BuildingElementProxy type. This test will check that all objects have a defined type.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;Note that failing this test is not necessarily bad, as you might specifically want some object to not have any defined type. In some cases, this might even give better results, as some applications like Revit might add possibly unwanted additional constraints or transformations to some known types such as structural elements (beams or columns). Exporting them as BuildingElementProxies will prevent that.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>{[=-lt;-=]}html{[=-gt;-=]}{[=-lt;-=]}head/{[=-gt;-=]}{[=-lt;-=]}body{[=-gt;-=]}{[=-lt;-=]}p{[=-gt;-=]}The IFC format provides a defined type for most of the objects that compose a building, for example walls, columns, doors, or sinks. But it also supports undefined objects, which are given the generic BuildingElementProxy type. This test will check that all objects have a defined type.{[=-lt;-=]}/p{[=-gt;-=]}{[=-lt;-=]}p{[=-gt;-=]}{[=-lt;-=]}br/{[=-gt;-=]}{[=-lt;-=]}/p{[=-gt;-=]}{[=-lt;-=]}p{[=-gt;-=]}Note that failing this test is not necessarily bad, as you might specifically want some object to not have any defined type. In some cases, this might even give better results, as some applications like Revit might add possibly unwanted additional constraints or transformations to some known types such as structural elements (beams or columns). Exporting them as BuildingElementProxies will prevent that.{[=-lt;-=]}/p{[=-gt;-=]}{[=-lt;-=]}/body{[=-gt;-=]}{[=-lt;-=]}/html{[=-gt;-=]}</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="220"/>
       <source>Are all BIM objects of a defined IFC type?</source>
-      <translation type="unfinished">Are all BIM objects of a defined IFC type?</translation>
+      <translation>Adakah semua objek BIM daripada jenis IFC yang ditentukan?</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="240"/>
@@ -2012,118 +2000,118 @@ Dialog../ui/dialogImport.ui</translation>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="246"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Classification systems, such as UniClass or MasterFormat, or even your own custom system, are in some cases an important part of a building project. This test will ensure that all BIM objects and materials found in the model have their standard code property dutifully filled.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Classification systems, such as UniClass or MasterFormat, or even your own custom system, are in some cases an important part of a building project. This test will ensure that all BIM objects and materials found in the model have their standard code property dutifully filled.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>{[=-lt;-=]}html{[=-gt;-=]}{[=-lt;-=]}head/{[=-gt;-=]}{[=-lt;-=]}body{[=-gt;-=]}{[=-lt;-=]}p{[=-gt;-=]}Classification systems, such as UniClass or MasterFormat, or even your own custom system, are in some cases an important part of a building project. This test will ensure that all BIM objects and materials found in the model have their standardcode property dutifully filled.{[=-lt;-=]}/p{[=-gt;-=]}{[=-lt;-=]}/body{[=-gt;-=]}{[=-lt;-=]}/html{[=-gt;-=]}</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="249"/>
       <source>Do all BIM objects and materials have a standard classification code defined?</source>
-      <translation type="unfinished">Do all BIM objects and materials have a standard classification code defined?</translation>
+      <translation>Adakah semua objek dan bahan BIM mempunyai kod pengelasan standard yang ditentukan?</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="273"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The IFC standard offers standard, predefined property sets for many object types. for example, the property set Pset_WallCommon contains properties that the IFC standard thinks all walls should have. This test will check that all BIM objects have the right property set, if available.&lt;/p&gt;&lt;p&gt;Note that this is by no means a formal requirement, and these will inflate the size of your IFC file consequently. We suggest you add standard property sets only if you are actually using any of them.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The IFC standard offers standard, predefined property sets for many object types. for example, the property set Pset_WallCommon contains properties that the IFC standard thinks all walls should have. This test will check that all BIM objects have the right property set, if available.&lt;/p&gt;&lt;p&gt;Note that this is by no means a formal requirement, and these will inflate the size of your IFC file consequently. We suggest you add standard property sets only if you are actually using any of them.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Piawaian IFC menawarkan set sifat standard dan pratakrif untuk banyak jenis objek. contohnya, set harta Pset_WallCommon mengandungi sifat yang standard IFC fikir semua dinding harus ada. Ujian ini akan menyemak sama ada semua objek BIM mempunyai set sifat yang betul, jika tersedia.&lt;/p&gt;&lt;p&gt;Perhatikan bahawa ini bukanlah satu keperluan rasmi, dan ini akan meningkatkan saiz fail IFC anda akibatnya. Kami mencadangkan anda menambah set sifat standard hanya jika anda benar-benar menggunakan mana-mana daripadanya.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="276"/>
       <source>Do all common IFC types have the corresponding Property Set?</source>
-      <translation type="unfinished">Do all common IFC types have the corresponding Property Set?</translation>
+      <translation>Adakah semua jenis IFC biasa mempunyai Set Harta yang sepadan?</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="286"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;IFC objects have a geometry representation, which defines the shape of the object, but can also have some or their dimensions, such as height, width or area, explicitly stated. This is very useful for BIM applications that don't process the geometry, such as spreadsheets. Those applications are still able to get and estimate quantities from IFC objects without the need to analyze the geometry.&lt;/p&gt;&lt;p&gt;It is also a possibility for errors (or even fraud), as nothing guarantees that those explicitly stated dimensions match what is inside the geometry.&lt;/p&gt;&lt;p&gt;This test will find any BIM object that has available dimension properties such as width or height, for example walls and structures, but such properties are not marked for explicit export to IFC.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;IFC objects have a geometry representation, which defines the shape of the object, but can also have some or their dimensions, such as height, width or area, explicitly stated. This is very useful for BIM applications that don't process the geometry, such as spreadsheets. Those applications are still able to get and estimate quantities from IFC objects without the need to analyze the geometry.&lt;/p&gt;&lt;p&gt;It is also a possibility for errors (or even fraud), as nothing guarantees that those explicitly stated dimensions match what is inside the geometry.&lt;/p&gt;&lt;p&gt;This test will find any BIM object that has available dimension properties such as width or height, for example walls and structures, but such properties are not marked for explicit export to IFC.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Objek IFC mempunyai perwakilan geometri, yang mentakrifkan bentuk objek, tetapi juga boleh mempunyai beberapa atau dimensinya, seperti tinggi, lebar atau luas, dinyatakan secara eksplisit. Ini sangat berguna untuk aplikasi BIM yang tidak memproses geometri, seperti hamparan. Aplikasi tersebut masih boleh mendapatkan dan menganggarkan kuantiti daripada objek IFC tanpa perlu menganalisis geometri.&lt;/p&gt;&lt;p&gt;Ia juga merupakan kemungkinan ralat (atau penipuan), kerana tiada jaminan bahawa dimensi yang dinyatakan secara eksplisit itu sepadan apa yang ada di dalam geometri.&lt;/p&gt;&lt;p&gt;Ujian ini akan menemui mana-mana objek BIM yang mempunyai sifat dimensi yang tersedia seperti lebar atau tinggi, contohnya dinding dan struktur, tetapi sifat tersebut tidak ditandakan secara eksplisit. eksport ke IFC.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="289"/>
       <source>Do all geometric BIM objects have explicit dimensions set?</source>
-      <translation type="unfinished">Do all geometric BIM objects have explicit dimensions set?</translation>
+      <translation>Adakah semua objek BIM geometri mempunyai set dimensi eksplisit?</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="299"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Although there is no requirement for IFC objects to have a material defined, in the real world, it is an important layer of information to be added to you model. This test will find BIM objects without a material defined.&lt;/p&gt;&lt;p&gt;If a BIM object is exported without a material, it will nevertheless be assigned an IfcSurfaceStyle, which will be created from the object color. Some BIM applications actually disregard materials, and only consider the surface style of an object. No IfcMaterial will be attributed to that object.&lt;/p&gt;&lt;p&gt;If a BIM object has a material defined, a surface style will still be created (an IfcMaterial too) but its surface style will take the same name and properties as the material, thus giving more consistency to your file, no matter what other BIM consider, surface style, material, or both.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Although there is no requirement for IFC objects to have a material defined, in the real world, it is an important layer of information to be added to you model. This test will find BIM objects without a material defined.&lt;/p&gt;&lt;p&gt;If a BIM object is exported without a material, it will nevertheless be assigned an IfcSurfaceStyle, which will be created from the object color. Some BIM applications actually disregard materials, and only consider the surface style of an object. No IfcMaterial will be attributed to that object.&lt;/p&gt;&lt;p&gt;If a BIM object has a material defined, a surface style will still be created (an IfcMaterial too) but its surface style will take the same name and properties as the material, thus giving more consistency to your file, no matter what other BIM consider, surface style, material, or both.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Walaupun tiada keperluan untuk objek IFC mempunyai bahan yang ditakrifkan, dalam dunia nyata, ia adalah lapisan maklumat penting untuk ditambahkan pada model anda. Ujian ini akan mencari objek BIM tanpa bahan yang ditakrifkan.&lt;/p&gt;&lt;p&gt;Jika objek BIM dieksport tanpa bahan, ia tetap akan diberikan IfcSurfaceStyle, yang akan dicipta daripada warna objek. Sesetengah aplikasi BIM sebenarnya mengabaikan bahan, dan hanya mempertimbangkan gaya permukaan sesuatu objek. Tiada IfcMaterial akan dikaitkan dengan objek itu.&lt;/p&gt;&lt;p&gt;Jika objek BIM mempunyai bahan yang ditentukan, gaya permukaan masih akan dibuat (IfcMaterial juga) tetapi gaya permukaannya akan mengambil nama dan sifat yang sama seperti bahan, dengan itu memberikan lebih konsistensi pada fail anda, tidak kira apa yang dipertimbangkan oleh BIM lain, gaya permukaan, bahan atau kedua-duanya.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="302"/>
       <source>Do all BIM objects have a material?</source>
-      <translation type="unfinished">Do all BIM objects have a material?</translation>
+      <translation>Adakah semua objek BIM mempunyai bahan?</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="319"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Even if a BIM object has a standard property set for its type attributed, there is no guarantee that this property set still contains or only contains all the properties that the IFC standard has defined for that set. They might have been modified after the property set has been added.&lt;/p&gt;&lt;p&gt;This test will check that all standard property sets found throughout the model contain all and only the properties specified in the standard definition.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Even if a BIM object has a standard property set for its type attributed, there is no guarantee that this property set still contains or only contains all the properties that the IFC standard has defined for that set. They might have been modified after the property set has been added.&lt;/p&gt;&lt;p&gt;This test will check that all standard property sets found throughout the model contain all and only the properties specified in the standard definition.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Walaupun objek BIM mempunyai set sifat standard untuk jenisnya yang diatributkan, tiada jaminan set sifat ini masih mengandungi atau hanya mengandungi semua sifat yang telah ditentukan oleh standard IFC untuk set itu. Ia mungkin telah diubah suai selepas set sifat telah ditambahkan.&lt;/p&gt;&lt;p&gt;Ujian ini akan menyemak sama ada semua set sifat standard yang ditemui di seluruh model mengandungi semua dan hanya sifat yang dinyatakan dalam definisi standard.&lt;/p&gt;&lt; /body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="322"/>
       <source>Do all standard Property Set contain the correct properties?</source>
-      <translation type="unfinished">Do all standard Property Set contain the correct properties?</translation>
+      <translation>Adakah semua Set Harta standard mengandungi sifat yang betul?</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="349"/>
       <source>Optional/Compatibility</source>
-      <translation type="unfinished">Optional/Compatibility</translation>
+      <translation>Pilihan/Keserasian</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="362"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The geometry of IFC objects can be defined in a large number of ways, such as extrusions, subtractions, revolutions, or even faceted objects.&lt;/p&gt;&lt;p&gt;However, extrusions of flat shapes, which is the most basic and common type, often offer advantages over other types in other BIM applications.&lt;/p&gt;&lt;p&gt;This test will find any object that cannot be exported to IFC as an extrusion, or as a shared extrusion (clone).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The geometry of IFC objects can be defined in a large number of ways, such as extrusions, subtractions, revolutions, or even faceted objects.&lt;/p&gt;&lt;p&gt;However, extrusions of flat shapes, which is the most basic and common type, often offer advantages over other types in other BIM applications.&lt;/p&gt;&lt;p&gt;This test will find any object that cannot be exported to IFC as an extrusion, or as a shared extrusion (clone).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Geometri objek IFC boleh ditakrifkan dalam beberapa cara, seperti penyemperitan, penolakan, pusingan atau objek bermuka.&lt;/p&gt;&lt;p&gt;Walau bagaimanapun, penyemperitan bentuk rata, yang merupakan jenis yang paling asas dan biasa, selalunya menawarkan kelebihan berbanding jenis lain dalam aplikasi BIM lain.&lt;/p&gt;&lt;p&gt;Ujian ini akan menemui sebarang objek yang tidak boleh dieksport ke IFC sebagai penyemperitan, atau sebagai penyemperitan kongsi (klon).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="365"/>
       <source>Are all object exportable as extrusions?</source>
-      <translation type="unfinished">Are all object exportable as extrusions?</translation>
+      <translation>Adakah semua objek boleh dieksport sebagai penyemperitan?</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="375"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Walls, columns and beams in FreeCAD can be constructed in a wide number of ways. But some simpler BIM applications might have difficulties with walls that are not of the most simple type, that is, a single, straight piece of wall (which correspond to the IfcWallStandardCase type) or beams and columns that are not based on a straight extrusion of a flat profile (BeamStandardCase, ColumnStandardCase)&lt;/p&gt;&lt;p&gt;This test will find any wall which is not such a standard case.&lt;/p&gt;&lt;p&gt;&lt;span style=" font-weight:600;"&gt;Note&lt;/span&gt;: At the moment, BIM objects that meet the requirements to be of a standard case, are still exported as IfcWall, IfcBeam, IfcColumn.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Walls, columns and beams in FreeCAD can be constructed in a wide number of ways. But some simpler BIM applications might have difficulties with walls that are not of the most simple type, that is, a single, straight piece of wall (which correspond to the IfcWallStandardCase type) or beams and columns that are not based on a straight extrusion of a flat profile (BeamStandardCase, ColumnStandardCase)&lt;/p&gt;&lt;p&gt;This test will find any wall which is not such a standard case.&lt;/p&gt;&lt;p&gt;&lt;span style=" font-weight:600;"&gt;Note&lt;/span&gt;: At the moment, BIM objects that meet the requirements to be of a standard case, are still exported as IfcWall, IfcBeam, IfcColumn.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dinding, lajur dan rasuk dalam FreeCAD boleh dibina dalam pelbagai cara. Tetapi sesetengah aplikasi BIM yang lebih mudah mungkin menghadapi kesukaran dengan dinding yang bukan jenis yang paling mudah, iaitu, sekeping dinding lurus tunggal (yang sepadan dengan jenis IfcWallStandardCase) atau rasuk dan lajur yang tidak berdasarkan penyemperitan lurus profil rata (BeamStandardCase, ColumnStandardCase)&lt;/p&gt;&lt;p&gt;Ujian ini akan menemui mana-mana dinding yang bukan sarung standard.&lt;/p&gt;&lt;p&gt;&lt;span style=" font-weight:600;"&gt;Nota&lt;/span&gt;: Pada masa ini, objek BIM yang memenuhi keperluan untuk menjadi kes standard, masih dieksport sebagai IfcWall, IfcBeam, IfcColumn.&lt;/p&gt;&lt;/ badan&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="378"/>
       <source>Are all walls, beams and columns based on a single line or profile (standard case)?</source>
-      <translation type="unfinished">Are all walls, beams and columns based on a single line or profile (standard case)?</translation>
+      <translation>Adakah semua dinding, rasuk dan lajur berdasarkan satu baris atau profil (huruf standard)?</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="395"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Revit discards all objects that contain lines smaller than 1/32 inch (0.8mm). This test will find any object containing lines smaller than that value.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Revit discards all objects that contain lines smaller than 1/32 inch (0.8mm). This test will find any object containing lines smaller than that value.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Revit membuang semua objek yang mengandungi garisan yang lebih kecil daripada 1/32 inci (0.8mm). Ujian ini akan menemui sebarang objek yang mengandungi garisan yang lebih kecil daripada nilai tersebut.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="398"/>
       <source>Are all lines bigger than 1/32 inches (minimum accepted by Revit)?</source>
-      <translation type="unfinished">Are all lines bigger than 1/32 inches (minimum accepted by Revit)?</translation>
+      <translation>Adakah semua garisan lebih besar daripada 1/32 inci (minimum diterima oleh Revit)?</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="415"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When exporting a model to IFC, all BIM objects that are an extrusion of a rectangular profile will use an IfcRectangleProfileDef entity as their extrusion profile. However, Revit won't import these correctly. If you are going to use the IFC file in Revit, we recommend you to disable this behavior by checking the option under menu &lt;span style=" font-weight:600;"&gt;Edit -&amp;gt; Preferences -&amp;gt; BIM -&amp;gt; NativeIFC -&amp;gt; Disable IfcRectangularProfileDef&lt;/span&gt;.&lt;/p&gt;&lt;p&gt;When that option is checked, all extrusion profiles will be exported as generic IfcArbitraryProfileDef entities, regardless of if they are rectangular or not, which will contain a little less information, but will open correctly in Revit.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When exporting a model to IFC, all BIM objects that are an extrusion of a rectangular profile will use an IfcRectangleProfileDef entity as their extrusion profile. However, Revit won't import these correctly. If you are going to use the IFC file in Revit, we recommend you to disable this behavior by checking the option under menu &lt;span style=" font-weight:600;"&gt;Edit -&amp;gt; Preferences -&amp;gt; BIM -&amp;gt; NativeIFC -&amp;gt; Disable IfcRectangularProfileDef&lt;/span&gt;.&lt;/p&gt;&lt;p&gt;When that option is checked, all extrusion profiles will be exported as generic IfcArbitraryProfileDef entities, regardless of if they are rectangular or not, which will contain a little less information, but will open correctly in Revit.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Apabila mengeksport model ke IFC, semua objek BIM yang merupakan penyemperitan profil segi empat tepat akan menggunakan entiti IfcRectangleProfileDef sebagai profil penyemperitannya. Walau bagaimanapun, Revit tidak akan mengimport ini dengan betul. Jika anda akan menggunakan fail IFC dalam Revit, kami mengesyorkan anda untuk melumpuhkan tingkah laku ini dengan menandai pilihan di bawah menu &lt;span style=" font-weight:600;"&gt;Edit -&amp;gt; Keutamaan -&amp;gt; BIM -&amp;gt; NativeIFC -&amp;gt; Lumpuhkan IfcRectangularProfileDef&lt;/span&gt;.&lt;/p&gt;&lt;p&gt;Apabila pilihan itu ditandakan, semua profil penyemperitan akan dieksport sebagai entiti IfcArbitraryProfileDef generik, tidak kira sama ada ia adalah segi empat tepat atau tidak, yang akan mengandungi sedikit maklumat, tetapi akan buka dengan betul dalam Revit.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="418"/>
       <source>Is IfcRectangleProfileDef export disabled? (Revit only)</source>
-      <translation type="unfinished">Is IfcRectangleProfileDef export disabled? (Revit only)</translation>
+      <translation>Adakah eksport IfcRectangleProfileDef dilumpuhkan? (Revit sahaja)</translation>
     </message>
     <message>
       <location filename="../ui/dialogViews.ui" line="14"/>
       <location filename="../ui/dialogReorder.ui" line="14"/>
       <source>Form</source>
-      <translation type="unfinished">Form</translation>
+      <translation>Borang</translation>
     </message>
     <message>
       <location filename="../ui/dialogReorder.ui" line="20"/>
       <source>Drag items to reorder then press OK to accept</source>
-      <translation type="unfinished">Drag items to reorder then press OK to accept</translation>
+      <translation>Seret item untuk menyusun semula kemudian tekan OK untuk menerima</translation>
     </message>
     <message>
       <location filename="../ui/dialogReorder.ui" line="37"/>
       <source>Order alphabetically</source>
-      <translation type="unfinished">Order alphabetically</translation>
+      <translation>Susun mengikut abjad</translation>
     </message>
     <message>
       <location filename="../ui/dialogTutorial.ui" line="14"/>
       <source>BIM tutorial</source>
-      <translation type="unfinished">BIM tutorial</translation>
+      <translation>Tutorial BIM</translation>
     </message>
     <message>
       <location filename="../ui/dialogTutorial.ui" line="20"/>
@@ -2136,81 +2124,81 @@ p, li { white-space: pre-wrap; }
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;If this is the first time you are using the tutorial, this can take a while, since we need to download many images. On next runs, this will be faster as the images are cached locally.&lt;/p&gt;
 &lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;When the tutorial is fully written, we'll think of a faster system to avoid this annoying loading time. Please bear with us in the meantime! ;)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
+      <translation>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd"&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;style type="text/css"&gt;
-p, li { white-space: pre-wrap; }
+p, li { ruang putih: pra-bungkus; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=" font-family:'Fira Sans'; font-size:9pt; font-weight:400; font-style:normal;"&gt;
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Loading tutorials contents from the FreeCAD wiki. Please wait...&lt;/p&gt;
-&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;If this is the first time you are using the tutorial, this can take a while, since we need to download many images. On next runs, this will be faster as the images are cached locally.&lt;/p&gt;
-&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;When the tutorial is fully written, we'll think of a faster system to avoid this annoying loading time. Please bear with us in the meantime! ;)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Memuatkan kandungan tutorial daripada wiki FreeCAD. Sila tunggu...&lt;/p&gt;
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent :0px;"&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Jika ini kali pertama anda menggunakan tutorial, ini boleh mengambil sedikit masa, kerana kami perlu memuat turun banyak imej. Pada larian seterusnya, ini akan menjadi lebih pantas kerana imej dicache secara setempat.&lt;/p&gt;
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent :0px;"&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;Apabila tutorial ditulis sepenuhnya, kami akan memikirkan sistem yang lebih pantas untuk mengelakkan masa memuatkan yang menjengkelkan ini. Sila bersabar dengan kami sementara itu! ;)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../ui/dialogTutorial.ui" line="41"/>
       <source>Tasks to complete:</source>
-      <translation type="unfinished">Tasks to complete:</translation>
+      <translation>Tugasan yang perlu diselesaikan:</translation>
     </message>
     <message>
       <location filename="../ui/dialogTutorial.ui" line="50"/>
       <source>Goal1</source>
-      <translation type="unfinished">Goal1</translation>
+      <translation>Matlamat1</translation>
     </message>
     <message>
       <location filename="../ui/dialogTutorial.ui" line="60"/>
       <location filename="../ui/dialogTutorial.ui" line="77"/>
       <source>icon</source>
-      <translation type="unfinished">icon</translation>
+      <translation>ikon</translation>
     </message>
     <message>
       <location filename="../ui/dialogTutorial.ui" line="70"/>
       <source>Goal2</source>
-      <translation type="unfinished">Goal2</translation>
+      <translation>Matlamat2</translation>
     </message>
     <message>
       <location filename="../ui/dialogTutorial.ui" line="91"/>
       <source>&lt;&lt; Previous</source>
-      <translation type="unfinished">&lt;&lt; Previous</translation>
+      <translation>&lt;&lt; Sebelumnya</translation>
     </message>
     <message>
       <location filename="../ui/dialogTutorial.ui" line="98"/>
       <source>Next &gt;&gt;</source>
-      <translation type="unfinished">Next &gt;&gt;</translation>
+      <translation>Seterusnya &gt;&gt;</translation>
     </message>
     <message>
       <location filename="../ui/dialogViews.ui" line="64"/>
       <source>Element</source>
-      <translation type="unfinished">Element</translation>
+      <translation>Elemen</translation>
     </message>
     <message>
       <location filename="../ui/dialogViews.ui" line="69"/>
       <source>Level</source>
-      <translation type="unfinished">Level</translation>
+      <translation>Tahap</translation>
     </message>
     <message>
       <location filename="../ui/dialogViews.ui" line="79"/>
       <source>2D Views</source>
-      <translation type="unfinished">2D Views</translation>
+      <translation>Pandangan 2D</translation>
     </message>
     <message>
       <location filename="../ui/dialogWindows.ui" line="14"/>
       <source>Doors and windows</source>
-      <translation type="unfinished">Doors and windows</translation>
+      <translation>Pintu dan tingkap</translation>
     </message>
     <message>
       <location filename="../ui/dialogWindows.ui" line="20"/>
       <source>This screen lists all the windows of the current document. You can modify them individually or together</source>
-      <translation type="unfinished">This screen lists all the windows of the current document. You can modify them individually or together</translation>
+      <translation>Skrin ini menyenaraikan semua tetingkap dokumen semasa. Anda boleh mengubah suainya secara individu atau bersama-sama</translation>
     </message>
     <message>
       <location filename="../ui/dialogWindows.ui" line="32"/>
       <source>Group by:</source>
-      <translation type="unfinished">Group by:</translation>
+      <translation>Kumpulan mengikut:</translation>
     </message>
     <message>
       <location filename="../ui/dialogWindows.ui" line="40"/>
       <source>Do not group</source>
-      <translation type="unfinished">Do not group</translation>
+      <translation>Jangan berkumpul</translation>
     </message>
     <message>
       <location filename="../ui/dialogWindows.ui" line="50"/>
@@ -2227,17 +2215,17 @@ p, li { white-space: pre-wrap; }
       <location filename="../ui/dialogWindows.ui" line="151"/>
       <location filename="../ui/dialogWindows.ui" line="196"/>
       <source>Tag</source>
-      <translation type="unfinished">Tag</translation>
+      <translation>Tag</translation>
     </message>
     <message>
       <location filename="../ui/dialogWindows.ui" line="97"/>
       <source>Total number of doors:</source>
-      <translation type="unfinished">Total number of doors:</translation>
+      <translation>Jumlah bilangan pintu:</translation>
     </message>
     <message>
       <location filename="../ui/dialogWindows.ui" line="104"/>
       <source>Total number of windows:</source>
-      <translation type="unfinished">Total number of windows:</translation>
+      <translation>Jumlah bilangan tingkap:</translation>
     </message>
     <message>
       <location filename="../ui/dialogWindows.ui" line="111"/>
@@ -2269,12 +2257,12 @@ p, li { white-space: pre-wrap; }
     <message>
       <location filename="../ui/dialogWindows.ui" line="233"/>
       <source>Spaces</source>
-      <translation type="unfinished">Spaces</translation>
+      <translation>Ruang</translation>
     </message>
     <message>
       <location filename="../ui/preferencesNativeIFC.ui" line="14"/>
       <source>NativeIFC</source>
-      <translation type="unfinished">NativeIFC</translation>
+      <translation>NativeIFC</translation>
     </message>
     <message>
       <location filename="../ui/preferencesNativeIFC.ui" line="20"/>
@@ -2314,12 +2302,12 @@ p, li { white-space: pre-wrap; }
     <message>
       <location filename="../ui/preferencesNativeIFC.ui" line="70"/>
       <source>The type of object created at import. Coin only is much faster, but you don't get the full shape information. You can convert between the two anytime by right-clicking the object tree</source>
-      <translation type="unfinished">The type of object created at import. Coin only is much faster, but you don't get the full shape information. You can convert between the two anytime by right-clicking the object tree</translation>
+      <translation>Jenis objek yang dicipta semasa import. Syiling sahaja adalah lebih pantas, tetapi anda tidak mendapat maklumat bentuk penuh. Anda boleh menukar antara keduanya pada bila-bila masa dengan mengklik kanan pada pokok objek</translation>
     </message>
     <message>
       <location filename="../ui/preferencesNativeIFC.ui" line="83"/>
       <source>Load full shape (slower)</source>
-      <translation type="unfinished">Load full shape (slower)</translation>
+      <translation>Muatkan bentuk penuh (lebih perlahan)</translation>
     </message>
     <message>
       <location filename="../ui/preferencesNativeIFC.ui" line="88"/>
@@ -2334,17 +2322,17 @@ p, li { white-space: pre-wrap; }
     <message>
       <location filename="../ui/preferencesNativeIFC.ui" line="103"/>
       <source>If this is checked, the BIM workbench will be loaded after import</source>
-      <translation type="unfinished">If this is checked, the BIM workbench will be loaded after import</translation>
+      <translation>Jika ini disemak, meja kerja BIM akan dimuatkan selepas import</translation>
     </message>
     <message>
       <location filename="../ui/preferencesNativeIFC.ui" line="106"/>
       <source>Switch to BIM workbench after import</source>
-      <translation type="unfinished">Switch to BIM workbench after import</translation>
+      <translation>Beralih ke meja kerja BIM selepas import</translation>
     </message>
     <message>
       <location filename="../ui/preferencesNativeIFC.ui" line="119"/>
       <source>Load all property sets automatically when opening an IFC file</source>
-      <translation type="unfinished">Load all property sets automatically when opening an IFC file</translation>
+      <translation>Muatkan semua set harta secara automatik apabila membuka fail IFC</translation>
     </message>
     <message>
       <location filename="../ui/preferencesNativeIFC.ui" line="122"/>
@@ -2354,7 +2342,7 @@ p, li { white-space: pre-wrap; }
     <message>
       <location filename="../ui/preferencesNativeIFC.ui" line="135"/>
       <source>Load all materials automatically when opening an IFC file</source>
-      <translation type="unfinished">Load all materials automatically when opening an IFC file</translation>
+      <translation>Muatkan semua set harta secara automatik apabila membuka fail IFC</translation>
     </message>
     <message>
       <location filename="../ui/preferencesNativeIFC.ui" line="138"/>
@@ -2364,7 +2352,7 @@ p, li { white-space: pre-wrap; }
     <message>
       <location filename="../ui/preferencesNativeIFC.ui" line="151"/>
       <source>Load all layers automatically when opening an IFC file</source>
-      <translation type="unfinished">Load all layers automatically when opening an IFC file</translation>
+      <translation>Muatkan semua set harta secara automatik apabila membuka fail IFC</translation>
     </message>
     <message>
       <location filename="../ui/preferencesNativeIFC.ui" line="154"/>
@@ -2374,42 +2362,42 @@ p, li { white-space: pre-wrap; }
     <message>
       <location filename="../ui/preferencesNativeIFC.ui" line="167"/>
       <source>When enabling this, the original version of objects dropped onto an IFC project tree will not be deleted.</source>
-      <translation type="unfinished">When enabling this, the original version of objects dropped onto an IFC project tree will not be deleted.</translation>
+      <translation>Apabila mendayakan ini, versi asal objek yang digugurkan pada pokok projek IFC tidak akan dipadamkan.</translation>
     </message>
     <message>
       <location filename="../ui/preferencesNativeIFC.ui" line="170"/>
       <source>Keep original version of aggregated objects</source>
-      <translation type="unfinished">Keep original version of aggregated objects</translation>
+      <translation>Simpan versi asal objek agregat</translation>
     </message>
     <message>
       <location filename="../ui/preferencesNativeIFC.ui" line="183"/>
       <source>If this is checked, a dialog will be shown at each import</source>
-      <translation type="unfinished">If this is checked, a dialog will be shown at each import</translation>
+      <translation>Jika ini ditandakan, dialog akan ditunjukkan pada setiap import</translation>
     </message>
     <message>
       <location filename="../ui/preferencesNativeIFC.ui" line="186"/>
       <source>Show options dialog when importing</source>
-      <translation type="unfinished">Show options dialog when importing</translation>
+      <translation>Tunjukkan dialog pilihan semasa mengimport</translation>
     </message>
     <message>
       <location filename="../ui/preferencesNativeIFC.ui" line="205"/>
       <source>Export</source>
-      <translation type="unfinished">Export</translation>
+      <translation>Eksport</translation>
     </message>
     <message>
       <location filename="../ui/preferencesNativeIFC.ui" line="211"/>
       <source>Show warning when saving</source>
-      <translation type="unfinished">Show warning when saving</translation>
+      <translation>Tunjukkan amaran semasa menyimpan</translation>
     </message>
     <message>
       <location filename="../ui/preferencesNativeIFC.ui" line="230"/>
       <source>New document</source>
-      <translation type="unfinished">New document</translation>
+      <translation>Dokumen baru</translation>
     </message>
     <message>
       <location filename="../ui/preferencesNativeIFC.ui" line="236"/>
       <source>Always lock new documents</source>
-      <translation type="unfinished">Always lock new documents</translation>
+      <translation>Sentiasa kunci dokumen baharu</translation>
     </message>
     <message>
       <location filename="../ui/preferencesNativeIFC.ui" line="249"/>
@@ -2420,22 +2408,22 @@ p, li { white-space: pre-wrap; }
     <message>
       <location filename="../ui/preferencesNativeIFC.ui" line="268"/>
       <source>New project</source>
-      <translation type="unfinished">New project</translation>
+      <translation>Projek baru</translation>
     </message>
     <message>
       <location filename="../ui/preferencesNativeIFC.ui" line="274"/>
       <source>If this is checked, when creating a new projects, a default structure (site, building and storey) will be added under the project</source>
-      <translation type="unfinished">If this is checked, when creating a new projects, a default structure (site, building and storey) will be added under the project</translation>
+      <translation>Jika ini disemak, semasa membuat projek baharu, struktur lalai (tapak, bangunan dan tingkat) akan ditambah di bawah projek</translation>
     </message>
     <message>
       <location filename="../ui/preferencesNativeIFC.ui" line="277"/>
       <source>Create a default structure</source>
-      <translation type="unfinished">Create a default structure</translation>
+      <translation>Buat struktur lalai</translation>
     </message>
     <message>
       <location filename="../ui/preferencesNativeIFC.ui" line="290"/>
       <source>Check this to ask the above question every time a project is created</source>
-      <translation type="unfinished">Check this to ask the above question every time a project is created</translation>
+      <translation>Semakan ini untuk bertanya soalan di atas setiap kali projek dibuat</translation>
     </message>
   </context>
   <context>
@@ -2646,27 +2634,27 @@ kepada unjuran objek tersembunyi.</translation>
       <location filename="../ui/preferences-arch.ui" line="486"/>
       <source>Scaling factor for patterns used by objects that have
 a Footprint display mode</source>
-      <translation type="unfinished">Scaling factor for patterns used by objects that have
-a Footprint display mode</translation>
+      <translation>Faktor skala untuk corak yang digunakan oleh objek yang mempunyai
+mod paparan Jejak</translation>
     </message>
     <message>
       <location filename="../ui/preferences-arch.ui" line="515"/>
       <source>BIM server</source>
-      <translation type="unfinished">BIM server</translation>
+      <translation>Pelayan BIM</translation>
     </message>
     <message>
       <location filename="../ui/preferences-arch.ui" line="528"/>
       <source>The URL of a BIM server instance (www.bimserver.org) to connect to.</source>
-      <translation type="unfinished">The URL of a BIM server instance (www.bimserver.org) to connect to.</translation>
+      <translation>URL contoh pelayan bim (www.bimserver.org) untuk disambungkan.</translation>
     </message>
     <message>
       <location filename="../ui/preferences-arch.ui" line="544"/>
       <source>If this is selected, the "Open BIM Server in browser"
 button will open the BIM Server interface in an external browser
 instead of the FreeCAD web workbench</source>
-      <translation type="unfinished">If this is selected, the "Open BIM Server in browser"
-button will open the BIM Server interface in an external browser
-instead of the FreeCAD web workbench</translation>
+      <translation>Jika ini dipilih, "Buka Pelayan BIM dalam penyemak imbas"
+butang akan membuka antara muka Pelayan BIM dalam pelayar luaran
+bukannya meja kerja web FreeCAD</translation>
     </message>
     <message>
       <location filename="../ui/preferences-arch.ui" line="521"/>
@@ -2812,37 +2800,37 @@ instead of the FreeCAD web workbench</translation>
     <message>
       <location filename="../ui/preferences-archdefaults.ui" line="525"/>
       <source>When clicking a view or level in the BIM views manager, this switches the background to plain color when activating a 2D view, and to gradient color when activating a level</source>
-      <translation type="unfinished">When clicking a view or level in the BIM views manager, this switches the background to plain color when activating a 2D view, and to gradient color when activating a level</translation>
+      <translation>Apabila mengklik paparan atau tahap dalam pengurus paparan BIM, ini menukar latar belakang kepada warna biasa apabila mengaktifkan paparan 2D dan kepada warna kecerunan apabila mengaktifkan tahap</translation>
     </message>
     <message>
       <location filename="../ui/preferences-archdefaults.ui" line="528"/>
       <source>Switch backgrounds</source>
-      <translation type="unfinished">Switch backgrounds</translation>
+      <translation>Tukar latar belakang</translation>
     </message>
     <message>
       <location filename="../ui/preferences-archdefaults.ui" line="314"/>
       <source>Rebar offset</source>
-      <translation type="unfinished">Rebar offset</translation>
+      <translation>Rebar offset</translation>
     </message>
     <message>
       <location filename="../ui/preferences-archdefaults.ui" line="337"/>
       <source>Stair length</source>
-      <translation type="unfinished">Stair length</translation>
+      <translation>Panjang tangga</translation>
     </message>
     <message>
       <location filename="../ui/preferences-archdefaults.ui" line="518"/>
       <source>Stair width</source>
-      <translation type="unfinished">Stair width</translation>
+      <translation>Lebar tangga</translation>
     </message>
     <message>
       <location filename="../ui/preferences-archdefaults.ui" line="473"/>
       <source>Stair height</source>
-      <translation type="unfinished">Stair height</translation>
+      <translation>Ketinggian tangga</translation>
     </message>
     <message>
       <location filename="../ui/preferences-archdefaults.ui" line="446"/>
       <source>Number of stair steps</source>
-      <translation type="unfinished">Number of stair steps</translation>
+      <translation>Bilangan anak tangga</translation>
     </message>
     <message>
       <location filename="../ui/preferences-ifc.ui" line="14"/>
@@ -2852,7 +2840,7 @@ instead of the FreeCAD web workbench</translation>
     <message>
       <location filename="../ui/preferences-sh3d-import.ui" line="14"/>
       <source>SH3D import</source>
-      <translation type="unfinished">SH3D import</translation>
+      <translation>Import SH3D</translation>
     </message>
     <message>
       <location filename="../ui/preferences-sh3d-import.ui" line="32"/>
@@ -2864,121 +2852,120 @@ instead of the FreeCAD web workbench</translation>
       <location filename="../ui/preferences-sh3d-import.ui" line="45"/>
       <source>Shows verbose debug messages during import of SH3D files in the Report
                     view panel. Log level message must be allowed for this setting to have an effect.</source>
-      <translation type="unfinished">Shows verbose debug messages during import of SH3D files in the Report
-                    view panel. Log level message must be allowed for this setting to have an effect.</translation>
+      <translation>Menunjukkan mesej nyahpepijat verbose semasa mengimport fail SH3D dalam Laporan
+                panel pandangan. Mesej peringkat log mesti dibenarkan untuk tetapan ini mempunyai kesan.</translation>
     </message>
     <message>
       <location filename="../ui/preferences-sh3d-import.ui" line="71"/>
       <source>Whether to import the model's doors and windows</source>
-      <translation type="unfinished">Whether to import the model's doors and windows</translation>
+      <translation>Sama ada untuk mengimport pintu dan tingkap model</translation>
     </message>
     <message>
       <location filename="../ui/preferences-sh3d-import.ui" line="74"/>
       <source>Doors and Windows</source>
-      <translation type="unfinished">Doors and Windows</translation>
+      <translation>Pintu dan tingkap</translation>
     </message>
     <message>
       <location filename="../ui/preferences-sh3d-import.ui" line="87"/>
       <source>Whether to import the model's furnitures</source>
-      <translation type="unfinished">Whether to import the model's furnitures</translation>
+      <translation>Sama ada untuk mengimport perabot model</translation>
     </message>
     <message>
       <location filename="../ui/preferences-sh3d-import.ui" line="90"/>
       <source>Furnitures</source>
-      <translation type="unfinished">Furnitures</translation>
+      <translation>Perabot</translation>
     </message>
     <message>
       <location filename="../ui/preferences-sh3d-import.ui" line="103"/>
       <source>Whether to create Arch::Equipment for each furniture defined in the model (NOTE: this can negatively impact the import process speed)</source>
-      <translation type="unfinished">Whether to create Arch::Equipment for each furniture defined in the model (NOTE: this can negatively impact the import process speed)</translation>
+      <translation>Sama ada hendak mencipta Arch::Equipment untuk setiap perabot yang ditakrifkan dalam model (NOTA: ini boleh memberi kesan negatif kepada kelajuan proses import)</translation>
     </message>
     <message>
       <location filename="../ui/preferences-sh3d-import.ui" line="106"/>
       <source>Create Arch::Equipment</source>
-      <translation type="unfinished">Create Arch::Equipment</translation>
+      <translation>Cipta Arch::Peralatan</translation>
     </message>
     <message>
       <location filename="../ui/preferences-sh3d-import.ui" line="119"/>
       <source>Whether to join the different Arch::Wall together</source>
-      <translation type="unfinished">Whether to join the different Arch::Wall together</translation>
+      <translation>Sama ada hendak menyertai Arch::Wall yang berbeza bersama-sama</translation>
     </message>
     <message>
       <location filename="../ui/preferences-sh3d-import.ui" line="122"/>
       <source>Join Arch::Wall</source>
-      <translation type="unfinished">Join Arch::Wall</translation>
+      <translation>Sertai Arch::Wall</translation>
     </message>
     <message>
       <location filename="../ui/preferences-sh3d-import.ui" line="135"/>
       <source>Whether to import the model's lights. Note that you also need to import
                     the model's furnitures.</source>
-      <translation type="unfinished">Whether to import the model's lights. Note that you also need to import
-                    the model's furnitures.</translation>
+      <translation>Sama ada hendak mengimport lampu model. Ambil perhatian bahawa anda juga perlu mengimport                     perabot model.</translation>
     </message>
     <message>
       <location filename="../ui/preferences-sh3d-import.ui" line="139"/>
       <source>Lights (requires Render)</source>
-      <translation type="unfinished">Lights (requires Render)</translation>
+      <translation>Lampu (memerlukan Render)</translation>
     </message>
     <message>
       <location filename="../ui/preferences-sh3d-import.ui" line="152"/>
       <source>Whether to import the model's cameras</source>
-      <translation type="unfinished">Whether to import the model's cameras</translation>
+      <translation>Sama ada hendak mengimport kamera model</translation>
     </message>
     <message>
       <location filename="../ui/preferences-sh3d-import.ui" line="155"/>
       <source>Cameras (requires Render)</source>
-      <translation type="unfinished">Cameras (requires Render)</translation>
+      <translation>Kamera (memerlukan Render)</translation>
     </message>
     <message>
       <location filename="../ui/preferences-sh3d-import.ui" line="168"/>
       <source>Merge imported element with existing FC object</source>
-      <translation type="unfinished">Merge imported element with existing FC object</translation>
+      <translation>Gabungkan elemen yang diimport dengan objek FC sedia ada</translation>
     </message>
     <message>
       <location filename="../ui/preferences-sh3d-import.ui" line="171"/>
       <source>Merge into existing document</source>
-      <translation type="unfinished">Merge into existing document</translation>
+      <translation>Bercantum ke dalam dokumen sedia ada</translation>
     </message>
     <message>
       <location filename="../ui/preferences-sh3d-import.ui" line="186"/>
       <source>Default Floor Color</source>
-      <translation type="unfinished">Default Floor Color</translation>
+      <translation>Warna Lantai kosong</translation>
     </message>
     <message>
       <location filename="../ui/preferences-sh3d-import.ui" line="202"/>
       <location filename="../ui/preferences-sh3d-import.ui" line="242"/>
       <source>This color might be used when a room does not define its own color.</source>
-      <translation type="unfinished">This color might be used when a room does not define its own color.</translation>
+      <translation>Warna ini mungkin digunakan apabila bilik tidak menentukan warnanya sendiri.</translation>
     </message>
     <message>
       <location filename="../ui/preferences-sh3d-import.ui" line="226"/>
       <source>Default Ceiling Color</source>
-      <translation type="unfinished">Default Ceiling Color</translation>
+      <translation>Warna Siling kosong</translation>
     </message>
     <message>
       <location filename="../ui/preferences-sh3d-import.ui" line="264"/>
       <source>Create a default Render project with the newly created Site</source>
-      <translation type="unfinished">Create a default Render project with the newly created Site</translation>
+      <translation>Buat projek Render kosong dengan Tapak yang baru dibuat</translation>
     </message>
     <message>
       <location filename="../ui/preferences-sh3d-import.ui" line="267"/>
       <source>Create Render Project (requires Render)</source>
-      <translation type="unfinished">Create Render Project (requires Render)</translation>
+      <translation>Buat Projek Render (memerlukan Render)</translation>
     </message>
     <message>
       <location filename="../ui/preferences-sh3d-import.ui" line="280"/>
       <source>Fit view while importing.</source>
-      <translation type="unfinished">Fit view while importing.</translation>
+      <translation>Muatkan paparan semasa mengimport.</translation>
     </message>
     <message>
       <location filename="../ui/preferences-sh3d-import.ui" line="296"/>
       <source>Create a default IFC project with the newly created Site.</source>
-      <translation type="unfinished">Create a default IFC project with the newly created Site.</translation>
+      <translation>Cipta projek IFC kosong dengan Tapak yang baru dibuat.</translation>
     </message>
     <message>
       <location filename="../ui/preferences-sh3d-import.ui" line="299"/>
       <source>Create IFC Project</source>
-      <translation type="unfinished">Create IFC Project</translation>
+      <translation>Buat Projek IFC</translation>
     </message>
     <message>
       <location filename="../ui/preferences-ifc.ui" line="45"/>
@@ -3050,13 +3037,13 @@ jika anda mula mengalami ranap sistem apabila anda menetapkan berbilang teras.</
     <message>
       <location filename="../ui/preferences-ifc.ui" line="173"/>
       <source>Parametric BIM objects</source>
-      <translation type="unfinished">Parametric BIM objects</translation>
+      <translation>Objek BIM parametrik</translation>
     </message>
     <message>
       <location filename="../ui/preferences-ifc.ui" line="178"/>
       <location filename="../ui/preferences-ifc.ui" line="222"/>
       <source>Non-parametric BIM objects</source>
-      <translation type="unfinished">Non-parametric BIM objects</translation>
+      <translation>Objek BIM bukan parametrik</translation>
     </message>
     <message>
       <location filename="../ui/preferences-ifc.ui" line="183"/>
@@ -3282,7 +3269,7 @@ Jika menggunakan Netgen, pastikan ia tersedia.</translation>
     <message>
       <location filename="../ui/preferences-dae.ui" line="108"/>
       <source>Builtin and Mefisto mesher options</source>
-      <translation type="unfinished">Builtin and Mefisto mesher options</translation>
+      <translation>Pilihan Binaan dan Mephisto Mesher</translation>
     </message>
     <message>
       <location filename="../ui/preferences-dae.ui" line="116"/>
@@ -3532,23 +3519,23 @@ Jika ini adalah kes anda, anda boleh melumpuhkan ini dan kemudian semua profil a
       <location filename="../ui/preferences-ifc-export.ui" line="268"/>
       <source>Some IFC types such as IfcWall or IfcBeam have special standard versions like IfcWallStandardCase or IfcBeamStandardCase. If this option is turned on, FreeCAD will automatically export such objects
 as standard cases when the necessary conditions are met.</source>
-      <translation type="unfinished">Some IFC types such as IfcWall or IfcBeam have special standard versions like IfcWallStandardCase or IfcBeamStandardCase. If this option is turned on, FreeCAD will automatically export such objects
-as standard cases when the necessary conditions are met.</translation>
+      <translation>Sesetengah jenis IFC seperti IfcWall atau IfcBeam mempunyai versi standard khas seperti IfcWallStandardCase atau IfcBeamStandardCase. Jika pilihan ini dihidupkan, FreeCAD akan mengeksport objek tersebut secara automatik
+sebagai kes standard apabila syarat yang diperlukan dipenuhi.</translation>
     </message>
     <message>
       <location filename="../ui/preferences-ifc-export.ui" line="387"/>
       <source>Add default building if one is not found in the document</source>
-      <translation type="unfinished">Add default building if one is not found in the document</translation>
+      <translation>Tambahkan bangunan kosong jika tidak ditemui dalam dokumen</translation>
     </message>
     <message>
       <location filename="../ui/preferences-ifc-export.ui" line="403"/>
       <source>In FreeCAD, it is possible to nest groups inside buildings or storeys. If this option is disabled, FreeCAD groups will be saved as IfcGroups and aggregated to the building structure. Aggregating non-building elements such as IfcGroups is however not recommended by the IFC standards. It is therefore also possible to export these groups as IfcElementAssemblies, which produces an IFC-compliant file. However, at FreeCAD, we believe nesting groups inside structures should be possible, and this option is there to have a chance to demonstrate our point of view.</source>
-      <translation type="unfinished">In FreeCAD, it is possible to nest groups inside buildings or storeys. If this option is disabled, FreeCAD groups will be saved as IfcGroups and aggregated to the building structure. Aggregating non-building elements such as IfcGroups is however not recommended by the IFC standards. It is therefore also possible to export these groups as IfcElementAssemblies, which produces an IFC-compliant file. However, at FreeCAD, we believe nesting groups inside structures should be possible, and this option is there to have a chance to demonstrate our point of view.</translation>
+      <translation>Dalam FreeCAD, adalah mungkin untuk membuat sarang kumpulan di dalam bangunan atau tingkat. Jika pilihan ini dilumpuhkan, kumpulan FreeCAD akan disimpan sebagai IfcGroups dan diagregatkan kepada struktur bangunan. Mengagregatkan elemen bukan binaan seperti IfcGroups bagaimanapun tidak disyorkan oleh piawaian IFC. Oleh itu, adalah mungkin untuk mengeksport kumpulan ini sebagai IfcElementAssemblies, yang menghasilkan fail yang mematuhi IFC. Walau bagaimanapun, di FreeCAD, kami percaya kumpulan bersarang di dalam struktur sepatutnya boleh dilakukan, dan pilihan ini ada untuk mempunyai peluang untuk menunjukkan pandangan kami.</translation>
     </message>
     <message>
       <location filename="../ui/preferences-ifc-export.ui" line="406"/>
       <source>Export nested groups as assemblies</source>
-      <translation type="unfinished">Export nested groups as assemblies</translation>
+      <translation>Eksport kumpulan bersarang sebagai perhimpunan</translation>
     </message>
     <message>
       <location filename="../ui/preferences-ifc-export.ui" line="272"/>
@@ -3571,12 +3558,12 @@ Tapak tidak wajib tetapi amalan biasa ialah mempunyai sekurang-kurangnya satu da
       <location filename="../ui/preferences-ifc-export.ui" line="366"/>
       <location filename="../ui/preferences-ifc.ui" line="473"/>
       <source>Check also NativeIFC-specific preferences under BIM -&gt; NativeIFC</source>
-      <translation type="unfinished">Check also NativeIFC-specific preferences under BIM -&gt; NativeIFC</translation>
+      <translation>Semak juga keutamaan khusus NativeIFC di bawah BIM -&gt; NativeIFC</translation>
     </message>
     <message>
       <location filename="../ui/preferences-ifc-export.ui" line="376"/>
       <source>IFC standard compliance</source>
-      <translation type="unfinished">IFC standard compliance</translation>
+      <translation>Pematuhan standard IFC</translation>
     </message>
     <message>
       <location filename="../ui/preferences-ifc-export.ui" line="382"/>
@@ -3739,17 +3726,17 @@ unit to work with when opening the file.</source>
     <message>
       <location filename="../../ArchStructure.py" line="444"/>
       <source>Parameters of the structure</source>
-      <translation type="unfinished">Parameters of the structure</translation>
+      <translation>Parameter struktur</translation>
     </message>
     <message>
       <location filename="../../ArchStructure.py" line="499"/>
       <source>Switch Length/Height</source>
-      <translation type="unfinished">Switch Length/Height</translation>
+      <translation>Suis Panjang/Tinggi</translation>
     </message>
     <message>
       <location filename="../../ArchStructure.py" line="501"/>
       <source>Switch Length/Width</source>
-      <translation type="unfinished">Switch Length/Width</translation>
+      <translation>Suis Panjang/Lebar</translation>
     </message>
     <message>
       <location filename="../../ArchStructure.py" line="505"/>
@@ -4008,32 +3995,32 @@ unit to work with when opening the file.</source>
     <message>
       <location filename="../../bimcommands/BimSite.py" line="55"/>
       <source>Create Site</source>
-      <translation type="unfinished">Create Site</translation>
+      <translation>Buat Tapak</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimRoof.py" line="58"/>
       <location filename="../../bimcommands/BimRoof.py" line="68"/>
       <source>Create Roof</source>
-      <translation type="unfinished">Create Roof</translation>
+      <translation>Buat Atap</translation>
     </message>
     <message>
       <location filename="../../ArchRoof.py" line="730"/>
       <location filename="../../bimcommands/BimRoof.py" line="77"/>
       <source>Unable to create a roof</source>
-      <translation type="unfinished">Unable to create a roof</translation>
+      <translation>Tidak dapat membuat bumbung</translation>
     </message>
     <message>
       <location filename="../../ArchComponent.py" line="1676"/>
       <location filename="../../bimcommands/BimRoof.py" line="79"/>
       <location filename="../../bimcommands/BimSpace.py" line="68"/>
       <source>Please select a base object</source>
-      <translation type="unfinished">Please select a base object</translation>
+      <translation>Sila pilih objek asas</translation>
     </message>
     <message>
       <location filename="../../ArchRoof.py" line="947"/>
       <location filename="../../Arch.py" line="665"/>
       <source>Roof</source>
-      <translation type="unfinished">Roof</translation>
+      <translation>Bumbung</translation>
     </message>
     <message>
       <location filename="../../ArchRoof.py" line="948"/>
@@ -4048,17 +4035,17 @@ unit to work with when opening the file.</source>
 If Angle = 0 and Run = 0 then the profile is identical to the relative profile.
 If Angle = 0 then the angle is calculated so that the height is the same as the relative profile.
 If Run = 0 then the run is calculated so that the height is the same as the relative profile.</source>
-      <translation type="unfinished">Parameters of the roof profiles :
-* Angle : slope in degrees relative to the horizontal.
-* Run : horizontal distance between the wall and the ridge.
-* Thickness : thickness of the roof.
-* Overhang : horizontal distance between the eave and the wall.
-* Height : height of the ridge above the base (calculated automatically).
-* IdRel : Id of the relative profile used for automatic calculations.
+      <translation>Parameter profil bumbung:
+* Sudut : cerun dalam darjah berbanding mendatar.
+* Larian : jarak mendatar antara dinding dan rabung.
+* Ketebalan : ketebalan bumbung.
+* Tergantung : jarak mendatar antara atap dan dinding.
+* Ketinggian : ketinggian rabung di atas tapak (dikira secara automatik).
+* IdRel : Id profil relatif yang digunakan untuk pengiraan automatik.
 ---
-If Angle = 0 and Run = 0 then the profile is identical to the relative profile.
-If Angle = 0 then the angle is calculated so that the height is the same as the relative profile.
-If Run = 0 then the run is calculated so that the height is the same as the relative profile.</translation>
+Jika Angle = 0 dan Run = 0 maka profil adalah sama dengan profil relatif.
+Jika Sudut = 0 maka sudut dikira supaya ketinggian adalah sama dengan profil relatif.
+Jika Run = 0 maka larian dikira supaya ketinggian adalah sama dengan profil relatif.</translation>
     </message>
     <message>
       <location filename="../../ArchRoof.py" line="949"/>
@@ -4068,57 +4055,57 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
     <message>
       <location filename="../../ArchRoof.py" line="950"/>
       <source>Angle (deg)</source>
-      <translation type="unfinished">Angle (deg)</translation>
+      <translation>Sudut (deg)</translation>
     </message>
     <message>
       <location filename="../../ArchRoof.py" line="951"/>
       <source>Run (mm)</source>
-      <translation type="unfinished">Run (mm)</translation>
+      <translation>Jalankan (mm)</translation>
     </message>
     <message>
       <location filename="../../ArchRoof.py" line="952"/>
       <source>IdRel</source>
-      <translation type="unfinished">IdRel</translation>
+      <translation>IdRel</translation>
     </message>
     <message>
       <location filename="../../ArchRoof.py" line="953"/>
       <source>Thickness (mm)</source>
-      <translation type="unfinished">Thickness (mm)</translation>
+      <translation>Ketebalan (mm)</translation>
     </message>
     <message>
       <location filename="../../ArchRoof.py" line="954"/>
       <source>Overhang (mm)</source>
-      <translation type="unfinished">Overhang (mm)</translation>
+      <translation>Tidak terjual (mm)</translation>
     </message>
     <message>
       <location filename="../../ArchRoof.py" line="955"/>
       <source>Height (mm)</source>
-      <translation type="unfinished">Height (mm)</translation>
+      <translation>Ketinggian (mm)</translation>
     </message>
     <message>
       <location filename="../../ArchWindowPresets.py" line="519"/>
       <source>Door</source>
-      <translation type="unfinished">Door</translation>
+      <translation>Pintu</translation>
     </message>
     <message>
       <location filename="../../ArchWindowPresets.py" line="522"/>
       <source>Opening</source>
-      <translation type="unfinished">Opening</translation>
+      <translation>Pembukaan</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimCutPlane.py" line="54"/>
       <source>Select two objects, an object to be cut and an object defining a cutting plane, in that order</source>
-      <translation type="unfinished">Select two objects, an object to be cut and an object defining a cutting plane, in that order</translation>
+      <translation>Pilih dua objek, objek yang akan dipotong dan objek yang menentukan satah pemotongan, dalam susunan itu</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimCutPlane.py" line="57"/>
       <source>The first object does not have a shape</source>
-      <translation type="unfinished">The first object does not have a shape</translation>
+      <translation>Objek pertama tidak mempunyai bentuk</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimCutPlane.py" line="60"/>
       <source>The second object does not define a plane</source>
-      <translation type="unfinished">The second object does not define a plane</translation>
+      <translation>Objek kedua tidak mentakrifkan satah</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimCutPlane.py" line="96"/>
@@ -4128,47 +4115,47 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
     <message>
       <location filename="../../bimcommands/BimCutPlane.py" line="124"/>
       <source>Cut Plane</source>
-      <translation type="unfinished">Cut Plane</translation>
+      <translation>Potong Potong</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimCutPlane.py" line="125"/>
       <source>Cut Plane options</source>
-      <translation type="unfinished">Cut Plane options</translation>
+      <translation>Potong pilihan Plane</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimCutPlane.py" line="126"/>
       <source>Which side to cut</source>
-      <translation type="unfinished">Which side to cut</translation>
+      <translation>Bahagian untuk dibuang</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimCutPlane.py" line="127"/>
       <source>Behind</source>
-      <translation type="unfinished">Behind</translation>
+      <translation>Belakang</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimCutPlane.py" line="127"/>
       <source>Front</source>
-      <translation type="unfinished">Front</translation>
+      <translation>Hadapan</translation>
     </message>
     <message>
       <location filename="../../Arch.py" line="626"/>
       <source>External Reference</source>
-      <translation type="unfinished">External Reference</translation>
+      <translation>Rujukan luar</translation>
     </message>
     <message>
       <location filename="../../ArchReference.py" line="85"/>
       <source>TransientReference property to ReferenceMode</source>
-      <translation type="unfinished">TransientReference property to ReferenceMode</translation>
+      <translation>Harta TransientReference kepada ReferenceMode</translation>
     </message>
     <message>
       <location filename="../../ArchReference.py" line="85"/>
       <source>Upgrading</source>
-      <translation type="unfinished">Upgrading</translation>
+      <translation>Menaik taraf</translation>
     </message>
     <message>
       <location filename="../../ArchReference.py" line="160"/>
       <source>Part not found in file</source>
-      <translation type="unfinished">Part not found in file</translation>
+      <translation>Bahagian tidak ditemui dalam fail</translation>
     </message>
     <message>
       <location filename="../../ArchReference.py" line="181"/>
@@ -4176,33 +4163,33 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
       <location filename="../../ArchReference.py" line="438"/>
       <location filename="../../ArchReference.py" line="839"/>
       <source>NativeIFC not available - unable to process IFC files</source>
-      <translation type="unfinished">NativeIFC not available - unable to process IFC files</translation>
+      <translation>NativeIFC tidak tersedia - tidak dapat memproses fail IFC</translation>
     </message>
     <message>
       <location filename="../../ArchReference.py" line="281"/>
       <source>Error removing splitter</source>
-      <translation type="unfinished">Error removing splitter</translation>
+      <translation>Ralat mengalih keluar pembahagi</translation>
     </message>
     <message>
       <location filename="../../ArchReference.py" line="663"/>
       <source>Reload reference</source>
-      <translation type="unfinished">Reload reference</translation>
+      <translation>Muat semula rujukan</translation>
     </message>
     <message>
       <location filename="../../ArchReference.py" line="671"/>
       <source>Open reference</source>
-      <translation type="unfinished">Open reference</translation>
+      <translation>Rujukan terbuka</translation>
     </message>
     <message>
       <location filename="../../ArchReference.py" line="718"/>
       <source>Unable to get lightWeight node for object referenced in</source>
-      <translation type="unfinished">Unable to get lightWeight node for object referenced in</translation>
+      <translation>Tidak dapat mendapatkan nod LightWeight untuk objek yang dirujuk</translation>
     </message>
     <message>
       <location filename="../../ArchReference.py" line="726"/>
       <location filename="../../ArchReference.py" line="730"/>
       <source>Invalid lightWeight node for object referenced in</source>
-      <translation type="unfinished">Invalid lightWeight node for object referenced in</translation>
+      <translation>Nod LightWeight tidak sah untuk objek yang dirujuk</translation>
     </message>
     <message>
       <location filename="../../ArchReference.py" line="739"/>
@@ -4210,7 +4197,7 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
       <location filename="../../ArchReference.py" line="771"/>
       <location filename="../../ArchReference.py" line="775"/>
       <source>Invalid root node in</source>
-      <translation type="unfinished">Invalid root node in</translation>
+      <translation>Nod akar tidak sah masuk</translation>
     </message>
     <message>
       <location filename="../../ArchReference.py" line="865"/>
@@ -4220,108 +4207,108 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
     <message>
       <location filename="../../ArchReference.py" line="867"/>
       <source>External file</source>
-      <translation type="unfinished">External file</translation>
+      <translation>Fail luaran</translation>
     </message>
     <message>
       <location filename="../../ArchReference.py" line="871"/>
       <source>Open</source>
-      <translation type="unfinished">Open</translation>
+      <translation>Buka</translation>
     </message>
     <message>
       <location filename="../../ArchReference.py" line="878"/>
       <source>Part to use:</source>
-      <translation type="unfinished">Part to use:</translation>
+      <translation>Bahagian untuk digunakan:</translation>
     </message>
     <message>
       <location filename="../../ArchReference.py" line="883"/>
       <source>Choose file...</source>
-      <translation type="unfinished">Choose file...</translation>
+      <translation>Pilih fail...</translation>
     </message>
     <message>
       <location filename="../../ArchReference.py" line="894"/>
       <location filename="../../ArchReference.py" line="958"/>
       <source>None (Use whole object)</source>
-      <translation type="unfinished">None (Use whole object)</translation>
+      <translation>Tiada (Gunakan keseluruhan objek)</translation>
     </message>
     <message>
       <location filename="../../ArchReference.py" line="945"/>
       <source>Reference files</source>
-      <translation type="unfinished">Reference files</translation>
+      <translation>Fail rujukan</translation>
     </message>
     <message>
       <location filename="../../ArchReference.py" line="947"/>
       <source>Choose reference file</source>
-      <translation type="unfinished">Choose reference file</translation>
+      <translation>Pilih fail rujukan</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimReference.py" line="54"/>
       <source>Create external reference</source>
-      <translation type="unfinished">Create external reference</translation>
+      <translation>Buat rujukan luar</translation>
     </message>
     <message>
       <location filename="../../Arch.py" line="291"/>
       <source>Frame</source>
-      <translation type="unfinished">Frame</translation>
+      <translation>Bingkai</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimFrame.py" line="55"/>
       <source>Create Frame</source>
-      <translation type="unfinished">Create Frame</translation>
+      <translation>Cipta Bingkai</translation>
     </message>
     <message>
       <location filename="../../ArchFrame.py" line="182"/>
       <source>Crossing point not found in profile.</source>
-      <translation type="unfinished">Crossing point not found in profile.</translation>
+      <translation>Titik pertembungan tidak dijumpai dalam profil.</translation>
     </message>
     <message>
       <location filename="../../importers/importSHP.py" line="66"/>
       <source>Shapes elevation</source>
-      <translation type="unfinished">Shapes elevation</translation>
+      <translation>Ketinggian bentuk</translation>
     </message>
     <message>
       <location filename="../../importers/importSHP.py" line="67"/>
       <source>Choose which field provides shapes elevations:</source>
-      <translation type="unfinished">Choose which field provides shapes elevations:</translation>
+      <translation>Pilih medan yang menyediakan ketinggian bentuk:</translation>
     </message>
     <message>
       <location filename="../../importers/importSHP.py" line="108"/>
       <source>No shape found in this file</source>
-      <translation type="unfinished">No shape found in this file</translation>
+      <translation>Tiada bentuk ditemui dalam fail ini</translation>
     </message>
     <message>
       <location filename="../../importers/importSHP.py" line="133"/>
       <source>Shapefile module not found</source>
-      <translation type="unfinished">Shapefile module not found</translation>
+      <translation>Modul Shapefile tidak ditemui</translation>
     </message>
     <message>
       <location filename="../../importers/importSHP.py" line="134"/>
       <source>The shapefile Python library was not found on your system. Would you like to download it now from %1? It will be placed in your macros folder.</source>
-      <translation type="unfinished">The shapefile Python library was not found on your system. Would you like to download it now from %1? It will be placed in your macros folder.</translation>
+      <translation>Pustaka Python shapefile tidak ditemui pada sistem anda. Adakah anda mahu memuat turunnya sekarang daripada %1? Ia akan diletakkan dalam folder makro anda.</translation>
     </message>
     <message>
       <location filename="../../importers/importSHP.py" line="140"/>
       <source>Error: Unable to download from %1</source>
-      <translation type="unfinished">Error: Unable to download from %1</translation>
+      <translation>Ralat: Tidak dapat memuat turun daripada %1</translation>
     </message>
     <message>
       <location filename="../../importers/importSHP.py" line="150"/>
       <source>Could not download shapefile module. Aborting.</source>
-      <translation type="unfinished">Could not download shapefile module. Aborting.</translation>
+      <translation>Tidak dapat memuat turun modul shapefile. Menggugurkan kandungan.</translation>
     </message>
     <message>
       <location filename="../../importers/importSHP.py" line="153"/>
       <source>Shapefile module not downloaded. Aborting.</source>
-      <translation type="unfinished">Shapefile module not downloaded. Aborting.</translation>
+      <translation>Modul Shapefile tidak dimuat turun. Menggugurkan kandungan.</translation>
     </message>
     <message>
       <location filename="../../importers/importSHP.py" line="156"/>
       <source>Shapefile module not found. Aborting.</source>
-      <translation type="unfinished">Shapefile module not found. Aborting.</translation>
+      <translation>Modul Shapefile tidak ditemui. Menggugurkan kandungan.</translation>
     </message>
     <message>
       <location filename="../../importers/importSHP.py" line="157"/>
       <source>The shapefile library can be downloaded from the following URL and installed in your macros folder:</source>
-      <translation type="unfinished">The shapefile library can be downloaded from the following URL and installed in your macros folder:</translation>
+      <translation>Pustaka shapefile boleh dimuat turun daripada URL berikut dan dipasang dalam folder makro anda:</translation>
     </message>
     <message>
       <location filename="../../Arch.py" line="1139"/>
@@ -4333,47 +4320,47 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
       <location filename="../../bimcommands/BimWindow.py" line="119"/>
       <location filename="../../bimcommands/BimWindow.py" line="167"/>
       <source>Create Window</source>
-      <translation type="unfinished">Create Window</translation>
+      <translation>Buat Window</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimWindow.py" line="134"/>
       <source>Choose a face on an existing object or select a preset</source>
-      <translation type="unfinished">Choose a face on an existing object or select a preset</translation>
+      <translation>Pilih wajah pada objek sedia ada atau pilih pratetap</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimWindow.py" line="191"/>
       <source>Window not based on sketch. Window not aligned or resized.</source>
-      <translation type="unfinished">Window not based on sketch. Window not aligned or resized.</translation>
+      <translation>Tetingkap tidak berdasarkan lakaran. Tetingkap tidak dijajarkan atau diubah saiznya.</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimWindow.py" line="201"/>
       <source>No Width and/or Height constraint in window sketch. Window not resized.</source>
-      <translation type="unfinished">No Width and/or Height constraint in window sketch. Window not resized.</translation>
+      <translation>Tiada kekangan Lebar dan/atau Ketinggian dalam lakaran tetingkap. Tetingkap tidak diubah saiznya.</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimWindow.py" line="204"/>
       <source>No window found. Cannot continue.</source>
-      <translation type="unfinished">No window found. Cannot continue.</translation>
+      <translation>Tiada tetingkap ditemui. Tidak boleh meneruskan.</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimWindow.py" line="266"/>
       <source>Window options</source>
-      <translation type="unfinished">Window options</translation>
+      <translation>Pilihan tetingkap</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimWindow.py" line="270"/>
       <source>Auto include in host object</source>
-      <translation type="unfinished">Auto include in host object</translation>
+      <translation>Auto masukkan dalam objek hos</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimWindow.py" line="276"/>
       <source>Sill height</source>
-      <translation type="unfinished">Sill height</translation>
+      <translation>Ketinggian ambang</translation>
     </message>
     <message>
       <location filename="../../ArchWindow.py" line="902"/>
       <source>This window has no defined opening</source>
-      <translation type="unfinished">This window has no defined opening</translation>
+      <translation>Tetingkap ini tidak mempunyai pembukaan yang jelas</translation>
     </message>
     <message>
       <location filename="../../ArchWindow.py" line="1179"/>
@@ -4724,27 +4711,27 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
     <message>
       <location filename="../../bimcommands/BimAxis.py" line="109"/>
       <source>Create Grid</source>
-      <translation type="unfinished">Create Grid</translation>
+      <translation>Bina Grid</translation>
     </message>
     <message>
       <location filename="../../ArchGrid.py" line="109"/>
       <source>Auto height is larger than height</source>
-      <translation type="unfinished">Auto height is larger than height</translation>
+      <translation>Nilai lalai tinggi lebih besar dari tinggi</translation>
     </message>
     <message>
       <location filename="../../ArchGrid.py" line="118"/>
       <source>Total row size is larger than height</source>
-      <translation type="unfinished">Total row size is larger than height</translation>
+      <translation>Jumlah saiz baris lebih besar dari tinggi</translation>
     </message>
     <message>
       <location filename="../../ArchGrid.py" line="140"/>
       <source>Auto width is larger than width</source>
-      <translation type="unfinished">Auto width is larger than width</translation>
+      <translation>Nilai kosong lebar lebih besar dari lebar</translation>
     </message>
     <message>
       <location filename="../../ArchGrid.py" line="149"/>
       <source>Total column size is larger than width</source>
-      <translation type="unfinished">Total column size is larger than width</translation>
+      <translation>Jumlah saiz lajur lebih besar dari lebar</translation>
     </message>
     <message>
       <location filename="../../ArchGrid.py" line="387"/>
@@ -4755,12 +4742,12 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
     <message>
       <location filename="../../ArchGrid.py" line="388"/>
       <source>Total width</source>
-      <translation type="unfinished">Total width</translation>
+      <translation>Jumlah lebar</translation>
     </message>
     <message>
       <location filename="../../ArchGrid.py" line="389"/>
       <source>Total height</source>
-      <translation type="unfinished">Total height</translation>
+      <translation>Jumlah tinggi</translation>
     </message>
     <message>
       <location filename="../../ArchGrid.py" line="390"/>
@@ -4775,163 +4762,163 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
     <message>
       <location filename="../../ArchGrid.py" line="392"/>
       <source>Add column</source>
-      <translation type="unfinished">Add column</translation>
+      <translation>Tambah lajur</translation>
     </message>
     <message>
       <location filename="../../ArchGrid.py" line="393"/>
       <source>Del column</source>
-      <translation type="unfinished">Del column</translation>
+      <translation>Lajur del</translation>
     </message>
     <message>
       <location filename="../../ArchGrid.py" line="394"/>
       <source>Create span</source>
-      <translation type="unfinished">Create span</translation>
+      <translation>Cipta rentang</translation>
     </message>
     <message>
       <location filename="../../ArchGrid.py" line="395"/>
       <source>Remove span</source>
-      <translation type="unfinished">Remove span</translation>
+      <translation>Keluarkan rentang</translation>
     </message>
     <message>
       <location filename="../../ArchGrid.py" line="396"/>
       <source>Rows</source>
-      <translation type="unfinished">Rows</translation>
+      <translation>Baris</translation>
     </message>
     <message>
       <location filename="../../ArchGrid.py" line="396"/>
       <source>Columns</source>
-      <translation type="unfinished">Columns</translation>
+      <translation>Lajur</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="1005"/>
       <source>Precast elements</source>
-      <translation type="unfinished">Precast elements</translation>
+      <translation>Unsur pratuang</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="1006"/>
       <source>Slab type</source>
-      <translation type="unfinished">Slab type</translation>
+      <translation>Jenis papak</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="1007"/>
       <source>Chamfer</source>
-      <translation type="unfinished">Chamfer</translation>
+      <translation>Chamfer</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="1008"/>
       <source>Dent length</source>
-      <translation type="unfinished">Dent length</translation>
+      <translation>Panjang kemek</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="1009"/>
       <source>Dent width</source>
-      <translation type="unfinished">Dent width</translation>
+      <translation>Lebar garisan</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="1010"/>
       <source>Dent height</source>
-      <translation type="unfinished">Dent height</translation>
+      <translation>Ketinggian garisan</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="1011"/>
       <source>Slab base</source>
-      <translation type="unfinished">Slab base</translation>
+      <translation>Tapak papak</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="1012"/>
       <source>Number of holes</source>
-      <translation type="unfinished">Number of holes</translation>
+      <translation>Jumlah lubang</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="1013"/>
       <source>Major diameter of holes</source>
-      <translation type="unfinished">Major diameter of holes</translation>
+      <translation>Diameter utama lubang</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="1014"/>
       <source>Minor diameter of holes</source>
-      <translation type="unfinished">Minor diameter of holes</translation>
+      <translation>Diameter utama lubang</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="1015"/>
       <source>Spacing between holes</source>
-      <translation type="unfinished">Spacing between holes</translation>
+      <translation>Jarak antara lubang</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="1016"/>
       <source>Number of grooves</source>
-      <translation type="unfinished">Number of grooves</translation>
+      <translation>Bilangan alur</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="1017"/>
       <source>Depth of grooves</source>
-      <translation type="unfinished">Depth of grooves</translation>
+      <translation>Kedalaman alur</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="1018"/>
       <source>Height of grooves</source>
-      <translation type="unfinished">Height of grooves</translation>
+      <translation>Ketinggian alur</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="1019"/>
       <source>Spacing between grooves</source>
-      <translation type="unfinished">Spacing between grooves</translation>
+      <translation>Jarak antara alur</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="1020"/>
       <source>Number of risers</source>
-      <translation type="unfinished">Number of risers</translation>
+      <translation>Bilangan anak bangun</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="1021"/>
       <source>Length of down floor</source>
-      <translation type="unfinished">Length of down floor</translation>
+      <translation>Panjang lantai bawah</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="1022"/>
       <source>Height of risers</source>
-      <translation type="unfinished">Height of risers</translation>
+      <translation>Ketinggian riser</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="1023"/>
       <source>Depth of treads</source>
-      <translation type="unfinished">Depth of treads</translation>
+      <translation>Kedalaman tapak</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="1408"/>
       <source>Precast options</source>
-      <translation type="unfinished">Precast options</translation>
+      <translation>Pilihan pratuang</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="1409"/>
       <source>Dents list</source>
-      <translation type="unfinished">Dents list</translation>
+      <translation>Senarai Lekuk</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="1410"/>
       <source>Add dent</source>
-      <translation type="unfinished">Add dent</translation>
+      <translation>Tambah Lekuk</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="1411"/>
       <source>Remove dent</source>
-      <translation type="unfinished">Remove dent</translation>
+      <translation>Keluarkan Lekuk</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="1415"/>
       <source>Slant</source>
-      <translation type="unfinished">Slant</translation>
+      <translation>Senget</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="1416"/>
       <location filename="../../Arch.py" line="130"/>
       <source>Level</source>
-      <translation type="unfinished">Level</translation>
+      <translation>Tahap</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="1417"/>
       <source>Rotation</source>
-      <translation type="unfinished">Rotation</translation>
+      <translation>Pusingan</translation>
     </message>
     <message>
       <location filename="../../Arch.py" line="398"/>
@@ -4941,23 +4928,23 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
     <message>
       <location filename="../../Arch.py" line="421"/>
       <source>View of</source>
-      <translation type="unfinished">View of</translation>
+      <translation>Pandangan</translation>
     </message>
     <message>
       <location filename="../../Arch.py" line="437"/>
       <source>PanelSheet</source>
-      <translation type="unfinished">PanelSheet</translation>
+      <translation>Helaian Panel</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimPanel.py" line="80"/>
       <location filename="../../bimcommands/BimPanel.py" line="109"/>
       <source>Create Panel</source>
-      <translation type="unfinished">Create Panel</translation>
+      <translation>Cipta Panel</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimPanel.py" line="134"/>
       <source>Panel options</source>
-      <translation type="unfinished">Panel options</translation>
+      <translation>Pilihan panel</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimPanel.py" line="169"/>
@@ -4967,17 +4954,17 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
     <message>
       <location filename="../../bimcommands/BimPanel.py" line="262"/>
       <source>Create Panel Cut</source>
-      <translation type="unfinished">Create Panel Cut</translation>
+      <translation>Buat Panel Potong</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimPanel.py" line="289"/>
       <source>Create Panel Sheet</source>
-      <translation type="unfinished">Create Panel Sheet</translation>
+      <translation>Buat Lembar Panel</translation>
     </message>
     <message>
       <location filename="../../ArchPanel.py" line="411"/>
       <source>Error computing shape of</source>
-      <translation type="unfinished">Error computing shape of</translation>
+      <translation>Ralat pengiraan bentuk kepada</translation>
     </message>
     <message>
       <location filename="../../ArchPanel.py" line="1067"/>
@@ -4987,23 +4974,23 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
     <message>
       <location filename="../../ArchPanel.py" line="1071"/>
       <source>Edit views positions</source>
-      <translation type="unfinished">Edit views positions</translation>
+      <translation>Edit kedudukan pandangan</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimPanel.py" line="388"/>
       <source>This object has no face</source>
-      <translation type="unfinished">This object has no face</translation>
+      <translation>Objek ini tiada muka</translation>
     </message>
     <message>
       <location filename="../../Arch.py" line="226"/>
       <source>Curtain Wall</source>
-      <translation type="unfinished">Curtain Wall</translation>
+      <translation>Tirai dinding</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimCurtainwall.py" line="60"/>
       <location filename="../../bimcommands/BimCurtainwall.py" line="87"/>
       <source>Create Curtain Wall</source>
-      <translation type="unfinished">Create Curtain Wall</translation>
+      <translation>Buat Dinding Tirai</translation>
     </message>
     <message>
       <location filename="../../Arch.py" line="455"/>
@@ -5095,7 +5082,7 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
     <message>
       <location filename="../../ArchPipe.py" line="389"/>
       <source>Unable to revolve this connector</source>
-      <translation type="unfinished">Unable to revolve this connector</translation>
+      <translation>Tidak dapat memutar penyambung ini</translation>
     </message>
     <message>
       <location filename="../../ArchPipe.py" line="412"/>
@@ -5105,7 +5092,7 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
     <message>
       <location filename="../../ArchSchedule.py" line="102"/>
       <source>renamed property 'Description' to 'Operation'</source>
-      <translation type="unfinished">renamed property 'Description' to 'Operation'</translation>
+      <translation>menamakan semula harta 'Penerangan' kepada 'Operasi'</translation>
     </message>
     <message>
       <location filename="../../ArchSchedule.py" line="103"/>
@@ -5146,7 +5133,7 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
       <location filename="../../ArchSchedule.py" line="847"/>
       <location filename="../../ArchSchedule.py" line="865"/>
       <source>Operation</source>
-      <translation type="unfinished">Operation</translation>
+      <translation>Operasi</translation>
     </message>
     <message>
       <location filename="../../ArchCommands.py" line="1127"/>
@@ -5290,7 +5277,7 @@ Cipta Lantai dibatalkan.</translation>
     <message>
       <location filename="../../ArchComponent.py" line="1164"/>
       <source>Wrong base type</source>
-      <translation type="unfinished">Wrong base type</translation>
+      <translation>Jenis asas yang salah</translation>
     </message>
     <message>
       <location filename="../../ArchComponent.py" line="1653"/>
@@ -5346,28 +5333,28 @@ Cipta Lantai dibatalkan.</translation>
     <message>
       <location filename="../../ArchComponent.py" line="1974"/>
       <source>Edit IFC properties</source>
-      <translation type="unfinished">Edit IFC properties</translation>
+      <translation>Ubah pencirian IFC</translation>
     </message>
     <message>
       <location filename="../../ArchComponent.py" line="1975"/>
       <source>Edit standard code</source>
-      <translation type="unfinished">Edit standard code</translation>
+      <translation>Ubah kod piawai</translation>
     </message>
     <message>
       <location filename="../../ArchComponent.py" line="2024"/>
       <location filename="../../bimcommands/BimIfcProperties.py" line="473"/>
       <source>Property</source>
-      <translation type="unfinished">Property</translation>
+      <translation>Sifat</translation>
     </message>
     <message>
       <location filename="../../ArchComponent.py" line="2029"/>
       <source>Add property...</source>
-      <translation type="unfinished">Add property...</translation>
+      <translation>Tambah pencirian...</translation>
     </message>
     <message>
       <location filename="../../ArchComponent.py" line="2030"/>
       <source>Add property set...</source>
-      <translation type="unfinished">Add property set...</translation>
+      <translation>Tambah set pencirian...</translation>
     </message>
     <message>
       <location filename="../../ArchComponent.py" line="2031"/>
@@ -5378,54 +5365,54 @@ Cipta Lantai dibatalkan.</translation>
       <location filename="../../ArchComponent.py" line="2169"/>
       <location filename="../../bimcommands/BimIfcProperties.py" line="645"/>
       <source>New property</source>
-      <translation type="unfinished">New property</translation>
+      <translation>Pencirian baru</translation>
     </message>
     <message>
       <location filename="../../ArchComponent.py" line="2204"/>
       <location filename="../../bimcommands/BimIfcProperties.py" line="694"/>
       <source>New property set</source>
-      <translation type="unfinished">New property set</translation>
+      <translation>Set pencirian baru</translation>
     </message>
     <message>
       <location filename="../../Arch.py" line="577"/>
       <source>Rebar</source>
-      <translation type="unfinished">Rebar</translation>
+      <translation>Rebar</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimRebar.py" line="64"/>
       <location filename="../../bimcommands/BimRebar.py" line="85"/>
       <source>Create Rebar</source>
-      <translation type="unfinished">Create Rebar</translation>
+      <translation>Cipta Rebar</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimRebar.py" line="92"/>
       <source>Please select a base face on a structural object</source>
-      <translation type="unfinished">Please select a base face on a structural object</translation>
+      <translation>Sila pilih muka asas pada objek struktur</translation>
     </message>
     <message>
       <location filename="../../Arch.py" line="726"/>
       <source>Section</source>
-      <translation type="unfinished">Section</translation>
+      <translation>Bahagian</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimSectionPlane.py" line="60"/>
       <source>Create Section Plane</source>
-      <translation type="unfinished">Create Section Plane</translation>
+      <translation>Buat Bahagian Plane</translation>
     </message>
     <message>
       <location filename="../../ArchSectionPlane.py" line="1157"/>
       <source>Toggle Cutview</source>
-      <translation type="unfinished">Toggle Cutview</translation>
+      <translation>Togol Cutview</translation>
     </message>
     <message>
       <location filename="../../ArchSectionPlane.py" line="1334"/>
       <source>Section plane settings</source>
-      <translation type="unfinished">Section plane settings</translation>
+      <translation>Tetapan satah bahagian</translation>
     </message>
     <message>
       <location filename="../../ArchSectionPlane.py" line="1336"/>
       <source>Remove highlighted objects from the list above</source>
-      <translation type="unfinished">Remove highlighted objects from the list above</translation>
+      <translation>Alih keluar objek yang diserlahkan daripada senarai di atas</translation>
     </message>
     <message>
       <location filename="../../ArchSectionPlane.py" line="1337"/>
@@ -5435,57 +5422,57 @@ Cipta Lantai dibatalkan.</translation>
     <message>
       <location filename="../../ArchSectionPlane.py" line="1338"/>
       <source>Add selected object(s) to the scope of this section plane</source>
-      <translation type="unfinished">Add selected object(s) to the scope of this section plane</translation>
+      <translation>Tambahkan objek(s) yang dipilih pada skop satah bahagian ini</translation>
     </message>
     <message>
       <location filename="../../ArchSectionPlane.py" line="1339"/>
       <source>Objects seen by this section plane:</source>
-      <translation type="unfinished">Objects seen by this section plane:</translation>
+      <translation>Objek yang dilihat oleh pesawat seksyen ini:</translation>
     </message>
     <message>
       <location filename="../../ArchSectionPlane.py" line="1340"/>
       <source>Section plane placement:</source>
-      <translation type="unfinished">Section plane placement:</translation>
+      <translation>Penempatan satah bahagian:</translation>
     </message>
     <message>
       <location filename="../../ArchSectionPlane.py" line="1341"/>
       <source>Rotate X</source>
-      <translation type="unfinished">Rotate X</translation>
+      <translation>Putar X</translation>
     </message>
     <message>
       <location filename="../../ArchSectionPlane.py" line="1342"/>
       <source>Rotates the plane along the X axis</source>
-      <translation type="unfinished">Rotates the plane along the X axis</translation>
+      <translation>Memutar satah sepanjang paksi X</translation>
     </message>
     <message>
       <location filename="../../ArchSectionPlane.py" line="1343"/>
       <source>Rotate Y</source>
-      <translation type="unfinished">Rotate Y</translation>
+      <translation>Putar Y</translation>
     </message>
     <message>
       <location filename="../../ArchSectionPlane.py" line="1344"/>
       <source>Rotates the plane along the Y axis</source>
-      <translation type="unfinished">Rotates the plane along the Y axis</translation>
+      <translation>Putar satah sepanjang paksi Y</translation>
     </message>
     <message>
       <location filename="../../ArchSectionPlane.py" line="1345"/>
       <source>Rotate Z</source>
-      <translation type="unfinished">Rotate Z</translation>
+      <translation>Putar Z</translation>
     </message>
     <message>
       <location filename="../../ArchSectionPlane.py" line="1346"/>
       <source>Rotates the plane along the Z axis</source>
-      <translation type="unfinished">Rotates the plane along the Z axis</translation>
+      <translation>Memutar satah sepanjang paksi Z</translation>
     </message>
     <message>
       <location filename="../../ArchSectionPlane.py" line="1347"/>
       <source>Resize</source>
-      <translation type="unfinished">Resize</translation>
+      <translation>Ubah saiz</translation>
     </message>
     <message>
       <location filename="../../ArchSectionPlane.py" line="1348"/>
       <source>Resizes the plane to fit the objects in the list above</source>
-      <translation type="unfinished">Resizes the plane to fit the objects in the list above</translation>
+      <translation>Mengubah saiz satah agar sesuai dengan objek dalam senarai di atas</translation>
     </message>
     <message>
       <location filename="../../ArchSectionPlane.py" line="1349"/>
@@ -5496,7 +5483,7 @@ Cipta Lantai dibatalkan.</translation>
     <message>
       <location filename="../../ArchSectionPlane.py" line="1350"/>
       <source>Centers the plane on the objects in the list above</source>
-      <translation type="unfinished">Centers the plane on the objects in the list above</translation>
+      <translation>Memusatkan satah pada objek dalam senarai di atas</translation>
     </message>
     <message>
       <location filename="../../Arch.py" line="142"/>
@@ -5513,100 +5500,100 @@ Building object is not allowed to accept Site and Building objects.
 Site and Building objects will be removed from the selection.
 
 You can change that in the preferences.</source>
-      <translation type="unfinished">You can put anything but Site and Building objects in a Building object.
+      <translation>Anda boleh meletakkan apa sahaja kecuali objek Tapak dan Bangunan dalam objek Bangunan.
 
-Building object is not allowed to accept Site and Building objects.
+Objek bangunan tidak dibenarkan menerima objek Tapak dan Bangunan.
 
-Site and Building objects will be removed from the selection.
+Objek Tapak dan Bangunan akan dialih keluar daripada pemilihan.
 
-You can change that in the preferences.</translation>
+Anda boleh mengubahnya dalam pilihan.</translation>
     </message>
     <message>
       <location filename="../../ArchBuilding.py" line="251"/>
       <source>There is no valid object in the selection.
 
 Building creation aborted.</source>
-      <translation type="unfinished">There is no valid object in the selection.
+      <translation>Tiada objek yang sah dalam pemilihan.
 
-Building creation aborted.</translation>
+Penciptaan bangunan dibatalkan.</translation>
     </message>
     <message>
       <location filename="../../ArchBuilding.py" line="258"/>
       <location filename="../../bimcommands/BimBuildingPart.py" line="84"/>
       <source>Create Building</source>
-      <translation type="unfinished">Create Building</translation>
+      <translation>Buat Bangunan</translation>
     </message>
     <message>
       <location filename="../../Arch.py" line="783"/>
       <source>Space</source>
-      <translation type="unfinished">Space</translation>
+      <translation>Ruang</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimSpace.py" line="54"/>
       <source>Create Space</source>
-      <translation type="unfinished">Create Space</translation>
+      <translation>Buat Ruang</translation>
     </message>
     <message>
       <location filename="../../ArchSpace.py" line="724"/>
       <source>Set text position</source>
-      <translation type="unfinished">Set text position</translation>
+      <translation>Tetapkan kedudukan teks</translation>
     </message>
     <message>
       <location filename="../../ArchSpace.py" line="728"/>
       <source>Space boundaries</source>
-      <translation type="unfinished">Space boundaries</translation>
+      <translation>Sempadan ruang</translation>
     </message>
     <message>
       <location filename="../../Arch.py" line="1018"/>
       <source>Wall</source>
-      <translation type="unfinished">Wall</translation>
+      <translation>Dinding</translation>
     </message>
     <message>
       <location filename="../../Arch.py" line="1025"/>
       <source>Walls can only be based on Part or Mesh objects</source>
-      <translation type="unfinished">Walls can only be based on Part or Mesh objects</translation>
+      <translation>Dinding hanya boleh berdasarkan objek Bahagian atau Mesh</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimWall.py" line="90"/>
       <location filename="../../bimcommands/BimWall.py" line="166"/>
       <location filename="../../bimcommands/BimWall.py" line="418"/>
       <source>Create Wall</source>
-      <translation type="unfinished">Create Wall</translation>
+      <translation>Buat Wall</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimWall.py" line="119"/>
       <source>First point of wall</source>
-      <translation type="unfinished">First point of wall</translation>
+      <translation>Titik pertama dinding</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimWall.py" line="276"/>
       <source>Wall options</source>
-      <translation type="unfinished">Wall options</translation>
+      <translation>Pilihan dinding</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimWall.py" line="280"/>
       <source>Wall Presets...</source>
-      <translation type="unfinished">Wall Presets...</translation>
+      <translation>Pratetap Dinding...</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimWall.py" line="281"/>
       <source>This list shows all the MultiMaterials objects of this document. Create some to define wall types.</source>
-      <translation type="unfinished">This list shows all the MultiMaterials objects of this document. Create some to define wall types.</translation>
+      <translation>Senarai ini menunjukkan semua objek MultiMaterials dokumen ini. Buat beberapa untuk menentukan jenis dinding.</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimWall.py" line="313"/>
       <source>Alignment</source>
-      <translation type="unfinished">Alignment</translation>
+      <translation>Penjajaran:</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimWall.py" line="315"/>
       <source>Left</source>
-      <translation type="unfinished">Left</translation>
+      <translation>Kiri</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimWall.py" line="316"/>
       <source>Right</source>
-      <translation type="unfinished">Right</translation>
+      <translation>Kanan</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimWall.py" line="331"/>
@@ -5616,34 +5603,34 @@ Building creation aborted.</translation>
     <message>
       <location filename="../../bimcommands/BimArchUtils.py" line="475"/>
       <source>The selected wall contains no subwall to merge</source>
-      <translation type="unfinished">The selected wall contains no subwall to merge</translation>
+      <translation>Dinding yang dipilih tidak mengandungi subdinding untuk digabungkan</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimArchUtils.py" line="478"/>
       <location filename="../../bimcommands/BimArchUtils.py" line="482"/>
       <source>Please select only wall objects</source>
-      <translation type="unfinished">Please select only wall objects</translation>
+      <translation>Sila pilih hanya objek dinding</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimArchUtils.py" line="469"/>
       <location filename="../../bimcommands/BimArchUtils.py" line="484"/>
       <source>Merge Walls</source>
-      <translation type="unfinished">Merge Walls</translation>
+      <translation>Gabungkan Dinding</translation>
     </message>
     <message>
       <location filename="../../ArchWall.py" line="272"/>
       <source>changed 'Normal' to [0, 0, 1] to preserve extrusion direction</source>
-      <translation type="unfinished">changed 'Normal' to [0, 0, 1] to preserve extrusion direction</translation>
+      <translation>menukar 'Normal' kepada [0, 0, 1] untuk mengekalkan arah penyemperitan</translation>
     </message>
     <message>
       <location filename="../../ArchWall.py" line="504"/>
       <source>Cannot compute blocks for wall</source>
-      <translation type="unfinished">Cannot compute blocks for wall</translation>
+      <translation>Tidak boleh mengira blok untuk dinding</translation>
     </message>
     <message>
       <location filename="../../ArchWall.py" line="617"/>
       <source>Error: Unable to modify the base object of this wall</source>
-      <translation type="unfinished">Error: Unable to modify the base object of this wall</translation>
+      <translation>Ralat: Objek asas dinding ini tidak dapat diubah</translation>
     </message>
     <message>
       <location filename="../../ArchWall.py" line="1425"/>
@@ -5653,7 +5640,7 @@ Building creation aborted.</translation>
     <message>
       <location filename="../../ArchCommands.py" line="434"/>
       <source>Invalid cut plane</source>
-      <translation type="unfinished">Invalid cut plane</translation>
+      <translation>Pesawat potong tidak sah</translation>
     </message>
     <message>
       <location filename="../../ArchCommands.py" line="717"/>
@@ -5723,18 +5710,18 @@ Building creation aborted.</translation>
     <message>
       <location filename="../../ArchCommands.py" line="1165"/>
       <source>Object doesn't have settable IFC attributes</source>
-      <translation type="unfinished">Object doesn't have settable IFC attributes</translation>
+      <translation>Objek tidak ada attribute IFC yang boleh disetkan</translation>
     </message>
     <message>
       <location filename="../../ArchCommands.py" line="1171"/>
       <source>Disabling B-rep force flag of object</source>
-      <translation type="unfinished">Disabling B-rep force flag of object</translation>
+      <translation>Buang bendera paksa Brep bagi objek</translation>
     </message>
     <message>
       <location filename="../../ArchCommands.py" line="1174"/>
       <location filename="../../ArchCommands.py" line="1177"/>
       <source>Enabling B-rep force flag of object</source>
-      <translation type="unfinished">Enabling B-rep force flag of object</translation>
+      <translation>Mengaktifkan kekuatan bendera gaya Brep</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimArchUtils.py" line="54"/>
@@ -5795,22 +5782,22 @@ Building creation aborted.</translation>
     <message>
       <location filename="../../bimcommands/BimBuildingPart.py" line="55"/>
       <source>Create Level</source>
-      <translation type="unfinished">Create Level</translation>
+      <translation>Buat Tahap</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimFence.py" line="52"/>
       <source>Create Fence</source>
-      <translation type="unfinished">Create Fence</translation>
+      <translation>Buat Pagar</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimBox.py" line="283"/>
       <source>Create Box</source>
-      <translation type="unfinished">Create Box</translation>
+      <translation>Buat Kotak</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimDrawingView.py" line="55"/>
       <source>Create 2D View</source>
-      <translation type="unfinished">Create 2D View</translation>
+      <translation>Cipta Paparan 2D</translation>
     </message>
   </context>
   <context>
@@ -5823,7 +5810,7 @@ Building creation aborted.</translation>
     <message>
       <location filename="../../ArchStructure.py" line="199"/>
       <source>Create multiple BIM Structures from a selected base, using each selected edge as an extrusion path</source>
-      <translation type="unfinished">Create multiple BIM Structures from a selected base, using each selected edge as an extrusion path</translation>
+      <translation>Cipta berbilang Struktur Gerbang daripada pangkalan yang dipilih, menggunakan setiap tepi yang dipilih sebagai laluan penyemperitan</translation>
     </message>
   </context>
   <context>
@@ -5950,12 +5937,12 @@ Building creation aborted.</translation>
       <location filename="../../ArchStructure.py" line="722"/>
       <location filename="../../ArchStructure.py" line="730"/>
       <source>Selected edges (or group of edges) of the base ArchSketch, to use in creating the shape of this BIM Structure (instead of using all the Base shape's edges by default).  Input are index numbers of edges or groups.</source>
-      <translation type="unfinished">Selected edges (or group of edges) of the base ArchSketch, to use in creating the shape of this BIM Structure (instead of using all the Base shape's edges by default).  Input are index numbers of edges or groups.</translation>
+      <translation>Tepi yang dipilih (atau kumpulan tepi) bagi ArchSketch asas, untuk digunakan dalam mencipta bentuk Struktur Gerbang ini (bukannya menggunakan semua tepi bentuk Base secara kosong). Input ialah nombor indeks tepi atau kumpulan.</translation>
     </message>
     <message>
       <location filename="../../ArchStructure.py" line="733"/>
       <source>Select User Defined PropertySet to use in creating variant shape, with same ArchSketch </source>
-      <translation type="unfinished">Select User Defined PropertySet to use in creating variant shape, with same ArchSketch </translation>
+      <translation>Pilih User Defined PropertySet untuk digunakan dalam mencipta bentuk varian, dengan ArchSketch  yang sama </translation>
     </message>
     <message>
       <location filename="../../ArchStructure.py" line="1195"/>
@@ -5970,261 +5957,261 @@ Building creation aborted.</translation>
     <message>
       <location filename="../../ArchStructure.py" line="1199"/>
       <source>The size of the node points</source>
-      <translation type="unfinished">The size of the node points</translation>
+      <translation>Saiz mata nod</translation>
     </message>
     <message>
       <location filename="../../ArchStructure.py" line="1202"/>
       <source>The color of the nodes line</source>
-      <translation type="unfinished">The color of the nodes line</translation>
+      <translation>Warna garis nod</translation>
     </message>
     <message>
       <location filename="../../ArchStructure.py" line="1205"/>
       <source>The type of structural node</source>
-      <translation type="unfinished">The type of structural node</translation>
+      <translation>Jenis nod struktur</translation>
     </message>
     <message>
       <location filename="../../ArchStructure.py" line="1539"/>
       <source>Axes systems this structure is built on</source>
-      <translation type="unfinished">Axes systems this structure is built on</translation>
+      <translation>Sistem paksi struktur ini dibina</translation>
     </message>
     <message>
       <location filename="../../ArchStructure.py" line="1540"/>
       <source>The element numbers to exclude when this structure is based on axes</source>
-      <translation type="unfinished">The element numbers to exclude when this structure is based on axes</translation>
+      <translation>Nombor unsur tidak termasuk apabila struktur ini didasarkan pada paksi</translation>
     </message>
     <message>
       <location filename="../../ArchStructure.py" line="1541"/>
       <source>If true the element are aligned with axes</source>
-      <translation type="unfinished">If true the element are aligned with axes</translation>
+      <translation>Sekiranya benar elemen tersebut selaras dengan paksi</translation>
     </message>
     <message>
       <location filename="../../ArchEquipment.py" line="188"/>
       <source>The model description of this equipment</source>
-      <translation type="unfinished">The model description of this equipment</translation>
+      <translation>Huraian model peralatan ini</translation>
     </message>
     <message>
       <location filename="../../ArchEquipment.py" line="190"/>
       <source>The URL of the product page of this equipment</source>
-      <translation type="unfinished">The URL of the product page of this equipment</translation>
+      <translation>URL bagi laman produk bagi peralatan ini</translation>
     </message>
     <message>
       <location filename="../../ArchEquipment.py" line="192"/>
       <location filename="../../ArchMaterial.py" line="168"/>
       <source>A standard code (MasterFormat, OmniClass,...)</source>
-      <translation type="unfinished">A standard code (MasterFormat, OmniClass,...)</translation>
+      <translation>Kod Piawai (MasterFormat, OmniClass,...)</translation>
     </message>
     <message>
       <location filename="../../ArchEquipment.py" line="194"/>
       <source>Additional snap points for this equipment</source>
-      <translation type="unfinished">Additional snap points for this equipment</translation>
+      <translation>Titik snap tambahan untuk peralatan ini</translation>
     </message>
     <message>
       <location filename="../../ArchEquipment.py" line="196"/>
       <source>The electric power needed by this equipment in Watts</source>
-      <translation type="unfinished">The electric power needed by this equipment in Watts</translation>
+      <translation>Kuasa elektrik yang diperlukan oleh peralatan ini di Watts</translation>
     </message>
     <message>
       <location filename="../../Arch.py" line="145"/>
       <location filename="../../Arch.py" line="194"/>
       <location filename="../../ArchBuilding.py" line="281"/>
       <source>The type of this building</source>
-      <translation type="unfinished">The type of this building</translation>
+      <translation>Jenis bangunan ini</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="217"/>
       <location filename="../../ArchFloor.py" line="209"/>
       <source>The height of this object</source>
-      <translation type="unfinished">The height of this object</translation>
+      <translation>Ketinggian objek ini</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="219"/>
       <source>If true, the height value propagates to contained objects if the height of those objects is set to 0</source>
-      <translation type="unfinished">If true, the height value propagates to contained objects if the height of those objects is set to 0</translation>
+      <translation>Jika benar, nilai ketinggian merambat ke objek yang terkandung jika ketinggian objek tersebut ditetapkan kepada 0</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="222"/>
       <source>The level of the (0,0,0) point of this level</source>
-      <translation type="unfinished">The level of the (0,0,0) point of this level</translation>
+      <translation>Tahap titik (0,0,0) bagi aras in</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="224"/>
       <location filename="../../ArchFloor.py" line="211"/>
       <source>The computed floor area of this floor</source>
-      <translation type="unfinished">The computed floor area of this floor</translation>
+      <translation>Kawasan lantai yang dikira untuk aras ini</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="226"/>
       <location filename="../../ArchComponent.py" line="205"/>
       <source>An optional description for this component</source>
-      <translation type="unfinished">An optional description for this component</translation>
+      <translation>Penerangan pilihan untuk komponen ini</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="228"/>
       <location filename="../../ArchComponent.py" line="207"/>
       <source>An optional tag for this component</source>
-      <translation type="unfinished">An optional tag for this component</translation>
+      <translation>Tag pilihan untuk komponen ini</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="230"/>
       <location filename="../../ArchSectionPlane.py" line="814"/>
       <source>The shape of this object</source>
-      <translation type="unfinished">The shape of this object</translation>
+      <translation>Bentuk objek ini</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="232"/>
       <source>This property stores an OpenInventor representation for this object</source>
-      <translation type="unfinished">This property stores an OpenInventor representation for this object</translation>
+      <translation>Properti ini menyimpan representasi OpenInventor untuk objek ini</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="235"/>
       <source>If true, only solids will be collected by this object when referenced from other files</source>
-      <translation type="unfinished">If true, only solids will be collected by this object when referenced from other files</translation>
+      <translation>Jika benar, hanya pepejal yang akan dikumpul oleh objek ini apabila dirujuk dari fail lain</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="238"/>
       <source>A MaterialName:SolidIndexesList map that relates material names with solid indexes to be used when referencing this object from other files</source>
-      <translation type="unfinished">A MaterialName:SolidIndexesList map that relates material names with solid indexes to be used when referencing this object from other files</translation>
+      <translation>Peta MaterialName:SolidIndexesList yang mengaitkan nama bahan dengan indeks pepejal untuk digunakan apabila merujuk objek ini dari fail lain.</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="440"/>
       <location filename="../../ArchSectionPlane.py" line="907"/>
       <source>The line width of this object</source>
-      <translation type="unfinished">The line width of this object</translation>
+      <translation>Lebar garis objek ini</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="443"/>
       <source>An optional unit to express levels</source>
-      <translation type="unfinished">An optional unit to express levels</translation>
+      <translation>Unit pilihan untuk menyatakan tahap</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="445"/>
       <source>A transformation to apply to the level mark</source>
-      <translation type="unfinished">A transformation to apply to the level mark</translation>
+      <translation>Transformasi untuk digunakan pada tanda tahap</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="448"/>
       <source>If true, show the level</source>
-      <translation type="unfinished">If true, show the level</translation>
+      <translation>Jika benar, paparkan tahap</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="451"/>
       <source>If true, show the unit on the level tag</source>
-      <translation type="unfinished">If true, show the unit on the level tag</translation>
+      <translation>Jika benar, paparkan unit pada tanda tahap</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="453"/>
       <source>If true, display offset will affect the origin mark too</source>
-      <translation type="unfinished">If true, display offset will affect the origin mark too</translation>
+      <translation>Jika benar, paparan anjakan akan mempengaruhi tanda asal juga</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="455"/>
       <source>If true, the object's label is displayed</source>
-      <translation type="unfinished">If true, the object's label is displayed</translation>
+      <translation>Jika benar, papar label objek</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="458"/>
       <source>The font to be used for texts</source>
-      <translation type="unfinished">The font to be used for texts</translation>
+      <translation>Fon yang digunakan untuk teks</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="461"/>
       <source>The font size of texts</source>
-      <translation type="unfinished">The font size of texts</translation>
+      <translation>Saiz fon teks</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="464"/>
       <source>The individual face colors</source>
-      <translation type="unfinished">The individual face colors</translation>
+      <translation>Warna muka individu</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="468"/>
       <source>If true, when activated, the working plane will automatically adapt to this level</source>
-      <translation type="unfinished">If true, when activated, the working plane will automatically adapt to this level</translation>
+      <translation>Jika benar, apabila diaktifkan, satah kerja akan secara automatik menyesuaikan dengan tahap ini.</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="471"/>
       <source>If set to True, the working plane will be kept on Auto mode</source>
-      <translation type="unfinished">If set to True, the working plane will be kept on Auto mode</translation>
+      <translation>Jika ditetapkan kepada Benar, satah kerja akan kekal dalam mod Auto.</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="473"/>
       <source>Camera position data associated with this object</source>
-      <translation type="unfinished">Camera position data associated with this object</translation>
+      <translation>Data kedudukan kamera yang dikaitkan dengan objek ini.</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="476"/>
       <source>If set, the view stored in this object will be restored on double-click</source>
-      <translation type="unfinished">If set, the view stored in this object will be restored on double-click</translation>
+      <translation>Jika ditetapkan, paparan yang disimpan dalam objek ini akan dipulihkan dengan klik dua kali.</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="478"/>
       <source>If True, double-clicking this object in the tree activates it</source>
-      <translation type="unfinished">If True, double-clicking this object in the tree activates it</translation>
+      <translation>Jika Benar, klik dua kali pada objek ini dalam pokok akan mengaktifkannya.</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="482"/>
       <source>If this is enabled, the OpenInventor representation of this object will be saved in the FreeCAD file, allowing to reference it in other files in lightweight mode.</source>
-      <translation type="unfinished">If this is enabled, the OpenInventor representation of this object will be saved in the FreeCAD file, allowing to reference it in other files in lightweight mode.</translation>
+      <translation>Jika ini diaktifkan, representasi OpenInventor bagi objek ini akan disimpan dalam fail FreeCAD, membolehkan ia dirujuk dalam fail lain dalam mod ringan.</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="484"/>
       <source>A slot to save the OpenInventor representation of this object, if enabled</source>
-      <translation type="unfinished">A slot to save the OpenInventor representation of this object, if enabled</translation>
+      <translation>Slot untuk menyimpan representasi OpenInventor objek ini, jika diaktifkan.</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="489"/>
       <source>If true, show the objects contained in this Building Part will adopt these line, color and transparency settings</source>
-      <translation type="unfinished">If true, show the objects contained in this Building Part will adopt these line, color and transparency settings</translation>
+      <translation>Jika benar, objek yang terkandung dalam Bahagian Bangunan ini akan mengikut tetapan garisan, warna, dan ketelusan ini.</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="491"/>
       <source>The line width of child objects</source>
-      <translation type="unfinished">The line width of child objects</translation>
+      <translation>Lebar garisan bagi objek kanak-kanak.</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="494"/>
       <source>The line color of child objects</source>
-      <translation type="unfinished">The line color of child objects</translation>
+      <translation>Warna garisan bagi objek anak  </translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="497"/>
       <source>The shape appearance of child objects</source>
-      <translation type="unfinished">The shape appearance of child objects</translation>
+      <translation>Penampilan bentuk bagi objek anak</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="500"/>
       <source>The transparency of child objects</source>
-      <translation type="unfinished">The transparency of child objects</translation>
+      <translation>Ketelusan bagi objek anak</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="505"/>
       <source>Cut the view above this level</source>
-      <translation type="unfinished">Cut the view above this level</translation>
+      <translation>Potong pandangan di atas aras ini </translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="507"/>
       <source>The distance between the level plane and the cut line</source>
-      <translation type="unfinished">The distance between the level plane and the cut line</translation>
+      <translation>Jarak antara satah aras dan garis potong</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="510"/>
       <source>Turn cutting on when activating this level</source>
-      <translation type="unfinished">Turn cutting on when activating this level</translation>
+      <translation>Aktifkan pemotongan apabila mengaktifkan aras ini</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="514"/>
       <source>The capture box for newly created objects expressed as [XMin,YMin,ZMin,XMax,YMax,ZMax]</source>
-      <translation type="unfinished">The capture box for newly created objects expressed as [XMin,YMin,ZMin,XMax,YMax,ZMax]</translation>
+      <translation>Kotak tangkapan untuk objek yang baru dicipta dinyatakan sebagai [XMin, YMin, ZMin, XMax, YMax, ZMax]</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="516"/>
       <source>Turns auto group box on/off</source>
-      <translation type="unfinished">Turns auto group box on/off</translation>
+      <translation>Hidupkan/matikan kotak kumpulan automatik</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="518"/>
       <source>Automatically set size from contents</source>
-      <translation type="unfinished">Automatically set size from contents</translation>
+      <translation>Tetapkan saiz secara automatik daripada kandungan</translation>
     </message>
     <message>
       <location filename="../../ArchBuildingPart.py" line="520"/>
@@ -6259,234 +6246,234 @@ Building creation aborted.</translation>
       <location filename="../../ArchProfile.py" line="272"/>
       <location filename="../../ArchProfile.py" line="299"/>
       <source>Height of the beam</source>
-      <translation type="unfinished">Height of the beam</translation>
+      <translation>Ketinggian rasuk</translation>
     </message>
     <message>
       <location filename="../../ArchProfile.py" line="152"/>
       <location filename="../../ArchProfile.py" line="300"/>
       <source>Thickness of the web</source>
-      <translation type="unfinished">Thickness of the web</translation>
+      <translation>Ketebalan badan (web)  </translation>
     </message>
     <message>
       <location filename="../../ArchProfile.py" line="153"/>
       <location filename="../../ArchProfile.py" line="301"/>
       <source>Thickness of the flanges</source>
-      <translation type="unfinished">Thickness of the flanges</translation>
+      <translation>Ketebalan bebibir (flange)</translation>
     </message>
     <message>
       <location filename="../../ArchProfile.py" line="210"/>
       <source>Thickness of the sides</source>
-      <translation type="unfinished">Thickness of the sides</translation>
+      <translation>Ketebalan sisi</translation>
     </message>
     <message>
       <location filename="../../ArchProfile.py" line="243"/>
       <source>Thickness of the webs</source>
-      <translation type="unfinished">Thickness of the webs</translation>
+      <translation>Ketebalan badan (webs)</translation>
     </message>
     <message>
       <location filename="../../ArchProfile.py" line="244"/>
       <source>Thickness of the flange</source>
-      <translation type="unfinished">Thickness of the flange</translation>
+      <translation>Ketebalan bebibir (flange)</translation>
     </message>
     <message>
       <location filename="../../ArchProfile.py" line="273"/>
       <source>Thickness of the legs</source>
-      <translation type="unfinished">Thickness of the legs</translation>
+      <translation>Ketebalan kaki</translation>
     </message>
     <message>
       <location filename="../../ArchSite.py" line="523"/>
       <source>The base terrain of this site</source>
-      <translation type="unfinished">The base terrain of this site</translation>
+      <translation>Bentuk rupa bumi asas bagi tapak ini</translation>
     </message>
     <message>
       <location filename="../../ArchSite.py" line="525"/>
       <source>The street and house number of this site, with postal box or apartment number if needed</source>
-      <translation type="unfinished">The street and house number of this site, with postal box or apartment number if needed</translation>
+      <translation>Jalan dan nombor rumah bagi tapak ini, termasuk nombor peti surat atau apartmen jika perlu</translation>
     </message>
     <message>
       <location filename="../../ArchSite.py" line="527"/>
       <source>The postal or zip code of this site</source>
-      <translation type="unfinished">The postal or zip code of this site</translation>
+      <translation>Kod pos atau zip ini laman web</translation>
     </message>
     <message>
       <location filename="../../ArchSite.py" line="529"/>
       <source>The city of this site</source>
-      <translation type="unfinished">The city of this site</translation>
+      <translation>Bandar tapak</translation>
     </message>
     <message>
       <location filename="../../ArchSite.py" line="531"/>
       <source>The region, province or county of this site</source>
-      <translation type="unfinished">The region, province or county of this site</translation>
+      <translation>Mukim, daerah dan negeri bagi tapak ini</translation>
     </message>
     <message>
       <location filename="../../ArchSite.py" line="533"/>
       <source>The country of this site</source>
-      <translation type="unfinished">The country of this site</translation>
+      <translation>Negara laman web</translation>
     </message>
     <message>
       <location filename="../../ArchSite.py" line="535"/>
       <location filename="../../ArchSite.py" line="537"/>
       <source>The latitude of this site</source>
-      <translation type="unfinished">The latitude of this site</translation>
+      <translation>Lintang dari laman web</translation>
     </message>
     <message>
       <location filename="../../ArchSite.py" line="539"/>
       <source>Angle between the true North and the North direction in this document</source>
-      <translation type="unfinished">Angle between the true North and the North direction in this document</translation>
+      <translation>Sudut antara arah Utara dan Utara yang sebenar dalam dokumen</translation>
     </message>
     <message>
       <location filename="../../ArchSite.py" line="544"/>
       <source>The elevation of level 0 of this site</source>
-      <translation type="unfinished">The elevation of level 0 of this site</translation>
+      <translation>Ketinggian peringkat 0 laman web</translation>
     </message>
     <message>
       <location filename="../../ArchSite.py" line="546"/>
       <source>A URL that shows this site in a mapping website</source>
-      <translation type="unfinished">A URL that shows this site in a mapping website</translation>
+      <translation>Url yang merujuk kepada tapak ini dalam aplikasi peta</translation>
     </message>
     <message>
       <location filename="../../ArchSite.py" line="548"/>
       <location filename="../../ArchComponent.py" line="201"/>
       <source>Other shapes that are appended to this object</source>
-      <translation type="unfinished">Other shapes that are appended to this object</translation>
+      <translation>Bentuk lain yang dilampirkan kepada objek ini</translation>
     </message>
     <message>
       <location filename="../../ArchSite.py" line="550"/>
       <location filename="../../ArchComponent.py" line="203"/>
       <source>Other shapes that are subtracted from this object</source>
-      <translation type="unfinished">Other shapes that are subtracted from this object</translation>
+      <translation>Bentuk lain yang dikurangkan dari objek ini</translation>
     </message>
     <message>
       <location filename="../../ArchSite.py" line="552"/>
       <location filename="../../ArchComponent.py" line="226"/>
       <source>The area of the projection of this object onto the XY plane</source>
-      <translation type="unfinished">The area of the projection of this object onto the XY plane</translation>
+      <translation>Kawasan unjuran objek ini ke kapal XY</translation>
     </message>
     <message>
       <location filename="../../ArchSite.py" line="554"/>
       <source>The perimeter length of the projected area</source>
-      <translation type="unfinished">The perimeter length of the projected area</translation>
+      <translation>Panjang perimeter kawasan yang mendatar</translation>
     </message>
     <message>
       <location filename="../../ArchSite.py" line="556"/>
       <source>The volume of earth to be added to this terrain</source>
-      <translation type="unfinished">The volume of earth to be added to this terrain</translation>
+      <translation>Jumlah bumi akan ditambah ke medan</translation>
     </message>
     <message>
       <location filename="../../ArchSite.py" line="558"/>
       <source>The volume of earth to be removed from this terrain</source>
-      <translation type="unfinished">The volume of earth to be removed from this terrain</translation>
+      <translation>Isipadu bumi yang akan dialihkan dari rupa bumi ini</translation>
     </message>
     <message>
       <location filename="../../ArchSite.py" line="560"/>
       <source>An extrusion vector to use when performing boolean operations</source>
-      <translation type="unfinished">An extrusion vector to use when performing boolean operations</translation>
+      <translation>Vektor penyemperitan yang digunakan semasa menjalankan operasi boolean</translation>
     </message>
     <message>
       <location filename="../../ArchSite.py" line="563"/>
       <source>Remove splitters from the resulting shape</source>
-      <translation type="unfinished">Remove splitters from the resulting shape</translation>
+      <translation>Keluarkan splitters dari bentuk yang dihasilkan</translation>
     </message>
     <message>
       <location filename="../../ArchSite.py" line="565"/>
       <source>An optional offset between the model (0,0,0) origin and the point indicated by the geocoordinates</source>
-      <translation type="unfinished">An optional offset between the model (0,0,0) origin and the point indicated by the geocoordinates</translation>
+      <translation>Nilai imbang antara titik pusat model (0,0,0) dan titik daripada geokoordinat</translation>
     </message>
     <message>
       <location filename="../../ArchSite.py" line="569"/>
       <location filename="../../ArchIFC.py" line="70"/>
       <source>The type of this object</source>
-      <translation type="unfinished">The type of this object</translation>
+      <translation>Jenis objek</translation>
     </message>
     <message>
       <location filename="../../ArchSite.py" line="573"/>
       <source>The time zone where this site is located</source>
-      <translation type="unfinished">The time zone where this site is located</translation>
+      <translation>Zon waktu di mana tapak ini berada</translation>
     </message>
     <message>
       <location filename="../../ArchSite.py" line="575"/>
       <source>An optional EPW File for the location of this site. Refer to the Site documentation to know how to obtain one</source>
-      <translation type="unfinished">An optional EPW File for the location of this site. Refer to the Site documentation to know how to obtain one</translation>
+      <translation>Fail EPW pilihan untuk lokasi tapak ini. Rujuk dokumentasi Tapak untuk mengetahui cara mendapatkannya</translation>
     </message>
     <message>
       <location filename="../../ArchSite.py" line="779"/>
       <source>Show wind rose diagram or not. Uses solar diagram scale. Needs Ladybug module</source>
-      <translation type="unfinished">Show wind rose diagram or not. Uses solar diagram scale. Needs Ladybug module</translation>
+      <translation>Tunjukkan rajah mawar angin atau tidak. Menggunakan skala rajah solar. Memerlukan modul Ladybug</translation>
     </message>
     <message>
       <location filename="../../ArchSite.py" line="781"/>
       <source>Show solar diagram or not</source>
-      <translation type="unfinished">Show solar diagram or not</translation>
+      <translation>Tampilkan diagram matahari atau tidak</translation>
     </message>
     <message>
       <location filename="../../ArchSite.py" line="783"/>
       <source>The scale of the solar diagram</source>
-      <translation type="unfinished">The scale of the solar diagram</translation>
+      <translation>Skala gambarajah solar</translation>
     </message>
     <message>
       <location filename="../../ArchSite.py" line="786"/>
       <source>The position of the solar diagram</source>
-      <translation type="unfinished">The position of the solar diagram</translation>
+      <translation>Kedudukan rajah solar</translation>
     </message>
     <message>
       <location filename="../../ArchSite.py" line="788"/>
       <source>The color of the solar diagram</source>
-      <translation type="unfinished">The color of the solar diagram</translation>
+      <translation>Warna diagram matahari</translation>
     </message>
     <message>
       <location filename="../../ArchSite.py" line="792"/>
       <source>When set to 'True North' the whole geometry will be rotated to match the true north of this site</source>
-      <translation type="unfinished">When set to 'True North' the whole geometry will be rotated to match the true north of this site</translation>
+      <translation>Jika diset kepada 'Utara Benar', kesemua genometri akan dipusingkan untuk dipadankan dengan Utara Benar laman ini</translation>
     </message>
     <message>
       <location filename="../../ArchSite.py" line="796"/>
       <source>Show compass or not</source>
-      <translation type="unfinished">Show compass or not</translation>
+      <translation>Papar/tutup kompas</translation>
     </message>
     <message>
       <location filename="../../ArchSite.py" line="798"/>
       <source>The rotation of the Compass relative to the Site</source>
-      <translation type="unfinished">The rotation of the Compass relative to the Site</translation>
+      <translation>Putaran kompas relatif kepada laman</translation>
     </message>
     <message>
       <location filename="../../ArchSite.py" line="800"/>
       <source>The position of the Compass relative to the Site placement</source>
-      <translation type="unfinished">The position of the Compass relative to the Site placement</translation>
+      <translation>Posisi kompas relatif kepada penempatan laman</translation>
     </message>
     <message>
       <location filename="../../ArchSite.py" line="802"/>
       <source>Update the Declination value based on the compass rotation</source>
-      <translation type="unfinished">Update the Declination value based on the compass rotation</translation>
+      <translation>Kemaskini nilai keserongan berdasarkan putaran kompas</translation>
     </message>
     <message>
       <location filename="../../ArchRoof.py" line="162"/>
       <source>The list of angles of the roof segments</source>
-      <translation type="unfinished">The list of angles of the roof segments</translation>
+      <translation>Senarai sudut segmen bumbung</translation>
     </message>
     <message>
       <location filename="../../ArchRoof.py" line="167"/>
       <source>The list of horizontal length projections of the roof segments</source>
-      <translation type="unfinished">The list of horizontal length projections of the roof segments</translation>
+      <translation>Senarai unjuran panjang mendatar bagi segmen bumbung</translation>
     </message>
     <message>
       <location filename="../../ArchRoof.py" line="172"/>
       <source>The list of IDs of the relative profiles of the roof segments</source>
-      <translation type="unfinished">The list of IDs of the relative profiles of the roof segments</translation>
+      <translation>Senarai ID profil relatif bagi segmen bumbung</translation>
     </message>
     <message>
       <location filename="../../ArchRoof.py" line="177"/>
       <source>The list of thicknesses of the roof segments</source>
-      <translation type="unfinished">The list of thicknesses of the roof segments</translation>
+      <translation>Senarai ketebalan bagi segmen bumbung</translation>
     </message>
     <message>
       <location filename="../../ArchRoof.py" line="182"/>
       <source>The list of overhangs of the roof segments</source>
-      <translation type="unfinished">The list of overhangs of the roof segments</translation>
+      <translation>Senarai julur keluar bagi segmen bumbung</translation>
     </message>
     <message>
       <location filename="../../ArchRoof.py" line="187"/>
       <source>The list of calculated heights of the roof segments</source>
-      <translation type="unfinished">The list of calculated heights of the roof segments</translation>
+      <translation>Senarai ketinggian yang dikira bagi segmen bumbung</translation>
     </message>
     <message>
       <location filename="../../ArchRoof.py" line="192"/>
@@ -6496,32 +6483,32 @@ Building creation aborted.</translation>
     <message>
       <location filename="../../ArchRoof.py" line="197"/>
       <source>The total length of the ridges and hips of the roof</source>
-      <translation type="unfinished">The total length of the ridges and hips of the roof</translation>
+      <translation>Jumlah panjang rabung dan bonggol bumbung</translation>
     </message>
     <message>
       <location filename="../../ArchRoof.py" line="203"/>
       <source>The total length of the borders of the roof</source>
-      <translation type="unfinished">The total length of the borders of the roof</translation>
+      <translation>Jumlah panjang sempadan bumbung</translation>
     </message>
     <message>
       <location filename="../../ArchRoof.py" line="209"/>
       <source>Specifies if the direction of the roof should be flipped</source>
-      <translation type="unfinished">Specifies if the direction of the roof should be flipped</translation>
+      <translation>Menentukan sama ada arah bumbung perlu diterbalikkan</translation>
     </message>
     <message>
       <location filename="../../ArchRoof.py" line="214"/>
       <source>An optional object that defines a volume to be subtracted from walls. If field is set - it has a priority over auto-generated subvolume</source>
-      <translation type="unfinished">An optional object that defines a volume to be subtracted from walls. If field is set - it has a priority over auto-generated subvolume</translation>
+      <translation>Objek pilihan yang menentukan isipadu untuk ditolak daripada dinding. Jika medan ini ditetapkan, ia mempunyai keutamaan berbanding subisipadu yang dijana secara automatik</translation>
     </message>
     <message>
       <location filename="../../ArchReference.py" line="72"/>
       <source>The base file this component is built upon</source>
-      <translation type="unfinished">The base file this component is built upon</translation>
+      <translation>Objek asas komponen ini dibina</translation>
     </message>
     <message>
       <location filename="../../ArchReference.py" line="75"/>
       <source>The part to use from the base file</source>
-      <translation type="unfinished">The part to use from the base file</translation>
+      <translation>Bahagian yang digunakan daripada fail asas</translation>
     </message>
     <message>
       <location filename="../../ArchReference.py" line="78"/>
@@ -6776,190 +6763,190 @@ Building creation aborted.</translation>
     <message>
       <location filename="../../ArchStairs.py" line="79"/>
       <source>The alignment of these stairs on their baseline, if applicable</source>
-      <translation type="unfinished">The alignment of these stairs on their baseline, if applicable</translation>
+      <translation>Penjajaran tangga ini pada garis asasnya, jika berkenaan</translation>
     </message>
     <message>
       <location filename="../../ArchStairs.py" line="84"/>
       <source>The width of a Landing (Second edge and after - First edge follows Width property)</source>
-      <translation type="unfinished">The width of a Landing (Second edge and after - First edge follows Width property)</translation>
+      <translation>Lebar pendaratan (Tepi kedua dan seterusnya - Tepi pertama mengikut sifat Lebar)</translation>
     </message>
     <message>
       <location filename="../../ArchStairs.py" line="89"/>
       <source>The number of risers in these stairs</source>
-      <translation type="unfinished">The number of risers in these stairs</translation>
+      <translation>Bilangan pemijak dalam tangga ini</translation>
     </message>
     <message>
       <location filename="../../ArchStairs.py" line="91"/>
       <source>The depth of the treads of these stairs</source>
-      <translation type="unfinished">The depth of the treads of these stairs</translation>
+      <translation>Kedalaman pemijak tangga ini  </translation>
     </message>
     <message>
       <location filename="../../ArchStairs.py" line="94"/>
       <source>The height of the risers of these stairs</source>
-      <translation type="unfinished">The height of the risers of these stairs</translation>
+      <translation>Ketinggian pemijak tangga ini</translation>
     </message>
     <message>
       <location filename="../../ArchStairs.py" line="97"/>
       <source>The size of the nosing</source>
-      <translation type="unfinished">The size of the nosing</translation>
+      <translation>Saiz lebihan hujung (nosing)</translation>
     </message>
     <message>
       <location filename="../../ArchStairs.py" line="99"/>
       <source>The thickness of the treads</source>
-      <translation type="unfinished">The thickness of the treads</translation>
+      <translation>Ketebalan pemijak</translation>
     </message>
     <message>
       <location filename="../../ArchStairs.py" line="101"/>
       <source>The Blondel ratio indicates comfortable stairs and should be between 62 and 64cm or 24.5 and 25.5in</source>
-      <translation type="unfinished">The Blondel ratio indicates comfortable stairs and should be between 62 and 64cm or 24.5 and 25.5in</translation>
+      <translation>Nisbah Blondel menunjukkan keselesaan tangga dan sepatutnya antara 62 hingga 64 cm atau 24.5 hingga 25.5 inci  </translation>
     </message>
     <message>
       <location filename="../../ArchStairs.py" line="105"/>
       <source>The thickness of the risers</source>
-      <translation type="unfinished">The thickness of the risers</translation>
+      <translation>Ketebalan pemijak menaik</translation>
     </message>
     <message>
       <location filename="../../ArchStairs.py" line="108"/>
       <source>The depth of the landing of these stairs</source>
-      <translation type="unfinished">The depth of the landing of these stairs</translation>
+      <translation>Kedalaman pendaratan tangga ini</translation>
     </message>
     <message>
       <location filename="../../ArchStairs.py" line="111"/>
       <source>The depth of the treads of these stairs - Enforced regardless of Length or edge's Length</source>
-      <translation type="unfinished">The depth of the treads of these stairs - Enforced regardless of Length or edge's Length</translation>
+      <translation>Kedalaman pemijak tangga ini - Dikuatkuasakan tanpa mengira Panjang atau Panjang tepi</translation>
     </message>
     <message>
       <location filename="../../ArchStairs.py" line="113"/>
       <source>The height of the risers of these stairs - Enforced regardless of Height or edge's Height</source>
-      <translation type="unfinished">The height of the risers of these stairs - Enforced regardless of Height or edge's Height</translation>
+      <translation>Ketinggian pemijak menaik tangga ini - Dikuatkuasakan tanpa mengira Ketinggian atau Ketinggian tepi</translation>
     </message>
     <message>
       <location filename="../../ArchStairs.py" line="116"/>
       <source>The direction of flight after landing</source>
-      <translation type="unfinished">The direction of flight after landing</translation>
+      <translation>Arah perjalanan selepas pendaratan</translation>
     </message>
     <message>
       <location filename="../../ArchStairs.py" line="123"/>
       <source>The 'absolute' top level of a flight of stairs leads to</source>
-      <translation type="unfinished">The 'absolute' top level of a flight of stairs leads to</translation>
+      <translation>Tahap atas ‘mutlak’ bagi satu penerbangan tangga membawa ke</translation>
     </message>
     <message>
       <location filename="../../ArchStairs.py" line="126"/>
       <location filename="../../ArchStairs.py" line="129"/>
       <source>The 'left outline' of stairs</source>
-      <translation type="unfinished">The 'left outline' of stairs</translation>
+      <translation>Garis luar kiri tangga</translation>
     </message>
     <message>
       <location filename="../../ArchStairs.py" line="150"/>
       <source>The 'left outline' of all segments of stairs</source>
-      <translation type="unfinished">The 'left outline' of all segments of stairs</translation>
+      <translation>Garis luar kiri bagi semua segmen tangga</translation>
     </message>
     <message>
       <location filename="../../ArchStairs.py" line="153"/>
       <source>The 'right outline' of all segments of stairs</source>
-      <translation type="unfinished">The 'right outline' of all segments of stairs</translation>
+      <translation>Garis luar kanan bagi semua segmen tangga</translation>
     </message>
     <message>
       <location filename="../../ArchStairs.py" line="179"/>
       <source>The type of landings of these stairs</source>
-      <translation type="unfinished">The type of landings of these stairs</translation>
+      <translation>Jenis pendaratan tangga ini</translation>
     </message>
     <message>
       <location filename="../../ArchStairs.py" line="182"/>
       <source>The type of winders in these stairs</source>
-      <translation type="unfinished">The type of winders in these stairs</translation>
+      <translation>Jenis penggulung di tangga ini</translation>
     </message>
     <message>
       <location filename="../../ArchStairs.py" line="185"/>
       <source>The type of structure of these stairs</source>
-      <translation type="unfinished">The type of structure of these stairs</translation>
+      <translation>Jenis struktur tangga ini</translation>
     </message>
     <message>
       <location filename="../../ArchStairs.py" line="188"/>
       <source>The thickness of the massive structure or of the stringers</source>
-      <translation type="unfinished">The thickness of the massive structure or of the stringers</translation>
+      <translation>Ketebalan struktur besar atau stringers</translation>
     </message>
     <message>
       <location filename="../../ArchStairs.py" line="190"/>
       <source>The width of the stringers</source>
-      <translation type="unfinished">The width of the stringers</translation>
+      <translation>Lebar stringers</translation>
     </message>
     <message>
       <location filename="../../ArchStairs.py" line="192"/>
       <source>The offset between the border of the stairs and the structure</source>
-      <translation type="unfinished">The offset between the border of the stairs and the structure</translation>
+      <translation>Yang mengimbangi antara sempadan tangga dan struktur</translation>
     </message>
     <message>
       <location filename="../../ArchStairs.py" line="194"/>
       <location filename="../../ArchStairs.py" line="941"/>
       <source>The overlap of the stringers above the bottom of the treads</source>
-      <translation type="unfinished">The overlap of the stringers above the bottom of the treads</translation>
+      <translation>Pertindihan tali di atas bahagian bawah tapak</translation>
     </message>
     <message>
       <location filename="../../ArchStairs.py" line="196"/>
       <source>The thickness of the lower floor slab</source>
-      <translation type="unfinished">The thickness of the lower floor slab</translation>
+      <translation>Ketebalan papak lantai bawah</translation>
     </message>
     <message>
       <location filename="../../ArchStairs.py" line="198"/>
       <source>The thickness of the upper floor slab</source>
-      <translation type="unfinished">The thickness of the upper floor slab</translation>
+      <translation>Ketebalan papak tingkat atas</translation>
     </message>
     <message>
       <location filename="../../ArchStairs.py" line="200"/>
       <source>The type of connection between the lower floor slab and the start of the stairs</source>
-      <translation type="unfinished">The type of connection between the lower floor slab and the start of the stairs</translation>
+      <translation>Jenis sambungan antara papak tingkat bawah dan permulaan tangga</translation>
     </message>
     <message>
       <location filename="../../ArchStairs.py" line="203"/>
       <source>The type of connection between the end of the stairs and the upper floor slab</source>
-      <translation type="unfinished">The type of connection between the end of the stairs and the upper floor slab</translation>
+      <translation>Jenis sambungan antara hujung tangga dan papak tingkat atas</translation>
     </message>
     <message>
       <location filename="../../ArchFence.py" line="62"/>
       <source>A single section of the fence</source>
-      <translation type="unfinished">A single section of the fence</translation>
+      <translation>Satu bahagian pagar</translation>
     </message>
     <message>
       <location filename="../../ArchFence.py" line="66"/>
       <source>A single fence post</source>
-      <translation type="unfinished">A single fence post</translation>
+      <translation>Satu tiang pagar</translation>
     </message>
     <message>
       <location filename="../../ArchFence.py" line="70"/>
       <source>The Path the fence should follow</source>
-      <translation type="unfinished">The Path the fence should follow</translation>
+      <translation>Laluan yang patut diikut pagar</translation>
     </message>
     <message>
       <location filename="../../ArchFence.py" line="74"/>
       <source>The number of sections the fence is built of</source>
-      <translation type="unfinished">The number of sections the fence is built of</translation>
+      <translation>Bilangan bahagian pagar dibina</translation>
     </message>
     <message>
       <location filename="../../ArchFence.py" line="79"/>
       <source>The number of posts used to build the fence</source>
-      <translation type="unfinished">The number of posts used to build the fence</translation>
+      <translation>Bilangan tiang yang digunakan untuk membina pagar</translation>
     </message>
     <message>
       <location filename="../../ArchFence.py" line="263"/>
       <source>When true, the fence will be colored like the original post and section.</source>
-      <translation type="unfinished">When true, the fence will be colored like the original post and section.</translation>
+      <translation>Apabila benar, pagar akan diwarnakan seperti tiang dan bahagian asal.</translation>
     </message>
     <message>
       <location filename="../../ArchMaterial.py" line="166"/>
       <location filename="../../ArchMaterial.py" line="622"/>
       <source>A description for this material</source>
-      <translation type="unfinished">A description for this material</translation>
+      <translation>Penerangan untuk bahan ini</translation>
     </message>
     <message>
       <location filename="../../ArchMaterial.py" line="170"/>
       <source>A URL where to find information about this material</source>
-      <translation type="unfinished">A URL where to find information about this material</translation>
+      <translation>URL bagi carian maklumat untuk material ini</translation>
     </message>
     <message>
       <location filename="../../ArchMaterial.py" line="172"/>
       <source>The transparency value of this material</source>
-      <translation type="unfinished">The transparency value of this material</translation>
+      <translation>Nilai transparansi bahan ini</translation>
     </message>
     <message>
       <location filename="../../ArchMaterial.py" line="174"/>
@@ -6969,72 +6956,72 @@ Building creation aborted.</translation>
     <message>
       <location filename="../../ArchMaterial.py" line="176"/>
       <source>The color of this material when cut</source>
-      <translation type="unfinished">The color of this material when cut</translation>
+      <translation>Warna dari bahan ini</translation>
     </message>
     <message>
       <location filename="../../ArchMaterial.py" line="623"/>
       <source>The list of layer names</source>
-      <translation type="unfinished">The list of layer names</translation>
+      <translation>Senarai nama lapisan</translation>
     </message>
     <message>
       <location filename="../../ArchMaterial.py" line="624"/>
       <source>The list of layer materials</source>
-      <translation type="unfinished">The list of layer materials</translation>
+      <translation>Senarai bahan lapisan</translation>
     </message>
     <message>
       <location filename="../../ArchMaterial.py" line="625"/>
       <source>The list of layer thicknesses</source>
-      <translation type="unfinished">The list of layer thicknesses</translation>
+      <translation>Senarai ketebalan lapisan</translation>
     </message>
     <message>
       <location filename="../../ArchIFC.py" line="67"/>
       <source>IFC data</source>
-      <translation type="unfinished">IFC data</translation>
+      <translation>Data IFC</translation>
     </message>
     <message>
       <location filename="../../ArchIFC.py" line="74"/>
       <location filename="../../bimcommands/BimIfcProperties.py" line="415"/>
       <source>IFC properties of this object</source>
-      <translation type="unfinished">IFC properties of this object</translation>
+      <translation>Sifat IFC bagi objek ini</translation>
     </message>
     <message>
       <location filename="../../ArchIFC.py" line="290"/>
       <location filename="../../ArchIFC.py" line="297"/>
       <source>Description of IFC attributes are not yet implemented</source>
-      <translation type="unfinished">Description of IFC attributes are not yet implemented</translation>
+      <translation>Perihalan atribut IFC belum dilaksanakan</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="64"/>
       <source>The length of this element</source>
-      <translation type="unfinished">The length of this element</translation>
+      <translation>Panjang elemen</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="66"/>
       <source>The width of this element</source>
-      <translation type="unfinished">The width of this element</translation>
+      <translation>Lebar elemen</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="68"/>
       <source>The height of this element</source>
-      <translation type="unfinished">The height of this element</translation>
+      <translation>Ketinggian elemen</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="98"/>
       <location filename="../../ArchPrecast.py" line="286"/>
       <location filename="../../ArchPrecast.py" line="427"/>
       <source>The size of the chamfer of this element</source>
-      <translation type="unfinished">The size of the chamfer of this element</translation>
+      <translation>Saiz asas elemen</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="100"/>
       <source>The dent length of this element</source>
-      <translation type="unfinished">The dent length of this element</translation>
+      <translation>Panjang lekuk elemen ini</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="102"/>
       <location filename="../../ArchPrecast.py" line="431"/>
       <source>The dent height of this element</source>
-      <translation type="unfinished">The dent height of this element</translation>
+      <translation>Ketinggian lekuk elemen ini</translation>
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="104"/>
@@ -7292,102 +7279,102 @@ Building creation aborted.</translation>
     <message>
       <location filename="../../ArchCurtainWall.py" line="93"/>
       <source>The height of the curtain wall, if based on an edge</source>
-      <translation type="unfinished">The height of the curtain wall, if based on an edge</translation>
+      <translation>Ketinggian dinding tirai, jika berdasarkan tepi</translation>
     </message>
     <message>
       <location filename="../../ArchCurtainWall.py" line="97"/>
       <source>The number of vertical mullions</source>
-      <translation type="unfinished">The number of vertical mullions</translation>
+      <translation>Bilangan jenang menegak</translation>
     </message>
     <message>
       <location filename="../../ArchCurtainWall.py" line="101"/>
       <source>If the profile of the vertical mullions get aligned with the surface or not</source>
-      <translation type="unfinished">If the profile of the vertical mullions get aligned with the surface or not</translation>
+      <translation>Jika profil mullion menegak sejajar dengan permukaan atau tidak</translation>
     </message>
     <message>
       <location filename="../../ArchCurtainWall.py" line="104"/>
       <source>The number of vertical sections of this curtain wall</source>
-      <translation type="unfinished">The number of vertical sections of this curtain wall</translation>
+      <translation>Bilangan rentasan menegak pelitup dinding ini</translation>
     </message>
     <message>
       <location filename="../../ArchCurtainWall.py" line="112"/>
       <source>The height of the vertical mullions profile, if no profile is used</source>
-      <translation type="unfinished">The height of the vertical mullions profile, if no profile is used</translation>
+      <translation>Saiz jenang pepenjuru, sekiranya ada, sekiranya tampang tidak digunakan</translation>
     </message>
     <message>
       <location filename="../../ArchCurtainWall.py" line="116"/>
       <source>The width of the vertical mullions profile, if no profile is used</source>
-      <translation type="unfinished">The width of the vertical mullions profile, if no profile is used</translation>
+      <translation>Saiz jenang pepenjuru, sekiranya ada, sekiranya tampang tidak digunakan</translation>
     </message>
     <message>
       <location filename="../../ArchCurtainWall.py" line="120"/>
       <source>A profile for vertical mullions (disables vertical mullion size)</source>
-      <translation type="unfinished">A profile for vertical mullions (disables vertical mullion size)</translation>
+      <translation>Tampang untuk jenang menegak (batalkan saiz jenang mengegak)</translation>
     </message>
     <message>
       <location filename="../../ArchCurtainWall.py" line="123"/>
       <source>The number of horizontal mullions</source>
-      <translation type="unfinished">The number of horizontal mullions</translation>
+      <translation>Jumlah jenang mendatar</translation>
     </message>
     <message>
       <location filename="../../ArchCurtainWall.py" line="127"/>
       <source>If the profile of the horizontal mullions gets aligned with the surface or not</source>
-      <translation type="unfinished">If the profile of the horizontal mullions gets aligned with the surface or not</translation>
+      <translation>Sekiranya tampang jenang mendatar menjadi sejajar dengan permukaan atau tidak</translation>
     </message>
     <message>
       <location filename="../../ArchCurtainWall.py" line="130"/>
       <source>The number of horizontal sections of this curtain wall</source>
-      <translation type="unfinished">The number of horizontal sections of this curtain wall</translation>
+      <translation>Bilangan bahagian mendatar dinding tirai ini</translation>
     </message>
     <message>
       <location filename="../../ArchCurtainWall.py" line="138"/>
       <source>The height of the horizontal mullions profile, if no profile is used</source>
-      <translation type="unfinished">The height of the horizontal mullions profile, if no profile is used</translation>
+      <translation>Ketinggian profil mullion mendatar, jika tiada profil digunakan</translation>
     </message>
     <message>
       <location filename="../../ArchCurtainWall.py" line="142"/>
       <source>The width of the horizontal mullions profile, if no profile is used</source>
-      <translation type="unfinished">The width of the horizontal mullions profile, if no profile is used</translation>
+      <translation>Lebar profil mullion mendatar, jika tiada profil digunakan</translation>
     </message>
     <message>
       <location filename="../../ArchCurtainWall.py" line="146"/>
       <source>A profile for horizontal mullions (disables horizontal mullion size)</source>
-      <translation type="unfinished">A profile for horizontal mullions (disables horizontal mullion size)</translation>
+      <translation>Profil untuk mullion mendatar (melumpuhkan saiz mullion mendatar)</translation>
     </message>
     <message>
       <location filename="../../ArchCurtainWall.py" line="149"/>
       <source>The number of diagonal mullions</source>
-      <translation type="unfinished">The number of diagonal mullions</translation>
+      <translation>Bilangan jenang pepenjuru</translation>
     </message>
     <message>
       <location filename="../../ArchCurtainWall.py" line="153"/>
       <source>The size of the diagonal mullions, if any, if no profile is used</source>
-      <translation type="unfinished">The size of the diagonal mullions, if any, if no profile is used</translation>
+      <translation>Saiz mullion pepenjuru, jika ada, jika tiada profil digunakan</translation>
     </message>
     <message>
       <location filename="../../ArchCurtainWall.py" line="157"/>
       <source>A profile for diagonal mullions, if any (disables horizontal mullion size)</source>
-      <translation type="unfinished">A profile for diagonal mullions, if any (disables horizontal mullion size)</translation>
+      <translation>Profil untuk mullion pepenjuru, jika ada (melumpuhkan saiz mullion mendatar)</translation>
     </message>
     <message>
       <location filename="../../ArchCurtainWall.py" line="160"/>
       <source>The number of panels</source>
-      <translation type="unfinished">The number of panels</translation>
+      <translation>Bilangan panel</translation>
     </message>
     <message>
       <location filename="../../ArchCurtainWall.py" line="164"/>
       <source>The thickness of the panels</source>
-      <translation type="unfinished">The thickness of the panels</translation>
+      <translation>Ketebalan panel</translation>
     </message>
     <message>
       <location filename="../../ArchCurtainWall.py" line="168"/>
       <source>Swaps horizontal and vertical lines</source>
-      <translation type="unfinished">Swaps horizontal and vertical lines</translation>
+      <translation>Tukar garis mendatar dan menegak</translation>
     </message>
     <message>
       <location filename="../../ArchCurtainWall.py" line="171"/>
       <source>Perform subtractions between components so none overlap</source>
-      <translation type="unfinished">Perform subtractions between components so none overlap</translation>
+      <translation>Lakukan penolakan antara komponen supaya tiada yang bertindih</translation>
     </message>
     <message>
       <location filename="../../ArchCurtainWall.py" line="174"/>
@@ -9146,12 +9133,12 @@ Dialog../ui/dialogClassification.ui../ui/dialogIfcProperties.ui../ui/dialogIfcEl
     <message>
       <location filename="../../bimcommands/BimIfcProperties.py" line="130"/>
       <source>Add property...</source>
-      <translation type="unfinished">Add property...</translation>
+      <translation>Tambah pencirian...</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimIfcProperties.py" line="133"/>
       <source>Add property set...</source>
-      <translation type="unfinished">Add property set...</translation>
+      <translation>Tambah set pencirian...</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimIfcProperties.py" line="134"/>
@@ -9176,7 +9163,7 @@ Dialog../ui/dialogClassification.ui../ui/dialogIfcProperties.ui../ui/dialogIfcEl
     <message>
       <location filename="../../bimcommands/BimIfcProperties.py" line="696"/>
       <source>New property set</source>
-      <translation type="unfinished">New property set</translation>
+      <translation>Set pencirian baru</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimIfcProperties.py" line="697"/>
@@ -9680,7 +9667,7 @@ Dialog../ui/dialogClassification.ui../ui/dialogIfcProperties.ui../ui/dialogIfcEl
     <message>
       <location filename="../../bimcommands/BimProjectManager.py" line="244"/>
       <source>Level</source>
-      <translation type="unfinished">Level</translation>
+      <translation>Tahap</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimProjectManager.py" line="267"/>
@@ -10112,7 +10099,7 @@ Dialog../ui/dialogClassification.ui../ui/dialogIfcProperties.ui../ui/dialogIfcEl
     <message>
       <location filename="../../bimcommands/BimBuildingPart.py" line="44"/>
       <source>Level</source>
-      <translation type="unfinished">Level</translation>
+      <translation>Tahap</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimBuildingPart.py" line="48"/>
@@ -10291,7 +10278,7 @@ Dialog../ui/dialogClassification.ui../ui/dialogIfcProperties.ui../ui/dialogIfcEl
     <message>
       <location filename="../../bimcommands/BimDoor.py" line="44"/>
       <source>Door</source>
-      <translation type="unfinished">Door</translation>
+      <translation>Pintu</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimDoor.py" line="47"/>

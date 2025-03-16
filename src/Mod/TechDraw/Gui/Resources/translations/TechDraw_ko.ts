@@ -4791,7 +4791,7 @@ if you are planning to use a drawing as a 1:1 cutting guide.
     <message>
       <location filename="../../DlgPrefsTechDrawAnnotation.ui" line="398"/>
       <source>Balloon Shape</source>
-      <translation type="unfinished">Balloon Shape</translation>
+      <translation>풍선 모양</translation>
     </message>
     <message>
       <location filename="../../DlgPrefsTechDrawAnnotation.ui" line="116"/>
@@ -4826,7 +4826,7 @@ if you are planning to use a drawing as a 1:1 cutting guide.
     <message>
       <location filename="../../DlgPrefsTechDrawAnnotation.ui" line="466"/>
       <source>Length of balloon leader line kink</source>
-      <translation type="unfinished">Length of balloon leader line kink</translation>
+      <translation>풍선에 연결된 꺾인 지시선의 길이</translation>
     </message>
     <message>
       <location filename="../../DlgPrefsTechDrawAnnotation.ui" line="205"/>
@@ -5822,7 +5822,7 @@ Fast, but result is a collection of short straight lines.</translation>
       <location filename="../../DlgPrefsTechDrawScale.ui" line="20"/>
       <location filename="../../DlgPrefsTechDrawScale.ui" line="47"/>
       <source>Scale</source>
-      <translation>크기</translation>
+      <translation>척도</translation>
     </message>
     <message>
       <location filename="../../DlgPrefsTechDrawScale.ui" line="60"/>
@@ -6018,22 +6018,22 @@ Do you want to continue?</source>
     <message>
       <location filename="../../TaskBalloon.ui" line="14"/>
       <source>Balloon</source>
-      <translation type="unfinished">Balloon</translation>
+      <translation>풍선 주석</translation>
     </message>
     <message>
       <location filename="../../TaskBalloon.ui" line="22"/>
       <source>Text:</source>
-      <translation type="unfinished">Text:</translation>
+      <translation>글자:</translation>
     </message>
     <message>
       <location filename="../../TaskBalloon.ui" line="29"/>
       <source>Text to be displayed</source>
-      <translation type="unfinished">Text to be displayed</translation>
+      <translation>풍선 안에 표시되는 글자</translation>
     </message>
     <message>
       <location filename="../../TaskBalloon.ui" line="36"/>
       <source>Text Color:</source>
-      <translation type="unfinished">Text Color:</translation>
+      <translation>글자 색상:</translation>
     </message>
     <message>
       <location filename="../../TaskBalloon.ui" line="43"/>
@@ -6043,7 +6043,7 @@ Do you want to continue?</source>
     <message>
       <location filename="../../TaskBalloon.ui" line="57"/>
       <source>Font Size:</source>
-      <translation type="unfinished">Font Size:</translation>
+      <translation>글꼴 크기:</translation>
     </message>
     <message>
       <location filename="../../TaskBalloon.ui" line="76"/>
@@ -6053,17 +6053,17 @@ Do you want to continue?</source>
     <message>
       <location filename="../../TaskBalloon.ui" line="95"/>
       <source>Bubble Shape:</source>
-      <translation type="unfinished">Bubble Shape:</translation>
+      <translation>풍선 모양:</translation>
     </message>
     <message>
       <location filename="../../TaskBalloon.ui" line="102"/>
       <source>Shape of the balloon bubble</source>
-      <translation type="unfinished">Shape of the balloon bubble</translation>
+      <translation>풍선의 모양</translation>
     </message>
     <message>
       <location filename="../../TaskBalloon.ui" line="106"/>
       <source>Circular</source>
-      <translation type="unfinished">Circular</translation>
+      <translation>원형</translation>
     </message>
     <message>
       <location filename="../../TaskBalloon.ui" line="115"/>
@@ -6103,42 +6103,42 @@ Do you want to continue?</source>
     <message>
       <location filename="../../TaskBalloon.ui" line="181"/>
       <source>Shape Scale:</source>
-      <translation type="unfinished">Shape Scale:</translation>
+      <translation>풍선 배율:</translation>
     </message>
     <message>
       <location filename="../../TaskBalloon.ui" line="194"/>
       <source>Bubble shape scale factor</source>
-      <translation type="unfinished">Bubble shape scale factor</translation>
+      <translation>풍선 크기의 배율</translation>
     </message>
     <message>
       <location filename="../../TaskBalloon.ui" line="213"/>
       <source>End Symbol:</source>
-      <translation type="unfinished">End Symbol:</translation>
+      <translation>지시선 끝 기호:</translation>
     </message>
     <message>
       <location filename="../../TaskBalloon.ui" line="220"/>
       <source>End symbol for the balloon line</source>
-      <translation type="unfinished">End symbol for the balloon line</translation>
+      <translation>풍선 주석의 지시선 끝 기호</translation>
     </message>
     <message>
       <location filename="../../TaskBalloon.ui" line="227"/>
       <source>End Symbol Scale:</source>
-      <translation type="unfinished">End Symbol Scale:</translation>
+      <translation>끝 기호 배율:</translation>
     </message>
     <message>
       <location filename="../../TaskBalloon.ui" line="240"/>
       <source>End symbol scale factor</source>
-      <translation type="unfinished">End symbol scale factor</translation>
+      <translation>지시선 끝 기호의 배율</translation>
     </message>
     <message>
       <location filename="../../TaskBalloon.ui" line="259"/>
       <source>Line Visible:</source>
-      <translation type="unfinished">Line Visible:</translation>
+      <translation>지시선 보이기</translation>
     </message>
     <message>
       <location filename="../../TaskBalloon.ui" line="266"/>
       <source>Whether the leader line is visible or not</source>
-      <translation type="unfinished">Whether the leader line is visible or not</translation>
+      <translation>지신선을 표시 또는 숨김</translation>
     </message>
     <message>
       <location filename="../../TaskBalloon.ui" line="273"/>
@@ -6153,22 +6153,22 @@ Do you want to continue?</source>
     <message>
       <location filename="../../TaskBalloon.ui" line="286"/>
       <source>Line Width:</source>
-      <translation type="unfinished">Line Width:</translation>
+      <translation>선 두께:</translation>
     </message>
     <message>
       <location filename="../../TaskBalloon.ui" line="305"/>
       <source>Leader line width</source>
-      <translation type="unfinished">Leader line width</translation>
+      <translation>지시선의 선 두께</translation>
     </message>
     <message>
       <location filename="../../TaskBalloon.ui" line="324"/>
       <source>Leader Kink Length:</source>
-      <translation type="unfinished">Leader Kink Length:</translation>
+      <translation>꺾인 선 길이:</translation>
     </message>
     <message>
       <location filename="../../TaskBalloon.ui" line="343"/>
       <source>Length of balloon leader line kink</source>
-      <translation type="unfinished">Length of balloon leader line kink</translation>
+      <translation>풍선에 연결된 꺾인 지시선의 길이</translation>
     </message>
   </context>
   <context>
@@ -6341,7 +6341,7 @@ Do you want to continue?</source>
     <message>
       <location filename="../../TaskComplexSection.ui" line="127"/>
       <source>Scale</source>
-      <translation>크기</translation>
+      <translation>척도</translation>
     </message>
     <message>
       <location filename="../../TaskComplexSection.ui" line="134"/>
@@ -6766,7 +6766,7 @@ Do you want to continue?</source>
     <message>
       <location filename="../../TaskCustomizeFormat.ui" line="563"/>
       <source>Countersink</source>
-      <translation>카운터싱크(Countersink)</translation>
+      <translation>접시형 구멍</translation>
     </message>
     <message>
       <location filename="../../TaskCustomizeFormat.ui" line="573"/>
@@ -6959,7 +6959,7 @@ Custom: custom scale factor is used</translation>
     <message>
       <location filename="../../TaskDimension.ui" line="20"/>
       <source>Tolerancing</source>
-      <translation type="unfinished">Tolerancing</translation>
+      <translation>공차</translation>
     </message>
     <message>
       <location filename="../../TaskDimension.ui" line="28"/>
@@ -7039,7 +7039,7 @@ by negative value of &apos;Over Tolerance&apos;.</translation>
     <message>
       <location filename="../../TaskDimension.ui" line="130"/>
       <source>Text to be displayed</source>
-      <translation type="unfinished">Text to be displayed</translation>
+      <translation>풍선 안에 표시되는 글자</translation>
     </message>
     <message>
       <location filename="../../TaskDimension.ui" line="141"/>
@@ -7094,7 +7094,7 @@ by negative value of &apos;Over Tolerance&apos;.</translation>
     <message>
       <location filename="../../TaskDimension.ui" line="230"/>
       <source>Font Size:</source>
-      <translation type="unfinished">Font Size:</translation>
+      <translation>글꼴 크기:</translation>
     </message>
     <message>
       <location filename="../../TaskDimension.ui" line="249"/>
@@ -7663,7 +7663,7 @@ You can pick further points to get line segments.</translation>
     <message>
       <location filename="../../TaskProjGroup.ui" line="34"/>
       <source>Scale</source>
-      <translation>크기</translation>
+      <translation>척도</translation>
     </message>
     <message>
       <location filename="../../TaskProjGroup.ui" line="41"/>
@@ -8115,7 +8115,7 @@ using the given X/Y Spacing</translation>
     <message>
       <location filename="../../TaskSectionView.ui" line="116"/>
       <source>Scale</source>
-      <translation>크기</translation>
+      <translation>척도</translation>
     </message>
     <message>
       <location filename="../../TaskSectionView.ui" line="123"/>
@@ -9023,13 +9023,12 @@ using the given X/Y Spacing</translation>
       <location filename="../../ViewProviderBalloon.cpp" line="182"/>
       <source>You cannot delete this balloon now because
 there is an open task dialog.</source>
-      <translation type="unfinished">You cannot delete this balloon now because
-there is an open task dialog.</translation>
+      <translation>현재 작업창이 열려 있으므로 이 풍선을 삭제할 수 없습니다.</translation>
     </message>
     <message>
       <location filename="../../ViewProviderBalloon.cpp" line="185"/>
       <source>Can Not Delete</source>
-      <translation type="unfinished">Can Not Delete</translation>
+      <translation>삭제 할 수 없음</translation>
     </message>
   </context>
   <context>
@@ -9149,7 +9148,7 @@ there is an open task dialog.</translation>
     <message>
       <location filename="../../../App/DrawView.cpp" line="71"/>
       <source>Balloon</source>
-      <translation type="unfinished">Balloon</translation>
+      <translation>풍선 주석</translation>
     </message>
   </context>
   <context>
@@ -9700,7 +9699,7 @@ there is an open task dialog.</translation>
     <message>
       <location filename="../../ViewProviderDimension.cpp" line="304"/>
       <source>Can Not Delete</source>
-      <translation type="unfinished">Can Not Delete</translation>
+      <translation>삭제 할 수 없음</translation>
     </message>
   </context>
   <context>
@@ -9802,7 +9801,7 @@ there is an open task dialog.</translation>
     <message>
       <location filename="../../../App/BalloonPropEnum.cpp" line="32"/>
       <source>Circular</source>
-      <translation type="unfinished">Circular</translation>
+      <translation>원형</translation>
     </message>
     <message>
       <location filename="../../../App/BalloonPropEnum.cpp" line="33"/>

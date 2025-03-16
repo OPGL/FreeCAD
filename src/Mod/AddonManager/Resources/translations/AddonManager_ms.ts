@@ -518,7 +518,7 @@ installed addons will be checked for available updates</source>
     <message>
       <location filename="../../AddonManagerOptions.ui" line="27"/>
       <source>Automatically check for updates at start (requires Git)</source>
-      <translation type="unfinished">Automatically check for updates at start (requires Git)</translation>
+      <translation>Periksa kemas kini secara automatik semasa permulaan (memerlukan git)</translation>
     </message>
     <message>
       <location filename="../../AddonManagerOptions.ui" line="43"/>
@@ -618,17 +618,17 @@ installed addons will be checked for available updates</source>
     <message>
       <location filename="../../AddonManagerOptions.ui" line="369"/>
       <source>The path to the Git executable. Autodetected if needed and not specified.</source>
-      <translation type="unfinished">The path to the Git executable. Autodetected if needed and not specified.</translation>
+      <translation>Laluan ke pelaksana git. Dikesan secara automatik jika diperlukan dan tidak dinyatakan.</translation>
     </message>
     <message>
       <location filename="../../AddonManagerOptions.ui" line="396"/>
       <source>Show option to change branches (requires Git)</source>
-      <translation type="unfinished">Show option to change branches (requires Git)</translation>
+      <translation>Tunjukkan pilihan untuk menukar cawangan (memerlukan git)</translation>
     </message>
     <message>
       <location filename="../../AddonManagerOptions.ui" line="409"/>
       <source>Disable Git (fall back to ZIP downloads only)</source>
-      <translation type="unfinished">Disable Git (fall back to ZIP downloads only)</translation>
+      <translation>Nyahdayakan git (kembali kepada muat turun ZIP sahaja)</translation>
     </message>
     <message>
       <location filename="../../AddonManagerOptions.ui" line="390"/>
@@ -1170,17 +1170,17 @@ Merujuk kepada dua kaedah penomboran versi:
     <message>
       <location filename="../../AddonManager.py" line="524"/>
       <source>Creating addon list</source>
-      <translation type="unfinished">Creating addon list</translation>
+      <translation>Mencipta senarai addon</translation>
     </message>
     <message>
       <location filename="../../AddonManager.py" line="534"/>
       <source>Loading addon list</source>
-      <translation type="unfinished">Loading addon list</translation>
+      <translation>Memuatkan senarai addon</translation>
     </message>
     <message>
       <location filename="../../AddonManager.py" line="570"/>
       <source>Creating macro list</source>
-      <translation type="unfinished">Creating macro list</translation>
+      <translation>Mencipta senarai makro</translation>
     </message>
     <message>
       <location filename="../../AddonManager.py" line="626"/>
@@ -1498,11 +1498,11 @@ Moved
 from: {}
 to: {}
 Please restart to use the new version.</source>
-      <translation type="unfinished">Branch change succeeded.
-Moved
-from: {}
-to: {}
-Please restart to use the new version.</translation>
+      <translation>Pertukaran cawangan berjaya.
+Tergerak
+daripada: {}
+kepada: {}
+Sila mulakan semula untuk menggunakan versi baharu.</translation>
     </message>
     <message>
       <location filename="../../Widgets/addonmanager_widget_addon_buttons.py" line="116"/>
@@ -2130,7 +2130,7 @@ Please restart to use the new version.</translation>
     <message>
       <location filename="../../addonmanager_workers_installation.py" line="184"/>
       <source>Downloaded {} for {}</source>
-      <translation type="unfinished">Downloaded {} for {}</translation>
+      <translation>Muat turun  untuk {}</translation>
     </message>
     <message>
       <location filename="../../addonmanager_workers_installation.py" line="243"/>
@@ -2236,14 +2236,13 @@ Please restart to use the new version.</translation>
     <message>
       <location filename="../../addonmanager_workers_startup.py" line="281"/>
       <source>Git is disabled, skipping Git macros</source>
-      <translation type="unfinished">Git is disabled, skipping Git macros</translation>
+      <translation>Git dilumpuhkan, melangkau makro git</translation>
     </message>
     <message>
       <location filename="../../addonmanager_workers_startup.py" line="328"/>
       <source>Attempting to change non-Git Macro setup to use Git
 </source>
-      <translation type="unfinished">Attempting to change non-Git Macro setup to use Git
-</translation>
+      <translation>Percubaan untuk menukar persediaan Makro bukan git untuk menggunakan git</translation>
     </message>
     <message>
       <location filename="../../addonmanager_workers_startup.py" line="345"/>
@@ -2273,27 +2272,27 @@ Please restart to use the new version.</translation>
     <message>
       <location filename="../../addonmanager_workers_startup.py" line="548"/>
       <source>Checking {} for update</source>
-      <translation type="unfinished">Checking {} for update</translation>
+      <translation>Menyemak {} untuk kemas kini</translation>
     </message>
     <message>
       <location filename="../../addonmanager_workers_startup.py" line="606"/>
       <source>Unable to fetch Git updates for workbench {}</source>
-      <translation type="unfinished">Unable to fetch Git updates for workbench {}</translation>
+      <translation>Tidak dapat mengambil kemas kini git untuk meja kerja {}</translation>
     </message>
     <message>
       <location filename="../../addonmanager_workers_startup.py" line="619"/>
       <source>Git status failed for {}</source>
-      <translation type="unfinished">Git status failed for {}</translation>
+      <translation>Status git gagal untuk {}</translation>
     </message>
     <message>
       <location filename="../../addonmanager_workers_startup.py" line="846"/>
       <source>Caching {} macro</source>
-      <translation type="unfinished">Caching {} macro</translation>
+      <translation>Cache {} makro</translation>
     </message>
     <message>
       <location filename="../../addonmanager_workers_startup.py" line="849"/>
       <source>Caching macros</source>
-      <translation type="unfinished">Caching macros</translation>
+      <translation>Caching makro</translation>
     </message>
     <message>
       <location filename="../../addonmanager_workers_startup.py" line="687"/>
@@ -2359,7 +2358,7 @@ Please restart to use the new version.</translation>
     <message>
       <location filename="../../addonmanager_git.py" line="153"/>
       <source>Basic Git update failed with the following message:</source>
-      <translation type="unfinished">Basic Git update failed with the following message:</translation>
+      <translation>Kemas kini Git asas gagal dengan mesej berikut:</translation>
     </message>
     <message>
       <location filename="../../addonmanager_git.py" line="161"/>
@@ -2369,7 +2368,7 @@ Please restart to use the new version.</translation>
     <message>
       <location filename="../../addonmanager_git.py" line="266"/>
       <source>Failed to clone {} into {} using Git</source>
-      <translation type="unfinished">Failed to clone {} into {} using Git</translation>
+      <translation>Gagal mengklon {} ke dalam {} menggunakan git</translation>
     </message>
     <message>
       <location filename="../../addonmanager_git.py" line="407"/>

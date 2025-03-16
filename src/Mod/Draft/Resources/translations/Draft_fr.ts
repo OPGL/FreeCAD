@@ -440,7 +440,7 @@ Ceci ne fonctionne que si "Réseau lié" est désactivé.</translation>
       <location filename="../ui/TaskPanel_CircularArray.ui" line="254"/>
       <source>If checked, the resulting object will be a "Link array" instead of a regular array.
 A Link array is more efficient when creating multiple copies, but it cannot be fused together.</source>
-      <translation>Si cette case est cochée, l'objet résultant sera un "Réseau lié" au lieu d'un réseau normal.
+      <translation>Si cette option est cochée, l'objet résultant sera un "Réseau lié" au lieu d'un réseau normal.
 Un réseau lié est plus efficace lors de la création de plusieurs copies mais il ne peut pas être fusionné.</translation>
     </message>
     <message>
@@ -669,7 +669,7 @@ Ceci ne fonctionne que si "Réseau lié" est désactivé.</translation>
       <location filename="../ui/TaskPanel_PolarArray.ui" line="216"/>
       <source>If checked, the resulting object will be a "Link array" instead of a regular array.
 A Link array is more efficient when creating multiple copies, but it cannot be fused together.</source>
-      <translation>Si cette case est cochée, l'objet résultant sera un "Réseau lié" au lieu d'un réseau normal.
+      <translation>Si cette option est cochée, l'objet résultant sera un "Réseau lié" au lieu d'un réseau normal.
 Un réseau lié est plus efficace lors de la création de plusieurs copies mais il ne peut pas être fusionné.</translation>
     </message>
     <message>
@@ -710,7 +710,7 @@ Un réseau lié est plus efficace lors de la création de plusieurs copies mais 
     <message>
       <location filename="../ui/TaskShapeString.ui" line="114"/>
       <source>Reset 3D point selection</source>
-      <translation type="unfinished">Reset 3D point selection</translation>
+      <translation>Réinitialiser la sélection du point 3D</translation>
     </message>
     <message>
       <location filename="../ui/TaskShapeString.ui" line="120"/>
@@ -759,8 +759,7 @@ Un réseau lié est plus efficace lors de la création de plusieurs copies mais 
       <location filename="../ui/TaskSelectPlane.ui" line="20"/>
       <source>Select 3 vertices, one or more shapes or a WP Proxy. Then confirm by clicking in the 3D view.
 Or choose one of the options below.</source>
-      <translation>Sélectionner 3 sommets, une ou plusieurs formes ou un proxy de plan de travail. Confirmer ensuite en cliquant dans la vue 3D.
-Ou choisir l'une des options ci-dessous.</translation>
+      <translation>Sélectionner 3 sommets, une ou plusieurs formes ou un proxy de plan de travail. Confirmer ensuite en cliquant dans la vue 3D ou choisir l'une des options ci-dessous :</translation>
     </message>
     <message>
       <location filename="../ui/TaskSelectPlane.ui" line="31"/>
@@ -2213,7 +2212,7 @@ au lieu de la taille qu'ils ont dans le document DXF.</translation>
     <message>
       <location filename="../ui/preferences-dxf.ui" line="439"/>
       <source>If this is checked, DXF layers will be imported as Draft Layers</source>
-      <translation>Si cette case est cochée, les calques DXF seront importés sous forme de calques de Draft.</translation>
+      <translation>Si cette option est cochée est cochée, les calques DXF seront importés sous forme de calques de Draft.</translation>
     </message>
     <message>
       <location filename="../ui/preferences-dxf.ui" line="465"/>
@@ -2323,8 +2322,8 @@ Ceci peut échouer avec les modèles ultérieurs à DXF R12.</translation>
       <location filename="../ui/preferences-draftsnap.ui" line="92"/>
       <source>If checked, the outline of a human figure is displayed at the bottom left
 corner of the grid. Only effective if "Show grid border" is enabled.</source>
-      <translation type="unfinished">If checked, the outline of a human figure is displayed at the bottom left
-corner of the grid. Only effective if "Show grid border" is enabled.</translation>
+      <translation>Si cette option est cochée, le contour d'une figure humaine sera affiché en bas à gauche
+de la grille. Cette option n'est active que si "Afficher la bordure de la grille" est activée.</translation>
     </message>
     <message>
       <location filename="../ui/preferences-draftsnap.ui" line="132"/>
@@ -2823,12 +2822,12 @@ soit nécessaire d'appuyer sur la touche pour l'aimantation.</translation>
     <message>
       <location filename="../ui/preferences-draftinterface.ui" line="774"/>
       <source>If checked, the Snap widget is displayed in the Draft status bar</source>
-      <translation type="unfinished">If checked, the Snap widget is displayed in the Draft status bar</translation>
+      <translation>Si cette option est cochée, le widget d'aimantation sera affiché dans la barre d'état de Draft.</translation>
     </message>
     <message>
       <location filename="../ui/preferences-draftinterface.ui" line="793"/>
       <source>If checked, the Annotation scale widget is displayed in the Draft status bar</source>
-      <translation type="unfinished">If checked, the Annotation scale widget is displayed in the Draft status bar</translation>
+      <translation>Si cette option est cochée, le widget de mise à l'échelle d'annotation sera affiché dans la barre d'état de Draft.</translation>
     </message>
   </context>
   <context>
@@ -3470,7 +3469,7 @@ Essayez de déplacer le fichier DWG vers un chemin d'accès sans espaces ni cara
     <message>
       <location filename="../../draftutils/init_draft_statusbar.py" line="188"/>
       <source>Draft scale widget</source>
-      <translation type="unfinished">Draft scale widget</translation>
+      <translation>Widget de mise à l'échelle de Draft</translation>
     </message>
     <message>
       <location filename="../../draftutils/init_draft_statusbar.py" line="213"/>
@@ -3480,7 +3479,7 @@ Essayez de déplacer le fichier DWG vers un chemin d'accès sans espaces ni cara
     <message>
       <location filename="../../draftutils/init_draft_statusbar.py" line="249"/>
       <source>Draft snap widget</source>
-      <translation type="unfinished">Draft snap widget</translation>
+      <translation>Widget d'aimantation de Draft</translation>
     </message>
     <message>
       <location filename="../../draftutils/groups.py" line="95"/>
@@ -3981,7 +3980,7 @@ Essayez de déplacer le fichier DWG vers un chemin d'accès sans espaces ni cara
     <message>
       <location filename="../../draftguitools/gui_rotate.py" line="79"/>
       <source>Select an object to rotate</source>
-      <translation>Sélectionnez un objet à faire pivoter</translation>
+      <translation>Sélectionner un objet à faire pivoter</translation>
     </message>
     <message>
       <location filename="../../draftguitools/gui_rotate.py" line="99"/>
@@ -4064,7 +4063,7 @@ L'angle final sera l'angle de référence plus cette quantité.</translation>
     <message>
       <location filename="../../draftguitools/gui_groups.py" line="302"/>
       <source>Add to construction group</source>
-      <translation>Ajouter au groupe de construction</translation>
+      <translation>Ajouter à un groupe de construction</translation>
     </message>
     <message>
       <location filename="../../draftguitools/gui_groups.py" line="352"/>
@@ -4439,7 +4438,7 @@ L'angle final sera l'angle de référence plus cette quantité.</translation>
       <location filename="../../draftguitools/gui_layers.py" line="63"/>
       <location filename="../../draftmake/make_layer.py" line="155"/>
       <source>Layer</source>
-      <translation>Créer un calque</translation>
+      <translation>Donner un nom</translation>
     </message>
     <message>
       <location filename="../../draftguitools/gui_pointarray.py" line="95"/>
@@ -4943,7 +4942,7 @@ L'angle final sera l'angle de référence plus cette quantité.</translation>
     <message>
       <location filename="../../draftmake/make_fillet.py" line="74"/>
       <source>Two edges are needed.</source>
-      <translation type="unfinished">Two edges are needed.</translation>
+      <translation>Deux arêtes sont nécessaires.</translation>
     </message>
     <message>
       <location filename="../../draftmake/make_fillet.py" line="79"/>
@@ -5608,22 +5607,22 @@ Pour permettre à FreeCAD de télécharger ces bibliothèques, répondez Oui.</t
     <message>
       <location filename="../../draftobjects/facebinder.py" line="128"/>
       <source>Unable to build Facebinder</source>
-      <translation type="unfinished">Unable to build Facebinder</translation>
+      <translation>Impossible de construire une surface liée</translation>
     </message>
     <message>
       <location filename="../../draftobjects/facebinder.py" line="131"/>
       <source>No valid faces for Facebinder</source>
-      <translation type="unfinished">No valid faces for Facebinder</translation>
+      <translation>Aucune face valide pour la surface liée</translation>
     </message>
     <message>
       <location filename="../../draftobjects/facebinder.py" line="134"/>
       <source>Unable to build Facebinder, resuming with Sew disabled</source>
-      <translation type="unfinished">Unable to build Facebinder, resuming with Sew disabled</translation>
+      <translation>Impossible de construire une surface liée, reprise avec la propriété "Sew" désactivée</translation>
     </message>
     <message>
       <location filename="../../draftobjects/facebinder.py" line="201"/>
       <source>Converting flat B-spline faces of Facebinder to planar faces failed</source>
-      <translation type="unfinished">Converting flat B-spline faces of Facebinder to planar faces failed</translation>
+      <translation>La conversion des faces B-spline plates de la face liée en faces planes a échoué.</translation>
     </message>
   </context>
   <context>
@@ -6572,14 +6571,14 @@ Pour les objets non groupés sélectionnés, le contenu du groupe dans lequel il
     <message>
       <location filename="../../draftguitools/gui_groups.py" line="307"/>
       <source>Add to construction group</source>
-      <translation>Ajouter au groupe de construction</translation>
+      <translation>Ajouter à un groupe de construction</translation>
     </message>
     <message>
       <location filename="../../draftguitools/gui_groups.py" line="310"/>
       <source>Adds the selected objects to the construction group,
 and changes their appearance to the construction style.
 It creates a construction group if it doesn't exist.</source>
-      <translation>Ajouter les objets sélectionnés au groupe de construction et changer leur apparence
+      <translation>Ajouter les objets sélectionnés à un groupe de construction et changer leur apparence
 en style de construction. Cela crée un groupe de construction s'il n'existe pas.</translation>
     </message>
   </context>
@@ -6588,12 +6587,12 @@ en style de construction. Cela crée un groupe de construction s'il n'existe pas
     <message>
       <location filename="../../draftguitools/gui_groups.py" line="358"/>
       <source>Add a new named group</source>
-      <translation>Ajouter un nouveau groupe nommé</translation>
+      <translation>Créer un nouveau groupe nommé</translation>
     </message>
     <message>
       <location filename="../../draftguitools/gui_groups.py" line="362"/>
       <source>Add a new group with a given name.</source>
-      <translation>Ajouter un nouveau groupe avec un nom donné.</translation>
+      <translation>Créer un nouveau groupe avec un nom donné.</translation>
     </message>
   </context>
   <context>
@@ -6868,7 +6867,7 @@ Ctrl pour aimanter, Maj pour contraindre, Alt pour copier.</translation>
     <message>
       <location filename="../../draftguitools/gui_layers.py" line="68"/>
       <source>Layer</source>
-      <translation>Créer un calque</translation>
+      <translation>Donner un nom</translation>
     </message>
     <message>
       <location filename="../../draftguitools/gui_layers.py" line="71"/>

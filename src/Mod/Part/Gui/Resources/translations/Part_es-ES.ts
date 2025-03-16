@@ -2183,7 +2183,7 @@ de proyección.</translation>
     <message>
       <location filename="../../Command.cpp" line="2257"/>
       <source>Add a coordinate system</source>
-      <translation type="unfinished">Add a coordinate system</translation>
+      <translation>Añadir un sistema de coordenadas</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="2291"/>
@@ -5263,7 +5263,7 @@ Comprobación de operaciones booleanas individuales:</translation>
     <message>
       <location filename="../../TaskCheckGeometry.cpp" line="467"/>
       <source>Infinite shape</source>
-      <translation type="unfinished">Infinite shape</translation>
+      <translation>Forma infinita</translation>
     </message>
     <message>
       <location filename="../../TaskCheckGeometry.cpp" line="494"/>
@@ -5278,7 +5278,7 @@ Comprobación de operaciones booleanas individuales:</translation>
     <message>
       <location filename="../../TaskCheckGeometry.cpp" line="542"/>
       <source>No errors</source>
-      <translation type="unfinished">No errors</translation>
+      <translation>Sin errores</translation>
     </message>
     <message>
       <location filename="../../TaskCheckGeometry.cpp" line="553"/>
@@ -6945,7 +6945,7 @@ arrastrando un rectángulo de selección en la vista 3D</translation>
     <message>
       <location filename="../../Command.cpp" line="2246"/>
       <source>Create a coordinate system</source>
-      <translation type="unfinished">Create a coordinate system</translation>
+      <translation>Crear un sistema de coordenadas</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="2247"/>

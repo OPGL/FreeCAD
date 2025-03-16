@@ -3431,7 +3431,7 @@ Should multiple tools or tool shapes with the same name exist in different direc
       <location filename="../panels/TaskCAMSimulator.ui" line="86"/>
       <location filename="../panels/TaskPathSimulator.ui" line="278"/>
       <source>Job:</source>
-      <translation type="unfinished">Job:</translation>
+      <translation/>
     </message>
     <message>
       <location filename="../panels/TaskPathSimulator.ui" line="300"/>
@@ -4194,7 +4194,7 @@ Default: 3 mm</translation>
     <message>
       <location filename="../../../InitGui.py" line="262"/>
       <source>Utils</source>
-      <translation type="unfinished">Utils</translation>
+      <translation/>
     </message>
   </context>
   <context>
@@ -6181,7 +6181,7 @@ Default: 3 mm</translation>
       <location filename="../../../Path/Op/Waterline.py" line="111"/>
       <location filename="../../../Path/Op/Waterline.py" line="124"/>
       <source>Circular</source>
-      <translation type="unfinished">Circular</translation>
+      <translation>원형</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Waterline.py" line="112"/>
@@ -8120,7 +8120,7 @@ For example:
     <message>
       <location filename="../../../Path/Op/Surface.py" line="447"/>
       <source>Circular</source>
-      <translation type="unfinished">Circular</translation>
+      <translation>원형</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Surface.py" line="448"/>

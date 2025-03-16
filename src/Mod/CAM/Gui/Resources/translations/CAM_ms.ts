@@ -3827,7 +3827,7 @@ FreeCAD has no knowledge of where a particular coordinate system exists within t
     <message>
       <location filename="../panels/PathEdit.ui" line="672"/>
       <source>Alignment</source>
-      <translation type="unfinished">Alignment</translation>
+      <translation>Penjajaran:</translation>
     </message>
     <message>
       <location filename="../panels/PathEdit.ui" line="678"/>

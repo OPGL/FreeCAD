@@ -82,7 +82,7 @@ so that self intersection is avoided.</source>
     <message>
       <location filename="../../../App/FeatureHelix.cpp" line="110"/>
       <source>Fusion Tolerance for the Helix, increase if helical shape does not merge nicely with part.</source>
-      <translation type="unfinished">Fusion Tolerance for the Helix, increase if helical shape does not merge nicely with part.</translation>
+      <translation>Tolérance de fusion pour l'hélice. Augmenter si la forme hélicoïdale ne s'intègre pas bien dans la pièce.</translation>
     </message>
     <message>
       <location filename="../../../InvoluteGearFeature.py" line="98"/>
@@ -214,7 +214,7 @@ False = engrenage planétaire</translation>
     <message>
       <location filename="../../Command.cpp" line="2322"/>
       <source>Boolean operation</source>
-      <translation>Opération booléenne</translation>
+      <translation>Créer une opération booléenne</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="2323"/>
@@ -304,7 +304,7 @@ False = engrenage planétaire</translation>
     <message>
       <location filename="../../CommandBody.cpp" line="609"/>
       <source>Duplicate selected &amp;object</source>
-      <translation type="unfinished">Duplicate selected &amp;object</translation>
+      <translation>Dupliquer l'&amp;objet sélectionné</translation>
     </message>
     <message>
       <location filename="../../CommandBody.cpp" line="610"/>
@@ -1461,7 +1461,7 @@ If zero, it is equal to Radius2</source>
     <message>
       <location filename="../../TaskBooleanParameters.cpp" line="53"/>
       <source>Boolean parameters</source>
-      <translation>Paramètres Booléens</translation>
+      <translation>Paramètres booléens</translation>
     </message>
     <message>
       <location filename="../../TaskBooleanParameters.cpp" line="86"/>
@@ -2097,22 +2097,22 @@ click again to end selection</source>
     <message>
       <location filename="../../TaskHoleParameters.cpp" line="69"/>
       <source>ANSI pipe profile</source>
-      <translation type="unfinished">ANSI pipe profile</translation>
+      <translation>Filetage de tuyau ANSI</translation>
     </message>
     <message>
       <location filename="../../TaskHoleParameters.cpp" line="70"/>
       <source>BSP pipe profile</source>
-      <translation type="unfinished">BSP pipe profile</translation>
+      <translation>Filetage de tuyau BSP</translation>
     </message>
     <message>
       <location filename="../../TaskHoleParameters.cpp" line="71"/>
       <source>BSW whitworth profile</source>
-      <translation type="unfinished">BSW whitworth profile</translation>
+      <translation>Filetage Whitworth BSW</translation>
     </message>
     <message>
       <location filename="../../TaskHoleParameters.cpp" line="72"/>
       <source>BSF whitworth fine profile</source>
-      <translation type="unfinished">BSF whitworth fine profile</translation>
+      <translation>Filetage Whitworth BSF</translation>
     </message>
   </context>
   <context>
@@ -2313,7 +2313,7 @@ click again to end selection</source>
     <message>
       <location filename="../../TaskPadParameters.cpp" line="72"/>
       <source>To first</source>
-      <translation>La plus proche</translation>
+      <translation>Au plus proche</translation>
     </message>
     <message>
       <location filename="../../TaskPadParameters.cpp" line="73"/>
@@ -2737,7 +2737,7 @@ measured along the specified direction</source>
     <message>
       <location filename="../../TaskPocketParameters.cpp" line="73"/>
       <source>To first</source>
-      <translation>La plus proche</translation>
+      <translation>Au plus proche</translation>
     </message>
     <message>
       <location filename="../../TaskPocketParameters.cpp" line="74"/>
@@ -2908,7 +2908,7 @@ measured along the specified direction</source>
     <message>
       <location filename="../../TaskRevolutionParameters.cpp" line="195"/>
       <source>To first</source>
-      <translation>La plus proche</translation>
+      <translation>Au plus proche</translation>
     </message>
     <message>
       <location filename="../../TaskRevolutionParameters.cpp" line="196"/>
@@ -4183,7 +4183,7 @@ Although you will be able to migrate any moment later with 'Part Design -&gt; Mi
     <message>
       <location filename="../../TaskHoleParameters.ui" line="34"/>
       <source>Profile</source>
-      <translation>Profil</translation>
+      <translation>Filetage</translation>
     </message>
     <message>
       <location filename="../../TaskHoleParameters.ui" line="290"/>
@@ -4209,7 +4209,7 @@ Although you will be able to migrate any moment later with 'Part Design -&gt; Mi
       <location filename="../../TaskHoleParameters.ui" line="466"/>
       <source>Live update of changes to the thread
 Note that the calculation can take some time</source>
-      <translation>Mise à jour en temps réel des modifications apportées au taraudage.
+      <translation>Mise à jour en temps réel des modifications apportées au filetage.
 Notez que le calcul peut prendre un certain temps.</translation>
     </message>
     <message>
@@ -4261,7 +4261,7 @@ Notez que le calcul peut prendre un certain temps.</translation>
       <location filename="../../TaskHoleParameters.ui" line="103"/>
       <source>Hole clearance
 Only available for holes without thread</source>
-      <translation>Jeu du trou. Uniquement disponible pour les trous sans filetage</translation>
+      <translation>Jeu du trou. Uniquement disponible pour les trous sans filetage.</translation>
     </message>
     <message>
       <location filename="../../TaskHoleParameters.ui" line="108"/>
@@ -4290,7 +4290,7 @@ Only available for holes without thread</source>
     <message>
       <location filename="../../TaskHoleParameters.ui" line="321"/>
       <source>Tolerance class for threaded holes according to hole profile</source>
-      <translation>Tolérance d'ajustement pour les trous filetés selon le profil du trou</translation>
+      <translation>Tolérance d'ajustement pour les trous filetés selon le filetage du trou</translation>
     </message>
     <message>
       <location filename="../../TaskHoleParameters.ui" line="692"/>

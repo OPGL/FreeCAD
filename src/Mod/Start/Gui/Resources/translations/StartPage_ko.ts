@@ -95,7 +95,7 @@
     <message>
       <location filename="../../StartView.cpp" line="301"/>
       <source>Assembly</source>
-      <translation>어셈블리</translation>
+      <translation>조립체</translation>
     </message>
     <message>
       <location filename="../../StartView.cpp" line="302"/>

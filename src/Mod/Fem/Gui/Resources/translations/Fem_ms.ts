@@ -11,12 +11,12 @@
     <message>
       <location filename="../../Command.cpp" line="244"/>
       <source>Bearing constraint</source>
-      <translation type="unfinished">Bearing constraint</translation>
+      <translation>Kekangan menanggung</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="245"/>
       <source>Creates a bearing constraint</source>
-      <translation type="unfinished">Creates a bearing constraint</translation>
+      <translation>Mencipta kekangan galas</translation>
     </message>
   </context>
   <context>
@@ -24,17 +24,17 @@
     <message>
       <location filename="../../Command.cpp" line="291"/>
       <source>Fem</source>
-      <translation type="unfinished">Fem</translation>
+      <translation>Fem</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="292"/>
       <source>Contact constraint</source>
-      <translation type="unfinished">Contact constraint</translation>
+      <translation>Kekangan hubungan</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="293"/>
       <source>Creates a contact constraint between faces</source>
-      <translation type="unfinished">Creates a contact constraint between faces</translation>
+      <translation>Mencipta kekangan hubungan antara muka</translation>
     </message>
   </context>
   <context>
@@ -42,7 +42,7 @@
     <message>
       <location filename="../../Command.cpp" line="357"/>
       <source>Fem</source>
-      <translation type="unfinished">Fem</translation>
+      <translation>Fem</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="358"/>
@@ -60,7 +60,7 @@
     <message>
       <location filename="../../Command.cpp" line="407"/>
       <source>Fem</source>
-      <translation type="unfinished">Fem</translation>
+      <translation>Fem</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="408"/>
@@ -70,7 +70,7 @@
     <message>
       <location filename="../../Command.cpp" line="409"/>
       <source>Creates a fixed boundary condition for a geometric entity</source>
-      <translation type="unfinished">Creates a fixed boundary condition for a geometric entity</translation>
+      <translation>Mencipta keadaan sempadan tetap untuk entiti geometri</translation>
     </message>
   </context>
   <context>
@@ -78,7 +78,7 @@
     <message>
       <location filename="../../Command.cpp" line="509"/>
       <source>Fem</source>
-      <translation type="unfinished">Fem</translation>
+      <translation>Fem</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="510"/>
@@ -96,12 +96,12 @@
     <message>
       <location filename="../../Command.cpp" line="561"/>
       <source>Fem</source>
-      <translation type="unfinished">Fem</translation>
+      <translation>Fem</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="562"/>
       <source>Force load</source>
-      <translation type="unfinished">Force load</translation>
+      <translation>Tekanan beban</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="563"/>
@@ -114,17 +114,17 @@
     <message>
       <location filename="../../Command.cpp" line="618"/>
       <source>Fem</source>
-      <translation type="unfinished">Fem</translation>
+      <translation>Fem</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="619"/>
       <source>Gear constraint</source>
-      <translation type="unfinished">Gear constraint</translation>
+      <translation>Kekangan gear</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="620"/>
       <source>Creates a gear constraint</source>
-      <translation type="unfinished">Creates a gear constraint</translation>
+      <translation>Mencipta kekangan galas</translation>
     </message>
   </context>
   <context>
@@ -132,17 +132,17 @@
     <message>
       <location filename="../../Command.cpp" line="666"/>
       <source>Fem</source>
-      <translation type="unfinished">Fem</translation>
+      <translation>Fem</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="667"/>
       <source>Heat flux load</source>
-      <translation type="unfinished">Heat flux load</translation>
+      <translation>Beban fluks haba</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="668"/>
       <source>Creates a heat flux load acting on a face</source>
-      <translation type="unfinished">Creates a heat flux load acting on a face</translation>
+      <translation>Mencipta beban fluks haba bertindak pada muka</translation>
     </message>
   </context>
   <context>
@@ -150,17 +150,17 @@
     <message>
       <location filename="../../Command.cpp" line="726"/>
       <source>Fem</source>
-      <translation type="unfinished">Fem</translation>
+      <translation>Fem</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="727"/>
       <source>Initial temperature</source>
-      <translation type="unfinished">Initial temperature</translation>
+      <translation>Suhu awal</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="728"/>
       <source>Creates an initial temperature acting on a body</source>
-      <translation type="unfinished">Creates an initial temperature acting on a body</translation>
+      <translation>Mencipta suhu awal yang bertindak pada badan</translation>
     </message>
   </context>
   <context>
@@ -168,17 +168,17 @@
     <message>
       <location filename="../../Command.cpp" line="777"/>
       <source>Fem</source>
-      <translation type="unfinished">Fem</translation>
+      <translation>Fem</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="778"/>
       <source>Plane multi-point constraint</source>
-      <translation type="unfinished">Plane multi-point constraint</translation>
+      <translation>Kekangan berbilang titik satah</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="779"/>
       <source>Creates a plane multi-point constraint for a face</source>
-      <translation type="unfinished">Creates a plane multi-point constraint for a face</translation>
+      <translation>Mencipta kekangan berbilang titik satah untuk muka</translation>
     </message>
   </context>
   <context>
@@ -186,17 +186,17 @@
     <message>
       <location filename="../../Command.cpp" line="828"/>
       <source>Fem</source>
-      <translation type="unfinished">Fem</translation>
+      <translation>Fem</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="829"/>
       <source>Pressure load</source>
-      <translation type="unfinished">Pressure load</translation>
+      <translation>Beban tekanan</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="830"/>
       <source>Creates a pressure load acting on a face</source>
-      <translation type="unfinished">Creates a pressure load acting on a face</translation>
+      <translation>Mencipta beban tekanan yang bertindak pada muka</translation>
     </message>
   </context>
   <context>
@@ -204,17 +204,17 @@
     <message>
       <location filename="../../Command.cpp" line="939"/>
       <source>Fem</source>
-      <translation type="unfinished">Fem</translation>
+      <translation>Fem</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="940"/>
       <source>Pulley constraint</source>
-      <translation type="unfinished">Pulley constraint</translation>
+      <translation>Kekangan takal</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="941"/>
       <source>Creates a pulley constraint</source>
-      <translation type="unfinished">Creates a pulley constraint</translation>
+      <translation>Mencipta kekangan takal</translation>
     </message>
   </context>
   <context>
@@ -222,17 +222,17 @@
     <message>
       <location filename="../../Command.cpp" line="884"/>
       <source>Fem</source>
-      <translation type="unfinished">Fem</translation>
+      <translation>Fem</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="885"/>
       <source>Spring</source>
-      <translation type="unfinished">Spring</translation>
+      <translation>Mata air</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="886"/>
       <source>Creates a spring acting on a face</source>
-      <translation type="unfinished">Creates a spring acting on a face</translation>
+      <translation>Mencipta beban tekanan yang bertindak pada muka</translation>
     </message>
   </context>
   <context>
@@ -240,17 +240,17 @@
     <message>
       <location filename="../../Command.cpp" line="992"/>
       <source>Fem</source>
-      <translation type="unfinished">Fem</translation>
+      <translation>Fem</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="993"/>
       <source>Temperature boundary condition</source>
-      <translation type="unfinished">Temperature boundary condition</translation>
+      <translation>Keadaan sempadan suhu</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="994"/>
       <source>Creates a temperature/concentrated heat flux load acting on a face</source>
-      <translation type="unfinished">Creates a temperature/concentrated heat flux load acting on a face</translation>
+      <translation>Mencipta suhu/beban fluks haba pekat bertindak pada muka</translation>
     </message>
   </context>
   <context>
@@ -258,17 +258,17 @@
     <message>
       <location filename="../../Command.cpp" line="1043"/>
       <source>Fem</source>
-      <translation type="unfinished">Fem</translation>
+      <translation>Fem</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="1044"/>
       <source>Local coordinate system</source>
-      <translation type="unfinished">Local coordinate system</translation>
+      <translation>Sistem koordinat tempatan</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="1045"/>
       <source>Create a local coordinate system on a face</source>
-      <translation type="unfinished">Create a local coordinate system on a face</translation>
+      <translation>Buat sistem koordinat setempat pada muka</translation>
     </message>
   </context>
   <context>
@@ -276,7 +276,7 @@
     <message>
       <location filename="../../Command.cpp" line="1189"/>
       <source>Fem</source>
-      <translation type="unfinished">Fem</translation>
+      <translation>Fem</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="1190"/>
@@ -291,7 +291,7 @@
     <message>
       <location filename="../../Command.cpp" line="1226"/>
       <source>Wrong selection</source>
-      <translation type="unfinished">Wrong selection</translation>
+      <translation>Pemilihan yang salah</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="1227"/>
@@ -301,7 +301,7 @@
     <message>
       <location filename="../../Command.cpp" line="1378"/>
       <source>Select a single FEM Mesh, please.</source>
-      <translation type="unfinished">Select a single FEM Mesh, please.</translation>
+      <translation>Sila pilih satu FEM Mesh.</translation>
     </message>
   </context>
   <context>
@@ -309,7 +309,7 @@
     <message>
       <location filename="../../Command.cpp" line="1130"/>
       <source>Fem</source>
-      <translation type="unfinished">Fem</translation>
+      <translation>Fem</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="1131"/>
@@ -328,7 +328,7 @@
     <message>
       <location filename="../../Command.cpp" line="2664"/>
       <source>Fem</source>
-      <translation type="unfinished">Fem</translation>
+      <translation>Fem</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="2665"/>
@@ -346,7 +346,7 @@
     <message>
       <location filename="../../Command.cpp" line="2010"/>
       <source>Fem</source>
-      <translation type="unfinished">Fem</translation>
+      <translation>Fem</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="2011"/>
@@ -356,12 +356,12 @@
     <message>
       <location filename="../../Command.cpp" line="2013"/>
       <source>Define/create a clip filter which uses functions to define the clipped region</source>
-      <translation type="unfinished">Define/create a clip filter which uses functions to define the clipped region</translation>
+      <translation>Tentukan/buat penapis klip yang menggunakan fungsi untuk mentakrifkan kawasan yang diklip</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="2566"/>
       <source>Wrong selection</source>
-      <translation type="unfinished">Wrong selection</translation>
+      <translation>Pemilihan yang salah</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="2567"/>
@@ -374,7 +374,7 @@
     <message>
       <location filename="../../Command.cpp" line="2063"/>
       <source>Fem</source>
-      <translation type="unfinished">Fem</translation>
+      <translation>Fem</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="2064"/>
@@ -392,7 +392,7 @@
     <message>
       <location filename="../../Command.cpp" line="2115"/>
       <source>Fem</source>
-      <translation type="unfinished">Fem</translation>
+      <translation>Fem</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="2116"/>
@@ -410,7 +410,7 @@
     <message>
       <location filename="../../Command.cpp" line="2164"/>
       <source>Fem</source>
-      <translation type="unfinished">Fem</translation>
+      <translation>Fem</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="2165"/>
@@ -428,7 +428,7 @@
     <message>
       <location filename="../../Command.cpp" line="2437"/>
       <source>Fem</source>
-      <translation type="unfinished">Fem</translation>
+      <translation>Fem</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="2438"/>
@@ -443,22 +443,22 @@
     <message>
       <location filename="../../Command.cpp" line="2618"/>
       <source>Plane</source>
-      <translation type="unfinished">Plane</translation>
+      <translation>Permukaan yang rata</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="2625"/>
       <source>Sphere</source>
-      <translation type="unfinished">Sphere</translation>
+      <translation>Sfera</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="2632"/>
       <source>Cylinder</source>
-      <translation type="unfinished">Cylinder</translation>
+      <translation>Silinder</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="2639"/>
       <source>Box</source>
-      <translation type="unfinished">Box</translation>
+      <translation>Kotak</translation>
     </message>
   </context>
   <context>
@@ -502,7 +502,7 @@
     <message>
       <location filename="../../Command.cpp" line="2214"/>
       <source>Fem</source>
-      <translation type="unfinished">Fem</translation>
+      <translation>Fem</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="2215"/>
@@ -518,7 +518,7 @@
       <location filename="../../Command.cpp" line="2253"/>
       <location filename="../../Command.cpp" line="2262"/>
       <source>Wrong selection</source>
-      <translation type="unfinished">Wrong selection</translation>
+      <translation>Pemilihan yang salah</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="2254"/>
@@ -532,7 +532,7 @@
     <message>
       <location filename="../../Command.cpp" line="2705"/>
       <source>Fem</source>
-      <translation type="unfinished">Fem</translation>
+      <translation>Fem</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="2706"/>
@@ -560,7 +560,7 @@
     <message>
       <location filename="../../Command.cpp" line="2289"/>
       <source>Fem</source>
-      <translation type="unfinished">Fem</translation>
+      <translation>Fem</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="2290"/>
@@ -578,7 +578,7 @@
     <message>
       <location filename="../../Command.cpp" line="2339"/>
       <source>Fem</source>
-      <translation type="unfinished">Fem</translation>
+      <translation>Fem</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="2340"/>
@@ -601,77 +601,77 @@
     <message>
       <location filename="../../Command.cpp" line="261"/>
       <source>Make bearing constraint</source>
-      <translation type="unfinished">Make bearing constraint</translation>
+      <translation>Mencipta kekangan galas</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="309"/>
       <source>Make contact constraint on a face</source>
-      <translation type="unfinished">Make contact constraint on a face</translation>
+      <translation>Buat kekangan sentuhan pada muka</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="375"/>
       <source>Make displacement boundary condition on face</source>
-      <translation type="unfinished">Make displacement boundary condition on face</translation>
+      <translation>Buat keadaan sempadan anjakan pada muka</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="425"/>
       <source>Make fixed boundary condition for geometry</source>
-      <translation type="unfinished">Make fixed boundary condition for geometry</translation>
+      <translation>Buat syarat sempadan tetap untuk geometri</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="475"/>
       <source>Make rigid body constraint</source>
-      <translation type="unfinished">Make rigid body constraint</translation>
+      <translation>Buat kekangan badan yang tegar</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="579"/>
       <source>Make force load on geometry</source>
-      <translation type="unfinished">Make force load on geometry</translation>
+      <translation>Buat beban daya pada geometri</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="635"/>
       <source>Make gear constraint</source>
-      <translation type="unfinished">Make gear constraint</translation>
+      <translation>Mencipta kekangan galas</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="684"/>
       <source>Make heat flux load on face</source>
-      <translation type="unfinished">Make heat flux load on face</translation>
+      <translation>Buat beban fluks haba pada muka</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="744"/>
       <source>Make initial temperature condition on body</source>
-      <translation type="unfinished">Make initial temperature condition on body</translation>
+      <translation>Buat keadaan suhu awal pada badan</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="795"/>
       <source>Make plane multi-point constraint on face</source>
-      <translation type="unfinished">Make plane multi-point constraint on face</translation>
+      <translation>Buat kekangan berbilang titik satah pada muka</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="846"/>
       <source>Make pressure load on face</source>
-      <translation type="unfinished">Make pressure load on face</translation>
+      <translation>Buat beban tekanan pada muka</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="902"/>
       <source>Make spring on face</source>
-      <translation type="unfinished">Make spring on face</translation>
+      <translation>Buat spring pada muka</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="957"/>
       <source>Make pulley constraint</source>
-      <translation type="unfinished">Make pulley constraint</translation>
+      <translation>Buat kekangan takal</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="1010"/>
       <source>Make temperature boundary condition on face</source>
-      <translation type="unfinished">Make temperature boundary condition on face</translation>
+      <translation>Buat keadaan sempadan suhu pada muka</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="1061"/>
       <source>Make local coordinate system on face</source>
-      <translation type="unfinished">Make local coordinate system on face</translation>
+      <translation>Buat sistem koordinat setempat pada muka</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="1111"/>
@@ -692,7 +692,7 @@
     <message>
       <location filename="../../Command.cpp" line="1353"/>
       <source>Edit Elements set</source>
-      <translation type="unfinished">Edit Elements set</translation>
+      <translation>Edit Set Elemen</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="1364"/>

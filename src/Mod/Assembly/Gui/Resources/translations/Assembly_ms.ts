@@ -1340,7 +1340,7 @@ Press ESC to cancel.</translation>
     <message>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="181"/>
       <source>Frame</source>
-      <translation type="unfinished">Frame</translation>
+      <translation>Bingkai</translation>
     </message>
     <message>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="201"/>

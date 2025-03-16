@@ -3223,7 +3223,7 @@ Netgen을 사용하는 경우 사용 가능한지 확인합니다.</translation>
     <message>
       <location filename="../ui/preferences-dae.ui" line="85"/>
       <source>Builtin</source>
-      <translation>분할 갯수</translation>
+      <translation>구축된</translation>
     </message>
     <message>
       <location filename="../ui/preferences-dae.ui" line="90"/>
@@ -10427,7 +10427,7 @@ CTRL + / 키를 눌러 자동모드와 수동모드 전환</translation>
     <message>
       <location filename="../../bimcommands/BimLeader.py" line="47"/>
       <source>Creates a polyline with an arrow at its endpoint</source>
-      <translation type="unfinished">Creates a polyline with an arrow at its endpoint</translation>
+      <translation>끝점에 화살표가 있는 꺾은선을 생성합니다.</translation>
     </message>
   </context>
   <context>
