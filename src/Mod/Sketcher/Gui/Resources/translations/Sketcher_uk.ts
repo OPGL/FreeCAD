@@ -498,7 +498,7 @@ on the selected vertex</source>
       <location filename="../../CommandConstraints.cpp" line="9715"/>
       <source>Create a refraction law (Snell's law)constraint between two endpoints of rays
 and an edge as an interface.</source>
-      <translation>Створює обмеження за законом заломлення (закон Снеліуса) між
+      <translation>Створює обмеження за законом заломлення (закон Снеліуса) між 
 двома кінцевими точками променя та ребром як границею розділу середовищ.</translation>
     </message>
   </context>
@@ -513,7 +513,7 @@ and an edge as an interface.</source>
       <location filename="../../CommandConstraints.cpp" line="9358"/>
       <source>Create a symmetry constraint between two points
 with respect to a line or a third point</source>
-      <translation>Створює обмеження симетричності між двома
+      <translation>Створює обмеження симетричності між двома 
 точками відносно лінії або третьої точки</translation>
     </message>
   </context>
@@ -1093,7 +1093,7 @@ then call this command, then choose the desired sketch.</source>
       <source>Creates a new mirrored sketch for each selected sketch
 by using the X or Y axes, or the origin point,
 as mirroring reference.</source>
-      <translation>Створює новий ескіз дзеркальним зображенням кожного з
+      <translation>Створює новий ескіз дзеркальним зображенням кожного з 
 вибраних ескізів відносно осі X, Y або початку координат.</translation>
     </message>
     <message>
@@ -2051,7 +2051,7 @@ invalid constraints, degenerated geometry, etc.</source>
     <message>
       <location filename="../../ViewProviderSketch.cpp" line="1671"/>
       <source>Drag geometries</source>
-      <translation type="unfinished">Drag geometries</translation>
+      <translation>Перетягнути геометрії</translation>
     </message>
     <message>
       <location filename="../../ViewProviderSketch.cpp" line="1052"/>
@@ -3923,7 +3923,7 @@ Accepted combinations: two curves; an endpoint and a curve; two endpoints; two c
       <location filename="../../SketchRectangularArrayDialog.ui" line="93"/>
       <source>If selected, each element in the array is constrained
 with respect to the others using construction lines</source>
-      <translation>Якщо виділено, кожен елемент в масиві буде обмежений
+      <translation>Якщо виділено, кожен елемент в масиві буде обмежений 
 відносно інших за допомогою допоміжних ліній</translation>
     </message>
     <message>
@@ -3936,8 +3936,8 @@ with respect to the others using construction lines</source>
       <source>If selected, it substitutes dimensional constraints by geometric constraints
 in the copies, so that a change in the original element is directly
 reflected on copies</source>
-      <translation>Якщо виділено, розмірні обмеження будуть замінені
-геометричними обмеженнями в копіях, тому зміна базового елемента
+      <translation>Якщо виділено, розмірні обмеження будуть замінені 
+геометричними обмеженнями в копіях, тому зміна базового елемента 
 безпосередньо позначиться на копіях</translation>
     </message>
     <message>
@@ -3981,7 +3981,7 @@ reflected on copies</source>
       <location filename="../../SketcherSettings.ui" line="26"/>
       <source>Sketcher dialog will have additional section
 'Advanced solver control' to adjust solver settings</source>
-      <translation>Діалогове вікно Редактора Ескізів матиме додатковий розділ
+      <translation>Діалогове вікно Редактора Ескізів матиме додатковий розділ 
 «Розширене керування вирішувачем», щоб налаштувати параметри вирішувача</translation>
     </message>
     <message>
@@ -4069,12 +4069,12 @@ Requires to re-enter edit mode to take effect.</source>
     <message>
       <location filename="../../SketcherSettings.ui" line="222"/>
       <source>If checked then external geometry is always added as reference, otherwise it's added according to the current construction mode.</source>
-      <translation type="unfinished">If checked then external geometry is always added as reference, otherwise it's added according to the current construction mode.</translation>
+      <translation>Якщо позначено, зовнішня геометрія завжди додається як еталон, інакше вона додається відповідно до поточного режиму побудови.</translation>
     </message>
     <message>
       <location filename="../../SketcherSettings.ui" line="225"/>
       <source>Always add external geometry as reference</source>
-      <translation type="unfinished">Always add external geometry as reference</translation>
+      <translation>Завжди додавати зовнішню геометрію як еталон</translation>
     </message>
     <message>
       <location filename="../../SketcherSettings.ui" line="250"/>
@@ -4944,7 +4944,7 @@ This is done by analyzing the sketch geometries and constraints.</source>
     <message>
       <location filename="../../TaskSketcherValidation.ui" line="193"/>
       <source>Fixes found reversed external geometries by swapping their endpoints</source>
-      <translation>Виправляє знайдену перевернуту зовнішню
+      <translation>Виправляє знайдену перевернуту зовнішню 
 геометрію шляхом зміни кінцевих точок</translation>
     </message>
     <message>
@@ -5354,7 +5354,7 @@ This is done by analyzing the sketch geometries and constraints.</source>
     <message>
       <location filename="../../Command.cpp" line="603"/>
       <source>Cannot attach sketch to itself!</source>
-      <translation type="unfinished">Cannot attach sketch to itself!</translation>
+      <translation>Неможливо прикріпити ескіз до себе!</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="604"/>
@@ -5369,7 +5369,7 @@ This is done by analyzing the sketch geometries and constraints.</source>
     <message>
       <location filename="../../Command.cpp" line="622"/>
       <source>Select a sketch (some sketches not shown to prevent a circular dependency)</source>
-      <translation type="unfinished">Select a sketch (some sketches not shown to prevent a circular dependency)</translation>
+      <translation>Виберіть ескіз (деякі ескізи не показано, щоб запобігти циклічній залежності)</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="624"/>
@@ -7381,12 +7381,12 @@ Instead equal constraints are applied between the original objects and their cop
     <message>
       <location filename="../../CommandCreateGeo.cpp" line="1448"/>
       <source>Create external</source>
-      <translation type="unfinished">Create external</translation>
+      <translation>Створити зовнішній</translation>
     </message>
     <message>
       <location filename="../../CommandCreateGeo.cpp" line="1449"/>
       <source>Create external edges linked to external geometries.</source>
-      <translation type="unfinished">Create external edges linked to external geometries.</translation>
+      <translation>Створення зовнішніх ребер, пов’язаних із зовнішніми геометріями.</translation>
     </message>
   </context>
   <context>
@@ -7394,16 +7394,16 @@ Instead equal constraints are applied between the original objects and their cop
     <message>
       <location filename="../../CommandCreateGeo.cpp" line="1503"/>
       <source>Create external projection geometry</source>
-      <translation type="unfinished">Create external projection geometry</translation>
+      <translation>Створення геометрії зовнішньої проекції</translation>
     </message>
     <message>
       <location filename="../../CommandCreateGeo.cpp" line="1504"/>
       <source>Create the projection edges of an external geometry.
 External edges can be either defining or construction geometries.
 You can use the toggle construction tool.</source>
-      <translation type="unfinished">Create the projection edges of an external geometry.
-External edges can be either defining or construction geometries.
-You can use the toggle construction tool.</translation>
+      <translation>Створіть ребра проекції зовнішньої геометрії.
+Зовнішні ребра можуть бути визначальними або конструктивними геометріями.
+Ви можете використовувати інструмент конструювання перемикачів.</translation>
     </message>
   </context>
   <context>
@@ -7411,16 +7411,16 @@ You can use the toggle construction tool.</translation>
     <message>
       <location filename="../../CommandCreateGeo.cpp" line="1540"/>
       <source>Create external intersection geometry</source>
-      <translation type="unfinished">Create external intersection geometry</translation>
+      <translation>Створення геометрії зовнішнього перетину</translation>
     </message>
     <message>
       <location filename="../../CommandCreateGeo.cpp" line="1542"/>
       <source>Create the intersection edges of an external geometry with the sketch plane.
 External edges can be either defining or construction geometries.
 You can use the toggle construction tool.</source>
-      <translation type="unfinished">Create the intersection edges of an external geometry with the sketch plane.
-External edges can be either defining or construction geometries.
-You can use the toggle construction tool.</translation>
+      <translation>Створіть ребра перетину зовнішньої геометрії з площиною ескізу.
+Зовнішні ребра можуть бути визначальними або конструктивними геометріями.
+Ви можете використовувати інструмент конструювання перемикачів.</translation>
     </message>
   </context>
 </TS>

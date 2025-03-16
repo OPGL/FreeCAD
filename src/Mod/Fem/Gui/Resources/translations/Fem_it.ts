@@ -1075,7 +1075,7 @@
 '%1'
  does not exist!
 Specify another file please.</source>
-      <translation>L'eseguibile specificato
+      <translation>L'eseguibile specificato 
 '%1'
  non esiste!
 Specificare un altro file.</translation>
@@ -1134,12 +1134,12 @@ saranno unite per rendere i limiti del volume invisibili.</translation>
     <message>
       <location filename="../../DlgSettingsFemElmer.ui" line="297"/>
       <source>Save result in binary format</source>
-      <translation type="unfinished">Save result in binary format</translation>
+      <translation>Salva risultato in formato binario</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemElmer.ui" line="300"/>
       <source>Use binary format</source>
-      <translation type="unfinished">Use binary format</translation>
+      <translation>Usa formato binario</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemElmer.ui" line="316"/>
@@ -1202,7 +1202,7 @@ saranno unite per rendere i limiti del volume invisibili.</translation>
 '%1'
  does not exist!
 Specify another file please.</source>
-      <translation>L'eseguibile specificato
+      <translation>L'eseguibile specificato 
 '%1'
  non esiste!
 Specificare un altro file.</translation>
@@ -1470,7 +1470,7 @@ si aggiunge un contenitore di analisi</translation>
     <message>
       <location filename="../../DlgSettingsFemGmsh.ui" line="138"/>
       <source>Level of verbosity printed on the task panel</source>
-      <translation type="unfinished">Level of verbosity printed on the task panel</translation>
+      <translation>Livello di verbosità sul pannello delle attività</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemGmsh.ui" line="157"/>
@@ -1493,7 +1493,7 @@ si aggiunge un contenitore di analisi</translation>
 '%1'
  does not exist!
 Specify another file please.</source>
-      <translation>L'eseguibile specificato
+      <translation>L'eseguibile specificato 
 '%1'
  non esiste!
 Specificare un altro file.</translation>
@@ -1567,7 +1567,7 @@ esportati da FreeCAD.</translation>
     <message>
       <location filename="../../DlgSettingsFemInOutVtk.ui" line="95"/>
       <source>Mesh elements to export</source>
-      <translation type="unfinished">Mesh elements to export</translation>
+      <translation>Elementi mesh da esportare</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemInOutVtk.ui" line="102"/>
@@ -1623,7 +1623,7 @@ esportati da FreeCAD.</translation>
 '%1'
  does not exist!
 Specify another file please.</source>
-      <translation>L'eseguibile specificato
+      <translation>L'eseguibile specificato 
 '%1'
  non esiste!
 Specificare un altro file.</translation>
@@ -1698,8 +1698,8 @@ You might need to increase this when using the
 Cholesky solver and you get the error message
 that "MAXGS" needs to be increased.</source>
       <translation>Numero massimo di punti in una matrice di rigidità.
-Potrebbe essere necessario aumentare questo valore
-quando si utilizza il solutore Cholesky e si ottiene il
+Potrebbe essere necessario aumentare questo valore 
+quando si utilizza il solutore Cholesky e si ottiene il 
 messaggio di errore che "MAXGS" deve essere aumentato.</translation>
     </message>
     <message>
@@ -1735,7 +1735,7 @@ messaggio di errore che "MAXKOI" deve essere aumentato.</translation>
 '%1'
  does not exist!
 Specify another file please.</source>
-      <translation>L'eseguibile z88r specificato
+      <translation>L'eseguibile z88r specificato 
 '%1'
  non esiste!
 Specificare un altro file.</translation>
@@ -2695,7 +2695,7 @@ Specificare un altro file.</translation>
     <message>
       <location filename="../ui/Material.ui" line="40"/>
       <source>Density:</source>
-      <translation type="unfinished">Density:</translation>
+      <translation>Densità:</translation>
     </message>
     <message>
       <location filename="../ui/Material.ui" line="142"/>
@@ -3139,14 +3139,14 @@ con una forza motrice armonica/oscillante</translation>
       <location filename="../ui/ElectrostaticPotential.ui" line="247"/>
       <source>Real part of potential x-component
 Note: has no effect if a solid was selected</source>
-      <translation>Parte reale componente x del potenziale
+      <translation>Parte reale componente x del potenziale 
 Nota: non ha effetto se è stato selezionato un solido</translation>
     </message>
     <message>
       <location filename="../ui/ElectrostaticPotential.ui" line="292"/>
       <source>Imaginary part of potential x-component
 Note: has no effect if a solid was selected</source>
-      <translation>Parte immaginaria componente x del potenziale
+      <translation>Parte immaginaria componente x del potenziale 
 Nota: non ha effetto se è stato selezionato un solido</translation>
     </message>
     <message>
@@ -3160,14 +3160,14 @@ Nota: non ha effetto se è stato selezionato un solido</translation>
       <location filename="../ui/ElectrostaticPotential.ui" line="347"/>
       <source>Real part of potential y-component
 Note: has no effect if a solid was selected</source>
-      <translation>Parte reale componente y del potenziale
+      <translation>Parte reale componente y del potenziale 
 Nota: non ha effetto se è stato selezionato un solido</translation>
     </message>
     <message>
       <location filename="../ui/ElectrostaticPotential.ui" line="392"/>
       <source>Imaginary part of potential y-component
 Note: has no effect if a solid was selected</source>
-      <translation>Parte immaginaria componente y del potenziale
+      <translation>Parte immaginaria componente y del potenziale 
 Nota: non ha effetto se è stato selezionato un solido</translation>
     </message>
     <message>
@@ -3181,14 +3181,14 @@ Nota: non ha effetto se è stato selezionato un solido</translation>
       <location filename="../ui/ElectrostaticPotential.ui" line="447"/>
       <source>Real part of potential z-component
 Note: has no effect if a solid was selected</source>
-      <translation>Parte reale componente z del potenziale
+      <translation>Parte reale componente z del potenziale 
 Nota: non ha effetto se è stato selezionato un solido</translation>
     </message>
     <message>
       <location filename="../ui/ElectrostaticPotential.ui" line="492"/>
       <source>Imaginary part of potential z-component
 Note: has no effect if a solid was selected</source>
-      <translation>Parte immaginaria componente z del potenziale
+      <translation>Parte immaginaria componente z del potenziale 
 Nota: non ha effetto se è stato selezionato un solido</translation>
     </message>
     <message>
@@ -4323,7 +4323,7 @@ per il risolutore Elmer</translation>
 surface force (and thus displacement)
 generated by the flow
 (Option only applies for Elmer solver)</source>
-      <translation>La soluzione del flusso è utilizzata per determinare
+      <translation>La soluzione del flusso è utilizzata per determinare 
 la forza di superficie (e quindi lo spostamento)
 generata dal flusso
 (l'opzione si applica solo per il solutore Elmer)</translation>
@@ -6118,7 +6118,7 @@ Per favore seleziona prima un tipo di risultato.</translation>
     <message>
       <location filename="../../TaskPostContours.ui" line="116"/>
       <source>No Color</source>
-      <translation type="unfinished">No Color</translation>
+      <translation>Nessun Colore</translation>
     </message>
   </context>
   <context>
@@ -6674,7 +6674,7 @@ Per favore seleziona prima un tipo di risultato.</translation>
     <message>
       <location filename="../../Command.cpp" line="1338"/>
       <source>Erase elements</source>
-      <translation type="unfinished">Erase elements</translation>
+      <translation>Cancella elementi</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="1339"/>
@@ -6803,7 +6803,7 @@ Per favore seleziona prima un tipo di risultato.</translation>
     <message>
       <location filename="../ui/DlgSettingsNetgen.ui" line="66"/>
       <source>Level of verbosity printed on the task panel</source>
-      <translation type="unfinished">Level of verbosity printed on the task panel</translation>
+      <translation>Livello di verbosità sul pannello delle attività</translation>
     </message>
     <message>
       <location filename="../ui/DlgSettingsNetgen.ui" line="85"/>

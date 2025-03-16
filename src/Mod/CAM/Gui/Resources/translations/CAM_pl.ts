@@ -117,7 +117,7 @@
       <location filename="../panels/DlgJobCreate.ui" line="32"/>
       <source>Select a template to be used for the job. In case there are no templates you can create one through the popup menu of an existing job. Name the file job_*.json and place it in the macro or the path directory (see preferences) in order to be selectable from this list.</source>
       <translation>Wybierz szablon, który będzie używany dla zadania. W przypadku braku szablonów
-można je utworzyć za pomocą menu podręcznego istniejącego zadania.
+można je utworzyć za pomocą menu podręcznego istniejącego zadania. 
 Nazwij plik job_*.json i umieść go w katalogu "makro" lub "path" (patrz preferencje),
 aby można go było wybrać z tej listy.</translation>
     </message>
@@ -154,7 +154,7 @@ aby można go było wybrać z tej listy.</translation>
     <message>
       <location filename="../panels/DlgJobTemplateExport.ui" line="20"/>
       <source>If enabled, include all post processing settings in the template.</source>
-      <translation type="unfinished">If enabled, include all post processing settings in the template.</translation>
+      <translation>Jeśli opcja jest włączona, w szablonie uwzględnione będą wszystkie ustawienia postprocessingu.</translation>
     </message>
     <message>
       <location filename="../panels/DlgJobTemplateExport.ui" line="23"/>
@@ -164,7 +164,7 @@ aby można go było wybrać z tej listy.</translation>
     <message>
       <location filename="../panels/DlgJobTemplateExport.ui" line="48"/>
       <source>If enabled, tool controller definitions are stored in the template.</source>
-      <translation type="unfinished">If enabled, tool controller definitions are stored in the template.</translation>
+      <translation>Jeśli opcja jest włączona, definicje kontrolera narzędzi będą przechowywane w szablonie.</translation>
     </message>
     <message>
       <location filename="../panels/DlgJobTemplateExport.ui" line="51"/>
@@ -228,11 +228,11 @@ Jeśli opcja ta nie est zaznaczona, aktualny Arkusz Ustawień nie zostanie zmody
 For Box and Cylinder stocks this means the actual size of the stock solid being created.
 
 For stock from the Base object&apos;s bounding box it means the extra material in all directions. A stock object created from such a template will get its basic size from the new job&apos;s Base object and apply the stored extra settings.</source>
-      <translation type="unfinished">If enabled, the current size settings for the stock object are included in the template.
+      <translation>Jeśli opcja ta jest włączona, w szablonie uwzględniane są bieżące ustawienia przygotówki obiektu.
 
-For Box and Cylinder stocks this means the actual size of the stock solid being created.
+W przypadku brył typu sześcian i walec oznacza to rzeczywisty rozmiar tworzonej bryły.
 
-For stock from the Base object&apos;s bounding box it means the extra material in all directions. A stock object created from such a template will get its basic size from the new job&apos;s Base object and apply the stored extra settings.</translation>
+W przypadku naddatkóœ z obwiedni obiektu podstawowego oznacza to dodatkowy materiał we wszystkich kierunkach. Obiekt przygotówki utworzony na podstawie takiego szablonu otrzyma swój podstawowy rozmiar z nowego obiektu bazowego zadania i zastosuje zapisane dodatkowe ustawienia.</translation>
     </message>
     <message>
       <location filename="../panels/DlgJobTemplateExport.ui" line="184"/>
@@ -259,7 +259,7 @@ For stock from the Base object&apos;s bounding box it means the extra material i
       <source>Enable all operations for which the configuration values should be exported.
 
 Note that only operations which currently have configuration values set are listed.</source>
-      <translation>Włącz wszystkie operacje, dla których wartości konfiguracyjne powinny być wyeksportowane.
+      <translation>Włącz wszystkie operacje, dla których wartości konfiguracyjne powinny być wyeksportowane. 
 
 Należy pamiętać, że na liście znajdują się tylko operacje, dla których aktualnie ustawiono wartości konfiguracyjne.</translation>
     </message>
@@ -270,11 +270,11 @@ Należy pamiętać, że na liście znajdują się tylko operacje, dla których a
 This option is most useful if stock is a box or cylinder, or if the machine has a standard placement for machining.
 
 Note that this option is disabled if a stock object from an existing solid is used in the job - they cannot be stored in a template.</source>
-      <translation type="unfinished">If enabled, the creation of stock is included in the template. If a template does not include a stock definition the default stock creation algorithm will be used (creation from the Base object&apos;s bounding box).
+      <translation>Jeśli opcja ta jest zaznaczona, tworzenie zasobów jest uwzględnione w szablonie. Jeśli szablon nie zawiera definicji przygotówki, zostanie użyty domyślny algorytm tworzenia przygotówki (tworzenie z ramki ograniczającej obiektu podstawowego).
 
-This option is most useful if stock is a box or cylinder, or if the machine has a standard placement for machining.
+Opcja ta jest najbardziej przydatna, jeśli materiał jest sześcianem lub cylindrem, lub jeśli maszyna ma standardowe rozmieszczenie do obróbki.
 
-Note that this option is disabled if a stock object from an existing solid is used in the job - they cannot be stored in a template.</translation>
+Należy pamiętać, że opcja ta jest wyłączona, jeśli w zadaniu używany jest obiekt z istniejącej bryły - nie można ich przechowywać w szablonie.</translation>
     </message>
     <message>
       <location filename="../panels/DlgJobTemplateExport.ui" line="152"/>
@@ -289,7 +289,7 @@ Note that this option is disabled if a stock object from an existing solid is us
     <message>
       <location filename="../panels/DlgJobTemplateExport.ui" line="191"/>
       <source>If enabled, the current placement of the stock solid is stored in the template.</source>
-      <translation type="unfinished">If enabled, the current placement of the stock solid is stored in the template.</translation>
+      <translation>Jeśli opcja ta jest zaznaczona, bieżące położenie bryły przygotówki jest zapisywane w szablonie.</translation>
     </message>
     <message>
       <location filename="../panels/DlgJobTemplateExport.ui" line="194"/>
@@ -679,7 +679,8 @@ Note that this option is disabled if a stock object from an existing solid is us
     <message>
       <location filename="../panels/DressupPathBoundary.ui" line="257"/>
       <source>If checked, the path is constrained by the solid. Otherwise the volume of the solid describes a &apos;keep out&apos; zone</source>
-      <translation type="unfinished">If checked, the path is constrained by the solid. Otherwise the volume of the solid describes a &apos;keep out&apos; zone</translation>
+      <translation>Jeśli opcja ta jest zaznaczona, ścieżka jest ograniczona przez bryłę. 
+W przeciwnym razie objętość bryły opisuje strefę "trzymaj się z daleka".</translation>
     </message>
     <message>
       <location filename="../panels/DressupPathBoundary.ui" line="260"/>
@@ -699,7 +700,7 @@ Note that this option is disabled if a stock object from an existing solid is us
     <message>
       <location filename="../panels/PageBaseGeometryEdit.ui" line="59"/>
       <source>Select one or more features in the 3D view and press &apos;Add&apos; to add them as the base items for this operation. Selected features can be deleted entirely.</source>
-      <translation type="unfinished">Select one or more features in the 3D view and press &apos;Add&apos; to add them as the base items for this operation. Selected features can be deleted entirely.</translation>
+      <translation>Wybierz jedną lub więcej cech w oknie widoku 3D i naciśnij przycisk "Dodaj", aby dodać je jako elementy bazowe dla tej operacji. Wybrane cechy można całkowicie usunąć.</translation>
     </message>
     <message>
       <location filename="../panels/PageBaseGeometryEdit.ui" line="69"/>
@@ -764,7 +765,7 @@ Zresetuje wszystkie bieżące elementy z listy i wypełnia listę wszystkimi okr
     <message>
       <location filename="../panels/PageBaseHoleGeometryEdit.ui" line="46"/>
       <source>Add selected items from 3D view to the list of base geometries</source>
-      <translation type="unfinished">Add selected items from 3D view to the list of base geometries</translation>
+      <translation>Dodaj wybrane elementy z okna widoku 3D do listy geometrii bazowych</translation>
     </message>
     <message>
       <location filename="../panels/PageBaseHoleGeometryEdit.ui" line="56"/>
@@ -1209,12 +1210,12 @@ Zresetuje wszystkie bieżące elementy z listy i wypełnia listę wszystkimi okr
     <message>
       <location filename="../panels/PageOpTappingEdit.ui" line="45"/>
       <source>Tap Tip</source>
-      <translation type="unfinished">Tap Tip</translation>
+      <translation>Końcówka gwintownika</translation>
     </message>
     <message>
       <location filename="../panels/PageOpTappingEdit.ui" line="50"/>
       <source>2x Tap Tip</source>
-      <translation type="unfinished">2x Tap Tip</translation>
+      <translation>2x końcówka gwintownika</translation>
     </message>
     <message>
       <location filename="../panels/PageOpTappingEdit.ui" line="65"/>
@@ -1226,7 +1227,7 @@ Zresetuje wszystkie bieżące elementy z listy i wypełnia listę wszystkimi okr
       <location filename="../panels/PageOpTappingEdit.ui" line="89"/>
       <location filename="../panels/PageOpTappingEdit.ui" line="110"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The tool and its settings to be used for this operation.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The tool and its settings to be used for this operation.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html>&lt;head/>&lt;body>&lt;p>Narzędzie i jego ustawienia, które będą używane do tej operacji.&lt;/p>&lt;/body>&lt;/html></translation>
     </message>
     <message>
       <location filename="../panels/PageOpTappingEdit.ui" line="103"/>
@@ -1430,7 +1431,7 @@ Ta druga opcja może być użyta do planowania całego obszaru półfabrykatu, a
     <message>
       <location filename="../panels/PageOpPocketFullEdit.ui" line="95"/>
       <source>The cutting mode assumes that the cut on one side of the tool bit represents the resulting part and the other side is either already milled away or will be removed later on. Climb mode is when the tool bit is moved into the cut on each rotation, whereas in conventional mode the tool bit&apos;s rotation and the tool&apos;s lateral movement are in the same direction</source>
-      <translation>Tryb obróbki zakłada, że skrawanie po jednej stronie końcówki narzędzia reprezentuje powstałą część, a druga strona jest już obrobiona lub zostanie wykończona później.
+      <translation>Tryb obróbki zakłada, że skrawanie po jednej stronie końcówki narzędzia reprezentuje powstałą część, a druga strona jest już obrobiona lub zostanie wykończona później. 
 Tryb podejścia oznacza, że końcówka narzędzia jest przesuwana podczas obróbki przy każdym obrocie, podczas gdy w trybie konwencjonalnym obrót końcówki narzędzia i ruch boczny narzędzia następują w tym samym kierunku.</translation>
     </message>
     <message>
@@ -1609,22 +1610,23 @@ Tryb podejścia oznacza, że końcówka narzędzia jest przesuwana podczas obró
     <message>
       <location filename="../panels/PageOpProfileFullEdit.ui" line="121"/>
       <source>Number of Passes</source>
-      <translation type="unfinished">Number of Passes</translation>
+      <translation>Ilość przejść</translation>
     </message>
     <message>
       <location filename="../panels/PageOpProfileFullEdit.ui" line="131"/>
       <source>The number of passes to do. If more than one, requires a non-zero value for Pass Stepover.</source>
-      <translation type="unfinished">The number of passes to do. If more than one, requires a non-zero value for Pass Stepover.</translation>
+      <translation>Liczba przebiegów do wykonania.
+ Jeśli jest większa niż jedno, wymaga niezerowej wartości dla przesunięcia narzędzia</translation>
     </message>
     <message>
       <location filename="../panels/PageOpProfileFullEdit.ui" line="138"/>
       <source>Pass Stepover</source>
-      <translation type="unfinished">Pass Stepover</translation>
+      <translation>Przesunięcie przejścia</translation>
     </message>
     <message>
       <location filename="../panels/PageOpProfileFullEdit.ui" line="151"/>
       <source>If doing multiple passes, the extra offset of each additional pass.</source>
-      <translation type="unfinished">If doing multiple passes, the extra offset of each additional pass.</translation>
+      <translation>W przypadku wielokrotnego przejścia dodatkowe odsunięcie każdego dodatkowego przejazdu.</translation>
     </message>
     <message>
       <location filename="../panels/PageOpProfileFullEdit.ui" line="164"/>
@@ -1639,11 +1641,11 @@ Tryb podejścia oznacza, że końcówka narzędzia jest przesuwana podczas obró
     <message>
       <location filename="../panels/PageOpProfileFullEdit.ui" line="194"/>
       <source>Check if you want this profile operation to also be applied to cylindrical holes, which normally get drilled. This can be useful if no drill of adequate size is available or the number of holes don&apos;t warrant a tool change. Note that the cut side and direction is reversed in respect to the specified values</source>
-      <translation>Sprawdź, czy chcesz, aby ta operacja profilowania była również stosowana
-do otworów cylindrycznych, które zwykle są wiercone.
-Może to być przydatne, jeśli nie jest dostępne wiertło o odpowiednim rozmiarze
-lub liczba otworów nie uzasadnia zmiany narzędzia.
-Należy pamiętać, że strona i kierunek skrawania
+      <translation>Sprawdź, czy chcesz, aby ta operacja profilowania była również stosowana 
+do otworów cylindrycznych, które zwykle są wiercone. 
+Może to być przydatne, jeśli nie jest dostępne wiertło o odpowiednim rozmiarze 
+lub liczba otworów nie uzasadnia zmiany narzędzia. 
+Należy pamiętać, że strona i kierunek skrawania 
 są odwrócone w stosunku do określonych wartości.</translation>
     </message>
     <message>
@@ -1659,7 +1661,8 @@ są odwrócone w stosunku do określonych wartości.</translation>
     <message>
       <location filename="../panels/PageOpProfileFullEdit.ui" line="184"/>
       <source>If checked, the profile operation is offset by the tool radius. The offset direction is determined by the Cut Side</source>
-      <translation type="unfinished">If checked, the profile operation is offset by the tool radius. The offset direction is determined by the Cut Side</translation>
+      <translation>Jeśli opcja ta jest zaznaczona, to operacja profilowania zostaje przesunięta o promień narzędzia.
+ Kierunek przesunięcia ustalany jest przez stronę skrawania</translation>
     </message>
     <message>
       <location filename="../panels/PageOpProfileFullEdit.ui" line="187"/>
@@ -1869,7 +1872,7 @@ są odwrócone w stosunku do określonych wartości.</translation>
     <message>
       <location filename="../panels/PageOpSurfaceEdit.ui" line="84"/>
       <source>Planar: Flat, 3D surface scan.  Rotational: 4th-axis rotational scan.</source>
-      <translation>Planarny: Skanowanie płaskie, powierzchniowe 3D.
+      <translation>Planarny: Skanowanie płaskie, powierzchniowe 3D. 
 Obrotowy: Skanowanie obrotowe w 4 osiach.</translation>
     </message>
     <message>
@@ -1993,7 +1996,7 @@ Szerokość skrawania 100% powoduje, że dwa różne cykle nie nakładają się 
     <message>
       <location filename="../panels/PageOpSurfaceEdit.ui" line="290"/>
       <source>Optimize StepOver Transitions</source>
-      <translation>Optymalizacja przejść szerokości skrawania</translation>
+      <translation>Optymalizuj przesunięcia przejścia narzędzia</translation>
     </message>
     <message>
       <location filename="../panels/SetupGlobal.ui" line="14"/>
@@ -2183,7 +2186,9 @@ Domyślnie: 3 mm</translation>
     <message>
       <location filename="../panels/PageOpVcarveEdit.ui" line="72"/>
       <source>This value is used in discretizing arcs into segments. Smaller values will result in larger G-code. Larger values may cause unwanted segments in the medial line path.</source>
-      <translation type="unfinished">This value is used in discretizing arcs into segments. Smaller values will result in larger G-code. Larger values may cause unwanted segments in the medial line path.</translation>
+      <translation>Wartość ta jest używana przy dzieleniu łuków na segmenty.
+ Mniejsze wartości będą skutkowały zwiększeniem pliku G-code.
+ Większe wartości mogą powodować niechciane segmenty na ścieżce linii środkowej.</translation>
     </message>
     <message>
       <location filename="../panels/PageOpVcarveEdit.ui" line="104"/>
@@ -2200,13 +2205,14 @@ Domyślna wartość = 10</translation>
     <message>
       <location filename="../panels/PageOpVcarveEdit.ui" line="124"/>
       <source>Endmill offset for the finishing pass run. Use small value like -0.2 mm to help clean &quot;fuzzy skin&quot; or other artefacts.</source>
-      <translation>Przesunięcie frezowania końcowego dla przejścia końcowego.
+      <translation>Przesunięcie frezowania końcowego dla przejścia końcowego. 
 Użyj małej wartości, takiej jak -0,2 mm, aby wyczyścić "rozmytą powierzchnię" lub inne niedoskonałości.</translation>
     </message>
     <message>
       <location filename="../panels/PageOpVcarveEdit.ui" line="140"/>
       <source>After carving, travel again the path to remove artifacts and imperfections</source>
-      <translation type="unfinished">After carving, travel again the path to remove artifacts and imperfections</translation>
+      <translation>Po wycięciu ponownie przejdź ścieżkę, 
+aby usunąć wszelkie defekty i niedoskonałości.</translation>
     </message>
     <message>
       <location filename="../panels/PageOpVcarveEdit.ui" line="146"/>
@@ -2216,7 +2222,7 @@ Użyj małej wartości, takiej jak -0,2 mm, aby wyczyścić "rozmytą powierzchn
     <message>
       <location filename="../panels/PageOpVcarveEdit.ui" line="153"/>
       <source>Optimize path to avoid raising endmill when moving to adjacent edges. May result in sub-millimeter inaccuracies. </source>
-      <translation>Zoptymalizuj ścieżkę, aby uniknąć unoszenia frezu podczas przechodzenia do sąsiednich krawędzi.
+      <translation>Zoptymalizuj ścieżkę, aby uniknąć unoszenia frezu podczas przechodzenia do sąsiednich krawędzi. 
 Może to spowodować niedokładności poniżej milimetra. </translation>
     </message>
     <message>
@@ -2376,7 +2382,7 @@ Jeśli podana wysokość jest równa 0, to operacja wykańczająca użyje połow
 If the radius is bigger than that which the tag shape itself supports, the resulting shape will be that of a dome.</source>
       <translation>Promień zaokrąglenia na górnej krawędzi pola mocującego.
 
-Jeśli promień jest większy niż ten, który utrzymuje sam kształt podpory,
+Jeśli promień jest większy niż ten, który utrzymuje sam kształt podpory, 
 wynikowy kształt będzie kopułą.</translation>
     </message>
     <message>
@@ -2591,8 +2597,8 @@ Zobacz zasady zapisywania plików poniżej, aby dowiedzieć się, jak radzić so
       <location filename="../preferences/PathJob.ui" line="247"/>
       <source>Choose how to deal with potential file name conflicts. Always open a dialog, only open a dialog if the output file already exists, overwrite any existing file or add a unique (3 digit) sequential ID to the file name.</source>
       <translation>Wybierz sposób postępowania z potencjalnymi konfliktami nazw plików:
-- zawsze otwieraj okno dialogowe,
-- otwieraj okno dialogowe tylko wtedy, gdy plik wyjściowy już istnieje,
+- zawsze otwieraj okno dialogowe, 
+- otwieraj okno dialogowe tylko wtedy, gdy plik wyjściowy już istnieje, 
 - nadpisz istniejący plik lub dodaj unikalny (3 cyfry) identyfikator sekwencyjny do nazwy pliku.</translation>
     </message>
     <message>
@@ -2603,8 +2609,8 @@ Zobacz zasady zapisywania plików poniżej, aby dowiedzieć się, jak radzić so
     <message>
       <location filename="../preferences/PathJob.ui" line="298"/>
       <source>It doesn&apos;t seem there are any post processor scripts installed. Please add some into your macro directory and make sure the file name ends with &amp;quot;_post.py&amp;quot;.</source>
-      <translation>Wygląda na to, że nie ma zainstalowanych żadnych skryptów postprocesora.
-Proszę dodać kilka do katalogu z makrodefinicjami i upewnić się,
+      <translation>Wygląda na to, że nie ma zainstalowanych żadnych skryptów postprocesora. 
+Proszę dodać kilka do katalogu z makrodefinicjami i upewnić się, 
 że nazwa pliku kończy się na "_post.py".</translation>
     </message>
     <message>
@@ -2615,7 +2621,7 @@ Proszę dodać kilka do katalogu z makrodefinicjami i upewnić się,
     <message>
       <location filename="../preferences/PathJob.ui" line="332"/>
       <source>Optional arguments passed to the default Post Processor specified above. See the Post Processor&apos;s documentation for supported arguments.</source>
-      <translation>Opcjonalne argumenty przekazywane do domyślnego postprocesora określonego powyżej.
+      <translation>Opcjonalne argumenty przekazywane do domyślnego postprocesora określonego powyżej. 
 Zapoznaj się z dokumentacją postprocesora, aby zobaczyć obsługiwane argumenty.</translation>
     </message>
     <message>
@@ -2907,8 +2913,8 @@ Should multiple tools or tool shapes with the same name exist in different direc
     <message>
       <location filename="../preferences/Advanced.ui" line="117"/>
       <source>If OpenCAMLib is installed with Python bindings it can be used by some additional 3D operations. NOTE: Enabling OpenCAMLib here requires a restart of FreeCAD to take effect.</source>
-      <translation>Jeśli OpenCAMLib jest zainstalowany z zależnościami Python,
-może być używany przez niektóre dodatkowe operacje 3D.
+      <translation>Jeśli OpenCAMLib jest zainstalowany z zależnościami Python, 
+może być używany przez niektóre dodatkowe operacje 3D. 
 UWAGA: Włączenie OpenCAMLib w tym miejscu wymaga ponownego uruchomienia FreeCAD.</translation>
     </message>
     <message>
@@ -3110,7 +3116,7 @@ UWAGA: Włączenie OpenCAMLib w tym miejscu wymaga ponownego uruchomienia FreeCA
     <message>
       <location filename="../panels/DogboneEdit.ui" line="155"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;List of bone locations (with all bones at that location) that are part of this dressup. The list is determined by the corners in the profile and the selected &lt;span style=&quot; font-weight:600;&quot;&gt;Side&lt;/span&gt; for the bones. &lt;/p&gt;&lt;p&gt;You can &lt;span style=&quot; font-weight:600;&quot;&gt;un-check&lt;/span&gt; the bones you don&apos;t want to be dressed up.&lt;/p&gt;&lt;p&gt;If a bone is &lt;span style=&quot; font-weight:600;&quot;&gt;grayed out&lt;/span&gt; it means that it is already dressed up by a previous dressup. Or put another way, if you dress up this dogbone dressup again you will only be able to select the bones that are un-checked here.&lt;/p&gt;&lt;p&gt;If this list is empty it probably means you&apos;re trying to create bones on the wrong side of the profile.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation>&lt;html>&lt;head/>&lt;body>&lt;p>Lista lokalizacji zacięć (wraz z wszystkimi zacięciami w tej lokalizacji), które są częścią tego wykończenia.
+      <translation>&lt;html>&lt;head/>&lt;body>&lt;p>Lista lokalizacji zacięć (wraz z wszystkimi zacięciami w tej lokalizacji), które są częścią tego wykończenia. 
 Lista ta jest określana na podstawie narożników w profilu i wybranej&lt;span style=" font-weight:600;">Strony&lt;/span> dla zacięć. &lt;/p>&lt;p>Możesz &lt;span style=" font-weight:600;">odznaczyć&lt;/span> zacięcia, których nie chcesz wykańczać.&lt;/p>&lt;p>Jeśli zacięcie jest &lt;span style=" font-weight:600;">wyszarzone&lt;/span> to znaczy, że zostało już wykończone. Innymi słowy, jeśli wykończysz to zacięcie ponownie, będziesz mógł wybrać tylko zacięcia, które są tu odznaczone.&lt;/p>&lt;p>Jeśli ta lista jest pusta, prawdopodobnie próbujesz utworzyć zacięcia po złej stronie profilu.&lt;/p>&lt;/body>&lt;/html></translation>
     </message>
     <message>
@@ -3181,8 +3187,8 @@ Lista ta jest określana na podstawie narożników w profilu i wybranej&lt;span 
     <message>
       <location filename="../panels/HoldingTagsEdit.ui" line="54"/>
       <source>Height of holding tag. Note that resulting tag might be smaller if the tag&apos;s width and angle result in a triangular shape.</source>
-      <translation>Wysokość pola mocującego.
-Zauważ, że powstałe znaczniki mogą być mniejsze,
+      <translation>Wysokość pola mocującego. 
+Zauważ, że powstałe znaczniki mogą być mniejsze, 
 jeśli szerokość i kąt znacznika skutkują trójkątnym kształtem.</translation>
     </message>
     <message>
@@ -3198,8 +3204,8 @@ jeśli szerokość i kąt znacznika skutkują trójkątnym kształtem.</translat
     <message>
       <location filename="../panels/HoldingTagsEdit.ui" line="97"/>
       <source>List of current tags. Edit coordinates by double click or Edit button. Tags are automatically disabled if they overlap with the previous tag, or don&apos;t lie on the base wire.</source>
-      <translation>Lista bieżących znaczników.
- Współrzędne można edytować za pomocą dwukrotnego kliknięcia lub przycisku Edytuj.
+      <translation>Lista bieżących znaczników. 
+ Współrzędne można edytować za pomocą dwukrotnego kliknięcia lub przycisku Edytuj. 
 Znaczniki są automatycznie wyłączane, jeśli nakładają się na poprzedni znacznik lub nie leżą na linii bazowej.</translation>
     </message>
     <message>
@@ -3761,7 +3767,10 @@ FreeCAD has no knowledge of where a particular coordinate system exists within t
     <message>
       <location filename="../panels/PathEdit.ui" line="397"/>
       <source>If multiple coordinate systems are in use, setting this to TRUE will cause the G-code to be written to multiple output files as controlled by the &apos;order by&apos; property. For example, if ordering by Fixture, the first output file will be for the first fixture and separate file for the second.</source>
-      <translation type="unfinished">If multiple coordinate systems are in use, setting this to TRUE will cause the G-code to be written to multiple output files as controlled by the &apos;order by&apos; property. For example, if ordering by Fixture, the first output file will be for the first fixture and separate file for the second.</translation>
+      <translation>Jeśli używane są różne układy współrzędnych, wybranie tej opcji spowoduje, 
+że G-code zostanie zapisany do wielu plików wyjściowych, zgodnie z właściwością "Sortuj według". 
+Na przykład, jeśli chcesz wykonać uporządkowanie według oprzyrządowania, 
+pierwszy plik wyjściowy będzie dla pierwszego oprzyrządowania i kolejny dla drugiego.</translation>
     </message>
     <message>
       <location filename="../panels/PathEdit.ui" line="409"/>
@@ -5146,7 +5155,7 @@ Domyślnie: 3 mm</translation>
       <location filename="../../../Path/Op/Helix.py" line="161"/>
       <location filename="../../../Path/Op/Helix.py" line="223"/>
       <source>The direction of the circular cuts, ClockWise (Climb), or CounterClockWise (Conventional)</source>
-      <translation>Kierunek wykonywania obróbki okrężnej, zgodnie z ruchem wskazówek zegara (podejście)
+      <translation>Kierunek wykonywania obróbki okrężnej, zgodnie z ruchem wskazówek zegara (podejście) 
 lub przeciwnie do ruchu wskazówek zegara (konwencjonalnie)</translation>
     </message>
     <message>
@@ -5157,7 +5166,7 @@ lub przeciwnie do ruchu wskazówek zegara (konwencjonalnie)</translation>
     <message>
       <location filename="../../../Path/Op/Helix.py" line="141"/>
       <source>The direction of the circular cuts, ClockWise (CW), or CounterClockWise (CCW)</source>
-      <translation type="unfinished">The direction of the circular cuts, ClockWise (CW), or CounterClockWise (CCW)</translation>
+      <translation>Kierunek wykonywania obróbki okrężnej, zgodnie z ruchem wskazówek zegara (CW) lub przeciwnie do ruchu wskazówek zegara (CCW)</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Helix.py" line="176"/>
@@ -5244,7 +5253,7 @@ lub przeciwnie do ruchu wskazówek zegara (konwencjonalnie)</translation>
       <location filename="../../../Path/Op/PocketBase.py" line="185"/>
       <location filename="../../../Path/Op/PocketBase.py" line="254"/>
       <source>Last Stepover Radius.  If 0, 50% of cutter is used. Tuning this can be used to improve stepover for some shapes</source>
-      <translation>Ostatni promień szerokości skrawania. Jeśli 0, 50% noża jest używane. Dostrajanie może być użyte do poprawy przejścia dla niektórych kształtów</translation>
+      <translation>Ostatni promień przesunięcia narzędzia. Jeśli wynosi 0, używane jest 50% średnicy narzędzia. Dostosowanie tej wartości może poprawić przesunięcie narzędzia dla niektórych kształtów.</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/PocketBase.py" line="194"/>
@@ -5281,7 +5290,7 @@ lub przeciwnie do ruchu wskazówek zegara (konwencjonalnie)</translation>
       <location filename="../../../Path/Op/Profile.py" line="106"/>
       <location filename="../../../Path/Op/PocketBase.py" line="129"/>
       <source>The direction that the toolpath should go around the part ClockWise (CW) or CounterClockWise (CCW)</source>
-      <translation type="unfinished">The direction that the toolpath should go around the part ClockWise (CW) or CounterClockWise (CCW)</translation>
+      <translation>Kierunek, w którym narzędzie porusza się po ścieżce wokół części, zgodnie (CW) lub przeciwnie (CCW) do ruchu wskazówek zegara</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Profile.py" line="124"/>
@@ -5321,18 +5330,19 @@ lub przeciwnie do ruchu wskazówek zegara (konwencjonalnie)</translation>
     <message>
       <location filename="../../../Path/Op/Profile.py" line="182"/>
       <source>The number of passes to do. If more than one, requires a non-zero value for Stepover</source>
-      <translation type="unfinished">The number of passes to do. If more than one, requires a non-zero value for Stepover</translation>
+      <translation>Liczba przejść do wykonania. 
+Jeśli jest większa niż jedno, wymaga niezerowej wartości przesunięcia narzędzia</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Profile.py" line="191"/>
       <location filename="../../../Path/Op/Profile.py" line="336"/>
       <source>If doing multiple passes, the extra offset of each additional pass</source>
-      <translation type="unfinished">If doing multiple passes, the extra offset of each additional pass</translation>
+      <translation>W przypadku wielokrotnego przejścia dodatkowe przesunięcie każdego dodatkowego przejazdu</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Profile.py" line="326"/>
       <source>The number of passes to do. Requires a non-zero value for Stepover</source>
-      <translation type="unfinished">The number of passes to do. Requires a non-zero value for Stepover</translation>
+      <translation>Liczba przebiegów do wykonania. Wymaga wartości różnej od zera dla przesunięcia narzędzia.</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Surface.py" line="125"/>
@@ -5454,7 +5464,7 @@ lub przeciwnie do ruchu wskazówek zegara (konwencjonalnie)</translation>
     <message>
       <location filename="../../../Path/Op/Surface.py" line="193"/>
       <source>Planar: Flat, 3D surface scan.  Rotational: 4th-axis rotational scan.</source>
-      <translation>Planarny: Skanowanie płaskie, powierzchniowe 3D.
+      <translation>Planarny: Skanowanie płaskie, powierzchniowe 3D. 
 Obrotowy: Skanowanie obrotowe w 4 osiach.</translation>
     </message>
     <message>
@@ -5516,7 +5526,7 @@ Climb (zgodnie z ruchem wskazówek zegara) lub Conventional (odwrotnie do ruchu 
       <location filename="../../../Path/Op/Surface.py" line="298"/>
       <location filename="../../../Path/Op/Waterline.py" line="344"/>
       <source>Reverse the cut order of the stepover paths. For circular cut patterns, begin at the outside and work toward the center.</source>
-      <translation>Odwróć kolejność obróbki ścieżek szerokości skrawania. W przypadku wykrojów okrągłych zacznij od zewnętrznej strony i pracuj w kierunku środka.</translation>
+      <translation>Odwróć kolejność obróbki ścieżek przesunięcia narzędzia. W przypadku wykrojów okrągłych zacznij od zewnętrznej strony i pracuj w kierunku środka.</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Surface.py" line="307"/>
@@ -5610,13 +5620,13 @@ Climb (zgodnie z ruchem wskazówek zegara) lub Conventional (odwrotnie do ruchu 
     <message>
       <location filename="../../../Path/Op/ThreadMilling.py" line="359"/>
       <source>Set thread&apos;s pitch - used for metric threads</source>
-      <translation>Ustaw skok gwintu,
+      <translation>Ustaw skok gwintu, 
 używane dla gwintów metrycznych.</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/ThreadMilling.py" line="368"/>
       <source>Set thread&apos;s TPI (turns per inch) - used for imperial threads</source>
-      <translation>Ustaw skok gwintu (TPI, liczba zwojów na cal),
+      <translation>Ustaw skok gwintu (TPI, liczba zwojów na cal), 
 używane dla gwintów calowych.</translation>
     </message>
     <message>
@@ -5666,9 +5676,9 @@ używane dla gwintów calowych.</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Vcarve.py" line="327"/>
-      <source>Cutoff for removing colinear segments (degrees).
+      <source>Cutoff for removing colinear segments (degrees). 
                         default=10.0.</source>
-      <translation>Wartość graniczna dla usuwania odcinków współliniowych (w stopniach).
+      <translation>Wartość graniczna dla usuwania odcinków współliniowych (w stopniach). 
                         domyślnie = 10,0.</translation>
     </message>
     <message>
@@ -5853,22 +5863,22 @@ OL Dropcutter* lub Eksperymentalny (nieoparty na OCL).</translation>
     <message>
       <location filename="../../../Path/Op/Tapping.py" line="103"/>
       <source>The time to dwell at bottom of tapping cycle</source>
-      <translation type="unfinished">The time to dwell at bottom of tapping cycle</translation>
+      <translation>Czas zatrzymania w dolnej części cyklu gwintowania</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Tapping.py" line="124"/>
       <source>Controls how tool retracts Default=G98</source>
-      <translation type="unfinished">Controls how tool retracts Default=G98</translation>
+      <translation>Kontroluje sposób wycofania narzędzia Domyślnie = G98</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Tapping.py" line="133"/>
       <source>The height where feed starts and height during retract tool when path is finished while in a peck operation</source>
-      <translation type="unfinished">The height where feed starts and height during retract tool when path is finished while in a peck operation</translation>
+      <translation>Wysokość, na której rozpoczyna się posuw i wysokość, do której następuje wycofanie narzędzia, gdy droga jest zakończona podczas operacji odcięcia wióra</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Tapping.py" line="139"/>
       <source>How far the tap depth is extended</source>
-      <translation type="unfinished">How far the tap depth is extended</translation>
+      <translation>Jak daleko sięga głębokość gwintowania</translation>
     </message>
   </context>
   <context>
@@ -5894,8 +5904,8 @@ OL Dropcutter* lub Eksperymentalny (nieoparty na OCL).</translation>
     <message>
       <location filename="../../../Path/Main/Stock.py" line="105"/>
       <source>Stock Material property is deprecated. Removing the Material property. Please use native material system to assign a ShapeMaterial</source>
-      <translation>Właściwość Materiał półfabrykatu jest przestarzała.
-Usunięcie właściwości Materiał.
+      <translation>Właściwość Materiał półfabrykatu jest przestarzała. 
+Usunięcie właściwości Materiał. 
 Użyj wbudowanego systemu materiałów, aby przypisać właściwość MateriałKształtu.</translation>
     </message>
     <message>
@@ -7077,23 +7087,23 @@ Przerwanie procesu tworzenia</translation>
     </message>
     <message>
       <location filename="../../../Path/Main/Gui/JobDlg.py" line="69"/>
-      <source>The currently selected unit schema:
+      <source>The currently selected unit schema: 
      &apos;{}&apos; for this document
- Does not use &apos;minutes&apos; for velocity values.
-
-CNC machines require feed rate to be expressed in
-unit/minute. To ensure correct G-code:
+ Does not use &apos;minutes&apos; for velocity values. 
+ 
+CNC machines require feed rate to be expressed in 
+unit/minute. To ensure correct G-code: 
 Select a minute-based schema in preferences.
 For example:
     &apos;Metric, Small Parts &amp; CNC&apos;
     &apos;US Customary&apos;
     &apos;Imperial Decimal&apos;</source>
-      <translation>Aktualnie wybrany układ jednostek:
+      <translation>Aktualnie wybrany układ jednostek: 
      "{}" dla tego dokumentu
- Nie używa "minut" dla wartości prędkości.
-
-Maszyny CNC wymagają, aby prędkość posuwu była wyrażona w
-jednostkach / minutę. Aby zapewnić prawidłowe generowanieStandardowe USA G-code:
+ Nie używa "minut" dla wartości prędkości. 
+ 
+Maszyny CNC wymagają, aby prędkość posuwu była wyrażona w 
+jednostkach / minutę. Aby zapewnić prawidłowe generowanieStandardowe USA G-code: 
 Wybierz w preferencjach schemat oparty na minutach.
 Na przykład:
     "Metryczny dla mniejszych części i CNC (mm, mm/min)"
@@ -7163,9 +7173,9 @@ Na przykład:
     <name>CAM_Inspect</name>
     <message>
       <location filename="../../../Path/Main/Gui/Inspect.py" line="132"/>
-      <source>&lt;b&gt;Note&lt;/b&gt;: This dialog shows Path Commands in FreeCAD base units (mm/s).
+      <source>&lt;b&gt;Note&lt;/b&gt;: This dialog shows Path Commands in FreeCAD base units (mm/s). 
  Values will be converted to the desired unit during post processing.</source>
-      <translation>&lt;b&gt;Uwaga&lt;/b&gt;: To okno pokazuje polecenia środowiska CAM w podstawowych jednostkach dla FreeCAD (mm/s).
+      <translation>&lt;b&gt;Uwaga&lt;/b&gt;: To okno pokazuje polecenia środowiska CAM w podstawowych jednostkach dla FreeCAD (mm/s). 
  Wartości zostaną przekonwertowane na żądaną jednostkę podczas przetwarzania końcowego.</translation>
     </message>
     <message>
@@ -7481,7 +7491,7 @@ Na przykład:
     </message>
     <message>
       <location filename="../../../Path/Main/Sanity/Sanity.py" line="364"/>
-      <source>Tool number {} is a legacy tool. Legacy tools not
+      <source>Tool number {} is a legacy tool. Legacy tools not 
                     supported by Path-Sanity</source>
       <translation>Narzędzie numer {} jest narzędziem starszego typu.
 Starsze narzędzia nie są obsługiwane przez funkcję Bezpieczeństwo CAM</translation>
@@ -7732,7 +7742,7 @@ Starsze narzędzia nie są obsługiwane przez funkcję Bezpieczeństwo CAM</tran
     <message>
       <location filename="../../../Path/Op/Adaptive.py" line="647"/>
       <source>Adaptive operation couldn&apos;t determine the boundary wire. Did you select base geometry?</source>
-      <translation>Operacja adaptacyjna nie mogła określić linii granicznej.
+      <translation>Operacja adaptacyjna nie mogła określić linii granicznej. 
 Czy geometria bazowa została wybrana?</translation>
     </message>
     <message>
@@ -8005,13 +8015,13 @@ Czy geometria bazowa została wybrana?</translation>
     <message>
       <location filename="../../../Path/Op/Slot.py" line="607"/>
       <source>Custom points are identical. No slot path will be generated</source>
-      <translation>Punkty niestandardowe są identyczne.
+      <translation>Punkty niestandardowe są identyczne. 
 Żadna ścieżka wpustu nie zostanie wygenerowana.</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Slot.py" line="616"/>
       <source>Custom points not at same Z height. No slot path will be generated</source>
-      <translation>Niestandardowe punkty nie na tej samej wysokości Z.
+      <translation>Niestandardowe punkty nie na tej samej wysokości Z. 
 Żadna ścieżka wpustu nie zostanie wygenerowana</translation>
     </message>
     <message>
@@ -8637,10 +8647,10 @@ Czy geometria bazowa została wybrana?</translation>
     <message>
       <location filename="../../../Path/Tool/Gui/BitLibrary.py" line="126"/>
       <source>Toolbit Working directory {} needs these sudirectories:
- {}
+ {} 
  Create them?</source>
       <translation>Katalog roboczy narzędzia {} potrzebuje tych katalogów:
- {}
+ {} 
  Utwórz je?</translation>
     </message>
     <message>
@@ -8771,7 +8781,7 @@ Czy geometria bazowa została wybrana?</translation>
     <message>
       <location filename="../../../InitGui.py" line="153"/>
       <source>Drilling Operations</source>
-      <translation type="unfinished">Drilling Operations</translation>
+      <translation>Operacje wiercenia</translation>
     </message>
   </context>
   <context>
@@ -8804,12 +8814,12 @@ Czy geometria bazowa została wybrana?</translation>
     <message>
       <location filename="../../../Path/Op/Gui/Tapping.py" line="179"/>
       <source>Tapping</source>
-      <translation type="unfinished">Tapping</translation>
+      <translation>Gwintowanie</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Gui/Tapping.py" line="183"/>
       <source>Creates a Tapping toolpath from the features of a base object</source>
-      <translation type="unfinished">Creates a Tapping toolpath from the features of a base object</translation>
+      <translation>Tworzy ścieżkę narzędzia gwintującego na podstawie cech obiektu bazowego</translation>
     </message>
   </context>
   <context>
@@ -8817,7 +8827,7 @@ Czy geometria bazowa została wybrana?</translation>
     <message>
       <location filename="../../../Path/Op/Tapping.py" line="158"/>
       <source>Tapping Operation requires a Tap tool with Pitch or TPI</source>
-      <translation type="unfinished">Tapping Operation requires a Tap tool with Pitch or TPI</translation>
+      <translation>Operacja gwintowania wymaga narzędzia z podziałką lub TPI</translation>
     </message>
   </context>
 </TS>

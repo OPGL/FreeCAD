@@ -1106,7 +1106,7 @@ If this is not ticked, then the property must be uniquely named, and it is acces
     <message>
       <location filename="../DlgCreateNewPreferencePack.ui" line="38"/>
       <source>Browse</source>
-      <translation type="unfinished">Browse</translation>
+      <translation>경로</translation>
     </message>
     <message>
       <location filename="../DlgCreateNewPreferencePack.ui" line="60"/>
@@ -9032,7 +9032,7 @@ underscore, and must not start with a digit.</translation>
     <message>
       <location filename="../CommandDoc.cpp" line="1674"/>
       <source>Ali&amp;gnment...</source>
-      <translation type="unfinished">Ali&amp;gnment...</translation>
+      <translation>정렬…</translation>
     </message>
     <message>
       <location filename="../CommandDoc.cpp" line="1675"/>
@@ -10172,7 +10172,7 @@ underscore, and must not start with a digit.</translation>
     <message>
       <location filename="../CommandStd.cpp" line="796"/>
       <source>Add te&amp;xt document</source>
-      <translation type="unfinished">Add te&amp;xt document</translation>
+      <translation>선택항목 보이기</translation>
     </message>
     <message>
       <location filename="../CommandStd.cpp" line="797"/>
@@ -11061,7 +11061,7 @@ underscore, and must not start with a digit.</translation>
     <message>
       <location filename="../CommandView.cpp" line="2719"/>
       <source>&amp;Box zoom</source>
-      <translation type="unfinished">&amp;Box zoom</translation>
+      <translation>박스줌</translation>
     </message>
     <message>
       <location filename="../CommandView.cpp" line="2720"/>

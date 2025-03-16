@@ -1464,7 +1464,7 @@ to a smoother appearance.
 Затінення визначає зовнішній вигляд поверхонь.
 
 При плоскому затіненні поверхневих стандартів не визначаються для кожної вершини, що веде
-до уявного вигляду для криволінійних поверхонь під час використання відтінків Phong
+до уявного вигляду для криволінійних поверхонь під час використання відтінків Phong 
 до більш гладкого вигляду.</translation>
     </message>
     <message>
@@ -2098,7 +2098,7 @@ Please visit http://www.openscad.org/index.html to install it.</source>
     <message>
       <location filename="../../AppMeshGui.cpp" line="157"/>
       <source>Display</source>
-      <translation>Показ</translation>
+      <translation>Відображення</translation>
     </message>
     <message>
       <location filename="../../AppMeshGui.cpp" line="159"/>

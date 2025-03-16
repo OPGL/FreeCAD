@@ -432,7 +432,7 @@
     <message>
       <location filename="../../../CommandInsertNewPart.py" line="135"/>
       <source>Save Document</source>
-      <translation type="unfinished">Save Document</translation>
+      <translation>Зберегти Документ</translation>
     </message>
     <message>
       <location filename="../../../CommandInsertNewPart.py" line="137"/>
@@ -567,7 +567,7 @@ SLOPE defines the steepness of the transition between 0 and H1 and H2 to 0 about
     <message>
       <location filename="../../../CommandCreateSimulation.py" line="666"/>
       <source>Hide help</source>
-      <translation type="unfinished">Hide help</translation>
+      <translation>Приховати довідку</translation>
     </message>
   </context>
   <context>
@@ -708,12 +708,12 @@ SLOPE defines the steepness of the transition between 0 and H1 and H2 to 0 about
     <message>
       <location filename="../../../CommandCreateSimulation.py" line="107"/>
       <source>Simulation start time.</source>
-      <translation type="unfinished">Simulation start time.</translation>
+      <translation>Час початку симуляції.</translation>
     </message>
     <message>
       <location filename="../../../CommandCreateSimulation.py" line="118"/>
       <source>Simulation end time.</source>
-      <translation type="unfinished">Simulation end time.</translation>
+      <translation>Час закінчення симуляції.</translation>
     </message>
     <message>
       <location filename="../../../CommandCreateSimulation.py" line="129"/>
@@ -728,7 +728,7 @@ SLOPE defines the steepness of the transition between 0 and H1 and H2 to 0 about
     <message>
       <location filename="../../../CommandCreateSimulation.py" line="151"/>
       <source>Frames Per Second.</source>
-      <translation type="unfinished">Frames Per Second.</translation>
+      <translation>Кадрів за секунду.</translation>
     </message>
     <message>
       <location filename="../../../CommandCreateSimulation.py" line="203"/>
@@ -738,7 +738,7 @@ SLOPE defines the steepness of the transition between 0 and H1 and H2 to 0 about
     <message>
       <location filename="../../../CommandCreateSimulation.py" line="299"/>
       <source>The joint that is moved by the motion</source>
-      <translation type="unfinished">The joint that is moved by the motion</translation>
+      <translation>Суглоб, який рухається під час руху</translation>
     </message>
     <message>
       <location filename="../../../CommandCreateSimulation.py" line="310"/>
@@ -748,7 +748,7 @@ SLOPE defines the steepness of the transition between 0 and H1 and H2 to 0 about
     <message>
       <location filename="../../../CommandCreateSimulation.py" line="318"/>
       <source>The type of the motion</source>
-      <translation type="unfinished">The type of the motion</translation>
+      <translation>Тип руху</translation>
     </message>
   </context>
   <context>
@@ -791,12 +791,12 @@ SLOPE defines the steepness of the transition between 0 and H1 and H2 to 0 about
     <message>
       <location filename="../panels/TaskAssemblyCreateJoint.ui" line="144"/>
       <source>By clicking this button, you can set the attachment offset of the first marker (coordinate system) of the joint.</source>
-      <translation type="unfinished">By clicking this button, you can set the attachment offset of the first marker (coordinate system) of the joint.</translation>
+      <translation>Натиснувши цю кнопку, ви можете встановити зміщення приєднання першого маркера (системи координат) з’єднання.</translation>
     </message>
     <message>
       <location filename="../panels/TaskAssemblyCreateJoint.ui" line="165"/>
       <source>By clicking this button, you can set the attachment offset of the second marker (coordinate system) of the joint.</source>
-      <translation type="unfinished">By clicking this button, you can set the attachment offset of the second marker (coordinate system) of the joint.</translation>
+      <translation>Натиснувши цю кнопку, ви можете встановити зміщення прикріплення другого маркера (системи координат) з’єднання.</translation>
     </message>
     <message>
       <location filename="../panels/TaskAssemblyCreateJoint.ui" line="177"/>
@@ -1227,7 +1227,7 @@ Press ESC to cancel.</source>
     <message>
       <location filename="../../../CommandInsertNewPart.py" line="54"/>
       <source>Insert a new part</source>
-      <translation type="unfinished">Insert a new part</translation>
+      <translation>Вставити нову деталь</translation>
     </message>
     <message>
       <location filename="../../../CommandInsertNewPart.py" line="61"/>
@@ -1303,7 +1303,7 @@ Press ESC to cancel.</source>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="115"/>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="122"/>
       <source>End time of the simulation</source>
-      <translation type="unfinished">End time of the simulation</translation>
+      <translation>Час закінчення симуляції</translation>
     </message>
     <message>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="129"/>
@@ -1314,7 +1314,7 @@ Press ESC to cancel.</source>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="132"/>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="139"/>
       <source>Time Step</source>
-      <translation type="unfinished">Time Step</translation>
+      <translation>Крок у часі</translation>
     </message>
     <message>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="146"/>
@@ -1325,17 +1325,17 @@ Press ESC to cancel.</source>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="149"/>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="156"/>
       <source>Global Error Tolerance</source>
-      <translation type="unfinished">Global Error Tolerance</translation>
+      <translation>Глобальна стійкість до помилок</translation>
     </message>
     <message>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="166"/>
       <source>Generate</source>
-      <translation type="unfinished">Generate</translation>
+      <translation>Генерувати</translation>
     </message>
     <message>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="173"/>
       <source>Animation player</source>
-      <translation type="unfinished">Animation player</translation>
+      <translation>Програвач анімації</translation>
     </message>
     <message>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="181"/>
@@ -1345,22 +1345,22 @@ Press ESC to cancel.</source>
     <message>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="201"/>
       <source>0.00 s</source>
-      <translation type="unfinished">0.00 s</translation>
+      <translation>0.00 с</translation>
     </message>
     <message>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="212"/>
       <source>Frames Per Second</source>
-      <translation type="unfinished">Frames Per Second</translation>
+      <translation>Кадрів в секунду</translation>
     </message>
     <message>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="232"/>
       <source>Step backward</source>
-      <translation type="unfinished">Step backward</translation>
+      <translation>Крок назад</translation>
     </message>
     <message>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="252"/>
       <source>Play backward</source>
-      <translation type="unfinished">Play backward</translation>
+      <translation>Відтворення назад</translation>
     </message>
     <message>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="272"/>
@@ -1370,12 +1370,12 @@ Press ESC to cancel.</source>
     <message>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="292"/>
       <source>Play forward</source>
-      <translation type="unfinished">Play forward</translation>
+      <translation>Відтворити вперед</translation>
     </message>
     <message>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="312"/>
       <source>Step forward</source>
-      <translation type="unfinished">Step forward</translation>
+      <translation>Крок вперед</translation>
     </message>
   </context>
 </TS>

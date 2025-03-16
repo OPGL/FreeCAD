@@ -37,7 +37,7 @@
     <message>
       <location filename="../../../CommandCreateJoint.py" line="112"/>
       <source>Create Revolute Joint</source>
-      <translation>Crear articulación de revoluta</translation>
+      <translation>Crear articulación de revolución</translation>
     </message>
     <message>
       <location filename="../../../CommandCreateJoint.py" line="119"/>
@@ -402,17 +402,17 @@
     <message>
       <location filename="../../../CommandCreateBom.py" line="415"/>
       <source>Export:</source>
-      <translation type="unfinished">Export:</translation>
+      <translation>Exportar:</translation>
     </message>
     <message>
       <location filename="../../../CommandCreateBom.py" line="422"/>
       <source>The exported file format can be customized in the Spreadsheet workbench preferences.</source>
-      <translation type="unfinished">The exported file format can be customized in the Spreadsheet workbench preferences.</translation>
+      <translation>El formato del archivo exportado puede ser configurado en las preferencias del banco de trabajo.</translation>
     </message>
     <message>
       <location filename="../../../CommandInsertNewPart.py" line="84"/>
       <source>Part name</source>
-      <translation type="unfinished">Part name</translation>
+      <translation>Nombre de la pieza</translation>
     </message>
     <message>
       <location filename="../../../CommandInsertNewPart.py" line="89"/>
@@ -422,7 +422,7 @@
     <message>
       <location filename="../../../CommandInsertNewPart.py" line="94"/>
       <source>Create part in new file</source>
-      <translation type="unfinished">Create part in new file</translation>
+      <translation>Crear pieza en un nuevo archivo</translation>
     </message>
     <message>
       <location filename="../../../CommandInsertNewPart.py" line="101"/>
@@ -432,7 +432,7 @@
     <message>
       <location filename="../../../CommandInsertNewPart.py" line="135"/>
       <source>Save Document</source>
-      <translation type="unfinished">Save Document</translation>
+      <translation>Guardar Documento</translation>
     </message>
     <message>
       <location filename="../../../CommandInsertNewPart.py" line="137"/>
@@ -442,12 +442,12 @@
     <message>
       <location filename="../../../CommandInsertNewPart.py" line="140"/>
       <source>Don't link</source>
-      <translation type="unfinished">Don't link</translation>
+      <translation>No vincular</translation>
     </message>
     <message>
       <location filename="../../../CommandCreateSimulation.py" line="467"/>
       <source>Enter your formula...</source>
-      <translation type="unfinished">Enter your formula...</translation>
+      <translation>Ingrese su fórmula...</translation>
     </message>
     <message>
       <location filename="../../../CommandCreateSimulation.py" line="520"/>
@@ -567,7 +567,7 @@ SLOPE defines the steepness of the transition between 0 and H1 and H2 to 0 about
     <message>
       <location filename="../../../CommandCreateSimulation.py" line="666"/>
       <source>Hide help</source>
-      <translation type="unfinished">Hide help</translation>
+      <translation>Ocultar ayuda</translation>
     </message>
   </context>
   <context>
@@ -708,12 +708,12 @@ SLOPE defines the steepness of the transition between 0 and H1 and H2 to 0 about
     <message>
       <location filename="../../../CommandCreateSimulation.py" line="107"/>
       <source>Simulation start time.</source>
-      <translation type="unfinished">Simulation start time.</translation>
+      <translation>Inicio de la simulación (Tiempo)</translation>
     </message>
     <message>
       <location filename="../../../CommandCreateSimulation.py" line="118"/>
       <source>Simulation end time.</source>
-      <translation type="unfinished">Simulation end time.</translation>
+      <translation>Fin de la simulación (Tiempo)</translation>
     </message>
     <message>
       <location filename="../../../CommandCreateSimulation.py" line="129"/>
@@ -728,7 +728,7 @@ SLOPE defines the steepness of the transition between 0 and H1 and H2 to 0 about
     <message>
       <location filename="../../../CommandCreateSimulation.py" line="151"/>
       <source>Frames Per Second.</source>
-      <translation type="unfinished">Frames Per Second.</translation>
+      <translation>Cuadros por Segundo</translation>
     </message>
     <message>
       <location filename="../../../CommandCreateSimulation.py" line="203"/>
@@ -748,7 +748,7 @@ SLOPE defines the steepness of the transition between 0 and H1 and H2 to 0 about
     <message>
       <location filename="../../../CommandCreateSimulation.py" line="318"/>
       <source>The type of the motion</source>
-      <translation type="unfinished">The type of the motion</translation>
+      <translation>Tipo de movimiento</translation>
     </message>
   </context>
   <context>
@@ -801,7 +801,7 @@ SLOPE defines the steepness of the transition between 0 and H1 and H2 to 0 about
     <message>
       <location filename="../panels/TaskAssemblyCreateJoint.ui" line="177"/>
       <source>Show advanced offsets</source>
-      <translation type="unfinished">Show advanced offsets</translation>
+      <translation>Mostrar desfaces avanzados</translation>
     </message>
     <message>
       <location filename="../panels/TaskAssemblyCreateJoint.ui" line="193"/>
@@ -1227,7 +1227,7 @@ Presione ESC para cancelar.</translation>
     <message>
       <location filename="../../../CommandInsertNewPart.py" line="54"/>
       <source>Insert a new part</source>
-      <translation type="unfinished">Insert a new part</translation>
+      <translation>Inserta una nueva pieza</translation>
     </message>
     <message>
       <location filename="../../../CommandInsertNewPart.py" line="61"/>
@@ -1240,12 +1240,12 @@ Presione ESC para cancelar.</translation>
     <message>
       <location filename="../../../CommandCreateSimulation.py" line="67"/>
       <source>Create Simulation</source>
-      <translation type="unfinished">Create Simulation</translation>
+      <translation>Crear simulación</translation>
     </message>
     <message>
       <location filename="../../../CommandCreateSimulation.py" line="74"/>
       <source>Create a simulation of the current assembly.</source>
-      <translation type="unfinished">Create a simulation of the current assembly.</translation>
+      <translation>Crea una simulación del ensamblado actual.</translation>
     </message>
   </context>
   <context>
@@ -1261,27 +1261,27 @@ Presione ESC para cancelar.</translation>
     <message>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="14"/>
       <source>Create Simulation</source>
-      <translation type="unfinished">Create Simulation</translation>
+      <translation>Crear Simulación</translation>
     </message>
     <message>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="20"/>
       <source>Motions</source>
-      <translation type="unfinished">Motions</translation>
+      <translation>Movimientos</translation>
     </message>
     <message>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="50"/>
       <source>Add a prescribed motion</source>
-      <translation type="unfinished">Add a prescribed motion</translation>
+      <translation>Agrega un movimiento prescrito</translation>
     </message>
     <message>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="70"/>
       <source>Delete selected motions</source>
-      <translation type="unfinished">Delete selected motions</translation>
+      <translation>Elimina los movimientos seleccionados</translation>
     </message>
     <message>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="89"/>
       <source>Simulation settings</source>
-      <translation type="unfinished">Simulation settings</translation>
+      <translation>Configuración de la simulación</translation>
     </message>
     <message>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="95"/>
@@ -1292,18 +1292,18 @@ Presione ESC para cancelar.</translation>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="98"/>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="105"/>
       <source>Start time of the simulation</source>
-      <translation type="unfinished">Start time of the simulation</translation>
+      <translation>Tiempo de inicio de la simulación</translation>
     </message>
     <message>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="112"/>
       <source>End</source>
-      <translation type="unfinished">End</translation>
+      <translation>Fin</translation>
     </message>
     <message>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="115"/>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="122"/>
       <source>End time of the simulation</source>
-      <translation type="unfinished">End time of the simulation</translation>
+      <translation>Fin de la simulación</translation>
     </message>
     <message>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="129"/>
@@ -1314,7 +1314,7 @@ Presione ESC para cancelar.</translation>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="132"/>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="139"/>
       <source>Time Step</source>
-      <translation type="unfinished">Time Step</translation>
+      <translation>Intervalo del tiempo</translation>
     </message>
     <message>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="146"/>
@@ -1325,17 +1325,17 @@ Presione ESC para cancelar.</translation>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="149"/>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="156"/>
       <source>Global Error Tolerance</source>
-      <translation type="unfinished">Global Error Tolerance</translation>
+      <translation>Error Global: Tolerancia</translation>
     </message>
     <message>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="166"/>
       <source>Generate</source>
-      <translation type="unfinished">Generate</translation>
+      <translation>Generar</translation>
     </message>
     <message>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="173"/>
       <source>Animation player</source>
-      <translation type="unfinished">Animation player</translation>
+      <translation>Reproductor de animación</translation>
     </message>
     <message>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="181"/>
@@ -1345,12 +1345,12 @@ Presione ESC para cancelar.</translation>
     <message>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="201"/>
       <source>0.00 s</source>
-      <translation type="unfinished">0.00 s</translation>
+      <translation>0.00 s</translation>
     </message>
     <message>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="212"/>
       <source>Frames Per Second</source>
-      <translation type="unfinished">Frames Per Second</translation>
+      <translation>Cuadros por Segundo</translation>
     </message>
     <message>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="232"/>

@@ -151,7 +151,7 @@
     <message>
       <location filename="../panels/DlgJobTemplateExport.ui" line="20"/>
       <source>If enabled, include all post processing settings in the template.</source>
-      <translation type="unfinished">If enabled, include all post processing settings in the template.</translation>
+      <translation>Se abilitato, include tutte le impostazioni di post elaborazione nel modello.</translation>
     </message>
     <message>
       <location filename="../panels/DlgJobTemplateExport.ui" line="23"/>
@@ -161,7 +161,7 @@
     <message>
       <location filename="../panels/DlgJobTemplateExport.ui" line="48"/>
       <source>If enabled, tool controller definitions are stored in the template.</source>
-      <translation type="unfinished">If enabled, tool controller definitions are stored in the template.</translation>
+      <translation>Se abilitato, le definizioni del controllore degli strumenti vengono memorizzate nel modello.</translation>
     </message>
     <message>
       <location filename="../panels/DlgJobTemplateExport.ui" line="51"/>
@@ -285,7 +285,7 @@ Note that this option is disabled if a stock object from an existing solid is us
     <message>
       <location filename="../panels/DlgJobTemplateExport.ui" line="191"/>
       <source>If enabled, the current placement of the stock solid is stored in the template.</source>
-      <translation type="unfinished">If enabled, the current placement of the stock solid is stored in the template.</translation>
+      <translation>Se abilitato, il posizionamento corrente del solido grezzo viene memorizzato nel modello.</translation>
     </message>
     <message>
       <location filename="../panels/DlgJobTemplateExport.ui" line="194"/>
@@ -675,7 +675,7 @@ Note that this option is disabled if a stock object from an existing solid is us
     <message>
       <location filename="../panels/DressupPathBoundary.ui" line="257"/>
       <source>If checked, the path is constrained by the solid. Otherwise the volume of the solid describes a &apos;keep out&apos; zone</source>
-      <translation type="unfinished">If checked, the path is constrained by the solid. Otherwise the volume of the solid describes a &apos;keep out&apos; zone</translation>
+      <translation>Se selezionato, il percorso è vincolato dal solido. Altrimenti il volume del solido descrive una zona &apos;da escludere&apos;</translation>
     </message>
     <message>
       <location filename="../panels/DressupPathBoundary.ui" line="260"/>
@@ -760,7 +760,7 @@ Il tasto Reimposta elimina tutti gli elementi correnti dall'elenco e riempie l'e
     <message>
       <location filename="../panels/PageBaseHoleGeometryEdit.ui" line="46"/>
       <source>Add selected items from 3D view to the list of base geometries</source>
-      <translation type="unfinished">Add selected items from 3D view to the list of base geometries</translation>
+      <translation>Aggiunge gli elementi selezionati dalla vista 3D all'elenco delle geometrie di base</translation>
     </message>
     <message>
       <location filename="../panels/PageBaseHoleGeometryEdit.ui" line="56"/>
@@ -1604,12 +1604,12 @@ Quest'ultimo può essere usato per sfaccettare l'intera area dello stock per gar
     <message>
       <location filename="../panels/PageOpProfileFullEdit.ui" line="121"/>
       <source>Number of Passes</source>
-      <translation type="unfinished">Number of Passes</translation>
+      <translation>Quantità di passaggi</translation>
     </message>
     <message>
       <location filename="../panels/PageOpProfileFullEdit.ui" line="131"/>
       <source>The number of passes to do. If more than one, requires a non-zero value for Pass Stepover.</source>
-      <translation type="unfinished">The number of passes to do. If more than one, requires a non-zero value for Pass Stepover.</translation>
+      <translation>Il numero di passaggi da fare. Se maggiore di uno, richiede un valore diverso da zero per Pass Stepover.</translation>
     </message>
     <message>
       <location filename="../panels/PageOpProfileFullEdit.ui" line="138"/>
@@ -2950,7 +2950,7 @@ Should multiple tools or tool shapes with the same name exist in different direc
     <message>
       <location filename="../panels/AxisMapEdit.ui" line="27"/>
       <source>The radius of the wrapped axis</source>
-      <translation type="unfinished">The radius of the wrapped axis</translation>
+      <translation>Il raggio dell'asse avvolto</translation>
     </message>
     <message>
       <location filename="../panels/AxisMapEdit.ui" line="44"/>
@@ -3337,7 +3337,7 @@ Should multiple tools or tool shapes with the same name exist in different direc
     <message>
       <location filename="../panels/ZCorrectEdit.ui" line="41"/>
       <source>Probe Points File</source>
-      <translation type="unfinished">Probe Points File</translation>
+      <translation>File punti della sonda</translation>
     </message>
     <message>
       <location filename="../panels/ZCorrectEdit.ui" line="47"/>
@@ -3347,7 +3347,7 @@ Should multiple tools or tool shapes with the same name exist in different direc
     <message>
       <location filename="../panels/ZCorrectEdit.ui" line="54"/>
       <source>Enter the filename containing the probe data</source>
-      <translation type="unfinished">Enter the filename containing the probe data</translation>
+      <translation>Inserisci il nome del file contenente i dati della sonda</translation>
     </message>
   </context>
   <context>
@@ -3436,7 +3436,7 @@ Should multiple tools or tool shapes with the same name exist in different direc
     <message>
       <location filename="../panels/TaskPathSimulator.ui" line="300"/>
       <source>* Note: Volumetric simulation, inaccuracies are inherent.</source>
-      <translation type="unfinished">* Note: Volumetric simulation, inaccuracies are inherent.</translation>
+      <translation>* Nota: le simulazioni volumetriche sono soggette a imprecisioni.</translation>
     </message>
     <message>
       <location filename="../panels/TaskPathCamoticsSim.ui" line="29"/>
@@ -4481,7 +4481,7 @@ Default: 3 mm</translation>
     <message>
       <location filename="../../../Path/Dressup/Gui/AxisMap.py" line="66"/>
       <source>The radius of the wrapped axis</source>
-      <translation type="unfinished">The radius of the wrapped axis</translation>
+      <translation>Il raggio dell'asse avvolto</translation>
     </message>
     <message>
       <location filename="../../../Path/Dressup/Gui/Dragknife.py" line="58"/>
@@ -5640,9 +5640,9 @@ Default: 3 mm</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Vcarve.py" line="327"/>
-      <source>Cutoff for removing colinear segments (degrees).
+      <source>Cutoff for removing colinear segments (degrees). 
                         default=10.0.</source>
-      <translation>Soglia per la rimozione di segmenti collineari (gradi).
+      <translation>Soglia per la rimozione di segmenti collineari (gradi). 
                         predefinito=10.0.</translation>
     </message>
     <message>
@@ -7048,23 +7048,23 @@ Interruzione creazione op</translation>
     </message>
     <message>
       <location filename="../../../Path/Main/Gui/JobDlg.py" line="69"/>
-      <source>The currently selected unit schema:
+      <source>The currently selected unit schema: 
      &apos;{}&apos; for this document
- Does not use &apos;minutes&apos; for velocity values.
-
-CNC machines require feed rate to be expressed in
-unit/minute. To ensure correct G-code:
+ Does not use &apos;minutes&apos; for velocity values. 
+ 
+CNC machines require feed rate to be expressed in 
+unit/minute. To ensure correct G-code: 
 Select a minute-based schema in preferences.
 For example:
     &apos;Metric, Small Parts &amp; CNC&apos;
     &apos;US Customary&apos;
     &apos;Imperial Decimal&apos;</source>
-      <translation type="unfinished">The currently selected unit schema:
+      <translation type="unfinished">The currently selected unit schema: 
      &apos;{}&apos; for this document
- Does not use &apos;minutes&apos; for velocity values.
-
-CNC machines require feed rate to be expressed in
-unit/minute. To ensure correct G-code:
+ Does not use &apos;minutes&apos; for velocity values. 
+ 
+CNC machines require feed rate to be expressed in 
+unit/minute. To ensure correct G-code: 
 Select a minute-based schema in preferences.
 For example:
     &apos;Metric, Small Parts &amp; CNC&apos;
@@ -7134,7 +7134,7 @@ For example:
     <name>CAM_Inspect</name>
     <message>
       <location filename="../../../Path/Main/Gui/Inspect.py" line="132"/>
-      <source>&lt;b&gt;Note&lt;/b&gt;: This dialog shows Path Commands in FreeCAD base units (mm/s).
+      <source>&lt;b&gt;Note&lt;/b&gt;: This dialog shows Path Commands in FreeCAD base units (mm/s). 
  Values will be converted to the desired unit during post processing.</source>
       <translation>&lt;b&gt;Nota&lt;/b&gt;: Questa finestra mostra i Comandi del Percorso utensile nelle unità base FreeCAD (mm/s). I valori saranno convertiti nell'unità desiderata durante la post-elaborazione.</translation>
     </message>
@@ -7451,9 +7451,9 @@ For example:
     </message>
     <message>
       <location filename="../../../Path/Main/Sanity/Sanity.py" line="364"/>
-      <source>Tool number {} is a legacy tool. Legacy tools not
+      <source>Tool number {} is a legacy tool. Legacy tools not 
                     supported by Path-Sanity</source>
-      <translation>L'utensile numero {} è uno strumento legacy. Gli strumenti legacy non
+      <translation>L'utensile numero {} è uno strumento legacy. Gli strumenti legacy non 
                    sono supportati da Path-Sanity</translation>
     </message>
     <message>
@@ -8603,10 +8603,10 @@ For example:
     <message>
       <location filename="../../../Path/Tool/Gui/BitLibrary.py" line="126"/>
       <source>Toolbit Working directory {} needs these sudirectories:
- {}
+ {} 
  Create them?</source>
       <translation>La cartella di lavoro Utensile {} ha bisogno di queste sottocartelle:
- {}
+ {} 
  Crearle?</translation>
     </message>
     <message>

@@ -922,7 +922,7 @@
     <message>
       <location filename="../../DlgSettingsFemCcx.ui" line="304"/>
       <source>Number of threads used for analysis</source>
-      <translation type="unfinished">Number of threads used for analysis</translation>
+      <translation>Liczba wątków użytych do analizy</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemCcx.ui" line="323"/>
@@ -947,7 +947,7 @@
     <message>
       <location filename="../../DlgSettingsFemCcx.ui" line="358"/>
       <source>SPOOLES equation solver</source>
-      <translation type="unfinished">SPOOLES equation solver</translation>
+      <translation>Solver Spooles</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemCcx.ui" line="363"/>
@@ -1074,7 +1074,7 @@
 '%1'
  does not exist!
 Specify another file please.</source>
-      <translation>Wskazany plik wykonywalny
+      <translation>Wskazany plik wykonywalny 
 "%1"
  nie istnieje!
 Proszę, wybierz inny.</translation>
@@ -1133,22 +1133,22 @@ zostaną połączone, aby uczynić granice objętości niewidocznymi.</translati
     <message>
       <location filename="../../DlgSettingsFemElmer.ui" line="297"/>
       <source>Save result in binary format</source>
-      <translation type="unfinished">Save result in binary format</translation>
+      <translation>Zapisz wynik w formacie binarnym</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemElmer.ui" line="300"/>
       <source>Use binary format</source>
-      <translation type="unfinished">Use binary format</translation>
+      <translation>Użyj formatu binarnego</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemElmer.ui" line="316"/>
       <source>Save the index of geometric entities</source>
-      <translation type="unfinished">Save the index of geometric entities</translation>
+      <translation>Zapisz indeks obiektów geometrycznych</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemElmer.ui" line="319"/>
       <source>Save geometry IDs</source>
-      <translation type="unfinished">Save geometry IDs</translation>
+      <translation>Zapisz identyfikatory geometrii</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemElmer.ui" line="128"/>
@@ -1201,7 +1201,7 @@ zostaną połączone, aby uczynić granice objętości niewidocznymi.</translati
 '%1'
  does not exist!
 Specify another file please.</source>
-      <translation>Wskazany plik wykonywalny
+      <translation>Wskazany plik wykonywalny 
 "%1"
  nie istnieje!
 Proszę, wybierz inny.
@@ -1291,9 +1291,9 @@ MES: Tylko elementy MES zostaną wyeksportowane. Oznacza to tylko krawędzie nie
 Every analysis feature and, if there are different materials,
 material consists of two mesh groups, faces and nodes where
 the constraint or material is applied.</source>
-      <translation>Grupy siatki są eksportowane.
-Każdy element analizy i, jeśli istnieją różne materiały,
-materiał składa się z dwóch grup siatek, ścian i węzłów,
+      <translation>Grupy siatki są eksportowane. 
+Każdy element analizy i, jeśli istnieją różne materiały, 
+materiał składa się z dwóch grup siatek, ścian i węzłów, 
 w których zastosowano wiązanie lub materiał.</translation>
     </message>
   </context>
@@ -1342,7 +1342,7 @@ w których zastosowano wiązanie lub materiał.</translation>
     <message>
       <location filename="../../DlgSettingsFemGeneral.ui" line="160"/>
       <source>Use directory set below. Create own subdirectory for every solver. Name directory after the solver label prefixed with the document name.</source>
-      <translation>Użyj katalogu ustawionego poniżej. Utwórz podkatalog dla każdego solvera.
+      <translation>Użyj katalogu ustawionego poniżej. Utwórz podkatalog dla każdego solvera. 
 Nazwij katalog nazwą solvera poprzedzoną nazwą dokumentu.</translation>
     </message>
     <message>
@@ -1464,22 +1464,22 @@ tworzeniu nowej analizy</translation>
     <message>
       <location filename="../../DlgSettingsFemGmsh.ui" line="131"/>
       <source>Log verbosity</source>
-      <translation type="unfinished">Log verbosity</translation>
+      <translation>Szczegółowość logów</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemGmsh.ui" line="138"/>
       <source>Level of verbosity printed on the task panel</source>
-      <translation type="unfinished">Level of verbosity printed on the task panel</translation>
+      <translation>Poziom szczegółowości logów w panelu zadań</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemGmsh.ui" line="157"/>
       <source>Number of threads</source>
-      <translation type="unfinished">Number of threads</translation>
+      <translation>Liczba wątków</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemGmsh.ui" line="167"/>
       <source>Number of threads used for meshing</source>
-      <translation type="unfinished">Number of threads used for meshing</translation>
+      <translation>Liczba wątków użytych do generowania siatki</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemGmshImp.cpp" line="91"/>
@@ -1492,7 +1492,7 @@ tworzeniu nowej analizy</translation>
 '%1'
  does not exist!
 Specify another file please.</source>
-      <translation>Wskazany plik wykonywalny
+      <translation>Wskazany plik wykonywalny 
 "%1"
  nie istnieje!
 Proszę, wybierz inny.</translation>
@@ -1527,16 +1527,16 @@ FreeCAD result object: The imported data will be converted into a
 FreeCAD FEM Result object. Note: this setting needs the exact result
 component names and thus it only works properly with VTK files
 exported from FreeCAD.</source>
-      <translation>Obiekt wyników VTK:
-Obiekt wyników FreeCAD MES VTK zostanie zaimportowany
+      <translation>Obiekt wyników VTK: 
+Obiekt wyników FreeCAD MES VTK zostanie zaimportowany 
 (równe obiektowi, który został wyeksportowany).
 
-Obiekt siatki MES:
+Obiekt siatki MES: 
 Wyniki w pliku VTK zostaną pominięte, tylko dane siatki będą zaimportowane i obiekt siatki FreeCAD MES zostanie utworzony.
 
-Obiekt wyników FreeCAD:
-Zaimportowane dane zostaną przekonwetowane na obiekt wyników FreeCAD FEM.
-Uwaga: to ustawienie potrzebuje dokładnych nazw komponentów wyników,
+Obiekt wyników FreeCAD: 
+Zaimportowane dane zostaną przekonwetowane na obiekt wyników FreeCAD FEM. 
+Uwaga: to ustawienie potrzebuje dokładnych nazw komponentów wyników, 
 a więc działa prawidłowo tylko z plikami VTK eksportowanymi z FreeCAD.</translation>
     </message>
     <message>
@@ -1567,12 +1567,12 @@ a więc działa prawidłowo tylko z plikami VTK eksportowanymi z FreeCAD.</trans
     <message>
       <location filename="../../DlgSettingsFemInOutVtk.ui" line="95"/>
       <source>Mesh elements to export</source>
-      <translation type="unfinished">Mesh elements to export</translation>
+      <translation>Elementy siatki do eksportu</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemInOutVtk.ui" line="102"/>
       <source>Mesh element level to export</source>
-      <translation type="unfinished">Mesh element level to export</translation>
+      <translation>Poziom elementów siatki do eksportu</translation>
     </message>
   </context>
   <context>
@@ -1623,7 +1623,7 @@ a więc działa prawidłowo tylko z plikami VTK eksportowanymi z FreeCAD.</trans
 '%1'
  does not exist!
 Specify another file please.</source>
-      <translation>Wskazany plik wykonywalny
+      <translation>Wskazany plik wykonywalny 
 "%1"
  nie istnieje!
 Proszę, wybierz inny.</translation>
@@ -1735,7 +1735,7 @@ iteracyjnego solvera, gdy pojawi się komunikat o błędzie,
 '%1'
  does not exist!
 Specify another file please.</source>
-      <translation>Wskazany plik wykonywalny z88r
+      <translation>Wskazany plik wykonywalny z88r 
 '%1'
  nie istnieje!
 Proszę, wybierz inny.</translation>
@@ -2695,7 +2695,7 @@ Proszę, wybierz inny.</translation>
     <message>
       <location filename="../ui/Material.ui" line="40"/>
       <source>Density:</source>
-      <translation type="unfinished">Density:</translation>
+      <translation>Gęstość:</translation>
     </message>
     <message>
       <location filename="../ui/Material.ui" line="142"/>
@@ -3247,32 +3247,32 @@ Uwaga: bez efektu, jeśli wybrano bryłę</translation>
     <message>
       <location filename="../ui/ElementGeometry1D.ui" line="204"/>
       <source>Axis1 Length:</source>
-      <translation type="unfinished">Axis1 Length:</translation>
+      <translation>Długość osi 1:</translation>
     </message>
     <message>
       <location filename="../ui/ElementGeometry1D.ui" line="236"/>
       <source>Axis2 Length:</source>
-      <translation type="unfinished">Axis2 Length:</translation>
+      <translation>Długość osi 2:</translation>
     </message>
     <message>
       <location filename="../ui/ElementGeometry1D.ui" line="343"/>
       <source>T1 Thickness:</source>
-      <translation type="unfinished">T1 Thickness:</translation>
+      <translation>Grubość T1:</translation>
     </message>
     <message>
       <location filename="../ui/ElementGeometry1D.ui" line="375"/>
       <source>T2 Thickness:</source>
-      <translation type="unfinished">T2 Thickness:</translation>
+      <translation>Grubość T2:</translation>
     </message>
     <message>
       <location filename="../ui/ElementGeometry1D.ui" line="407"/>
       <source>T3 Thickness:</source>
-      <translation type="unfinished">T3 Thickness:</translation>
+      <translation>Grubość T3:</translation>
     </message>
     <message>
       <location filename="../ui/ElementGeometry1D.ui" line="439"/>
       <source>T4 Thickness:</source>
-      <translation type="unfinished">T4 Thickness:</translation>
+      <translation>Grubość T4:</translation>
     </message>
     <message>
       <location filename="../ui/ElementGeometry2D.ui" line="37"/>
@@ -3518,28 +3518,28 @@ Uwaga: w 2D tylko ustawienie dla x jest możliwe,
     <message>
       <location filename="../ui/MeshGmsh.ui" line="37"/>
       <source>Element Dimension:</source>
-      <translation type="unfinished">Element Dimension:</translation>
+      <translation>Przestrzeń elementu:</translation>
     </message>
     <message>
       <location filename="../ui/MeshGmsh.ui" line="47"/>
       <source>Maximum Size:</source>
-      <translation type="unfinished">Maximum Size:</translation>
+      <translation>Maksymalny rozmiar:</translation>
     </message>
     <message>
       <location filename="../ui/MeshGmsh.ui" line="57"/>
       <location filename="../ui/MeshGmsh.ui" line="95"/>
       <source>Use 0.0 to set size automatically</source>
-      <translation type="unfinished">Use 0.0 to set size automatically</translation>
+      <translation>Użyj 0.0 aby automatycznie ustawić rozmiar</translation>
     </message>
     <message>
       <location filename="../ui/MeshGmsh.ui" line="85"/>
       <source>Minimum Size:</source>
-      <translation type="unfinished">Minimum Size:</translation>
+      <translation>Minimalny rozmiar:</translation>
     </message>
     <message>
       <location filename="../ui/MeshGmsh.ui" line="126"/>
       <source>Element Order:</source>
-      <translation type="unfinished">Element Order:</translation>
+      <translation>Rząd elementów:</translation>
     </message>
     <message>
       <location filename="../ui/MeshGmsh.ui" line="144"/>
@@ -5682,7 +5682,7 @@ użyta przez solver Elmer</translation>
     <message>
       <location filename="../../../femcommands/commands.py" line="748"/>
       <source>FEM mesh from shape by Gmsh</source>
-      <translation>Siatka MES z kształtu generowana przez Gmsh</translation>
+      <translation>Siatka MES generowana przez Gmsh</translation>
     </message>
     <message>
       <location filename="../../../femcommands/commands.py" line="751"/>
@@ -6097,7 +6097,7 @@ Proszę najpierw wybrać typ wyniku.</translation>
     <message>
       <location filename="../../TaskPostContours.ui" line="77"/>
       <source>Enable Laplacian smoothing</source>
-      <translation type="unfinished">Enable Laplacian smoothing</translation>
+      <translation>Włącz filtr wygładzający Laplace'a</translation>
     </message>
     <message>
       <location filename="../../TaskPostContours.ui" line="80"/>
@@ -6107,7 +6107,7 @@ Proszę najpierw wybrać typ wyniku.</translation>
     <message>
       <location filename="../../TaskPostContours.ui" line="97"/>
       <source>Factor to control vertex displacement</source>
-      <translation type="unfinished">Factor to control vertex displacement</translation>
+      <translation>Współczynnik do sterowania przemieszczeniem wierzchołków</translation>
     </message>
     <message>
       <location filename="../../TaskPostContours.ui" line="113"/>
@@ -6117,7 +6117,7 @@ Proszę najpierw wybrać typ wyniku.</translation>
     <message>
       <location filename="../../TaskPostContours.ui" line="116"/>
       <source>No Color</source>
-      <translation type="unfinished">No Color</translation>
+      <translation>Brak koloru</translation>
     </message>
   </context>
   <context>
@@ -6673,7 +6673,7 @@ Proszę najpierw wybrać typ wyniku.</translation>
     <message>
       <location filename="../../Command.cpp" line="1338"/>
       <source>Erase elements</source>
-      <translation type="unfinished">Erase elements</translation>
+      <translation>Usuń elementy</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="1339"/>
@@ -6728,12 +6728,12 @@ Proszę najpierw wybrać typ wyniku.</translation>
     <message>
       <location filename="../ui/MeshNetgen.ui" line="47"/>
       <source>Maximum Size:</source>
-      <translation type="unfinished">Maximum Size:</translation>
+      <translation>Maksymalny rozmiar:</translation>
     </message>
     <message>
       <location filename="../ui/MeshNetgen.ui" line="82"/>
       <source>Minimum Size:</source>
-      <translation type="unfinished">Minimum Size:</translation>
+      <translation>Minimalny rozmiar:</translation>
     </message>
     <message>
       <location filename="../ui/MeshNetgen.ui" line="117"/>
@@ -6797,22 +6797,22 @@ Proszę najpierw wybrać typ wyniku.</translation>
     <message>
       <location filename="../ui/DlgSettingsNetgen.ui" line="59"/>
       <source>Log verbosity</source>
-      <translation type="unfinished">Log verbosity</translation>
+      <translation>Szczegółowość logów</translation>
     </message>
     <message>
       <location filename="../ui/DlgSettingsNetgen.ui" line="66"/>
       <source>Level of verbosity printed on the task panel</source>
-      <translation type="unfinished">Level of verbosity printed on the task panel</translation>
+      <translation>Poziom szczegółowości logów w panelu zadań</translation>
     </message>
     <message>
       <location filename="../ui/DlgSettingsNetgen.ui" line="85"/>
       <source>Number of threads</source>
-      <translation type="unfinished">Number of threads</translation>
+      <translation>Liczba wątków</translation>
     </message>
     <message>
       <location filename="../ui/DlgSettingsNetgen.ui" line="95"/>
       <source>Number of threads used for meshing</source>
-      <translation type="unfinished">Number of threads used for meshing</translation>
+      <translation>Liczba wątków użytych do generowania siatki</translation>
     </message>
   </context>
 </TS>

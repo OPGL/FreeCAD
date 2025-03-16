@@ -711,7 +711,7 @@ A Link array is more efficient when creating multiple copies, but it cannot be f
     <message>
       <location filename="../ui/TaskShapeString.ui" line="114"/>
       <source>Reset 3D point selection</source>
-      <translation type="unfinished">Reset 3D point selection</translation>
+      <translation>Скинути вибір 3D точки</translation>
     </message>
     <message>
       <location filename="../ui/TaskShapeString.ui" line="120"/>
@@ -3477,7 +3477,7 @@ or try saving to a lower DWG version.</source>
     <message>
       <location filename="../../draftutils/init_draft_statusbar.py" line="188"/>
       <source>Draft scale widget</source>
-      <translation type="unfinished">Draft scale widget</translation>
+      <translation>Віджет масштабування креслення</translation>
     </message>
     <message>
       <location filename="../../draftutils/init_draft_statusbar.py" line="213"/>
@@ -3487,7 +3487,7 @@ or try saving to a lower DWG version.</source>
     <message>
       <location filename="../../draftutils/init_draft_statusbar.py" line="249"/>
       <source>Draft snap widget</source>
-      <translation type="unfinished">Draft snap widget</translation>
+      <translation>Віджет привʼязки креслення</translation>
     </message>
     <message>
       <location filename="../../draftutils/groups.py" line="95"/>
