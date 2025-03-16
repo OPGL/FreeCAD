@@ -1,0 +1,55 @@
+name: Update Crowdin Translations
+
+on:
+  workflow_dispatch:
+    schedule:
+      - cron: '0 0 * * *' # Everyday at 0:00 AM
+
+jobs:
+  update-crowdin:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install dependencies (Qt 6, PySide6)
+        run: |
+          sudo apt update
+          sudo add-apt-repository universe
+          sudo apt-get -y install qt6-tools-dev-tools qt6-base-dev qtchooser python3-pip python3 qt6-l10n-tools
+          qtchooser -install qt6 $(which qmake6)
+          sudo mv ~/.config/qtchooser/qt6.conf /usr/share/qtchooser/qt6.conf
+          sudo mkdir -p /usr/lib/$(uname -p)-linux-gnu/qt-default/qtchooser
+          sudo ln -n /usr/share/qtchooser/qt6.conf /usr/lib/$(uname -p)-linux-gnu/qt-default/qtchooser/default.conf
+          pip3 install pyside6
+
+      - name: Gather translations from crowdin
+        run: |
+          ./updatecrowdin.py download
+          ./updatecrowdin.py install
+        working-directory: ./src/Tools
+        env:
+          CROWDIN_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add -A
+          git commit -m "Update translations from Crowdin" || echo "No changes to commit"
+
+      - name: Push changes to a new branch
+        run: |
+          git branch update-crowdin-translations
+          git push origin update-crowdin-translations --force
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: update-crowdin-translations
+          title: "Update translations from Crowdin"
+          body: "Automatic Crowdin update."
+          labels: "translations, automated"
+
