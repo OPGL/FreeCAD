@@ -138,7 +138,7 @@
     <message>
       <location filename="../../../CommandInsertLink.py" line="52"/>
       <source>Insert a component into the active assembly. This will create dynamic links to parts, bodies, primitives, and assemblies. To insert external components, make sure that the file is &lt;b&gt;open in the current session&lt;/b&gt;</source>
-      <translation>Beszúr egy alkatrészt az aktív összeállításba.
+      <translation>Beszúr egy alkatrészt az aktív összeállításba. 
 Ez dinamikus kapcsolatokat hoz létre alkatrészekhez, szilárd testekhez, alaptestekhez és összeállításokhoz.
 Külső komponensek beszúrásához győződjön meg arról, hogy a fájl &lt;b&gt;nyitva van az aktuális munkamenetben&lt;/b&gt;</translation>
     </message>
@@ -404,17 +404,17 @@ Külső komponensek beszúrásához győződjön meg arról, hogy a fájl &lt;b&
     <message>
       <location filename="../../../CommandCreateBom.py" line="415"/>
       <source>Export:</source>
-      <translation type="unfinished">Export:</translation>
+      <translation>Exportálás:</translation>
     </message>
     <message>
       <location filename="../../../CommandCreateBom.py" line="422"/>
       <source>The exported file format can be customized in the Spreadsheet workbench preferences.</source>
-      <translation type="unfinished">The exported file format can be customized in the Spreadsheet workbench preferences.</translation>
+      <translation>Az exportált fájlformátum a Táblázatkezelő munkafelület beállításaiban testreszabható.</translation>
     </message>
     <message>
       <location filename="../../../CommandInsertNewPart.py" line="84"/>
       <source>Part name</source>
-      <translation type="unfinished">Part name</translation>
+      <translation>Alkatrész neve</translation>
     </message>
     <message>
       <location filename="../../../CommandInsertNewPart.py" line="89"/>

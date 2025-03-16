@@ -2796,7 +2796,7 @@ invalid constraints, degenerated geometry, etc.</source>
 
 Accepted combinations: two curves; an endpoint and a curve; two endpoints; two curves and a point.</source>
       <comment>perpendicular constraint</comment>
-      <translation>可以采用多种方法来应用此约束。
+      <translation>可以采用多种方法来应用此约束。 
 
 接受的组合: 两条曲线; 一个端点和一个曲线; 两个端点; 两条曲线和一个点。</translation>
     </message>
@@ -2834,7 +2834,7 @@ Accepted combinations: two curves; an endpoint and a curve; two endpoints; two c
 
 Accepted combinations: two curves; an endpoint and a curve; two endpoints; two curves and a point.</source>
       <comment>tangent constraint</comment>
-      <translation>可以使用多种方法来应用此约束。
+      <translation>可以使用多种方法来应用此约束。 
 
 接受的组合: 两条曲线; 一个端点和一个曲线; 两个端点; 两条曲线和一个点。</translation>
     </message>
@@ -4071,7 +4071,7 @@ Requires to re-enter edit mode to take effect.</source>
     <message>
       <location filename="../../SketcherSettings.ui" line="225"/>
       <source>Always add external geometry as reference</source>
-      <translation type="unfinished">Always add external geometry as reference</translation>
+      <translation>总是添加外部几何元素作为参考</translation>
     </message>
     <message>
       <location filename="../../SketcherSettings.ui" line="250"/>
@@ -6971,7 +6971,7 @@ Instead equal constraints are applied between the original objects and their cop
     <message>
       <location filename="../../SketcherSettingsAppearance.ui" line="692"/>
       <source>Reference constraint</source>
-      <translation>参考约束</translation>
+      <translation>参照约束</translation>
     </message>
     <message>
       <location filename="../../SketcherSettingsAppearance.ui" line="699"/>

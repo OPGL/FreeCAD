@@ -564,7 +564,7 @@ Note that this option is disabled if a stock object from an existing solid is us
     <message>
       <location filename="../panels/DressupPathBoundary.ui" line="50"/>
       <source>Create Cylinder</source>
-      <translation type="unfinished">Create Cylinder</translation>
+      <translation>Створити циліндр</translation>
     </message>
     <message>
       <location filename="../panels/DressupPathBoundary.ui" line="60"/>
@@ -2615,7 +2615,7 @@ See the file save policy below on how to deal with name conflicts.</source>
     <message>
       <location filename="../preferences/PathJob.ui" line="400"/>
       <source>Create Cylinder</source>
-      <translation type="unfinished">Create Cylinder</translation>
+      <translation>Створити циліндр</translation>
     </message>
     <message>
       <location filename="../preferences/PathJob.ui" line="405"/>
@@ -3767,7 +3767,7 @@ FreeCAD не знає, де знаходиться певна система к�
     <message>
       <location filename="../panels/PathEdit.ui" line="483"/>
       <source>Create Cylinder</source>
-      <translation type="unfinished">Create Cylinder</translation>
+      <translation>Створити циліндр</translation>
     </message>
     <message>
       <location filename="../panels/PathEdit.ui" line="488"/>
@@ -5643,9 +5643,9 @@ Default: 3 mm</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Vcarve.py" line="327"/>
-      <source>Cutoff for removing colinear segments (degrees).
+      <source>Cutoff for removing colinear segments (degrees). 
                         default=10.0.</source>
-      <translation type="unfinished">Cutoff for removing colinear segments (degrees).
+      <translation type="unfinished">Cutoff for removing colinear segments (degrees). 
                         default=10.0.</translation>
     </message>
     <message>
@@ -6975,7 +6975,7 @@ Aborting op creation</translation>
     <message>
       <location filename="../../../Path/Main/Gui/Job.py" line="346"/>
       <source>Edit</source>
-      <translation>Правка</translation>
+      <translation>Редагувати</translation>
     </message>
     <message>
       <location filename="../../../Path/Main/Gui/Job.py" line="615"/>
@@ -7051,23 +7051,23 @@ Aborting op creation</translation>
     </message>
     <message>
       <location filename="../../../Path/Main/Gui/JobDlg.py" line="69"/>
-      <source>The currently selected unit schema:
+      <source>The currently selected unit schema: 
      &apos;{}&apos; for this document
- Does not use &apos;minutes&apos; for velocity values.
-
-CNC machines require feed rate to be expressed in
-unit/minute. To ensure correct G-code:
+ Does not use &apos;minutes&apos; for velocity values. 
+ 
+CNC machines require feed rate to be expressed in 
+unit/minute. To ensure correct G-code: 
 Select a minute-based schema in preferences.
 For example:
     &apos;Metric, Small Parts &amp; CNC&apos;
     &apos;US Customary&apos;
     &apos;Imperial Decimal&apos;</source>
-      <translation>Поточна вибрана схема одиниці виміру:
+      <translation>Поточна вибрана схема одиниці виміру: 
      &apos;{}&apos; для цього документа
- Не використовує &apos;хвилини&apos; для значень швидкості.
-
-Верстати з ЧПК вимагають, щоб швидкість подачі була виражена в
-одиницях/хвилину. Для забезпечення правильного G-коду:
+ Не використовує &apos;хвилини&apos; для значень швидкості. 
+ 
+Верстати з ЧПК вимагають, щоб швидкість подачі була виражена в 
+одиницях/хвилину. Для забезпечення правильного G-коду: 
 Виберіть схему на основі хвилин у налаштуваннях.
 Наприклад:
     &apos;Метрична, Дрібні деталі та ЧПК&apos;
@@ -7137,9 +7137,9 @@ For example:
     <name>CAM_Inspect</name>
     <message>
       <location filename="../../../Path/Main/Gui/Inspect.py" line="132"/>
-      <source>&lt;b&gt;Note&lt;/b&gt;: This dialog shows Path Commands in FreeCAD base units (mm/s).
+      <source>&lt;b&gt;Note&lt;/b&gt;: This dialog shows Path Commands in FreeCAD base units (mm/s). 
  Values will be converted to the desired unit during post processing.</source>
-      <translation type="unfinished">&lt;b&gt;Note&lt;/b&gt;: This dialog shows Path Commands in FreeCAD base units (mm/s).
+      <translation type="unfinished">&lt;b&gt;Note&lt;/b&gt;: This dialog shows Path Commands in FreeCAD base units (mm/s). 
  Values will be converted to the desired unit during post processing.</translation>
     </message>
     <message>
@@ -7455,9 +7455,9 @@ For example:
     </message>
     <message>
       <location filename="../../../Path/Main/Sanity/Sanity.py" line="364"/>
-      <source>Tool number {} is a legacy tool. Legacy tools not
+      <source>Tool number {} is a legacy tool. Legacy tools not 
                     supported by Path-Sanity</source>
-      <translation type="unfinished">Tool number {} is a legacy tool. Legacy tools not
+      <translation type="unfinished">Tool number {} is a legacy tool. Legacy tools not 
                     supported by Path-Sanity</translation>
     </message>
     <message>
@@ -7695,7 +7695,7 @@ For example:
     <message>
       <location filename="../../../Path/Tool/Gui/Controller.py" line="116"/>
       <source>Edit</source>
-      <translation>Правка</translation>
+      <translation>Редагувати</translation>
     </message>
     <message>
       <location filename="../../../Path/Post/scripts/generic_post.py" line="44"/>
@@ -8607,10 +8607,10 @@ For example:
     <message>
       <location filename="../../../Path/Tool/Gui/BitLibrary.py" line="126"/>
       <source>Toolbit Working directory {} needs these sudirectories:
- {}
+ {} 
  Create them?</source>
       <translation type="unfinished">Toolbit Working directory {} needs these sudirectories:
- {}
+ {} 
  Create them?</translation>
     </message>
     <message>

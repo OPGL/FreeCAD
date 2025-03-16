@@ -523,7 +523,7 @@ installed addons will be checked for available updates</translation>
     <message>
       <location filename="../../AddonManagerOptions.ui" line="98"/>
       <source>Hide Addons without a license</source>
-      <translation type="unfinished">Hide Addons without a license</translation>
+      <translation>면허가 없는 애드온 숨김</translation>
     </message>
     <message>
       <location filename="../../AddonManagerOptions.ui" line="114"/>
@@ -558,7 +558,7 @@ installed addons will be checked for available updates</translation>
     <message>
       <location filename="../../AddonManagerOptions.ui" line="254"/>
       <source>Proxy</source>
-      <translation type="unfinished">Proxy</translation>
+      <translation>프록시</translation>
     </message>
     <message>
       <location filename="../../AddonManagerOptions.ui" line="260"/>

@@ -1205,12 +1205,12 @@ Reset deletes all current items from the list and fills the list with all circul
     <message>
       <location filename="../panels/PageOpTappingEdit.ui" line="45"/>
       <source>Tap Tip</source>
-      <translation type="unfinished">Tap Tip</translation>
+      <translation>მინიშნება</translation>
     </message>
     <message>
       <location filename="../panels/PageOpTappingEdit.ui" line="50"/>
       <source>2x Tap Tip</source>
-      <translation type="unfinished">2x Tap Tip</translation>
+      <translation>2x მინიშნება</translation>
     </message>
     <message>
       <location filename="../panels/PageOpTappingEdit.ui" line="65"/>
@@ -1604,7 +1604,7 @@ The latter can be used to face of the entire stock area to ensure uniform height
     <message>
       <location filename="../panels/PageOpProfileFullEdit.ui" line="121"/>
       <source>Number of Passes</source>
-      <translation type="unfinished">Number of Passes</translation>
+      <translation>გავლების რაოდენობა</translation>
     </message>
     <message>
       <location filename="../panels/PageOpProfileFullEdit.ui" line="131"/>
@@ -1614,7 +1614,7 @@ The latter can be used to face of the entire stock area to ensure uniform height
     <message>
       <location filename="../panels/PageOpProfileFullEdit.ui" line="138"/>
       <source>Pass Stepover</source>
-      <translation type="unfinished">Pass Stepover</translation>
+      <translation>გავლის გადაბიჯება</translation>
     </message>
     <message>
       <location filename="../panels/PageOpProfileFullEdit.ui" line="151"/>
@@ -5640,9 +5640,9 @@ Default: 3 mm</source>
     </message>
     <message>
       <location filename="../../../Path/Op/Vcarve.py" line="327"/>
-      <source>Cutoff for removing colinear segments (degrees).
+      <source>Cutoff for removing colinear segments (degrees). 
                         default=10.0.</source>
-      <translation>ამოჭერით კოლინეარული სეგმენტების წასაშლელად (გრადუსები).
+      <translation>ამოჭერით კოლინეარული სეგმენტების წასაშლელად (გრადუსები). 
                         ნაგულისხმევია=10.0.</translation>
     </message>
     <message>
@@ -5826,12 +5826,12 @@ Default: 3 mm</source>
     <message>
       <location filename="../../../Path/Op/Tapping.py" line="103"/>
       <source>The time to dwell at bottom of tapping cycle</source>
-      <translation type="unfinished">The time to dwell at bottom of tapping cycle</translation>
+      <translation>დაყოვნების დრო შეხების ციკლისს ბოლოში</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Tapping.py" line="124"/>
       <source>Controls how tool retracts Default=G98</source>
-      <translation type="unfinished">Controls how tool retracts Default=G98</translation>
+      <translation>აკონტროლებს, როგორ გამოდის ხელსაწყო. ნაგულისხმევი=G98</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Tapping.py" line="133"/>
@@ -5841,7 +5841,7 @@ Default: 3 mm</source>
     <message>
       <location filename="../../../Path/Op/Tapping.py" line="139"/>
       <source>How far the tap depth is extended</source>
-      <translation type="unfinished">How far the tap depth is extended</translation>
+      <translation>რამდენად იზრდება შეხების სიღრმე</translation>
     </message>
   </context>
   <context>
@@ -7046,23 +7046,23 @@ Aborting op creation</source>
     </message>
     <message>
       <location filename="../../../Path/Main/Gui/JobDlg.py" line="69"/>
-      <source>The currently selected unit schema:
+      <source>The currently selected unit schema: 
      &apos;{}&apos; for this document
- Does not use &apos;minutes&apos; for velocity values.
-
-CNC machines require feed rate to be expressed in
-unit/minute. To ensure correct G-code:
+ Does not use &apos;minutes&apos; for velocity values. 
+ 
+CNC machines require feed rate to be expressed in 
+unit/minute. To ensure correct G-code: 
 Select a minute-based schema in preferences.
 For example:
     &apos;Metric, Small Parts &amp; CNC&apos;
     &apos;US Customary&apos;
     &apos;Imperial Decimal&apos;</source>
-      <translation type="unfinished">The currently selected unit schema:
+      <translation type="unfinished">The currently selected unit schema: 
      &apos;{}&apos; for this document
- Does not use &apos;minutes&apos; for velocity values.
-
-CNC machines require feed rate to be expressed in
-unit/minute. To ensure correct G-code:
+ Does not use &apos;minutes&apos; for velocity values. 
+ 
+CNC machines require feed rate to be expressed in 
+unit/minute. To ensure correct G-code: 
 Select a minute-based schema in preferences.
 For example:
     &apos;Metric, Small Parts &amp; CNC&apos;
@@ -7132,9 +7132,9 @@ For example:
     <name>CAM_Inspect</name>
     <message>
       <location filename="../../../Path/Main/Gui/Inspect.py" line="132"/>
-      <source>&lt;b&gt;Note&lt;/b&gt;: This dialog shows Path Commands in FreeCAD base units (mm/s).
+      <source>&lt;b&gt;Note&lt;/b&gt;: This dialog shows Path Commands in FreeCAD base units (mm/s). 
  Values will be converted to the desired unit during post processing.</source>
-      <translation>&lt;b&gt;შენიშვნა&lt;/b&gt;: ეს ფანჯარა ტრაექტორიის ბრძანებებს FreeCAD-ის საბაზისო ერთეულებში (მმ/წმ) გაჩვენებთ.
+      <translation>&lt;b&gt;შენიშვნა&lt;/b&gt;: ეს ფანჯარა ტრაექტორიის ბრძანებებს FreeCAD-ის საბაზისო ერთეულებში (მმ/წმ) გაჩვენებთ. 
  მნიშვნელობები სასურველ ერთეულებში გადაყვანილი პოსტპროცესინგისას იქნება.</translation>
     </message>
     <message>
@@ -7450,9 +7450,9 @@ For example:
     </message>
     <message>
       <location filename="../../../Path/Main/Sanity/Sanity.py" line="364"/>
-      <source>Tool number {} is a legacy tool. Legacy tools not
+      <source>Tool number {} is a legacy tool. Legacy tools not 
                     supported by Path-Sanity</source>
-      <translation type="unfinished">Tool number {} is a legacy tool. Legacy tools not
+      <translation type="unfinished">Tool number {} is a legacy tool. Legacy tools not 
                     supported by Path-Sanity</translation>
     </message>
     <message>
@@ -8602,10 +8602,10 @@ For example:
     <message>
       <location filename="../../../Path/Tool/Gui/BitLibrary.py" line="126"/>
       <source>Toolbit Working directory {} needs these sudirectories:
- {}
+ {} 
  Create them?</source>
       <translation type="unfinished">Toolbit Working directory {} needs these sudirectories:
- {}
+ {} 
  Create them?</translation>
     </message>
     <message>
@@ -8736,7 +8736,7 @@ For example:
     <message>
       <location filename="../../../InitGui.py" line="153"/>
       <source>Drilling Operations</source>
-      <translation type="unfinished">Drilling Operations</translation>
+      <translation>ბურღვის ოპერაციები</translation>
     </message>
   </context>
   <context>
@@ -8769,7 +8769,7 @@ For example:
     <message>
       <location filename="../../../Path/Op/Gui/Tapping.py" line="179"/>
       <source>Tapping</source>
-      <translation type="unfinished">Tapping</translation>
+      <translation>შეხება</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Gui/Tapping.py" line="183"/>
@@ -8782,7 +8782,7 @@ For example:
     <message>
       <location filename="../../../Path/Op/Tapping.py" line="158"/>
       <source>Tapping Operation requires a Tap tool with Pitch or TPI</source>
-      <translation type="unfinished">Tapping Operation requires a Tap tool with Pitch or TPI</translation>
+      <translation>შეხების ოპერატორს შეხების ხელსაწყო ესაჭიროება ტონით ან TPI-ით</translation>
     </message>
   </context>
 </TS>

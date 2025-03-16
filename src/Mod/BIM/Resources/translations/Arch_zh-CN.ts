@@ -1013,7 +1013,7 @@ Utils -&gt; Make IFC project</translation>
     <message>
       <location filename="../ui/dialogProjectManager.ui" line="154"/>
       <source> E</source>
-      <translation type="unfinished"> E</translation>
+      <translation> E</translation>
     </message>
     <message>
       <location filename="../ui/dialogProjectManager.ui" line="170"/>
@@ -1941,7 +1941,7 @@ Utils -&gt; Make IFC project</translation>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="128"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;All elements derived from IfcProduct (that is, all the BIM elements that compose your model)  are required to be inside an IfcBuildingStorey (level) element. This is a mandatory requirement of the IFC standard. When exporting your FreeCAD model to IFC, a default IfcBuildingStorey will be created for all BIM objects found that are not inside one already. However, it is best if you make sure yourself that all elements are correctly located inside a level, so you have more control over it. This test is here to help you to find those BIM objects without a level.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;All elements derived from IfcProduct (that is, all the BIM elements that compose your model)  are required to be inside an IfcBuildingStorey (level) element. This is a mandatory requirement of the IFC standard. When exporting your FreeCAD model to IFC, a default IfcBuildingStorey will be created for all BIM objects found that are not inside one already. However, it is best if you make sure yourself that all elements are correctly located inside a level, so you have more control over it. This test is here to help you to find those BIM objects without a level.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;从所有IfcProduct（也即，构成您模型的所有BIM元素）需要位于IfcBuildingStorey（楼层）元素内。这是IFC标准的强制要求。当导出您的FreeCAD模型到IFC时，将会为所有发现的尚不在内部的BIM对象创建一个默认的IfcBuildingStorey。不过，可以的话最好是您自己确认所有元素已正确地位于楼层内，这样您对它有更多的控制。这里的测试将帮助您找到那些没有楼层的BIM对象。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="131"/>
@@ -1951,7 +1951,7 @@ Utils -&gt; Make IFC project</translation>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="148"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;All IfcBuilding elements are required to be inside an IfcSite element. This is a mandatory requirement of the IFC standard. When exporting your FreeCAD model to IFC, a default IfcSite will be created for all Building objects found that are not inside a Site. However, it is best if you create that site yourself, so you have more control over its name and properties. This test is here to help you to find those buildings without sites.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;All IfcBuilding elements are required to be inside an IfcSite element. This is a mandatory requirement of the IFC standard. When exporting your FreeCAD model to IFC, a default IfcSite will be created for all Building objects found that are not inside a Site. However, it is best if you create that site yourself, so you have more control over its name and properties. This test is here to help you to find those buildings without sites.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;所有IfcBuilding元素被要求位于IfcSite元素内。这是IFC标准的强制要求。当您导出FreeCAD模型到IFC时，将会为所有发现的不在地点内的建筑对象创建一个默认的IfcSite。不过，可以的话最好是您自己创建地点，这样您对于其名称和属性有更多控制。这里的测试帮助您找到那些没有地点的建筑。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="151"/>
@@ -1961,7 +1961,7 @@ Utils -&gt; Make IFC project</translation>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="168"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The IFC standard requires at least one site, one building and one level or building storey per project. This test will ensure that at least one object of each of these 3 types exists in the model.&lt;/p&gt;&lt;p&gt;Note that, as this is a mandatory requirement, FreeCAD will automatically add a default site, a default building and/or a default building storey if any of these is missing. So even if this test didn't pass, your exported IFC file will meet the requirements.&lt;/p&gt;&lt;p&gt;However, it is always better to create these objects yourself, as you get more control over naming and properties.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The IFC standard requires at least one site, one building and one level or building storey per project. This test will ensure that at least one object of each of these 3 types exists in the model.&lt;/p&gt;&lt;p&gt;Note that, as this is a mandatory requirement, FreeCAD will automatically add a default site, a default building and/or a default building storey if any of these is missing. So even if this test didn't pass, your exported IFC file will meet the requirements.&lt;/p&gt;&lt;p&gt;However, it is always better to create these objects yourself, as you get more control over naming and properties.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;IFC标准需要每个项目至少有一个地点，一个建筑和一个楼层或建筑层。该测试将确认在此模型中3个类型中的每一个至少有一个对象存在。&lt;/p&gt;&lt;p&gt;注意，由于这是一个强制要求，如果任意一项缺失，FreeCAD将自动添加一个默认的地点，默认的建筑和/或默认的建筑楼层。因此哪怕该测试未通过，你导出的IFC文件将符合这些要求。&lt;/p&gt;&lt;p&gt;不过，由您自己创建这些对象总是更好，这样您可以对名称和属性进行更多控制。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="171"/>
@@ -1976,7 +1976,7 @@ Utils -&gt; Make IFC project</translation>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="204"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Although it is not a requirement for IFC objects to have fully clean and solid geometry (and you will more than often find IFC files with bad geometry out there, oh boy if you find!), it is of course better if they do. You will reduce chances of problems with other applications, and after all, in real life, all objects have solid shapes.&lt;/p&gt;&lt;p&gt;FreeCAD has a lot of tools to check for geometry quality, and most parametric objects, including BIM objects, will usually warn you if their geometry becomes unclean or not solid at some point. This test makes sure everything is OK.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Although it is not a requirement for IFC objects to have fully clean and solid geometry (and you will more than often find IFC files with bad geometry out there, oh boy if you find!), it is of course better if they do. You will reduce chances of problems with other applications, and after all, in real life, all objects have solid shapes.&lt;/p&gt;&lt;p&gt;FreeCAD has a lot of tools to check for geometry quality, and most parametric objects, including BIM objects, will usually warn you if their geometry becomes unclean or not solid at some point. This test makes sure everything is OK.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;尽管 IFC 对象不要求具有完全干净和完整的几何形状（而且您经常会发现几何形状不良的 IFC 文件，如果您发现的话，那可真是太糟糕了！），但如果它们有，那当然更好。这样可以减少其他应用程序出现问题的机会，毕竟，在现实生活中，所有对象都有完整的形状。&lt;/p&gt;&lt;p&gt;FreeCAD 有很多工具可以检查几何形状的质量，大多数参数化对象（包括 BIM 对象）通常会在几何形状变得不干净或不完整时向您发出警告。此​​测试可确保一切正常。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="207"/>
@@ -1986,7 +1986,7 @@ Utils -&gt; Make IFC project</translation>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="217"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The IFC format provides a defined type for most of the objects that compose a building, for example walls, columns, doors, or sinks. But it also supports undefined objects, which are given the generic BuildingElementProxy type. This test will check that all objects have a defined type.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;Note that failing this test is not necessarily bad, as you might specifically want some object to not have any defined type. In some cases, this might even give better results, as some applications like Revit might add possibly unwanted additional constraints or transformations to some known types such as structural elements (beams or columns). Exporting them as BuildingElementProxies will prevent that.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The IFC format provides a defined type for most of the objects that compose a building, for example walls, columns, doors, or sinks. But it also supports undefined objects, which are given the generic BuildingElementProxy type. This test will check that all objects have a defined type.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;Note that failing this test is not necessarily bad, as you might specifically want some object to not have any defined type. In some cases, this might even give better results, as some applications like Revit might add possibly unwanted additional constraints or transformations to some known types such as structural elements (beams or columns). Exporting them as BuildingElementProxies will prevent that.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;IFC格式为构成建筑物的大多数对象（例如墙、柱、门或水槽）提供了定义的类型。 但它也支持未定义的对象，这些对象具有通用的BuildingElementProxy类型。 此测试将检查所有对象是否都具有定义的类型。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;注意该测试失败并不一定是不好的，因为你可能想要一些没有任何已定义类型的对象。在某些情况下，这甚至可能会带来更好的结果，因为诸如Revit之类的某些应用程序可能会向某些已知类型例如结构元素（梁或柱）添加不必要的附加约束或转换。 将它们导出为BuildingElementProxies可以防止这种情况。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="220"/>
@@ -2001,52 +2001,52 @@ Utils -&gt; Make IFC project</translation>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="246"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Classification systems, such as UniClass or MasterFormat, or even your own custom system, are in some cases an important part of a building project. This test will ensure that all BIM objects and materials found in the model have their standard code property dutifully filled.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Classification systems, such as UniClass or MasterFormat, or even your own custom system, are in some cases an important part of a building project. This test will ensure that all BIM objects and materials found in the model have their standard code property dutifully filled.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;分类系统（例如 UniClass 或 MasterFormat，甚至是您自己的自定义系统）在某些情况下是建筑项目的重要组成部分。此测试将确保模型中找到的所有 BIM 对象和材料都已尽职尽责地填写了其标准代码属性。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="249"/>
       <source>Do all BIM objects and materials have a standard classification code defined?</source>
-      <translation type="unfinished">Do all BIM objects and materials have a standard classification code defined?</translation>
+      <translation>所有 BIM 对象和材料是否都有定义的标准分类代码？</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="273"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The IFC standard offers standard, predefined property sets for many object types. for example, the property set Pset_WallCommon contains properties that the IFC standard thinks all walls should have. This test will check that all BIM objects have the right property set, if available.&lt;/p&gt;&lt;p&gt;Note that this is by no means a formal requirement, and these will inflate the size of your IFC file consequently. We suggest you add standard property sets only if you are actually using any of them.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The IFC standard offers standard, predefined property sets for many object types. for example, the property set Pset_WallCommon contains properties that the IFC standard thinks all walls should have. This test will check that all BIM objects have the right property set, if available.&lt;/p&gt;&lt;p&gt;Note that this is by no means a formal requirement, and these will inflate the size of your IFC file consequently. We suggest you add standard property sets only if you are actually using any of them.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;IFC 标准为许多对象类型提供了标准的预定义属性集。例如，属性集 Pset_WallCommon 包含 IFC 标准认为所有墙壁都应具有的属性。此测试将检查所有 BIM 对象是否具有正确的属性集（如果可用）。&lt;/p&gt;&lt;p&gt;请注意，这绝不是正式要求，因此这些属性集会增加 IFC 文件的大小。我们建议您仅在实际使用其中任何一个时才添加标准属性集。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="276"/>
       <source>Do all common IFC types have the corresponding Property Set?</source>
-      <translation type="unfinished">Do all common IFC types have the corresponding Property Set?</translation>
+      <translation>所有通用 IFC 类型是否都有相应的属性集？</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="286"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;IFC objects have a geometry representation, which defines the shape of the object, but can also have some or their dimensions, such as height, width or area, explicitly stated. This is very useful for BIM applications that don't process the geometry, such as spreadsheets. Those applications are still able to get and estimate quantities from IFC objects without the need to analyze the geometry.&lt;/p&gt;&lt;p&gt;It is also a possibility for errors (or even fraud), as nothing guarantees that those explicitly stated dimensions match what is inside the geometry.&lt;/p&gt;&lt;p&gt;This test will find any BIM object that has available dimension properties such as width or height, for example walls and structures, but such properties are not marked for explicit export to IFC.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;IFC objects have a geometry representation, which defines the shape of the object, but can also have some or their dimensions, such as height, width or area, explicitly stated. This is very useful for BIM applications that don't process the geometry, such as spreadsheets. Those applications are still able to get and estimate quantities from IFC objects without the need to analyze the geometry.&lt;/p&gt;&lt;p&gt;It is also a possibility for errors (or even fraud), as nothing guarantees that those explicitly stated dimensions match what is inside the geometry.&lt;/p&gt;&lt;p&gt;This test will find any BIM object that has available dimension properties such as width or height, for example walls and structures, but such properties are not marked for explicit export to IFC.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;IFC 对象具有几何表示，它定义了对象的形状，但也可以明确说明某些尺寸，例如高度、宽度或面积。这对于不处理几何图形的 BIM 应用程序（例如电子表格）非常有用。这些应用程序仍然能够从 IFC 对象获取和估算数量，而无需分析几何图形。&lt;/p&gt;&lt;p&gt;这也有可能出现错误（甚至是欺诈），因为没有什么可以保证那些明确说明的尺寸与几何图形内部的尺寸相匹配。&lt;/p&gt;&lt;p&gt;此测试将查找具有可用尺寸属性（例如宽度或高度）的任何 BIM 对象，例如墙壁和结构，但这些属性未标记为明确导出到 IFC。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="289"/>
       <source>Do all geometric BIM objects have explicit dimensions set?</source>
-      <translation type="unfinished">Do all geometric BIM objects have explicit dimensions set?</translation>
+      <translation>所有几何 BIM 对象是否都有明确的尺寸集？</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="299"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Although there is no requirement for IFC objects to have a material defined, in the real world, it is an important layer of information to be added to you model. This test will find BIM objects without a material defined.&lt;/p&gt;&lt;p&gt;If a BIM object is exported without a material, it will nevertheless be assigned an IfcSurfaceStyle, which will be created from the object color. Some BIM applications actually disregard materials, and only consider the surface style of an object. No IfcMaterial will be attributed to that object.&lt;/p&gt;&lt;p&gt;If a BIM object has a material defined, a surface style will still be created (an IfcMaterial too) but its surface style will take the same name and properties as the material, thus giving more consistency to your file, no matter what other BIM consider, surface style, material, or both.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Although there is no requirement for IFC objects to have a material defined, in the real world, it is an important layer of information to be added to you model. This test will find BIM objects without a material defined.&lt;/p&gt;&lt;p&gt;If a BIM object is exported without a material, it will nevertheless be assigned an IfcSurfaceStyle, which will be created from the object color. Some BIM applications actually disregard materials, and only consider the surface style of an object. No IfcMaterial will be attributed to that object.&lt;/p&gt;&lt;p&gt;If a BIM object has a material defined, a surface style will still be created (an IfcMaterial too) but its surface style will take the same name and properties as the material, thus giving more consistency to your file, no matter what other BIM consider, surface style, material, or both.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;尽管IFC对象不需要定义材料，但在现实世界中，它是要添加到模型中的重要信息层。 此测试将查找未定义材料的BIM对象。&lt;/p&gt;&lt;p&gt;如果导出的BIM对象不包含材料，则仍将为其分配一个IfcSurfaceStyle，它将由对象颜色创建。 一些BIM应用程序实际上不考虑材质，而只考虑对象的表面样式。这些对象无IfcMaterial的归属。&lt;/p&gt;&lt;p&gt;如果一个BIM对象定义了材质，则仍将创建表面样式（也将是IfcMaterial），但是其表面样式将使用与该材质相同的名称和属性，如此可使您的文件更加一致，不管有其他怎样的BIM考虑（表面样式，材料或两者兼有）。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="302"/>
       <source>Do all BIM objects have a material?</source>
-      <translation type="unfinished">Do all BIM objects have a material?</translation>
+      <translation>所有 BIM 对象都有材质吗？</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="319"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Even if a BIM object has a standard property set for its type attributed, there is no guarantee that this property set still contains or only contains all the properties that the IFC standard has defined for that set. They might have been modified after the property set has been added.&lt;/p&gt;&lt;p&gt;This test will check that all standard property sets found throughout the model contain all and only the properties specified in the standard definition.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Even if a BIM object has a standard property set for its type attributed, there is no guarantee that this property set still contains or only contains all the properties that the IFC standard has defined for that set. They might have been modified after the property set has been added.&lt;/p&gt;&lt;p&gt;This test will check that all standard property sets found throughout the model contain all and only the properties specified in the standard definition.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;即使 BIM 对象具有针对其类型属性的标准属性集，也不能保证此属性集仍然包含或仅包含 IFC 标准为该集定义的所有属性。这些属性可能在添加属性集后已被修改。&lt;/p&gt;&lt;p&gt;此测试将检查在整个模型中找到的所有标准属性集是否包含标准定义中指定的所有属性，并且仅包含这些属性。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="322"/>
       <source>Do all standard Property Set contain the correct properties?</source>
-      <translation type="unfinished">Do all standard Property Set contain the correct properties?</translation>
+      <translation>所有标准属性集是否都包含正确的属性？</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="349"/>
@@ -2056,7 +2056,7 @@ Utils -&gt; Make IFC project</translation>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="362"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The geometry of IFC objects can be defined in a large number of ways, such as extrusions, subtractions, revolutions, or even faceted objects.&lt;/p&gt;&lt;p&gt;However, extrusions of flat shapes, which is the most basic and common type, often offer advantages over other types in other BIM applications.&lt;/p&gt;&lt;p&gt;This test will find any object that cannot be exported to IFC as an extrusion, or as a shared extrusion (clone).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The geometry of IFC objects can be defined in a large number of ways, such as extrusions, subtractions, revolutions, or even faceted objects.&lt;/p&gt;&lt;p&gt;However, extrusions of flat shapes, which is the most basic and common type, often offer advantages over other types in other BIM applications.&lt;/p&gt;&lt;p&gt;This test will find any object that cannot be exported to IFC as an extrusion, or as a shared extrusion (clone).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;IFC 对象的几何形状可以通过多种方式定义，例如挤压、减法、旋转，甚至是多面对象。&lt;/p&gt;&lt;p&gt;但是，平面形状的挤压是最基本和最常见的类型，通常比其他 BIM 应用程序中的其他类型更具优势。&lt;/p&gt;&lt;p&gt;此测试将查找任何无法作为挤压或共享挤压（克隆）导出到 IFC 的对象。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="365"/>
@@ -2066,12 +2066,12 @@ Utils -&gt; Make IFC project</translation>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="375"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Walls, columns and beams in FreeCAD can be constructed in a wide number of ways. But some simpler BIM applications might have difficulties with walls that are not of the most simple type, that is, a single, straight piece of wall (which correspond to the IfcWallStandardCase type) or beams and columns that are not based on a straight extrusion of a flat profile (BeamStandardCase, ColumnStandardCase)&lt;/p&gt;&lt;p&gt;This test will find any wall which is not such a standard case.&lt;/p&gt;&lt;p&gt;&lt;span style=" font-weight:600;"&gt;Note&lt;/span&gt;: At the moment, BIM objects that meet the requirements to be of a standard case, are still exported as IfcWall, IfcBeam, IfcColumn.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Walls, columns and beams in FreeCAD can be constructed in a wide number of ways. But some simpler BIM applications might have difficulties with walls that are not of the most simple type, that is, a single, straight piece of wall (which correspond to the IfcWallStandardCase type) or beams and columns that are not based on a straight extrusion of a flat profile (BeamStandardCase, ColumnStandardCase)&lt;/p&gt;&lt;p&gt;This test will find any wall which is not such a standard case.&lt;/p&gt;&lt;p&gt;&lt;span style=" font-weight:600;"&gt;Note&lt;/span&gt;: At the moment, BIM objects that meet the requirements to be of a standard case, are still exported as IfcWall, IfcBeam, IfcColumn.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;FreeCAD 中的墙、柱和梁可以用多种方式构建。但是一些较简单的 BIM 应用程序可能会难以处理不是最简单类型的墙，即单块直墙（对应于 IfcWallStandardCase 类型）或不是基于平面轮廓的直线挤压的梁和柱（BeamStandardCase、ColumnStandardCase）&lt;/p&gt;&lt;p&gt;此测试将找到任何不是这种标准情况的墙。&lt;/p&gt;&lt;p&gt;&lt;span style=" font-weight:600;"&gt;注意&lt;/span&gt;：目前，满足标准情况要求的 BIM 对象仍导出为 IfcWall、IfcBeam、IfcColumn。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="378"/>
       <source>Are all walls, beams and columns based on a single line or profile (standard case)?</source>
-      <translation type="unfinished">Are all walls, beams and columns based on a single line or profile (standard case)?</translation>
+      <translation>所有墙、梁和柱是否基于单条线或轮廓（标准情况）？</translation>
     </message>
     <message>
       <location filename="../ui/dialogPreflight.ui" line="395"/>
@@ -2954,7 +2954,7 @@ instead of the FreeCAD web workbench</source>
     <message>
       <location filename="../ui/preferences-sh3d-import.ui" line="280"/>
       <source>Fit view while importing.</source>
-      <translation type="unfinished">Fit view while importing.</translation>
+      <translation>导入时调整视图。</translation>
     </message>
     <message>
       <location filename="../ui/preferences-sh3d-import.ui" line="296"/>
@@ -5461,7 +5461,7 @@ Floor creation aborted.</translation>
     <message>
       <location filename="../../ArchSectionPlane.py" line="1348"/>
       <source>Resizes the plane to fit the objects in the list above</source>
-      <translation type="unfinished">Resizes the plane to fit the objects in the list above</translation>
+      <translation>调整平面尺寸以适合上面列表中的对象</translation>
     </message>
     <message>
       <location filename="../../ArchSectionPlane.py" line="1349"/>
@@ -8139,7 +8139,7 @@ Building creation aborted.</translation>
     <message>
       <location filename="../../InitGui.py" line="419"/>
       <source>&amp;Fasteners</source>
-      <translation type="unfinished">&amp;Fasteners</translation>
+      <translation>紧固件 (&amp;F)</translation>
     </message>
     <message>
       <location filename="../../InitGui.py" line="420"/>

@@ -1998,12 +1998,12 @@ Caso não haja seleção, um navegador permitirá selecionar um arquivo no forma
     <message>
       <location filename="../../Command.cpp" line="1430"/>
       <source>Add clip group</source>
-      <translation type="unfinished">Add clip group</translation>
+      <translation>Clipar</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="1501"/>
       <source>Remove clip group</source>
-      <translation type="unfinished">Remove clip group</translation>
+      <translation>Desclipar</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="1635"/>
@@ -2925,12 +2925,12 @@ Caso não haja seleção, um navegador permitirá selecionar um arquivo no forma
     <message>
       <location filename="../../Command.cpp" line="430"/>
       <source>If you want to insert a view from existing objects, please select them before invoking this tool. Without a selection, a file browser will open, to insert a SVG or image file.</source>
-      <translation type="unfinished">If you want to insert a view from existing objects, please select them before invoking this tool. Without a selection, a file browser will open, to insert a SVG or image file.</translation>
+      <translation>Se desejar inserir uma vista de objetos existentes, por favor selecione-os antes de recorrer a esta ferramenta. Caso não haja seleção, um navegador será aberto, para inserção de um arquivo no formato SVG ou outro formato de imagem.</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="433"/>
       <source>Do not show this message again</source>
-      <translation type="unfinished">Do not show this message again</translation>
+      <translation>Não mostrar esta mensagem novamente</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="447"/>
@@ -2986,12 +2986,12 @@ Caso não haja seleção, um navegador permitirá selecionar um arquivo no forma
     <message>
       <location filename="../../Command.cpp" line="1833"/>
       <source>No Drawing Page</source>
-      <translation type="unfinished">No Drawing Page</translation>
+      <translation>Nenhuma Folha de desenho</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="1834"/>
       <source>FreeCAD could not find a page to export</source>
-      <translation type="unfinished">FreeCAD could not find a page to export</translation>
+      <translation>O FreeCAD não encontrou uma página para exportar</translation>
     </message>
     <message>
       <location filename="../../CommandDecorate.cpp" line="387"/>
@@ -3158,7 +3158,7 @@ Caso não haja seleção, um navegador permitirá selecionar um arquivo no forma
     <message>
       <location filename="../../CommandCreateDims.cpp" line="2454"/>
       <source>B-spline Curve Error</source>
-      <translation type="unfinished">B-spline Curve Error</translation>
+      <translation>Erro da Curva B-spline</translation>
     </message>
     <message>
       <location filename="../../CommandCreateDims.cpp" line="2455"/>
@@ -3178,17 +3178,17 @@ Caso não haja seleção, um navegador permitirá selecionar um arquivo no forma
     <message>
       <location filename="../../CommandCreateDims.cpp" line="2109"/>
       <source>Selection contains both 2D and 3D geometry</source>
-      <translation type="unfinished">Selection contains both 2D and 3D geometry</translation>
+      <translation>Seleção contém geometria 2D e 3D</translation>
     </message>
     <message>
       <location filename="../../CommandCreateDims.cpp" line="2134"/>
       <source>Can not make 2D extent dimension from selection</source>
-      <translation type="unfinished">Can not make 2D extent dimension from selection</translation>
+      <translation>Não é possível criar uma dimensão 2D a partir da seleção</translation>
     </message>
     <message>
       <location filename="../../CommandCreateDims.cpp" line="2149"/>
       <source>Can not make 3D extent dimension from selection</source>
-      <translation type="unfinished">Can not make 3D extent dimension from selection</translation>
+      <translation>Não é possível criar uma dimensão 3D a partir da seleção</translation>
     </message>
     <message>
       <location filename="../../CommandCreateDims.cpp" line="2280"/>
@@ -3445,7 +3445,7 @@ Caso não haja seleção, um navegador permitirá selecionar um arquivo no forma
     <message>
       <location filename="../../CommandAnnotate.cpp" line="121"/>
       <source>Can not attach leader. No base View selected.</source>
-      <translation type="unfinished">Can not attach leader. No base View selected.</translation>
+      <translation>Não é possível anexar linha de anotações. Não há nenhuma vista de base selecionada.</translation>
     </message>
     <message>
       <location filename="../../CommandAnnotate.cpp" line="1224"/>
@@ -3490,7 +3490,7 @@ Caso não haja seleção, um navegador permitirá selecionar um arquivo no forma
     <message>
       <location filename="../../CommandDecorate.cpp" line="112"/>
       <source>Some Faces in selection are already hatched. Replace?</source>
-      <translation type="unfinished">Some Faces in selection are already hatched. Replace?</translation>
+      <translation>Algumas faces na seleção já estão hachuradas. Substituir?</translation>
     </message>
     <message>
       <location filename="../../CommandDecorate.cpp" line="335"/>
@@ -3657,7 +3657,7 @@ Caso não haja seleção, um navegador permitirá selecionar um arquivo no forma
     <message>
       <location filename="../../TaskSectionView.cpp" line="153"/>
       <source>No direction set</source>
-      <translation type="unfinished">No direction set</translation>
+      <translation>Sem direção definida</translation>
     </message>
     <message>
       <location filename="../../TaskSectionView.cpp" line="159"/>
@@ -3790,17 +3790,17 @@ Caso não haja seleção, um navegador permitirá selecionar um arquivo no forma
     <message>
       <location filename="../../CommandExtensionDims.cpp" line="1274"/>
       <source>TechDraw Create Horizontal Chain Dimension</source>
-      <translation type="unfinished">TechDraw Create Horizontal Chain Dimension</translation>
+      <translation>Criar dimensão horizontal em sequência</translation>
     </message>
     <message>
       <location filename="../../CommandExtensionDims.cpp" line="1340"/>
       <source>TechDraw Create Vertical Chain Dimension</source>
-      <translation type="unfinished">TechDraw Create Vertical Chain Dimension</translation>
+      <translation>Criar Dimensões Verticais em Sequência</translation>
     </message>
     <message>
       <location filename="../../CommandExtensionDims.cpp" line="1406"/>
       <source>TechDraw Create Oblique Chain Dimension</source>
-      <translation type="unfinished">TechDraw Create Oblique Chain Dimension</translation>
+      <translation>Criar Cadeia de Dimensões Inclinadas</translation>
     </message>
     <message>
       <location filename="../../CommandExtensionDims.cpp" line="1645"/>
@@ -3820,27 +3820,27 @@ Caso não haja seleção, um navegador permitirá selecionar um arquivo no forma
     <message>
       <location filename="../../CommandExtensionDims.cpp" line="2044"/>
       <source>TechDraw Create Horizontal Chamfer Dimension</source>
-      <translation type="unfinished">TechDraw Create Horizontal Chamfer Dimension</translation>
+      <translation>Criar Dimensão do Chanfro Horizontal</translation>
     </message>
     <message>
       <location filename="../../CommandExtensionDims.cpp" line="2113"/>
       <source>TechDraw Create Vertical Chamfer Dimension</source>
-      <translation type="unfinished">TechDraw Create Vertical Chamfer Dimension</translation>
+      <translation>Criar Dimensão do Chanfro Vertical</translation>
     </message>
     <message>
       <location filename="../../CommandExtensionDims.cpp" line="2299"/>
       <source>TechDraw Create Arc Length Dimension</source>
-      <translation type="unfinished">TechDraw Create Arc Length Dimension</translation>
+      <translation>TechDraw cria cota de comprimento de Arco</translation>
     </message>
     <message>
       <location filename="../../CommandExtensionDims.cpp" line="2349"/>
       <source>TechDraw Customize Format</source>
-      <translation type="unfinished">TechDraw Customize Format</translation>
+      <translation>TechDraw formato personalizado</translation>
     </message>
     <message>
       <location filename="../../CommandExtensionDims.cpp" line="2458"/>
       <source>No subelements selected</source>
-      <translation type="unfinished">No subelements selected</translation>
+      <translation>Nenhum sub-elemento selecionado</translation>
     </message>
     <message>
       <location filename="../../CommandExtensionDims.cpp" line="2422"/>
@@ -3857,7 +3857,7 @@ Caso não haja seleção, um navegador permitirá selecionar um arquivo no forma
     <message>
       <location filename="../../CommandExtensionPack.cpp" line="123"/>
       <source>TechDraw Hole Circle</source>
-      <translation type="unfinished">TechDraw Hole Circle</translation>
+      <translation>Círculo cosmético de Desenho Técnico</translation>
     </message>
     <message>
       <location filename="../../CommandExtensionPack.cpp" line="124"/>
@@ -3888,13 +3888,13 @@ Caso não haja seleção, um navegador permitirá selecionar um arquivo no forma
       <location filename="../../TaskDimension.cpp" line="146"/>
       <location filename="../../TaskDimension.cpp" line="161"/>
       <source>Missing Dimension</source>
-      <translation type="unfinished">Missing Dimension</translation>
+      <translation>Dimensão ausente</translation>
     </message>
     <message>
       <location filename="../../TaskDimension.cpp" line="147"/>
       <location filename="../../TaskDimension.cpp" line="162"/>
       <source>Dimension not found. Was it deleted? Can not continue.</source>
-      <translation type="unfinished">Dimension not found. Was it deleted? Can not continue.</translation>
+      <translation>Dimensão não encontrada. Foi excluída? Não pode continuar.</translation>
     </message>
     <message>
       <location filename="../../TaskDimension.cpp" line="443"/>
@@ -3920,12 +3920,12 @@ Caso não haja seleção, um navegador permitirá selecionar um arquivo no forma
     <message>
       <location filename="../../TaskHatch.cpp" line="97"/>
       <source>Create Face Hatch</source>
-      <translation type="unfinished">Create Face Hatch</translation>
+      <translation>Criar hachura por face</translation>
     </message>
     <message>
       <location filename="../../TaskHatch.cpp" line="109"/>
       <source>Edit Face Hatch</source>
-      <translation type="unfinished">Edit Face Hatch</translation>
+      <translation>Editar hachura por face</translation>
     </message>
     <message>
       <location filename="../../TaskSurfaceFinishSymbols.cpp" line="277"/>
@@ -3950,7 +3950,7 @@ Caso não haja seleção, um navegador permitirá selecionar um arquivo no forma
     <message>
       <location filename="../../TaskSurfaceFinishSymbols.cpp" line="307"/>
       <source>Lay symbol</source>
-      <translation type="unfinished">Lay symbol</translation>
+      <translation>Símbolo de camadas</translation>
     </message>
     <message>
       <location filename="../../TaskSurfaceFinishSymbols.cpp" line="315"/>
@@ -3965,18 +3965,18 @@ Caso não haja seleção, um navegador permitirá selecionar um arquivo no forma
     <message>
       <location filename="../../TaskDimRepair.cpp" line="66"/>
       <source>Dimension Repair</source>
-      <translation type="unfinished">Dimension Repair</translation>
+      <translation>Detalhes da cota</translation>
     </message>
     <message>
       <location filename="../../TaskDimRepair.cpp" line="125"/>
       <source>Can not use references from a different View</source>
-      <translation type="unfinished">Can not use references from a different View</translation>
+      <translation>Não é possível usar referências de uma visualização diferente</translation>
     </message>
     <message>
       <location filename="../../TaskDimRepair.cpp" line="137"/>
       <location filename="../../TaskDimRepair.cpp" line="148"/>
       <source>Can not make dimension from selection</source>
-      <translation type="unfinished">Can not make dimension from selection</translation>
+      <translation>Não é possível criar uma cota para esta seleção</translation>
     </message>
     <message>
       <location filename="../../AppTechDrawGui.cpp" line="170"/>
@@ -3992,7 +3992,7 @@ Caso não haja seleção, um navegador permitirá selecionar um arquivo no forma
     <message>
       <location filename="../../TaskCosmeticCircle.cpp" line="119"/>
       <source>Create Cosmetic Circle</source>
-      <translation type="unfinished">Create Cosmetic Circle</translation>
+      <translation>Criar Círculo Cosmético</translation>
     </message>
     <message>
       <location filename="../../TaskCosmeticCircle.cpp" line="163"/>
@@ -4017,7 +4017,7 @@ Caso não haja seleção, um navegador permitirá selecionar um arquivo no forma
     <message>
       <location filename="../../TaskProjGroup.cpp" line="191"/>
       <source>Part View</source>
-      <translation type="unfinished">Part View</translation>
+      <translation>Part View</translation>
     </message>
   </context>
   <context>
@@ -4128,7 +4128,7 @@ ele tem uma solda de terra que ficaria quebrada.</translation>
     <message>
       <location filename="../../TaskActiveView.ui" line="99"/>
       <source>Use 3D Background</source>
-      <translation type="unfinished">Use 3D Background</translation>
+      <translation>Usar fundo 3D</translation>
     </message>
     <message>
       <location filename="../../TaskActiveView.ui" line="115"/>
@@ -6439,7 +6439,7 @@ Do you want to continue?</source>
     <message>
       <location filename="../../TaskComplexSection.cpp" line="173"/>
       <source>No direction set</source>
-      <translation type="unfinished">No direction set</translation>
+      <translation>Sem direção definida</translation>
     </message>
     <message>
       <location filename="../../TaskComplexSection.cpp" line="561"/>
@@ -8750,7 +8750,7 @@ usando o espaçamento X/Y fornecido</translation>
     <message>
       <location filename="../../TaskDimRepair.ui" line="14"/>
       <source>Dimension Repair</source>
-      <translation type="unfinished">Dimension Repair</translation>
+      <translation>Detalhes da cota</translation>
     </message>
     <message>
       <location filename="../../TaskDimRepair.ui" line="20"/>

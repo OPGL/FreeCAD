@@ -151,7 +151,7 @@
     <message>
       <location filename="../panels/DlgJobTemplateExport.ui" line="20"/>
       <source>If enabled, include all post processing settings in the template.</source>
-      <translation type="unfinished">If enabled, include all post processing settings in the template.</translation>
+      <translation>Wenn aktiviert, werden alle Einstellungen für Nachbearbeitungen (Post Processing) mit in die Vorlage aufgenommen.</translation>
     </message>
     <message>
       <location filename="../panels/DlgJobTemplateExport.ui" line="23"/>
@@ -161,7 +161,7 @@
     <message>
       <location filename="../panels/DlgJobTemplateExport.ui" line="48"/>
       <source>If enabled, tool controller definitions are stored in the template.</source>
-      <translation type="unfinished">If enabled, tool controller definitions are stored in the template.</translation>
+      <translation>Wenn aktiviert, werden Werkzeugsteuerungs-Definitionen in der Vorlage gespeichert.</translation>
     </message>
     <message>
       <location filename="../panels/DlgJobTemplateExport.ui" line="51"/>
@@ -223,11 +223,11 @@ Alle Werte der Einrichtungstabelle, die sich von den Standardwerten unterscheide
 For Box and Cylinder stocks this means the actual size of the stock solid being created.
 
 For stock from the Base object&apos;s bounding box it means the extra material in all directions. A stock object created from such a template will get its basic size from the new job&apos;s Base object and apply the stored extra settings.</source>
-      <translation type="unfinished">If enabled, the current size settings for the stock object are included in the template.
+      <translation>Wenn aktiviert, dann sind die aktuellen Größen-Einstellungen für das Rohmaterial in der Vorlage enthalten.
 
-For Box and Cylinder stocks this means the actual size of the stock solid being created.
+Für quader- und zylinderförmige Rohmaterialien bedeutet das, dass die aktuelle Größe des Rohmaterials festgelegt wird.
 
-For stock from the Base object&apos;s bounding box it means the extra material in all directions. A stock object created from such a template will get its basic size from the new job&apos;s Base object and apply the stored extra settings.</translation>
+Für Rohmaterial aus dem Basis-Objekt Hüllkörper ist es zusätzliches Material in alle Richtungen. Ein Rohmaterial, das aus einer solchen Vorlage erstellt wird, erhält seine Grundgröße aus dem neuen Basisobjekt des Auftrags und addiert die gespeicherten Einstellungen hinzu.</translation>
     </message>
     <message>
       <location filename="../panels/DlgJobTemplateExport.ui" line="184"/>
@@ -265,11 +265,11 @@ Beachten, dass nur Bearbeitungen, die derzeit Konfigurationswerte haben, aufgeli
 This option is most useful if stock is a box or cylinder, or if the machine has a standard placement for machining.
 
 Note that this option is disabled if a stock object from an existing solid is used in the job - they cannot be stored in a template.</source>
-      <translation type="unfinished">If enabled, the creation of stock is included in the template. If a template does not include a stock definition the default stock creation algorithm will be used (creation from the Base object&apos;s bounding box).
+      <translation>Wenn aktiviert, dann ist die Erstellung des Rohteils in der Vorlage enthalten. Wenn eine Vorlage keine Definition für ein Rohteil enthält, dann wird der Standardgenerierungsalgorithmus dafür verwendet (Erstellung aus einer Basis-Objekts Begrenzungsbox).
 
-This option is most useful if stock is a box or cylinder, or if the machine has a standard placement for machining.
+Diese Option ist besonders nützlich, wenn es sich um eine Box oder einen Zylinder handelt oder wenn die Maschine eine Standardplatzierung für die Rohteileinspannung hat.
 
-Note that this option is disabled if a stock object from an existing solid is used in the job - they cannot be stored in a template.</translation>
+Beachte, dass diese Option deaktiviert ist, wenn als Rohteil ein vorhandenes Volumenmodell verwendet wird - es kann nicht als Vorlage gespeichert werden.</translation>
     </message>
     <message>
       <location filename="../panels/DlgJobTemplateExport.ui" line="152"/>
@@ -284,7 +284,7 @@ Note that this option is disabled if a stock object from an existing solid is us
     <message>
       <location filename="../panels/DlgJobTemplateExport.ui" line="191"/>
       <source>If enabled, the current placement of the stock solid is stored in the template.</source>
-      <translation type="unfinished">If enabled, the current placement of the stock solid is stored in the template.</translation>
+      <translation>Wenn aktiviert, wird die aktuelle Platzierung des Rohmaterials im Template gespeichert.</translation>
     </message>
     <message>
       <location filename="../panels/DlgJobTemplateExport.ui" line="194"/>
@@ -674,7 +674,7 @@ Note that this option is disabled if a stock object from an existing solid is us
     <message>
       <location filename="../panels/DressupPathBoundary.ui" line="257"/>
       <source>If checked, the path is constrained by the solid. Otherwise the volume of the solid describes a &apos;keep out&apos; zone</source>
-      <translation type="unfinished">If checked, the path is constrained by the solid. Otherwise the volume of the solid describes a &apos;keep out&apos; zone</translation>
+      <translation>Wenn aktiviert, dann ist der Pfad durch den Festkörper festgelegt. Ansonsten beschreibt das Volumen des Festkörpers einen &apos;Sperr&apos; bereich</translation>
     </message>
     <message>
       <location filename="../panels/DressupPathBoundary.ui" line="260"/>
@@ -694,7 +694,7 @@ Note that this option is disabled if a stock object from an existing solid is us
     <message>
       <location filename="../panels/PageBaseGeometryEdit.ui" line="59"/>
       <source>Select one or more features in the 3D view and press &apos;Add&apos; to add them as the base items for this operation. Selected features can be deleted entirely.</source>
-      <translation type="unfinished">Select one or more features in the 3D view and press &apos;Add&apos; to add them as the base items for this operation. Selected features can be deleted entirely.</translation>
+      <translation>Ein oder mehr Elemente in der 3D Ansicht auswählen und "Hinzufügen" klicken, um sie zu den Punkten dieser Bearbeitung hinzuzufügen. Ausgewählte Elemente können vollständig gelöscht werden.</translation>
     </message>
     <message>
       <location filename="../panels/PageBaseGeometryEdit.ui" line="69"/>
@@ -759,7 +759,7 @@ Reset löscht alle aktuellen Elemente aus der Liste und füllt die Liste mit all
     <message>
       <location filename="../panels/PageBaseHoleGeometryEdit.ui" line="46"/>
       <source>Add selected items from 3D view to the list of base geometries</source>
-      <translation type="unfinished">Add selected items from 3D view to the list of base geometries</translation>
+      <translation>Ausgewählte Elemente aus der 3D-Ansicht zur Liste der Basisgeometrien hinzufügen</translation>
     </message>
     <message>
       <location filename="../panels/PageBaseHoleGeometryEdit.ui" line="56"/>
@@ -1603,7 +1603,7 @@ Letzteres kann zur Bearbeitung der gesamten Rohmaterialfläche verwendet werden,
     <message>
       <location filename="../panels/PageOpProfileFullEdit.ui" line="121"/>
       <source>Number of Passes</source>
-      <translation type="unfinished">Number of Passes</translation>
+      <translation>Anzahl der Durchgänge</translation>
     </message>
     <message>
       <location filename="../panels/PageOpProfileFullEdit.ui" line="131"/>
@@ -1618,7 +1618,7 @@ Letzteres kann zur Bearbeitung der gesamten Rohmaterialfläche verwendet werden,
     <message>
       <location filename="../panels/PageOpProfileFullEdit.ui" line="151"/>
       <source>If doing multiple passes, the extra offset of each additional pass.</source>
-      <translation type="unfinished">If doing multiple passes, the extra offset of each additional pass.</translation>
+      <translation>Bei mehreren Durchgängen der zusätzliche Versatz für jeden weiteren Durchgang.</translation>
     </message>
     <message>
       <location filename="../panels/PageOpProfileFullEdit.ui" line="164"/>
@@ -1648,7 +1648,7 @@ Letzteres kann zur Bearbeitung der gesamten Rohmaterialfläche verwendet werden,
     <message>
       <location filename="../panels/PageOpProfileFullEdit.ui" line="184"/>
       <source>If checked, the profile operation is offset by the tool radius. The offset direction is determined by the Cut Side</source>
-      <translation type="unfinished">If checked, the profile operation is offset by the tool radius. The offset direction is determined by the Cut Side</translation>
+      <translation>Wenn aktiviert, wird die Profilbearbeitung um den Werkzeugradius versetzt. Die Offset-Richtung wird durch die Schnittseite bestimmt</translation>
     </message>
     <message>
       <location filename="../panels/PageOpProfileFullEdit.ui" line="187"/>
@@ -2169,7 +2169,7 @@ Standard: "3 mm" - Das Werkzeug sollte in diesem Fall auf Verbindungsfahrten imm
     <message>
       <location filename="../panels/PageOpVcarveEdit.ui" line="72"/>
       <source>This value is used in discretizing arcs into segments. Smaller values will result in larger G-code. Larger values may cause unwanted segments in the medial line path.</source>
-      <translation type="unfinished">This value is used in discretizing arcs into segments. Smaller values will result in larger G-code. Larger values may cause unwanted segments in the medial line path.</translation>
+      <translation>Dieser Wert wird für die Unterteilung der Bögen in Segmente verwendet. Kleinere Werte führen zu einem größeren G-Code. Größere Werte können zu unerwünschten Segmenten im Linienverlauf führen.</translation>
     </message>
     <message>
       <location filename="../panels/PageOpVcarveEdit.ui" line="104"/>
@@ -2189,7 +2189,7 @@ Standard: "3 mm" - Das Werkzeug sollte in diesem Fall auf Verbindungsfahrten imm
     <message>
       <location filename="../panels/PageOpVcarveEdit.ui" line="140"/>
       <source>After carving, travel again the path to remove artifacts and imperfections</source>
-      <translation type="unfinished">After carving, travel again the path to remove artifacts and imperfections</translation>
+      <translation>Nach dem Fräsen wieder denselben Werkzeugweg abfahren, um Artefakte und Unregelmäßigkeiten zu entfernen</translation>
     </message>
     <message>
       <location filename="../panels/PageOpVcarveEdit.ui" line="146"/>
@@ -2355,7 +2355,7 @@ Wenn die angegebene Höhe 0 ist, wird die halbe Höhe des Teils verwendet. Ist d
       <source>Radius of the fillet on the tag&apos;s top edge.
 
 If the radius is bigger than that which the tag shape itself supports, the resulting shape will be that of a dome.</source>
-      <translation>Radius der Abrundung an der oberen Kante des Stegs.
+      <translation>Radius der Abrundung an der oberen Kante des Stegs. 
 
 Wenn der Radius größer ist als der Radius, den der Steg selbst unterstützt, wird die Form einer Kuppel gebildet.</translation>
     </message>
@@ -3733,7 +3733,7 @@ FreeCAD hat keine Kenntnis davon, wo ein bestimmtes Koordinatensystem innerhalb 
     <message>
       <location filename="../panels/PathEdit.ui" line="397"/>
       <source>If multiple coordinate systems are in use, setting this to TRUE will cause the G-code to be written to multiple output files as controlled by the &apos;order by&apos; property. For example, if ordering by Fixture, the first output file will be for the first fixture and separate file for the second.</source>
-      <translation type="unfinished">If multiple coordinate systems are in use, setting this to TRUE will cause the G-code to be written to multiple output files as controlled by the &apos;order by&apos; property. For example, if ordering by Fixture, the first output file will be for the first fixture and separate file for the second.</translation>
+      <translation>Wenn mehrere Koordinatensysteme verwendet werden, wird bei TRUE der Gcode in mehrere Ausgabedateien geschrieben, die durch die Eigenschaft 'sortieren nach' gesteuert werden. Wenn zum Beispiel nach Befestigung sortiert wird, wird die erste Ausgabedatei für die erste Befestigung und eine separate Datei für die zweite erstellt.</translation>
     </message>
     <message>
       <location filename="../panels/PathEdit.ui" line="409"/>
@@ -5134,7 +5134,7 @@ Standard: "3 mm" - Das Werkzeug sollte in diesem Fall auf Verbindungsfahrten imm
     <message>
       <location filename="../../../Path/Op/Helix.py" line="141"/>
       <source>The direction of the circular cuts, ClockWise (CW), or CounterClockWise (CCW)</source>
-      <translation type="unfinished">The direction of the circular cuts, ClockWise (CW), or CounterClockWise (CCW)</translation>
+      <translation>Die Richtung der kreisförmigen Schnitte, im Uhrzeigersinn (CW) oder gegen den Uhrzeigersinn (CCW)</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Helix.py" line="176"/>
@@ -5258,7 +5258,7 @@ Standard: "3 mm" - Das Werkzeug sollte in diesem Fall auf Verbindungsfahrten imm
       <location filename="../../../Path/Op/Profile.py" line="106"/>
       <location filename="../../../Path/Op/PocketBase.py" line="129"/>
       <source>The direction that the toolpath should go around the part ClockWise (CW) or CounterClockWise (CCW)</source>
-      <translation type="unfinished">The direction that the toolpath should go around the part ClockWise (CW) or CounterClockWise (CCW)</translation>
+      <translation>Die Richtung, in der der Werkzeugweg um das Teil herumgeführt werden soll, im Uhrzeigersinn (CW) oder gegen den Uhrzeigersinn (CCW)</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Profile.py" line="124"/>
@@ -5304,7 +5304,7 @@ Standard: "3 mm" - Das Werkzeug sollte in diesem Fall auf Verbindungsfahrten imm
       <location filename="../../../Path/Op/Profile.py" line="191"/>
       <location filename="../../../Path/Op/Profile.py" line="336"/>
       <source>If doing multiple passes, the extra offset of each additional pass</source>
-      <translation type="unfinished">If doing multiple passes, the extra offset of each additional pass</translation>
+      <translation>Bei mehreren Durchgängen der zusätzliche Versatz für jeden weiteren Durchgang</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Profile.py" line="326"/>
@@ -5639,7 +5639,7 @@ Standard: "3 mm" - Das Werkzeug sollte in diesem Fall auf Verbindungsfahrten imm
     </message>
     <message>
       <location filename="../../../Path/Op/Vcarve.py" line="327"/>
-      <source>Cutoff for removing colinear segments (degrees).
+      <source>Cutoff for removing colinear segments (degrees). 
                         default=10.0.</source>
       <translation>Obergrenze zum Entfernen von kolinearen Segmenten (Grad). Standard = 10.0.</translation>
     </message>
@@ -5824,12 +5824,12 @@ Standard: "3 mm" - Das Werkzeug sollte in diesem Fall auf Verbindungsfahrten imm
     <message>
       <location filename="../../../Path/Op/Tapping.py" line="103"/>
       <source>The time to dwell at bottom of tapping cycle</source>
-      <translation type="unfinished">The time to dwell at bottom of tapping cycle</translation>
+      <translation>Die Verweilzeit am Ende des Gewindebohrzyklus</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Tapping.py" line="124"/>
       <source>Controls how tool retracts Default=G98</source>
-      <translation type="unfinished">Controls how tool retracts Default=G98</translation>
+      <translation>Steuert, wie das Werkzeug zurückfährt Standard=G98</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Tapping.py" line="133"/>
@@ -5839,7 +5839,7 @@ Standard: "3 mm" - Das Werkzeug sollte in diesem Fall auf Verbindungsfahrten imm
     <message>
       <location filename="../../../Path/Op/Tapping.py" line="139"/>
       <source>How far the tap depth is extended</source>
-      <translation type="unfinished">How far the tap depth is extended</translation>
+      <translation>Wie viel tiefer das Gewinde gebohrt wird</translation>
     </message>
   </context>
   <context>
@@ -7045,23 +7045,23 @@ Abbruch der OP-Erstellung</translation>
     </message>
     <message>
       <location filename="../../../Path/Main/Gui/JobDlg.py" line="69"/>
-      <source>The currently selected unit schema:
+      <source>The currently selected unit schema: 
      &apos;{}&apos; for this document
- Does not use &apos;minutes&apos; for velocity values.
-
-CNC machines require feed rate to be expressed in
-unit/minute. To ensure correct G-code:
+ Does not use &apos;minutes&apos; for velocity values. 
+ 
+CNC machines require feed rate to be expressed in 
+unit/minute. To ensure correct G-code: 
 Select a minute-based schema in preferences.
 For example:
     &apos;Metric, Small Parts &amp; CNC&apos;
     &apos;US Customary&apos;
     &apos;Imperial Decimal&apos;</source>
-      <translation>Das aktuell ausgewählte Einheitenschema:
+      <translation>Das aktuell ausgewählte Einheitenschema: 
      '{}' für dieses Dokument
- verwendet keine 'Minuten' für Geschwindigkeitswerte.
-
-CNC-Maschinen benötigen die Vorschubgeschwindigkeit in
-Einheit/Minute. Um einen korrekten G-Code sicherzustellen:
+ verwendet keine 'Minuten' für Geschwindigkeitswerte. 
+ 
+CNC-Maschinen benötigen die Vorschubgeschwindigkeit in 
+Einheit/Minute. Um einen korrekten G-Code sicherzustellen: 
 Ein Minuten-basiertes Einheitenschema in den Einstellungen auswählen.
 Zum Beispiel:
     'Metrisch, Kleine Teile &amp; CNC'
@@ -7131,9 +7131,9 @@ Zum Beispiel:
     <name>CAM_Inspect</name>
     <message>
       <location filename="../../../Path/Main/Gui/Inspect.py" line="132"/>
-      <source>&lt;b&gt;Note&lt;/b&gt;: This dialog shows Path Commands in FreeCAD base units (mm/s).
+      <source>&lt;b&gt;Note&lt;/b&gt;: This dialog shows Path Commands in FreeCAD base units (mm/s). 
  Values will be converted to the desired unit during post processing.</source>
-      <translation>&lt;b&gt;Hinweis&lt;/b&gt;: Dieser Dialog zeigt Werkzeugweg-Befehle in FreeCAD-Basiseinheiten (mm/s) an.
+      <translation>&lt;b&gt;Hinweis&lt;/b&gt;: Dieser Dialog zeigt Werkzeugweg-Befehle in FreeCAD-Basiseinheiten (mm/s) an. 
  Werte werden erst im Postprozessor in die gewünschte Einheit konvertiert.</translation>
     </message>
     <message>
@@ -7449,9 +7449,9 @@ Zum Beispiel:
     </message>
     <message>
       <location filename="../../../Path/Main/Sanity/Sanity.py" line="364"/>
-      <source>Tool number {} is a legacy tool. Legacy tools not
+      <source>Tool number {} is a legacy tool. Legacy tools not 
                     supported by Path-Sanity</source>
-      <translation>Werkzeugnummer {} ist ein veraltetes Werkzeug. Veraltete Werkzeuge werden nicht durch
+      <translation>Werkzeugnummer {} ist ein veraltetes Werkzeug. Veraltete Werkzeuge werden nicht durch 
                         Path-Sanity unterstützt</translation>
     </message>
     <message>
@@ -8601,10 +8601,10 @@ Zum Beispiel:
     <message>
       <location filename="../../../Path/Tool/Gui/BitLibrary.py" line="126"/>
       <source>Toolbit Working directory {} needs these sudirectories:
- {}
+ {} 
  Create them?</source>
       <translation>Das Werkzeugspitzen Arbeitsverzeichnis {} benötigt folgende Unterverzeichnisse:
- {}
+ {} 
  Sollen diese erstellt werden?</translation>
     </message>
     <message>
@@ -8735,7 +8735,7 @@ Zum Beispiel:
     <message>
       <location filename="../../../InitGui.py" line="153"/>
       <source>Drilling Operations</source>
-      <translation type="unfinished">Drilling Operations</translation>
+      <translation>Bohrvorgänge</translation>
     </message>
   </context>
   <context>
@@ -8768,12 +8768,12 @@ Zum Beispiel:
     <message>
       <location filename="../../../Path/Op/Gui/Tapping.py" line="179"/>
       <source>Tapping</source>
-      <translation type="unfinished">Tapping</translation>
+      <translation>Gewindebohren</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Gui/Tapping.py" line="183"/>
       <source>Creates a Tapping toolpath from the features of a base object</source>
-      <translation type="unfinished">Creates a Tapping toolpath from the features of a base object</translation>
+      <translation>Erstellt einen Gewindebohrpfad aus den Merkmalen des Basisobjekts</translation>
     </message>
   </context>
   <context>

@@ -134,7 +134,7 @@
     <message>
       <location filename="../../Command.cpp" line="1663"/>
       <source>Insert BIM Workbench Object</source>
-      <translation type="unfinished">Insert BIM Workbench Object</translation>
+      <translation>插入 BIM 工作台对象</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="1664"/>

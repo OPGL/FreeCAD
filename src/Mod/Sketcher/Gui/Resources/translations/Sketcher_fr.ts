@@ -577,7 +577,7 @@ with respect to a line or a third point</source>
     <message>
       <location filename="../../CommandCreateGeo.cpp" line="1165"/>
       <source>Create a circle by 3 perimeter points</source>
-      <translation>Crée un cercle par 3 points</translation>
+      <translation>Créer un cercle par 3 points</translation>
     </message>
   </context>
   <context>
@@ -1001,12 +1001,12 @@ with respect to a line or a third point</source>
     <message>
       <location filename="../../CommandSketcherBSpline.cpp" line="890"/>
       <source>Insert knot</source>
-      <translation>Insérer un noeud</translation>
+      <translation>Insérer un nœud</translation>
     </message>
     <message>
       <location filename="../../CommandSketcherBSpline.cpp" line="891"/>
       <source>Inserts knot at given parameter. If a knot already exists at that parameter, it's multiplicity is increased by one.</source>
-      <translation>Insérer un noeud au paramètre donné. Si un noeud existe déjà à ce paramètre, sa multiplicité est augmentée de un.</translation>
+      <translation>Insérer un nœud au paramètre donné. Si un nœud existe déjà à ce paramètre, sa multiplicité est augmentée de un.</translation>
     </message>
   </context>
   <context>
@@ -1067,7 +1067,7 @@ d'un objet solide, puis lancer cette commande et enfin choisir l'esquisse souhai
     <message>
       <location filename="../../Command.cpp" line="984"/>
       <source>Create a new sketch from merging two or more selected sketches.</source>
-      <translation>Créer une nouvelle esquisse en fusionnant deux ou plusieurs esquisses sélectionnées.</translation>
+      <translation>Créer une nouvelle esquisse en fusionnant deux ou plusieurs esquisses sélectionnées</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="999"/>
@@ -1092,7 +1092,8 @@ d'un objet solide, puis lancer cette commande et enfin choisir l'esquisse souhai
       <source>Creates a new mirrored sketch for each selected sketch
 by using the X or Y axes, or the origin point,
 as mirroring reference.</source>
-      <translation>Créer une nouvelle esquisse en miroir pour chaque esquisse sélectionnée en utilisant les axes X ou Y, ou le point d'origine, comme référence de symétrie.</translation>
+      <translation>Créer une nouvelle esquisse en miroir pour chaque esquisse sélectionnée en
+utilisant les axes X ou Y, ou le point d'origine, comme référence de symétrie</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="874"/>
@@ -1128,7 +1129,7 @@ as mirroring reference.</source>
     <message>
       <location filename="../../Command.cpp" line="156"/>
       <source>Create a new sketch.</source>
-      <translation>Créer une nouvelle esquisse.</translation>
+      <translation>Créer une nouvelle esquisse</translation>
     </message>
   </context>
   <context>
@@ -1960,7 +1961,7 @@ invalid constraints, degenerated geometry, etc.</source>
     <message>
       <location filename="../../CommandSketcherBSpline.cpp" line="779"/>
       <source>Insert knot</source>
-      <translation>Insérer un noeud</translation>
+      <translation>Insérer un nœud</translation>
     </message>
     <message>
       <location filename="../../CommandSketcherBSpline.cpp" line="1068"/>
@@ -2039,22 +2040,22 @@ invalid constraints, degenerated geometry, etc.</source>
     <message>
       <location filename="../../ViewProviderSketch.cpp" line="1670"/>
       <source>Drag Point</source>
-      <translation>Faire glisser le Point</translation>
+      <translation>Faire glisser le point</translation>
     </message>
     <message>
       <location filename="../../ViewProviderSketch.cpp" line="1670"/>
       <source>Drag Curve</source>
-      <translation>Faire glisser la Courbe</translation>
+      <translation>Faire glisser la courbe</translation>
     </message>
     <message>
       <location filename="../../ViewProviderSketch.cpp" line="1671"/>
       <source>Drag geometries</source>
-      <translation type="unfinished">Drag geometries</translation>
+      <translation>Faire glisser les géométries</translation>
     </message>
     <message>
       <location filename="../../ViewProviderSketch.cpp" line="1052"/>
       <source>Drag Constraint</source>
-      <translation>Faire glisser la Contrainte</translation>
+      <translation>Faire glisser la contrainte</translation>
     </message>
     <message>
       <location filename="../../ViewProviderSketch.cpp" line="1251"/>
@@ -2606,7 +2607,7 @@ invalid constraints, degenerated geometry, etc.</source>
       <location filename="../../CommandConstraints.cpp" line="9735"/>
       <source>Select two endpoints of lines to act as rays, and an edge representing a boundary. The first selected point corresponds to index n1, second to n2, and the value sets the ratio n2/n1.</source>
       <comment>Constraint_SnellsLaw</comment>
-      <translation>Sélectionner deux extrémités d'une ligne pour agir comme des rayons, et une arête qui représente une limite. Le premier point sélectionné correspond à l'indice n1, le deuxième à n2 et la valeur de référence définit le rapport n2/n1.</translation>
+      <translation>Sélectionner les deux extrémités d'une ligne pour agir comme des rayons, et une arête qui représente une limite. Le premier point sélectionné correspond à l'indice n1, le deuxième à n2 et la valeur de référence définit le rapport n2/n1.</translation>
     </message>
     <message>
       <location filename="../../CommandConstraints.cpp" line="9761"/>
@@ -2623,7 +2624,7 @@ invalid constraints, degenerated geometry, etc.</source>
     <message>
       <location filename="../../CommandConstraints.cpp" line="787"/>
       <source>Unexpected error. More information may be available in the Report View.</source>
-      <translation>Erreur inattendue. Plus d'informations peuvent être disponibles dans la Vue rapport.</translation>
+      <translation>Erreur inattendue. Plus d'informations peuvent être disponibles dans la vue rapport.</translation>
     </message>
     <message>
       <location filename="../../CommandConstraints.cpp" line="2963"/>
@@ -2633,7 +2634,7 @@ invalid constraints, degenerated geometry, etc.</source>
     <message>
       <location filename="../../CommandConstraints.cpp" line="3872"/>
       <source>Endpoint to endpoint tangency was applied instead.</source>
-      <translation>Une contrainte de tangence entre points d'extrémité a été créée à la place.</translation>
+      <translation>Une contrainte de tangence entre les extrémités a été créée à la place.</translation>
     </message>
     <message>
       <location filename="../../CommandConstraints.cpp" line="4042"/>
@@ -2669,7 +2670,7 @@ invalid constraints, degenerated geometry, etc.</source>
     <message>
       <location filename="../../CommandConstraints.cpp" line="3824"/>
       <source>Endpoint to edge tangency was applied instead.</source>
-      <translation>Une tangence entre le point d'extrémité et l'arête a été appliquée à la place.</translation>
+      <translation>Une tangence entre l'extrémité et l'arête a été appliquée à la place.</translation>
     </message>
     <message>
       <location filename="../../CommandConstraints.cpp" line="5084"/>
@@ -2795,8 +2796,7 @@ invalid constraints, degenerated geometry, etc.</source>
 Accepted combinations: two curves; an endpoint and a curve; two endpoints; two curves and a point.</source>
       <comment>perpendicular constraint</comment>
       <translation>Cette contrainte peut être appliquée de plusieurs manières.
-
-Combinaisons acceptés : deux courbes ; un point d'extrémité et une courbe ; deux points d'extrémités ; deux courbes et un point.</translation>
+Combinaisons acceptées : deux courbes ; une extrémité et une courbe ; deux extrémités ; deux courbes et un point.</translation>
     </message>
     <message>
       <location filename="../../CommandConstraints.cpp" line="5862"/>
@@ -2819,12 +2819,14 @@ Combinaisons acceptés : deux courbes ; un point d'extrémité et une courbe ; d
     <message>
       <location filename="../../CommandConstraints.cpp" line="6634"/>
       <source>Endpoint to endpoint tangency was applied. The coincident constraint was deleted.</source>
-      <translation>Une contrainte de tangence entre points d'extrémité a été créée. La contrainte de coïncidence a été supprimée.</translation>
+      <translation>Une contrainte de tangence entre deux extrémités a été créée.
+La contrainte de coïncidence a été supprimée.</translation>
     </message>
     <message>
       <location filename="../../CommandConstraints.cpp" line="6662"/>
       <source>Endpoint to edge tangency was applied. The point on object constraint was deleted.</source>
-      <translation>Une contrainte de tangence entre point d'extrémité et arête a été créée. La contrainte point sur objet a été supprimée.</translation>
+      <translation>Une contrainte de tangence entre une extrémité et une arête a été créée.
+La contrainte point sur objet a été supprimée.</translation>
     </message>
     <message>
       <location filename="../../CommandConstraints.cpp" line="6693"/>
@@ -2833,8 +2835,7 @@ Combinaisons acceptés : deux courbes ; un point d'extrémité et une courbe ; d
 Accepted combinations: two curves; an endpoint and a curve; two endpoints; two curves and a point.</source>
       <comment>tangent constraint</comment>
       <translation>Cette contrainte peut être appliquée de différentes manières.
-
-Combinaisons acceptés : deux courbes ; un point d'extrémité et une courbe ; deux points d'extrémités ; deux courbes et un point.</translation>
+Combinaisons acceptées : deux courbes ; une extrémité et une courbe ; deux extrémités ; deux courbes et un point.</translation>
     </message>
     <message>
       <location filename="../../CommandConstraints.cpp" line="6698"/>
@@ -2858,7 +2859,7 @@ Combinaisons acceptés : deux courbes ; un point d'extrémité et une courbe ; d
     <message>
       <location filename="../../CommandConstraints.cpp" line="3892"/>
       <source>B-spline knot to endpoint tangency was applied instead.</source>
-      <translation>Une tangence entre le noeud de la B-spline et le dernier point a été appliquée à la place.</translation>
+      <translation>Une tangence entre un nœud de la B-spline et une extrémité a été appliquée à la place.</translation>
     </message>
     <message>
       <location filename="../../CommandConstraints.cpp" line="5879"/>
@@ -3467,7 +3468,7 @@ Combinaisons acceptés : deux courbes ; un point d'extrémité et une courbe ; d
     <message>
       <location filename="../../EditDatumDialog.cpp" line="98"/>
       <source>Insert angle</source>
-      <translation>insérer un angle</translation>
+      <translation>Insérer un angle</translation>
     </message>
     <message>
       <location filename="../../EditDatumDialog.cpp" line="100"/>
@@ -3477,7 +3478,7 @@ Combinaisons acceptés : deux courbes ; un point d'extrémité et une courbe ; d
     <message>
       <location filename="../../EditDatumDialog.cpp" line="105"/>
       <source>Insert radius</source>
-      <translation>insérer un rayon</translation>
+      <translation>Insérer un rayon</translation>
     </message>
     <message>
       <location filename="../../EditDatumDialog.cpp" line="107"/>
@@ -3519,7 +3520,7 @@ Combinaisons acceptés : deux courbes ; un point d'extrémité et une courbe ; d
     <message>
       <location filename="../../EditDatumDialog.cpp" line="132"/>
       <source>Insert length</source>
-      <translation>insérer une longueur</translation>
+      <translation>Insérer une longueur</translation>
     </message>
     <message>
       <location filename="../../EditDatumDialog.cpp" line="134"/>
@@ -3781,7 +3782,7 @@ Combinaisons acceptés : deux courbes ; un point d'extrémité et une courbe ; d
     <message>
       <location filename="../../InsertDatum.ui" line="23"/>
       <source>Insert datum</source>
-      <translation>Rentrer une valeur</translation>
+      <translation>Saisir une valeur</translation>
     </message>
     <message>
       <location filename="../../InsertDatum.ui" line="31"/>
@@ -3801,7 +3802,7 @@ Combinaisons acceptés : deux courbes ; un point d'extrémité et une courbe ; d
     <message>
       <location filename="../../InsertDatum.ui" line="76"/>
       <source>Reference (or constraint) dimension</source>
-      <translation>Cote (ou contrainte) de référence</translation>
+      <translation>Dimension (ou contrainte) de référence</translation>
     </message>
     <message>
       <location filename="../../InsertDatum.ui" line="79"/>
@@ -4064,12 +4065,12 @@ Cela nécessite de re-rentrer en mode édition pour que cela prenne effet.</tran
     <message>
       <location filename="../../SketcherSettings.ui" line="222"/>
       <source>If checked then external geometry is always added as reference, otherwise it's added according to the current construction mode.</source>
-      <translation type="unfinished">If checked then external geometry is always added as reference, otherwise it's added according to the current construction mode.</translation>
+      <translation>Si cette option est cochée, les géométries externes sont toujours ajoutées comme des géométries de référence, sinon elles sont ajoutées en fonction du mode de construction en cours.</translation>
     </message>
     <message>
       <location filename="../../SketcherSettings.ui" line="225"/>
       <source>Always add external geometry as reference</source>
-      <translation type="unfinished">Always add external geometry as reference</translation>
+      <translation>Toujours ajouter les géométries externes comme des géométries de référence</translation>
     </message>
     <message>
       <location filename="../../SketcherSettings.ui" line="250"/>
@@ -4468,20 +4469,19 @@ Seuls les objets derrière le plan de l'esquisse sont visibles.</translation>
 %2 constraints are linking to the endpoints. The constraints have been listed in Report view (menu View -&gt; Panels -&gt; Report view).
 
 Click "Swap endpoints in constraints" button to reassign endpoints. Do this only once to sketches created in FreeCAD older than v0.15</source>
-      <translation type="unfinished">%1 reversed external-geometry arcs were found. Their endpoints are encircled in 3D view.
+      <translation>%1 arcs de géométrie externe inversés ont été trouvés. Leurs extrémités sont encerclées dans la vue 3D.
 
-%2 constraints are linking to the endpoints. The constraints have been listed in Report view (menu View -&gt; Panels -&gt; Report view).
+%2 contraintes sont liées aux extrémités. Les contraintes ont été listées dans la vue rapport (menu Affichage → Panneaux → Vue rapport).
 
-Click "Swap endpoints in constraints" button to reassign endpoints. Do this only once to sketches created in FreeCAD older than v0.15</translation>
+Cliquer sur le bouton "Permuter les extrémités des contraintes" pour réaffecter les extrémités. N'effectuer cette opération qu'une seule fois pour des esquisses créées dans FreeCAD &lt; version 0.15.</translation>
     </message>
     <message>
       <location filename="../../TaskSketcherValidation.cpp" line="304"/>
       <source>%1 reversed external-geometry arcs were found. Their endpoints are encircled in 3D view.
 
 However, no constraints linking to the endpoints were found.</source>
-      <translation type="unfinished">%1 reversed external-geometry arcs were found. Their endpoints are encircled in 3D view.
-
-However, no constraints linking to the endpoints were found.</translation>
+      <translation>%1 arcs de géométrie externe inversés ont été trouvés. Leurs extrémités sont encerclées dans la vue 3D.
+Cependant, aucune contrainte liée aux extrémités n'a été trouvée.</translation>
     </message>
     <message>
       <location filename="../../TaskSketcherValidation.cpp" line="315"/>
@@ -4491,7 +4491,7 @@ However, no constraints linking to the endpoints were found.</translation>
     <message>
       <location filename="../../TaskSketcherValidation.cpp" line="332"/>
       <source>%1 changes were made to constraints linking to endpoints of reversed arcs.</source>
-      <translation>%1 modifications ont été apportées aux contraintes liées aux points d'extrémité des arcs inversés.</translation>
+      <translation>%1 modifications ont été apportées aux contraintes liées aux extrémités des arcs inversés.</translation>
     </message>
     <message>
       <location filename="../../TaskSketcherValidation.cpp" line="352"/>
@@ -4943,12 +4943,12 @@ Cela est fait en analysant les géométries et les contraintes de l'esquisse.</t
     <message>
       <location filename="../../TaskSketcherValidation.ui" line="193"/>
       <source>Fixes found reversed external geometries by swapping their endpoints</source>
-      <translation>Corrige les géométries externes inversées en échangeant leurs extrémités</translation>
+      <translation>Corrige les géométries externes inversées en permutant leurs extrémités</translation>
     </message>
     <message>
       <location filename="../../TaskSketcherValidation.ui" line="196"/>
       <source>Swap endpoints in constraints</source>
-      <translation>Inverser les points d'extrémité de contraintes</translation>
+      <translation>Permuter les extrémités des contraintes</translation>
     </message>
     <message>
       <location filename="../../TaskSketcherValidation.ui" line="206"/>
@@ -5370,7 +5370,7 @@ Cela est fait en analysant les géométries et les contraintes de l'esquisse.</t
     <message>
       <location filename="../../Command.cpp" line="624"/>
       <source>Select a sketch from the list</source>
-      <translation>Sélectionnez une esquisse dans la liste</translation>
+      <translation>Sélectionner une esquisse dans la liste</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="689"/>
@@ -5974,12 +5974,12 @@ L'espacement de la grille est modifié s'il devient inférieur à ce nombre de p
     <message>
       <location filename="../../../App/SketchObject.cpp" line="10233"/>
       <source>Unmanaged change of Geometry Property results in invalid constraint indices</source>
-      <translation type="unfinished">Unmanaged change of Geometry Property results in invalid constraint indices</translation>
+      <translation>La modification non gérée d'une propriété géométrique entraîne des indices de contrainte non valides.</translation>
     </message>
     <message>
       <location filename="../../../App/SketchObject.cpp" line="10264"/>
       <source>Unmanaged change of Constraint Property results in invalid constraint indices</source>
-      <translation type="unfinished">Unmanaged change of Constraint Property results in invalid constraint indices</translation>
+      <translation>La modification non gérée d'une propriété de contrainte entraîne des indices de contrainte non valides.</translation>
     </message>
     <message>
       <location filename="../../../App/SketchObject.cpp" line="10893"/>
@@ -6298,7 +6298,8 @@ Les points doivent être placés à moins d'un cinquième de l'espacement de la 
     <message>
       <location filename="../../Command.cpp" line="1407"/>
       <source>Angular step for tools that use 'Snap at Angle' (line for instance). Hold CTRL to enable 'Snap at Angle'. The angle starts from the positive X axis of the sketch.</source>
-      <translation>Pas angulaire pour les outils qui utilisent la fonction "Angle d'aimantation" (ligne par exemple). Maintenez la touche CTRL enfoncée pour activer la fonction "Angle d'aimantation". L'angle commence à partir de l'axe X positif de l'esquisse.</translation>
+      <translation>Pas angulaire pour les outils qui utilisent la fonction "Angle d'aimantation" (ligne par exemple).
+Maintenir la touche Ctrl enfoncée pour activer la fonction "Angle d'aimantation". L'angle commence à partir de l'axe X positif de l'esquisse.</translation>
     </message>
   </context>
   <context>
@@ -6810,7 +6811,7 @@ Au lieu de cela, des contraintes d'égalité sont appliquées entre les objets o
     <message>
       <location filename="../../SketcherSettingsAppearance.ui" line="179"/>
       <source>Width</source>
-      <translation>Largeur</translation>
+      <translation>Épaisseur</translation>
     </message>
     <message>
       <location filename="../../SketcherSettingsAppearance.ui" line="212"/>
@@ -7143,7 +7144,7 @@ Au lieu de cela, des contraintes d'égalité sont appliquées entre les objets o
     <message>
       <location filename="../../DrawSketchHandlerArc.h" line="461"/>
       <source>3 rim points</source>
-      <translation>Cercle par 3 points de la circonférence</translation>
+      <translation>Arc par 3 points de la circonférence</translation>
     </message>
   </context>
   <context>
@@ -7380,12 +7381,12 @@ Au lieu de cela, des contraintes d'égalité sont appliquées entre les objets o
     <message>
       <location filename="../../CommandCreateGeo.cpp" line="1448"/>
       <source>Create external</source>
-      <translation type="unfinished">Create external</translation>
+      <translation>Créer une géométrie externe</translation>
     </message>
     <message>
       <location filename="../../CommandCreateGeo.cpp" line="1449"/>
       <source>Create external edges linked to external geometries.</source>
-      <translation type="unfinished">Create external edges linked to external geometries.</translation>
+      <translation>Créer des arêtes externes liées à des géométries externes.</translation>
     </message>
   </context>
   <context>
@@ -7393,16 +7394,16 @@ Au lieu de cela, des contraintes d'égalité sont appliquées entre les objets o
     <message>
       <location filename="../../CommandCreateGeo.cpp" line="1503"/>
       <source>Create external projection geometry</source>
-      <translation type="unfinished">Create external projection geometry</translation>
+      <translation>Créer la géométrie externe de la projection</translation>
     </message>
     <message>
       <location filename="../../CommandCreateGeo.cpp" line="1504"/>
       <source>Create the projection edges of an external geometry.
 External edges can be either defining or construction geometries.
 You can use the toggle construction tool.</source>
-      <translation type="unfinished">Create the projection edges of an external geometry.
-External edges can be either defining or construction geometries.
-You can use the toggle construction tool.</translation>
+      <translation>Créer les arêtes de projection d'une géométrie externe.
+Les arêtes externes peuvent être des géométries de définition ou de construction.
+Vous pouvez utiliser l'outil d'activation/désactivation de géométrie de construction.</translation>
     </message>
   </context>
   <context>
@@ -7410,16 +7411,16 @@ You can use the toggle construction tool.</translation>
     <message>
       <location filename="../../CommandCreateGeo.cpp" line="1540"/>
       <source>Create external intersection geometry</source>
-      <translation type="unfinished">Create external intersection geometry</translation>
+      <translation>Créer une géométrie externe de l'intersection</translation>
     </message>
     <message>
       <location filename="../../CommandCreateGeo.cpp" line="1542"/>
       <source>Create the intersection edges of an external geometry with the sketch plane.
 External edges can be either defining or construction geometries.
 You can use the toggle construction tool.</source>
-      <translation type="unfinished">Create the intersection edges of an external geometry with the sketch plane.
-External edges can be either defining or construction geometries.
-You can use the toggle construction tool.</translation>
+      <translation>Créer les arêtes d'intersection d'une géométrie externe avec le plan de l'esquisse.
+Les arêtes externes peuvent être des géométries de définition ou de construction.
+Vous pouvez utiliser l'outil d'activation/désactivation de géométrie de construction.</translation>
     </message>
   </context>
 </TS>

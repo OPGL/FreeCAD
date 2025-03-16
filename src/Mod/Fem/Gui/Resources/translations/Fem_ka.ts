@@ -790,7 +790,7 @@
       <location filename="../../TaskPanelInitialTemperature.ui" line="26"/>
       <source>Insert component's
  initial temperature:</source>
-      <translation>შეიყვანეთ კომპონენტის
+      <translation>შეიყვანეთ კომპონენტის 
  საწყისი ტემპერატურა:</translation>
     </message>
   </context>
@@ -923,7 +923,7 @@
     <message>
       <location filename="../../DlgSettingsFemCcx.ui" line="304"/>
       <source>Number of threads used for analysis</source>
-      <translation type="unfinished">Number of threads used for analysis</translation>
+      <translation>ანალიზისთვის გამოყენებული ნაკადების რაოდენობა</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemCcx.ui" line="323"/>
@@ -948,7 +948,7 @@
     <message>
       <location filename="../../DlgSettingsFemCcx.ui" line="358"/>
       <source>SPOOLES equation solver</source>
-      <translation type="unfinished">SPOOLES equation solver</translation>
+      <translation>SPOOLES ტოლობის ამომხსნელი</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemCcx.ui" line="363"/>
@@ -1134,22 +1134,22 @@ will be merged to make the volume boundaries invisible.</source>
     <message>
       <location filename="../../DlgSettingsFemElmer.ui" line="297"/>
       <source>Save result in binary format</source>
-      <translation type="unfinished">Save result in binary format</translation>
+      <translation>შედეგის ბინარულ ფორმატში შენახვა</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemElmer.ui" line="300"/>
       <source>Use binary format</source>
-      <translation type="unfinished">Use binary format</translation>
+      <translation>ბინარული ფორმატის გამოყენება</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemElmer.ui" line="316"/>
       <source>Save the index of geometric entities</source>
-      <translation type="unfinished">Save the index of geometric entities</translation>
+      <translation>გეომეტრიული ობიექტების ინდექსის შენახვა</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemElmer.ui" line="319"/>
       <source>Save geometry IDs</source>
-      <translation type="unfinished">Save geometry IDs</translation>
+      <translation>გეომეტრიის ID-ების შენახვა</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemElmer.ui" line="128"/>
@@ -1464,22 +1464,22 @@ adding an analysis container</source>
     <message>
       <location filename="../../DlgSettingsFemGmsh.ui" line="131"/>
       <source>Log verbosity</source>
-      <translation type="unfinished">Log verbosity</translation>
+      <translation>ჟურნალში ჩაწერილი შეტყობინებების რაოდენობა</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemGmsh.ui" line="138"/>
       <source>Level of verbosity printed on the task panel</source>
-      <translation type="unfinished">Level of verbosity printed on the task panel</translation>
+      <translation>ამოცანების პანელზე ნაჩვენები შეტყობინებების რაოდენობის დონე</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemGmsh.ui" line="157"/>
       <source>Number of threads</source>
-      <translation type="unfinished">Number of threads</translation>
+      <translation>კუთხვილების რაოდენობა</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemGmsh.ui" line="167"/>
       <source>Number of threads used for meshing</source>
-      <translation type="unfinished">Number of threads used for meshing</translation>
+      <translation>ბადისთვის გამოყენებული ნაკადების რაოდენობა</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemGmshImp.cpp" line="91"/>
@@ -1556,17 +1556,17 @@ FreeCAD-ის შედეგი ობიექტი: შემოტან�
     <message>
       <location filename="../../DlgSettingsFemInOutVtk.ui" line="89"/>
       <source>Export</source>
-      <translation type="unfinished">Export</translation>
+      <translation>გატანა</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemInOutVtk.ui" line="95"/>
       <source>Mesh elements to export</source>
-      <translation type="unfinished">Mesh elements to export</translation>
+      <translation>ბადის რომელი ელემენტებია გასატანი</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemInOutVtk.ui" line="102"/>
       <source>Mesh element level to export</source>
-      <translation type="unfinished">Mesh element level to export</translation>
+      <translation>გასატანი ბადის ელემენტის დონე</translation>
     </message>
   </context>
   <context>
@@ -1711,11 +1711,11 @@ You might need to increase this when using an
 iterative solver and you get the error message
 that "MAXKOI" needs to be increased.</source>
       <translation>მაქსიმალური ადგილები დამთხვევის ვექტორში
-(თითოეული ელემენტის კვანძების რიცხვი
+(თითოეული ელემენტის კვანძების რიცხვი 
  გამრავლებული სასრული ელემენტების რიცხვზე).
 
-შეიძლება დაგჭირდეთ ამისი გაზრდა, თუ იყენებთ
-იტერაციულ ამომხსნელს და დაინახავთ
+შეიძლება დაგჭირდეთ ამისი გაზრდა, თუ იყენებთ 
+იტერაციულ ამომხსნელს და დაინახავთ 
 შეცდომას, რომ საჭიროა "MAXKOI"-ის გაზრდა.</translation>
     </message>
     <message>
@@ -1729,7 +1729,7 @@ that "MAXKOI" needs to be increased.</source>
 '%1'
  does not exist!
 Specify another file please.</source>
-      <translation>მითითებული z88r-ის გამშვები ფაილი
+      <translation>მითითებული z88r-ის გამშვები ფაილი 
 '%1'
  არ არსებობს!
 მიუთითეთ სხვა ფაილი.</translation>
@@ -2689,7 +2689,7 @@ Specify another file please.</source>
     <message>
       <location filename="../ui/Material.ui" line="40"/>
       <source>Density:</source>
-      <translation type="unfinished">Density:</translation>
+      <translation>სიმკვრივე:</translation>
     </message>
     <message>
       <location filename="../ui/Material.ui" line="142"/>
@@ -2971,12 +2971,12 @@ Specify another file please.</source>
     <message>
       <location filename="../ui/ConstraintCentrif.ui" line="34"/>
       <source>Rotation Frequency:</source>
-      <translation type="unfinished">Rotation Frequency:</translation>
+      <translation>შებრუნების სიხშირე:</translation>
     </message>
     <message>
       <location filename="../ui/ConstraintCentrif.ui" line="47"/>
       <source>Revolutions per second</source>
-      <translation type="unfinished">Revolutions per second</translation>
+      <translation>Ბრუნი წუთში</translation>
     </message>
     <message>
       <location filename="../ui/ConstraintTie.ui" line="26"/>
@@ -3069,7 +3069,7 @@ Specify another file please.</source>
       <location filename="../ui/ElectrostaticPotential.ui" line="104"/>
       <source>Imaginary part is only used for equations
 with a harmonic/oscillating driving force</source>
-      <translation>წარმოდგენითი ნაწილი მხოლოდ ჰარმონიული/რხევადი
+      <translation>წარმოდგენითი ნაწილი მხოლოდ ჰარმონიული/რხევადი 
 მამოძრავებელი ძალის მქონე ტოლობებთან ერთად გამოიყენება</translation>
     </message>
     <message>
@@ -3241,32 +3241,32 @@ Note: has no effect if a solid was selected</source>
     <message>
       <location filename="../ui/ElementGeometry1D.ui" line="204"/>
       <source>Axis1 Length:</source>
-      <translation type="unfinished">Axis1 Length:</translation>
+      <translation>ღერძი1-ის სიგრძე:</translation>
     </message>
     <message>
       <location filename="../ui/ElementGeometry1D.ui" line="236"/>
       <source>Axis2 Length:</source>
-      <translation type="unfinished">Axis2 Length:</translation>
+      <translation>ღერძი2-ის სიგრძე:</translation>
     </message>
     <message>
       <location filename="../ui/ElementGeometry1D.ui" line="343"/>
       <source>T1 Thickness:</source>
-      <translation type="unfinished">T1 Thickness:</translation>
+      <translation>T1 სისქე:</translation>
     </message>
     <message>
       <location filename="../ui/ElementGeometry1D.ui" line="375"/>
       <source>T2 Thickness:</source>
-      <translation type="unfinished">T2 Thickness:</translation>
+      <translation>T2 სისქე:</translation>
     </message>
     <message>
       <location filename="../ui/ElementGeometry1D.ui" line="407"/>
       <source>T3 Thickness:</source>
-      <translation type="unfinished">T3 Thickness:</translation>
+      <translation>T3 სისქე:</translation>
     </message>
     <message>
       <location filename="../ui/ElementGeometry1D.ui" line="439"/>
       <source>T4 Thickness:</source>
-      <translation type="unfinished">T4 Thickness:</translation>
+      <translation>T4 სისქე:</translation>
     </message>
     <message>
       <location filename="../ui/ElementGeometry2D.ui" line="37"/>
@@ -3512,28 +3512,28 @@ Note: for 2D only setting for x is possible,
     <message>
       <location filename="../ui/MeshGmsh.ui" line="37"/>
       <source>Element Dimension:</source>
-      <translation type="unfinished">Element Dimension:</translation>
+      <translation>ელემენტის ზომა:</translation>
     </message>
     <message>
       <location filename="../ui/MeshGmsh.ui" line="47"/>
       <source>Maximum Size:</source>
-      <translation type="unfinished">Maximum Size:</translation>
+      <translation>მაქსიმალური ზომა:</translation>
     </message>
     <message>
       <location filename="../ui/MeshGmsh.ui" line="57"/>
       <location filename="../ui/MeshGmsh.ui" line="95"/>
       <source>Use 0.0 to set size automatically</source>
-      <translation type="unfinished">Use 0.0 to set size automatically</translation>
+      <translation>ზომის ავტომატურად დასაყენებლად გამოიყენეთ 0.0</translation>
     </message>
     <message>
       <location filename="../ui/MeshGmsh.ui" line="85"/>
       <source>Minimum Size:</source>
-      <translation type="unfinished">Minimum Size:</translation>
+      <translation>მინიმალური ზომა:</translation>
     </message>
     <message>
       <location filename="../ui/MeshGmsh.ui" line="126"/>
       <source>Element Order:</source>
-      <translation type="unfinished">Element Order:</translation>
+      <translation>ელემენტების მიმდევრობა:</translation>
     </message>
     <message>
       <location filename="../ui/MeshGmsh.ui" line="144"/>
@@ -4569,28 +4569,28 @@ normal vector of the face is used as direction</source>
     <message>
       <location filename="../../TaskFemConstraintHeatflux.ui" line="102"/>
       <source>Film Coefficient</source>
-      <translation type="unfinished">Film Coefficient</translation>
+      <translation>თბოგამტარობის კოეფიციენტი</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintHeatflux.ui" line="109"/>
       <source>W/m^2/K</source>
-      <translation type="unfinished">W/m^2/K</translation>
+      <translation>W/m^2/K</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintHeatflux.ui" line="136"/>
       <location filename="../../TaskFemConstraintHeatflux.ui" line="198"/>
       <source>K</source>
-      <translation type="unfinished">K</translation>
+      <translation>K</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintHeatflux.ui" line="227"/>
       <source>Surface Heat Flux</source>
-      <translation type="unfinished">Surface Heat Flux</translation>
+      <translation>ზედაპირის სითბოს ნაკადი</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintHeatflux.ui" line="234"/>
       <source>W/m^2</source>
-      <translation type="unfinished">W/m^2</translation>
+      <translation>W/m^2</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintHeatflux.ui" line="129"/>
@@ -4689,7 +4689,7 @@ normal vector of the face is used as direction</source>
       <location filename="../../TaskFemConstraintSpring.ui" line="82"/>
       <location filename="../../TaskFemConstraintSpring.ui" line="105"/>
       <source>N/m</source>
-      <translation type="unfinished">N/m</translation>
+      <translation>ნ/მ</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintSpring.ui" line="115"/>
@@ -5911,7 +5911,7 @@ used for the Elmer solver</source>
     <message>
       <location filename="../../../femguiutils/selection_widgets.py" line="264"/>
       <source>Geometry reference selector</source>
-      <translation type="unfinished">Geometry reference selector</translation>
+      <translation>გეომეტრიის მიბმის ამრჩევი</translation>
     </message>
     <message>
       <location filename="../../../femguiutils/selection_widgets.py" line="266"/>
@@ -6090,7 +6090,7 @@ Please select a result type first.</source>
     <message>
       <location filename="../../TaskPostContours.ui" line="77"/>
       <source>Enable Laplacian smoothing</source>
-      <translation type="unfinished">Enable Laplacian smoothing</translation>
+      <translation>ლაპლასის მოგლუვების ჩართვა</translation>
     </message>
     <message>
       <location filename="../../TaskPostContours.ui" line="80"/>
@@ -6100,7 +6100,7 @@ Please select a result type first.</source>
     <message>
       <location filename="../../TaskPostContours.ui" line="97"/>
       <source>Factor to control vertex displacement</source>
-      <translation type="unfinished">Factor to control vertex displacement</translation>
+      <translation>წვეროს გამოძევების კონტროლის ფაქტორი</translation>
     </message>
     <message>
       <location filename="../../TaskPostContours.ui" line="113"/>
@@ -6110,7 +6110,7 @@ Please select a result type first.</source>
     <message>
       <location filename="../../TaskPostContours.ui" line="116"/>
       <source>No Color</source>
-      <translation type="unfinished">No Color</translation>
+      <translation>ფერის გარეშე</translation>
     </message>
   </context>
   <context>
@@ -6666,7 +6666,7 @@ Please select a result type first.</source>
     <message>
       <location filename="../../Command.cpp" line="1338"/>
       <source>Erase elements</source>
-      <translation type="unfinished">Erase elements</translation>
+      <translation>ელემენტების წაშლა</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="1339"/>
@@ -6721,12 +6721,12 @@ Please select a result type first.</source>
     <message>
       <location filename="../ui/MeshNetgen.ui" line="47"/>
       <source>Maximum Size:</source>
-      <translation type="unfinished">Maximum Size:</translation>
+      <translation>მაქსიმალური ზომა:</translation>
     </message>
     <message>
       <location filename="../ui/MeshNetgen.ui" line="82"/>
       <source>Minimum Size:</source>
-      <translation type="unfinished">Minimum Size:</translation>
+      <translation>მინიმალური ზომა:</translation>
     </message>
     <message>
       <location filename="../ui/MeshNetgen.ui" line="117"/>
@@ -6775,12 +6775,12 @@ Please select a result type first.</source>
     <message>
       <location filename="../ui/DlgSettingsNetgen.ui" line="26"/>
       <source>Use legacy Netgen object implementation</source>
-      <translation type="unfinished">Use legacy Netgen object implementation</translation>
+      <translation>მოძველებული Netgen ობიექტის იმპლემენტაციის გამოყენება</translation>
     </message>
     <message>
       <location filename="../ui/DlgSettingsNetgen.ui" line="35"/>
       <source>Legacy Netgen</source>
-      <translation type="unfinished">Legacy Netgen</translation>
+      <translation>მოძველებული Netgen</translation>
     </message>
     <message>
       <location filename="../ui/DlgSettingsNetgen.ui" line="51"/>
@@ -6790,22 +6790,22 @@ Please select a result type first.</source>
     <message>
       <location filename="../ui/DlgSettingsNetgen.ui" line="59"/>
       <source>Log verbosity</source>
-      <translation type="unfinished">Log verbosity</translation>
+      <translation>ჟურნალში ჩაწერილი შეტყობინებების რაოდენობა</translation>
     </message>
     <message>
       <location filename="../ui/DlgSettingsNetgen.ui" line="66"/>
       <source>Level of verbosity printed on the task panel</source>
-      <translation type="unfinished">Level of verbosity printed on the task panel</translation>
+      <translation>ამოცანების პანელზე ნაჩვენები შეტყობინებების რაოდენობის დონე</translation>
     </message>
     <message>
       <location filename="../ui/DlgSettingsNetgen.ui" line="85"/>
       <source>Number of threads</source>
-      <translation type="unfinished">Number of threads</translation>
+      <translation>კუთხვილების რაოდენობა</translation>
     </message>
     <message>
       <location filename="../ui/DlgSettingsNetgen.ui" line="95"/>
       <source>Number of threads used for meshing</source>
-      <translation type="unfinished">Number of threads used for meshing</translation>
+      <translation>ბადისთვის გამოყენებული ნაკადების რაოდენობა</translation>
     </message>
   </context>
 </TS>

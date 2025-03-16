@@ -1604,7 +1604,7 @@ Este último se puede utilizar para hacer frente a todo el área de stock para a
     <message>
       <location filename="../panels/PageOpProfileFullEdit.ui" line="121"/>
       <source>Number of Passes</source>
-      <translation type="unfinished">Number of Passes</translation>
+      <translation>Número de pasadas</translation>
     </message>
     <message>
       <location filename="../panels/PageOpProfileFullEdit.ui" line="131"/>
@@ -1619,7 +1619,7 @@ Este último se puede utilizar para hacer frente a todo el área de stock para a
     <message>
       <location filename="../panels/PageOpProfileFullEdit.ui" line="151"/>
       <source>If doing multiple passes, the extra offset of each additional pass.</source>
-      <translation type="unfinished">If doing multiple passes, the extra offset of each additional pass.</translation>
+      <translation>Si se hacen múltiples pasadas, el desfase extra de cada pasada adicional.</translation>
     </message>
     <message>
       <location filename="../panels/PageOpProfileFullEdit.ui" line="164"/>
@@ -1649,7 +1649,7 @@ Este último se puede utilizar para hacer frente a todo el área de stock para a
     <message>
       <location filename="../panels/PageOpProfileFullEdit.ui" line="184"/>
       <source>If checked, the profile operation is offset by the tool radius. The offset direction is determined by the Cut Side</source>
-      <translation type="unfinished">If checked, the profile operation is offset by the tool radius. The offset direction is determined by the Cut Side</translation>
+      <translation>Si está marcado, la operación del perfil es desfasada por el radio de la herramienta. La dirección del desplazamiento es determinada por el lado del corte</translation>
     </message>
     <message>
       <location filename="../panels/PageOpProfileFullEdit.ui" line="187"/>
@@ -2512,7 +2512,7 @@ Si se deja vacío, el directorio macro es usado.</translation>
 This can be helpful when almost all jobs will be processed by the same machine with a similar setup.
 
 If left empty no template will be preselected.</source>
-      <translation>La plantilla por defecto a seleccionar al crear un nuevo Trabajo.
+      <translation>La plantilla por defecto a seleccionar al crear un nuevo Trabajo. 
 
 Esto puede ser útil cuando casi todos los trabajos serán procesados por la misma máquina con una configuración similar.
 
@@ -5301,13 +5301,13 @@ Por defecto: 3 mm</translation>
     <message>
       <location filename="../../../Path/Op/Profile.py" line="182"/>
       <source>The number of passes to do. If more than one, requires a non-zero value for Stepover</source>
-      <translation type="unfinished">The number of passes to do. If more than one, requires a non-zero value for Stepover</translation>
+      <translation>El número de pasadas a hacer. Si es más de uno, requiere un valor distinto a cero para el solapamiento</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Profile.py" line="191"/>
       <location filename="../../../Path/Op/Profile.py" line="336"/>
       <source>If doing multiple passes, the extra offset of each additional pass</source>
-      <translation type="unfinished">If doing multiple passes, the extra offset of each additional pass</translation>
+      <translation>Si se hacen múltiples pasadas, el desfase extra de cada pasada adicional</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Profile.py" line="326"/>
@@ -5642,9 +5642,9 @@ Por defecto: 3 mm</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Vcarve.py" line="327"/>
-      <source>Cutoff for removing colinear segments (degrees).
+      <source>Cutoff for removing colinear segments (degrees). 
                         default=10.0.</source>
-      <translation>Corte para eliminar segmentos colineales (grados).
+      <translation>Corte para eliminar segmentos colineales (grados). 
                         por defecto=10.0.</translation>
     </message>
     <message>
@@ -5833,7 +5833,7 @@ Por defecto: 3 mm</translation>
     <message>
       <location filename="../../../Path/Op/Tapping.py" line="124"/>
       <source>Controls how tool retracts Default=G98</source>
-      <translation type="unfinished">Controls how tool retracts Default=G98</translation>
+      <translation>Controla cómo la herramienta se retrae, por defecto = G98</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Tapping.py" line="133"/>
@@ -6498,7 +6498,7 @@ Abortando la creación de la op</translation>
       <location filename="../../../PathCommands.py" line="147"/>
       <location filename="../../../PathCommands.py" line="151"/>
       <source>Toggle the Active State of the Operation</source>
-      <translation>Cambiar el Estado Activo de la Operación</translation>
+      <translation>Alternar el estado activo de la operación</translation>
     </message>
   </context>
   <context>
@@ -7049,23 +7049,23 @@ Abortando la creación de la op</translation>
     </message>
     <message>
       <location filename="../../../Path/Main/Gui/JobDlg.py" line="69"/>
-      <source>The currently selected unit schema:
+      <source>The currently selected unit schema: 
      &apos;{}&apos; for this document
- Does not use &apos;minutes&apos; for velocity values.
-
-CNC machines require feed rate to be expressed in
-unit/minute. To ensure correct G-code:
+ Does not use &apos;minutes&apos; for velocity values. 
+ 
+CNC machines require feed rate to be expressed in 
+unit/minute. To ensure correct G-code: 
 Select a minute-based schema in preferences.
 For example:
     &apos;Metric, Small Parts &amp; CNC&apos;
     &apos;US Customary&apos;
     &apos;Imperial Decimal&apos;</source>
-      <translation>El esquema de unidadades seleccionadoactualmente:
+      <translation>El esquema de unidadades seleccionadoactualmente: 
      &apos;{}&apos; para este documento
- No utiliza &apos;minutos&apos; para valores de velocidad.
-
-Las máquinas CNC requieren que la velocidad de avance se exprese en
-unidad/minuto. Para garantizar un código G correcto:
+ No utiliza &apos;minutos&apos; para valores de velocidad. 
+ 
+Las máquinas CNC requieren que la velocidad de avance se exprese en 
+unidad/minuto. Para garantizar un código G correcto: 
 Seleccione un esquema basado en minutos en las preferencias.
 Por ejemplo:
     &apos;Métrico, piezas pequeñas y CNC&apos;
@@ -7135,9 +7135,9 @@ Por ejemplo:
     <name>CAM_Inspect</name>
     <message>
       <location filename="../../../Path/Main/Gui/Inspect.py" line="132"/>
-      <source>&lt;b&gt;Note&lt;/b&gt;: This dialog shows Path Commands in FreeCAD base units (mm/s).
+      <source>&lt;b&gt;Note&lt;/b&gt;: This dialog shows Path Commands in FreeCAD base units (mm/s). 
  Values will be converted to the desired unit during post processing.</source>
-      <translation>&lt;b&gt;Nota&lt;/b&gt;: Este diálogo muestra los comandos de trayectoria en las unidades base de FreeCAD (mm/s).
+      <translation>&lt;b&gt;Nota&lt;/b&gt;: Este diálogo muestra los comandos de trayectoria en las unidades base de FreeCAD (mm/s). 
  Los valores se convertirán a la unidad deseada durante el post-procesamiento.</translation>
     </message>
     <message>
@@ -7453,9 +7453,9 @@ Por ejemplo:
     </message>
     <message>
       <location filename="../../../Path/Main/Sanity/Sanity.py" line="364"/>
-      <source>Tool number {} is a legacy tool. Legacy tools not
+      <source>Tool number {} is a legacy tool. Legacy tools not 
                     supported by Path-Sanity</source>
-      <translation>El número de herramienta {} es una herramienta antigua. Las herramientas heredadas no
+      <translation>El número de herramienta {} es una herramienta antigua. Las herramientas heredadas no 
                         son soportadas por Path-Sanity</translation>
     </message>
     <message>
@@ -8605,10 +8605,10 @@ Por ejemplo:
     <message>
       <location filename="../../../Path/Tool/Gui/BitLibrary.py" line="126"/>
       <source>Toolbit Working directory {} needs these sudirectories:
- {}
+ {} 
  Create them?</source>
       <translation>Directorio de trabajo de herramienta {} necesita estos sudirectorios:
- {}
+ {} 
  ¿Crearlos?</translation>
     </message>
     <message>
@@ -8739,7 +8739,7 @@ Por ejemplo:
     <message>
       <location filename="../../../InitGui.py" line="153"/>
       <source>Drilling Operations</source>
-      <translation type="unfinished">Drilling Operations</translation>
+      <translation>Operaciones de perforación</translation>
     </message>
   </context>
   <context>
@@ -8762,7 +8762,7 @@ Por ejemplo:
     <message>
       <location filename="../../../Path/Op/Tapping.py" line="74"/>
       <source>Drill Tip</source>
-      <translation>Punta de Taladro</translation>
+      <translation>Punta de taladro</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Tapping.py" line="75"/>
